@@ -1,0 +1,734 @@
+[
+ {
+  "sceneId": "S08",
+  "shotId": "S08-01",
+  "startFrame": 26640,
+  "durationFrames": 336,
+  "backgroundId": "ruins_night",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 54,
+    "speaker": "narration",
+    "text": "검은 달은, 아직 저물지 않았다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 720,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 1900,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1700,
+    "y": 520,
+    "zoom": 1
+   },
+   {
+    "f": 336,
+    "x": 1700,
+    "y": 340,
+    "zoom": 1,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 336,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 336,
+    "seed": 3
+   },
+   {
+    "type": "bloom",
+    "f": 0,
+    "dur": 400,
+    "x": 1700,
+    "y": 190,
+    "size": 520,
+    "color": "#ff4f86",
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S08",
+  "shotId": "S08-02",
+  "startFrame": 26976,
+  "durationFrames": 240,
+  "backgroundId": "coast_day",
+  "characterIds": [
+   "mio"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 92,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1056,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "— ENDING (PLACEHOLDER) —",
+  "characters": [
+   {
+    "id": "mio",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 96,
+      "clip": "idle",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "smile"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 96,
+      "to": 110,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 2.53
+   },
+   {
+    "f": 240,
+    "x": 1600,
+    "y": 620,
+    "zoom": 2.2,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 96,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S08",
+  "shotId": "S08-03",
+  "startFrame": 27216,
+  "durationFrames": 288,
+  "backgroundId": "street_dusk",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 111,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1296,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "SOMA KIRITANI",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 115,
+      "clip": "walk",
+      "blend": 3
+     },
+     {
+      "f": 139,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 115,
+      "to": 129,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 1.8399999999999999
+   },
+   {
+    "f": 288,
+    "x": 1600,
+    "y": 620,
+    "zoom": 1.6,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 288,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 115,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S08",
+  "shotId": "S08-04",
+  "startFrame": 27504,
+  "durationFrames": 288,
+  "backgroundId": "harbor_night",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 111,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 144,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "VEYRA",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 1500,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 115,
+      "clip": "stance",
+      "blend": 3
+     },
+     {
+      "f": 139,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "sad"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 115,
+      "to": 129,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 1.9549999999999998
+   },
+   {
+    "f": 288,
+    "x": 1600,
+    "y": 620,
+    "zoom": 1.7,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 288,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 115,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S08",
+  "shotId": "S08-05",
+  "startFrame": 27792,
+  "durationFrames": 288,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "kaede"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 111,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 432,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "DR. KUON KAEDE",
+  "characters": [
+   {
+    "id": "kaede",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 115,
+      "clip": "idle",
+      "blend": 3
+     },
+     {
+      "f": 139,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "sad"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 115,
+      "to": 129,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 2.53
+   },
+   {
+    "f": 288,
+    "x": 1600,
+    "y": 620,
+    "zoom": 2.2,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 288,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 115,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S08",
+  "shotId": "S08-06",
+  "startFrame": 28080,
+  "durationFrames": 288,
+  "backgroundId": "apartment_room",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 87,
+    "speaker": "soma",
+    "text": "미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 720,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 99,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "sad",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "sad",
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 560,
+    "zoom": 2.6
+   },
+   {
+    "f": 288,
+    "x": 1516,
+    "y": 564,
+    "zoom": 2.8600000000000003,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 288,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S08",
+  "shotId": "S08-07",
+  "startFrame": 28368,
+  "durationFrames": 432,
+  "backgroundId": "ruins_night",
+  "characterIds": [],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 71,
+    "speaker": "kaede",
+    "text": "[기록] 다음 정지까지, 남은 시간 열하루.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1008,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1700,
+    "y": 300,
+    "zoom": 1.4
+   },
+   {
+    "f": 432,
+    "x": 1700,
+    "y": 260,
+    "zoom": 2.2,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 432,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 432,
+    "seed": 3
+   },
+   {
+    "type": "bloom",
+    "f": 0,
+    "dur": 500,
+    "x": 960,
+    "y": 300,
+    "size": 800,
+    "color": "#7a2cff",
+    "intensity": 0.45
+   }
+  ],
+  "transition": {
+   "outType": "fadeBlack",
+   "outFrames": 24
+  }
+ }
+]

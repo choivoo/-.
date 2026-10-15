@@ -1,0 +1,323 @@
+[
+ {
+  "sceneId": "S07",
+  "shotId": "S07-01",
+  "startFrame": 25920,
+  "durationFrames": 192,
+  "backgroundId": "ruins_night",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 40,
+    "sound": "crack",
+    "volume": 0.9
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 0,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 1500,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "pain",
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1488,
+    "y": 478,
+    "zoom": 5.2
+   },
+   {
+    "f": 192,
+    "x": 1484,
+    "y": 482,
+    "zoom": 5.720000000000001,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 192,
+    "seed": 7,
+    "intensity": 0.4
+   },
+   {
+    "type": "crack",
+    "f": 20,
+    "dur": 80,
+    "x": 960,
+    "y": 540,
+    "size": 1.4,
+    "seed": 4
+   },
+   {
+    "type": "flash",
+    "f": 40,
+    "dur": 6,
+    "intensity": 0.7
+   }
+  ]
+ },
+ {
+  "sceneId": "S07",
+  "shotId": "S07-02",
+  "startFrame": 26112,
+  "durationFrames": 288,
+  "backgroundId": "ruins_night",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 38,
+    "speaker": "soma",
+    "text": "…그 얼굴은, 뭐야.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 192,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 50,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "fear",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "fear",
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 560,
+    "zoom": 3.2
+   },
+   {
+    "f": 288,
+    "x": 1516,
+    "y": 564,
+    "zoom": 3.5200000000000005,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 288,
+    "seed": 7,
+    "intensity": 0.4
+   },
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 20,
+    "seed": 8,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S07",
+  "shotId": "S07-03",
+  "startFrame": 26400,
+  "durationFrames": 240,
+  "backgroundId": "ruins_night",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 48,
+    "speaker": "veyra",
+    "text": "열두 번째다. 나도, 너도.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 480,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1380,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "fear"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 1820,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 60,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "sad"
+     },
+     {
+      "f": 8,
+      "expr": "sad"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1600,
+    "y": 600,
+    "zoom": 2
+   },
+   {
+    "f": 240,
+    "x": 1620,
+    "y": 590,
+    "zoom": 2.14,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 6,
+    "intensity": 0.5
+   }
+  ]
+ }
+]

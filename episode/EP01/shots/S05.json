@@ -1,0 +1,3264 @@
+[
+ {
+  "sceneId": "S05",
+  "shotId": "S05-01",
+  "startFrame": 15840,
+  "durationFrames": 305,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma",
+   "kaede"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 81,
+    "speaker": "kaede",
+    "text": "…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 0,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1600,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   },
+   {
+    "id": "kaede",
+    "x": 2000,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1400,
+    "y": 540,
+    "zoom": 1.2
+   },
+   {
+    "f": 305,
+    "x": 1900,
+    "y": 540,
+    "zoom": 1.3,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 305,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 305,
+    "seed": 3
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-02",
+  "startFrame": 16145,
+  "durationFrames": 677,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma",
+   "kaede"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 61,
+    "speaker": "soma",
+    "text": "박사님…? 이건 기록… 영상인가요?",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 83,
+    "dur": 127,
+    "speaker": "kaede",
+    "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 220,
+    "dur": 77,
+    "speaker": "kaede",
+    "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 305,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1380,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 73,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "surprise"
+     },
+     {
+      "f": 8,
+      "expr": "surprise"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   },
+   {
+    "id": "kaede",
+    "x": 1820,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 83,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 210,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 220,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 297,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "sad"
+     },
+     {
+      "f": 79,
+      "expr": "sad"
+     },
+     {
+      "f": 216,
+      "expr": "fear"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 677,
+    "x": 1620,
+    "y": 590,
+    "zoom": 1.8725,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 677,
+    "seed": 6,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-03",
+  "startFrame": 16822,
+  "durationFrames": 254,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 28,
+    "speaker": "soma",
+    "text": "열쇠… 내가?",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 982,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 40,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "surprise",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "surprise",
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 560,
+    "zoom": 3
+   },
+   {
+    "f": 254,
+    "x": 1516,
+    "y": 564,
+    "zoom": 3.3000000000000003,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 254,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-04",
+  "startFrame": 17076,
+  "durationFrames": 254,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   },
+   {
+    "f": 0,
+    "sound": "hit_heavy",
+    "volume": 0.9
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1236,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 2500,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 2400,
+    "y": 540,
+    "zoom": 1.2
+   },
+   {
+    "f": 254,
+    "x": 2200,
+    "y": 540,
+    "zoom": 1.5,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 254,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 254,
+    "seed": 3
+   },
+   {
+    "type": "flash",
+    "f": 0,
+    "dur": 8,
+    "intensity": 0.5,
+    "color": "#ff2f6a"
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-05",
+  "startFrame": 17330,
+  "durationFrames": 662,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 34,
+    "speaker": "veyra",
+    "text": "그 시계를 넘겨라.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 56,
+    "dur": 58,
+    "speaker": "soma",
+    "text": "누구지? 이 연구소 사람은 아닌데.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 124,
+    "dur": 100,
+    "speaker": "veyra",
+    "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 234,
+    "dur": 26,
+    "speaker": "soma",
+    "text": "…싫다면?",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 50,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1350,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 56,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 114,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 234,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 260,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     },
+     {
+      "f": 52,
+      "expr": "fear"
+     },
+     {
+      "f": 230,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 1900,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 46,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 124,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 224,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     },
+     {
+      "f": 8,
+      "expr": "angry"
+     },
+     {
+      "f": 120,
+      "expr": "smile"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1625,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 662,
+    "x": 1645,
+    "y": 590,
+    "zoom": 1.8725,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 662,
+    "seed": 6,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-06",
+  "startFrame": 17992,
+  "durationFrames": 203,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 28,
+    "speaker": "veyra",
+    "text": "베어 내겠다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 712,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 1500,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 40,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry",
+      "look": [
+       -1,
+       0
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "angry",
+      "look": [
+       -1,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1488,
+    "y": 478,
+    "zoom": 5.2
+   },
+   {
+    "f": 203,
+    "x": 1484,
+    "y": 482,
+    "zoom": 5.720000000000001,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 203,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-07",
+  "startFrame": 18195,
+  "durationFrames": 203,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 20,
+    "sound": "draw",
+    "volume": 0.8
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 915,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "fear",
+      "look": [
+       1,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 478,
+    "zoom": 5.2
+   },
+   {
+    "f": 203,
+    "x": 1516,
+    "y": 482,
+    "zoom": 5.720000000000001,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 203,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-08",
+  "startFrame": 18398,
+  "durationFrames": 254,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 104,
+    "sound": "whoosh",
+    "volume": 0.6
+   },
+   {
+    "f": 114,
+    "sound": "hit_clash",
+    "volume": 1
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1118,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1360,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 105,
+      "clip": "slashH",
+      "blend": 3
+     },
+     {
+      "f": 128,
+      "clip": "stance",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     },
+     {
+      "f": 102,
+      "mode": "ones"
+     },
+     {
+      "f": 130,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 106,
+      "to": 122,
+      "frames": 4
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 2030,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 103,
+      "clip": "slashV",
+      "blend": 3
+     },
+     {
+      "f": 130,
+      "clip": "stance",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     },
+     {
+      "f": 102,
+      "mode": "ones"
+     },
+     {
+      "f": 130,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 104,
+      "to": 122,
+      "frames": 4,
+      "color": "#ffc0c8"
+     }
+    ]
+   }
+  ],
+  "timeRemap": [
+   {
+    "f": 0,
+    "t": 0
+   },
+   {
+    "f": 114,
+    "t": 114
+   },
+   {
+    "f": 118,
+    "t": 114
+   },
+   {
+    "f": 254,
+    "t": 250
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1660,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 254,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.55,
+    "ease": "out"
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 114,
+    "dur": 9,
+    "amount": 0.2
+   }
+  ],
+  "cameraShake": [
+   {
+    "f": 114,
+    "dur": 16,
+    "amp": 26,
+    "seed": 5
+   }
+  ],
+  "vfx": [
+   {
+    "type": "flash",
+    "f": 114,
+    "dur": 3,
+    "intensity": 0.4
+   },
+   {
+    "type": "impactBurst",
+    "f": 114,
+    "dur": 10,
+    "x": 1700,
+    "y": 610,
+    "space": "world",
+    "count": 14,
+    "seed": 5
+   },
+   {
+    "type": "sparks",
+    "f": 114,
+    "dur": 18,
+    "x": 1700,
+    "y": 610,
+    "count": 28,
+    "seed": 6,
+    "angle": -90
+   },
+   {
+    "type": "shockwave",
+    "f": 115,
+    "dur": 16,
+    "x": 1700,
+    "y": 840,
+    "size": 520,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "dust",
+    "f": 114,
+    "dur": 40,
+    "x": 1700,
+    "y": 840,
+    "seed": 7,
+    "count": 12
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-09",
+  "startFrame": 18652,
+  "durationFrames": 203,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 81,
+    "sound": "whoosh",
+    "volume": 0.6
+   },
+   {
+    "f": 91,
+    "sound": "hit_clash",
+    "volume": 1
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1372,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1260,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 82,
+      "clip": "slashH",
+      "blend": 3
+     },
+     {
+      "f": 105,
+      "clip": "stance",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     },
+     {
+      "f": 79,
+      "mode": "ones"
+     },
+     {
+      "f": 107,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 83,
+      "to": 99,
+      "frames": 4
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 1930,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 80,
+      "clip": "slashV",
+      "blend": 3
+     },
+     {
+      "f": 107,
+      "clip": "stance",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     },
+     {
+      "f": 79,
+      "mode": "ones"
+     },
+     {
+      "f": 107,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 81,
+      "to": 99,
+      "frames": 4,
+      "color": "#ffc0c8"
+     }
+    ]
+   }
+  ],
+  "timeRemap": [
+   {
+    "f": 0,
+    "t": 0
+   },
+   {
+    "f": 91,
+    "t": 91
+   },
+   {
+    "f": 95,
+    "t": 91
+   },
+   {
+    "f": 203,
+    "t": 199
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1560,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 203,
+    "x": 1600,
+    "y": 640,
+    "zoom": 1.55,
+    "ease": "out"
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 91,
+    "dur": 9,
+    "amount": 0.2
+   }
+  ],
+  "cameraShake": [
+   {
+    "f": 91,
+    "dur": 16,
+    "amp": 26,
+    "seed": 9
+   }
+  ],
+  "vfx": [
+   {
+    "type": "flash",
+    "f": 91,
+    "dur": 3,
+    "intensity": 0.4
+   },
+   {
+    "type": "impactBurst",
+    "f": 91,
+    "dur": 10,
+    "x": 1600,
+    "y": 610,
+    "space": "world",
+    "count": 14,
+    "seed": 9
+   },
+   {
+    "type": "sparks",
+    "f": 91,
+    "dur": 18,
+    "x": 1600,
+    "y": 610,
+    "count": 28,
+    "seed": 10,
+    "angle": -90
+   },
+   {
+    "type": "shockwave",
+    "f": 92,
+    "dur": 16,
+    "x": 1600,
+    "y": 840,
+    "size": 520,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "dust",
+    "f": 91,
+    "dur": 40,
+    "x": 1600,
+    "y": 840,
+    "seed": 11,
+    "count": 12
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-10",
+  "startFrame": 18855,
+  "durationFrames": 203,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 2,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 10,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 18,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 26,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 34,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 42,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 50,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 58,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 66,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 74,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 82,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 90,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 98,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 106,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 114,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 122,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 130,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 138,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 146,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 154,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 162,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 170,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 178,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 186,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 194,
+    "sound": "step",
+    "volume": 0.25
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 135,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 2400,
+    "flip": true,
+    "path": [
+     {
+      "f": 0,
+      "x": 2400
+     },
+     {
+      "f": 203,
+      "x": 1500,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "run",
+      "speed": 1
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 2200,
+    "y": 610,
+    "zoom": 1.4
+   },
+   {
+    "f": 203,
+    "x": 1300,
+    "y": 610,
+    "zoom": 1.4
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 203,
+    "seed": 8,
+    "intensity": 0.5
+   },
+   {
+    "type": "dust",
+    "f": 0,
+    "dur": 203,
+    "x": 2400,
+    "y": 840,
+    "seed": 77,
+    "count": 10
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-11",
+  "startFrame": 19058,
+  "durationFrames": 203,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 6,
+    "dur": 26,
+    "speaker": "soma",
+    "text": "윽…!",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 81,
+    "sound": "whoosh",
+    "volume": 0.6
+   },
+   {
+    "f": 91,
+    "sound": "hit_clash",
+    "volume": 1
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 338,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1460,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 82,
+      "clip": "slashH",
+      "blend": 3
+     },
+     {
+      "f": 105,
+      "clip": "stance",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     },
+     {
+      "f": 79,
+      "mode": "ones"
+     },
+     {
+      "f": 107,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 83,
+      "to": 99,
+      "frames": 4
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 2130,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 80,
+      "clip": "slashV",
+      "blend": 3
+     },
+     {
+      "f": 107,
+      "clip": "stance",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     },
+     {
+      "f": 79,
+      "mode": "ones"
+     },
+     {
+      "f": 107,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 81,
+      "to": 99,
+      "frames": 4,
+      "color": "#ffc0c8"
+     }
+    ]
+   }
+  ],
+  "timeRemap": [
+   {
+    "f": 0,
+    "t": 0
+   },
+   {
+    "f": 91,
+    "t": 91
+   },
+   {
+    "f": 95,
+    "t": 91
+   },
+   {
+    "f": 203,
+    "t": 199
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1760,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 203,
+    "x": 1800,
+    "y": 640,
+    "zoom": 1.55,
+    "ease": "out"
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 91,
+    "dur": 9,
+    "amount": 0.2
+   }
+  ],
+  "cameraShake": [
+   {
+    "f": 91,
+    "dur": 16,
+    "amp": 26,
+    "seed": 13
+   }
+  ],
+  "vfx": [
+   {
+    "type": "flash",
+    "f": 91,
+    "dur": 3,
+    "intensity": 0.4
+   },
+   {
+    "type": "impactBurst",
+    "f": 91,
+    "dur": 10,
+    "x": 1800,
+    "y": 610,
+    "space": "world",
+    "count": 14,
+    "seed": 13
+   },
+   {
+    "type": "sparks",
+    "f": 91,
+    "dur": 18,
+    "x": 1800,
+    "y": 610,
+    "count": 28,
+    "seed": 14,
+    "angle": -90
+   },
+   {
+    "type": "shockwave",
+    "f": 92,
+    "dur": 16,
+    "x": 1800,
+    "y": 840,
+    "size": 520,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "dust",
+    "f": 91,
+    "dur": 40,
+    "x": 1800,
+    "y": 840,
+    "seed": 15,
+    "count": 12
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-12",
+  "startFrame": 19261,
+  "durationFrames": 254,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 84,
+    "speaker": "soma",
+    "text": "힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 541,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 96,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "pain",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "pain",
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 560,
+    "zoom": 2.8
+   },
+   {
+    "f": 254,
+    "x": 1516,
+    "y": 564,
+    "zoom": 3.08,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 254,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-13",
+  "startFrame": 19515,
+  "durationFrames": 407,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "veyra",
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 61,
+    "speaker": "veyra",
+    "text": "아직 각성이 불완전하군. 실망이다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 83,
+    "dur": 41,
+    "speaker": "soma",
+    "text": "아직… 끝나지 않았어.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 795,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 1300,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 73,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     },
+     {
+      "f": 8,
+      "expr": "smile"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   },
+   {
+    "id": "soma",
+    "x": 1800,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 83,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 124,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "pain"
+     },
+     {
+      "f": 79,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1550,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 407,
+    "x": 1570,
+    "y": 590,
+    "zoom": 1.8725,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 407,
+    "seed": 6,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-14",
+  "startFrame": 19922,
+  "durationFrames": 356,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 14,
+    "dur": 34,
+    "speaker": "soma",
+    "text": "일단 도망쳐야 해!",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 2,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 10,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 18,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 26,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 34,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 42,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 50,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 58,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 66,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 74,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 82,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 90,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 98,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 106,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 114,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 122,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 130,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 138,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 146,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 154,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 162,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 170,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 178,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 186,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 194,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 202,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 210,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 218,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 226,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 234,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 242,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 250,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 258,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 266,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 274,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 282,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 290,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 298,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 306,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 314,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 322,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 330,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 338,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 346,
+    "sound": "step",
+    "volume": 0.25
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1202,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 700,
+    "flip": false,
+    "path": [
+     {
+      "f": 0,
+      "x": 700
+     },
+     {
+      "f": 356,
+      "x": 2500,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "run",
+      "speed": 1
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 900,
+    "y": 610,
+    "zoom": 1.4
+   },
+   {
+    "f": 356,
+    "x": 2700,
+    "y": 610,
+    "zoom": 1.4
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 356,
+    "seed": 8,
+    "intensity": 0.5
+   },
+   {
+    "type": "dust",
+    "f": 0,
+    "dur": 356,
+    "x": 700,
+    "y": 840,
+    "seed": 77,
+    "count": 10
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-15",
+  "startFrame": 20278,
+  "durationFrames": 356,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 2,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 10,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 18,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 26,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 34,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 42,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 50,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 58,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 66,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 74,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 82,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 90,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 98,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 106,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 114,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 122,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 130,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 138,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 146,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 154,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 162,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 170,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 178,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 186,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 194,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 202,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 210,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 218,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 226,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 234,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 242,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 250,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 258,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 266,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 274,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 282,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 290,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 298,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 306,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 314,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 322,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 330,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 338,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 346,
+    "sound": "step",
+    "volume": 0.25
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 118,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 600,
+    "flip": false,
+    "path": [
+     {
+      "f": 0,
+      "x": 600
+     },
+     {
+      "f": 356,
+      "x": 2400,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "run",
+      "speed": 1
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 800,
+    "y": 610,
+    "zoom": 1.4
+   },
+   {
+    "f": 356,
+    "x": 2600,
+    "y": 610,
+    "zoom": 1.4
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 356,
+    "seed": 8,
+    "intensity": 0.5
+   },
+   {
+    "type": "dust",
+    "f": 0,
+    "dur": 356,
+    "x": 600,
+    "y": 840,
+    "seed": 77,
+    "count": 10
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-16",
+  "startFrame": 20634,
+  "durationFrames": 305,
+  "backgroundId": "harbor_night",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 2,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 10,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 18,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 26,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 34,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 42,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 50,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 58,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 66,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 74,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 82,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 90,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 98,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 106,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 114,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 122,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 130,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 138,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 146,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 154,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 162,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 170,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 178,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 186,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 194,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 202,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 210,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 218,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 226,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 234,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 242,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 250,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 258,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 266,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 274,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 282,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 290,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 298,
+    "sound": "step",
+    "volume": 0.25
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 474,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 600,
+    "flip": false,
+    "path": [
+     {
+      "f": 0,
+      "x": 600
+     },
+     {
+      "f": 305,
+      "x": 2400,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "run",
+      "speed": 1
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 800,
+    "y": 610,
+    "zoom": 1.4
+   },
+   {
+    "f": 305,
+    "x": 2600,
+    "y": 610,
+    "zoom": 1.4
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 305,
+    "seed": 8,
+    "intensity": 0.5
+   },
+   {
+    "type": "dust",
+    "f": 0,
+    "dur": 305,
+    "x": 600,
+    "y": 840,
+    "seed": 77,
+    "count": 10
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-17",
+  "startFrame": 20939,
+  "durationFrames": 305,
+  "backgroundId": "harbor_night",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 2,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 10,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 18,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 26,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 34,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 42,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 50,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 58,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 66,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 74,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 82,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 90,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 98,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 106,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 114,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 122,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 130,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 138,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 146,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 154,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 162,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 170,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 178,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 186,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 194,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 202,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 210,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 218,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 226,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 234,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 242,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 250,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 258,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 266,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 274,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 282,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 290,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 298,
+    "sound": "step",
+    "volume": 0.25
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 779,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 500,
+    "flip": false,
+    "path": [
+     {
+      "f": 0,
+      "x": 500
+     },
+     {
+      "f": 305,
+      "x": 2300,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "run",
+      "speed": 1
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 700,
+    "y": 610,
+    "zoom": 1.4
+   },
+   {
+    "f": 305,
+    "x": 2500,
+    "y": 610,
+    "zoom": 1.4
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 305,
+    "seed": 8,
+    "intensity": 0.5
+   },
+   {
+    "type": "dust",
+    "f": 0,
+    "dur": 305,
+    "x": 500,
+    "y": 840,
+    "seed": 77,
+    "count": 10
+   }
+  ]
+ },
+ {
+  "sceneId": "S05",
+  "shotId": "S05-18",
+  "startFrame": 21244,
+  "durationFrames": 356,
+  "backgroundId": "ruins_night",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 77,
+    "speaker": "narration",
+    "text": "폐허가 된 구시가지. 그리고 검은 달 아래의 대치.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1084,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1250,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 800,
+    "y": 560,
+    "zoom": 1
+   },
+   {
+    "f": 356,
+    "x": 1700,
+    "y": 560,
+    "zoom": 1.1,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 356,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 356,
+    "seed": 3
+   }
+  ]
+ }
+]

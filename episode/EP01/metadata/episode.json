@@ -1,1 +1,85 @@
-{"id":"EP01","title":"","titleKo":"","fps":24,"width":1920,"height":1080,"totalFrames":0,"scenes":[],"shotFiles":[]}
+{
+ "id": "EP01",
+ "title": "Echoes of the Black Moon — Episode 1: The Stopping Hour",
+ "titleKo": "흑월의 잔향 1화 — 정지하는 시간",
+ "fps": 24,
+ "width": 1920,
+ "height": 1080,
+ "totalFrames": 28800,
+ "scenes": [
+  {
+   "sceneId": "S01",
+   "title": "불길한 프롤로그",
+   "summary": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다.",
+   "beat": "00:00–02:00",
+   "durationFrames": 2880,
+   "startFrame": 0
+  },
+  {
+   "sceneId": "S02",
+   "title": "오리지널 오프닝",
+   "summary": "오프닝 몽타주(임시 크레딧).",
+   "beat": "02:00–03:30",
+   "durationFrames": 2160,
+   "startFrame": 2880
+  },
+  {
+   "sceneId": "S03",
+   "title": "주인공 소개",
+   "summary": "키리타니 소마의 평범한 하루와 멈춘 회중시계.",
+   "beat": "03:30–07:00",
+   "durationFrames": 5040,
+   "startFrame": 5040
+  },
+  {
+   "sceneId": "S04",
+   "title": "도시의 이상 현상",
+   "summary": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적.",
+   "beat": "07:00–11:00",
+   "durationFrames": 5760,
+   "startFrame": 10080
+  },
+  {
+   "sceneId": "S05",
+   "title": "적의 등장과 첫 번째 충돌",
+   "summary": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "beat": "11:00–15:00",
+   "durationFrames": 5760,
+   "startFrame": 15840
+  },
+  {
+   "sceneId": "S06",
+   "title": "본격적인 전투와 능력 각성",
+   "summary": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성.",
+   "beat": "15:00–18:00",
+   "durationFrames": 4320,
+   "startFrame": 21600
+  },
+  {
+   "sceneId": "S07",
+   "title": "충격적인 반전",
+   "summary": "가면이 갈라지고, 베이라의 얼굴은 소마와 같았다.",
+   "beat": "18:00–18:30",
+   "durationFrames": 720,
+   "startFrame": 25920
+  },
+  {
+   "sceneId": "S08",
+   "title": "오리지널 엔딩과 후속 연출",
+   "summary": "엔딩 몽타주와 다음 화 예고 티저.",
+   "beat": "18:30–20:00",
+   "durationFrames": 2160,
+   "startFrame": 26640
+  }
+ ],
+ "shotFiles": [
+  "shots/S01.json",
+  "shots/S02.json",
+  "shots/S03.json",
+  "shots/S04.json",
+  "shots/S05.json",
+  "shots/S06.json",
+  "shots/S07.json",
+  "shots/S08.json"
+ ]
+}

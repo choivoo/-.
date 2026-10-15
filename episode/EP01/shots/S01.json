@@ -1,0 +1,1014 @@
+[
+ {
+  "sceneId": "S01",
+  "shotId": "S01-01",
+  "startFrame": 0,
+  "durationFrames": 336,
+  "backgroundId": "harbor_night",
+  "characterIds": [],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 67,
+    "speaker": "narration",
+    "text": "그날 밤, 도시 위로 달이 하나 더 떠올랐다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 0,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 2000,
+    "y": 420,
+    "zoom": 1
+   },
+   {
+    "f": 336,
+    "x": 2300,
+    "y": 300,
+    "zoom": 1.12,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 336,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 336,
+    "seed": 3
+   },
+   {
+    "type": "bloom",
+    "f": 20,
+    "dur": 200,
+    "x": 1100,
+    "y": 250,
+    "size": 520,
+    "color": "#b84cff",
+    "intensity": 0.35
+   }
+  ],
+  "transition": {
+   "inType": "fadeBlack",
+   "inFrames": 18
+  }
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-02",
+  "startFrame": 336,
+  "durationFrames": 192,
+  "backgroundId": "harbor_night",
+  "characterIds": [],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 54,
+    "speaker": "narration",
+    "text": "빛이 아닌 것을 삼키는, 검은 달.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 336,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1200,
+    "y": 640,
+    "zoom": 1.2
+   },
+   {
+    "f": 192,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.25,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 192,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 192,
+    "seed": 3
+   }
+  ]
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-03",
+  "startFrame": 528,
+  "durationFrames": 288,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "kaede"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 14,
+    "dur": 61,
+    "speaker": "kaede",
+    "text": "서둘러야 해… 기록이 지워지기 전에.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 2,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 10,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 18,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 26,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 34,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 42,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 50,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 58,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 66,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 74,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 82,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 90,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 98,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 106,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 114,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 122,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 130,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 138,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 146,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 154,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 162,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 170,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 178,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 186,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 194,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 202,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 210,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 218,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 226,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 234,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 242,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 250,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 258,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 266,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 274,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 282,
+    "sound": "step",
+    "volume": 0.25
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 528,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "kaede",
+    "x": 600,
+    "flip": false,
+    "path": [
+     {
+      "f": 0,
+      "x": 600
+     },
+     {
+      "f": 288,
+      "x": 2600,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "run",
+      "speed": 1
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 800,
+    "y": 610,
+    "zoom": 1.5
+   },
+   {
+    "f": 288,
+    "x": 2800,
+    "y": 610,
+    "zoom": 1.5
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 288,
+    "seed": 8,
+    "intensity": 0.5
+   },
+   {
+    "type": "dust",
+    "f": 0,
+    "dur": 288,
+    "x": 600,
+    "y": 840,
+    "seed": 77,
+    "count": 10
+   }
+  ]
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-04",
+  "startFrame": 816,
+  "durationFrames": 336,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "kaede"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 117,
+    "speaker": "kaede",
+    "text": "이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 139,
+    "dur": 51,
+    "speaker": "kaede",
+    "text": "…열두 번째 정지가 오기 전에.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 816,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "kaede",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 129,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 139,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 190,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "sad",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "sad",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 135,
+      "expr": "resolve",
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 560,
+    "zoom": 2.6
+   },
+   {
+    "f": 336,
+    "x": 1516,
+    "y": 564,
+    "zoom": 2.8600000000000003,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 336,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-05",
+  "startFrame": 1152,
+  "durationFrames": 240,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "kaede"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 38,
+    "sound": "hit_heavy",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1152,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "kaede",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve",
+      "look": [
+       0,
+       0.4
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 478,
+    "zoom": 5.2
+   },
+   {
+    "f": 240,
+    "x": 1516,
+    "y": 482,
+    "zoom": 5.720000000000001,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 7,
+    "intensity": 0.4
+   },
+   {
+    "type": "flash",
+    "f": 40,
+    "dur": 4,
+    "intensity": 0.5,
+    "color": "#9fe8ff"
+   }
+  ]
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-06",
+  "startFrame": 1392,
+  "durationFrames": 288,
+  "backgroundId": "harbor_night",
+  "characterIds": [],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   },
+   {
+    "f": 90,
+    "sound": "rumble",
+    "volume": 0.8
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1392,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 200,
+    "zoom": 1.3
+   },
+   {
+    "f": 288,
+    "x": 1700,
+    "y": 160,
+    "zoom": 1.9,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 288,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 288,
+    "seed": 3
+   },
+   {
+    "type": "flash",
+    "f": 90,
+    "dur": 6,
+    "intensity": 0.6,
+    "color": "#ff2f6a"
+   },
+   {
+    "type": "shockwave",
+    "f": 90,
+    "dur": 40,
+    "x": 1700,
+    "y": 300,
+    "size": 1200,
+    "color": "#c9a6ff"
+   }
+  ]
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-07",
+  "startFrame": 1680,
+  "durationFrames": 288,
+  "backgroundId": "street_dusk",
+  "characterIds": [],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 77,
+    "speaker": "narration",
+    "text": "시계는 하나둘, 같은 시각에서 멈추기 시작했다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 240,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1000,
+    "y": 600,
+    "zoom": 1.1
+   },
+   {
+    "f": 288,
+    "x": 1900,
+    "y": 600,
+    "zoom": 1.1,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 288,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 288,
+    "seed": 3
+   }
+  ]
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-08",
+  "startFrame": 1968,
+  "durationFrames": 384,
+  "backgroundId": "rooftop_night",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 28,
+    "speaker": "veyra",
+    "text": "…시작됐군.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 528,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 1650,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1600,
+    "y": 520,
+    "zoom": 1.3
+   },
+   {
+    "f": 384,
+    "x": 1600,
+    "y": 520,
+    "zoom": 1.1,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 384,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 384,
+    "seed": 3
+   }
+  ]
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-09",
+  "startFrame": 2352,
+  "durationFrames": 192,
+  "backgroundId": "rooftop_night",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 912,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 1500,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry",
+      "look": [
+       -1,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1488,
+    "y": 478,
+    "zoom": 5.2
+   },
+   {
+    "f": 192,
+    "x": 1484,
+    "y": 482,
+    "zoom": 5.720000000000001,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 192,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S01",
+  "shotId": "S01-10",
+  "startFrame": 2544,
+  "durationFrames": 336,
+  "backgroundId": "ruins_night",
+  "characterIds": [],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 61,
+    "speaker": "narration",
+    "text": "흑월의 잔향 — 제1화, 정지하는 시간",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1104,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1700,
+    "y": 560,
+    "zoom": 1.4
+   },
+   {
+    "f": 336,
+    "x": 1700,
+    "y": 400,
+    "zoom": 1,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 336,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 336,
+    "seed": 3
+   },
+   {
+    "type": "bloom",
+    "f": 0,
+    "dur": 300,
+    "x": 1700,
+    "y": 190,
+    "size": 560,
+    "color": "#ff4f86",
+    "intensity": 0.3
+   }
+  ],
+  "transition": {
+   "outType": "fadeBlack",
+   "outFrames": 24
+  }
+ }
+]

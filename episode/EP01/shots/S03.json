@@ -1,0 +1,1934 @@
+[
+ {
+  "sceneId": "S03",
+  "shotId": "S03-01",
+  "startFrame": 5040,
+  "durationFrames": 229,
+  "backgroundId": "coast_day",
+  "characterIds": [],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 64,
+    "speaker": "narration",
+    "text": "해안도시 미나토. 평범한 아침이었다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 720,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 900,
+    "y": 560,
+    "zoom": 1.1
+   },
+   {
+    "f": 229,
+    "x": 1800,
+    "y": 560,
+    "zoom": 1.1,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 229,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 229,
+    "seed": 3
+   }
+  ],
+  "transition": {
+   "inType": "fadeBlack",
+   "inFrames": 18
+  }
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-02",
+  "startFrame": 5269,
+  "durationFrames": 550,
+  "backgroundId": "apartment_room",
+  "characterIds": [
+   "mio",
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 58,
+    "speaker": "mio",
+    "text": "소마! 또 늦잠이야? 학교 늦겠어!",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 80,
+    "dur": 26,
+    "speaker": "soma",
+    "text": "…오 분만.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 116,
+    "dur": 54,
+    "speaker": "mio",
+    "text": "그 말, 이번 주에만 열 번째거든?",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 180,
+    "dur": 58,
+    "speaker": "soma",
+    "text": "알았어, 알았어. 일어난다니까.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 949,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "mio",
+    "x": 1380,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 70,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 116,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 170,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "smile"
+     },
+     {
+      "f": 8,
+      "expr": "angry"
+     },
+     {
+      "f": 112,
+      "expr": "angry"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   },
+   {
+    "id": "soma",
+    "x": 1820,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 80,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 106,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 180,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 238,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "embarrassed"
+     },
+     {
+      "f": 76,
+      "expr": "embarrassed"
+     },
+     {
+      "f": 176,
+      "expr": "smile"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 550,
+    "x": 1620,
+    "y": 590,
+    "zoom": 1.8725,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 550,
+    "seed": 6,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-03",
+  "startFrame": 5819,
+  "durationFrames": 183,
+  "backgroundId": "apartment_room",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 59,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral",
+      "look": [
+       0.5,
+       0.4
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 560,
+    "zoom": 3.4
+   },
+   {
+    "f": 183,
+    "x": 1516,
+    "y": 564,
+    "zoom": 3.74,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 183,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-04",
+  "startFrame": 6002,
+  "durationFrames": 321,
+  "backgroundId": "apartment_room",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 38,
+    "speaker": "soma",
+    "text": "시계가… 또 멈췄네.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 60,
+    "dur": 44,
+    "speaker": "soma",
+    "text": "박사님이 남겨주신 건데.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 242,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 50,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 60,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 104,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "neutral",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 56,
+      "expr": "sad",
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 560,
+    "zoom": 2.8
+   },
+   {
+    "f": 321,
+    "x": 1516,
+    "y": 564,
+    "zoom": 3.08,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 321,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-05",
+  "startFrame": 6323,
+  "durationFrames": 458,
+  "backgroundId": "coast_day",
+  "characterIds": [
+   "soma",
+   "mio"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 14,
+    "dur": 81,
+    "speaker": "mio",
+    "text": "너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 105,
+    "dur": 44,
+    "speaker": "soma",
+    "text": "또 누가 지어낸 얘기겠지.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 2,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 16,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 30,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 44,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 58,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 72,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 86,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 100,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 114,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 128,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 142,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 156,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 170,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 184,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 198,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 212,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 226,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 240,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 254,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 268,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 282,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 296,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 310,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 324,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 338,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 352,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 366,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 380,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 394,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 408,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 422,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 436,
+    "sound": "step",
+    "volume": 0.25
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 563,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 600,
+    "flip": false,
+    "path": [
+     {
+      "f": 0,
+      "x": 600
+     },
+     {
+      "f": 458,
+      "x": 2400,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "walk",
+      "speed": 1
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   },
+   {
+    "id": "mio",
+    "x": 600,
+    "flip": false,
+    "path": [
+     {
+      "f": 0,
+      "x": 410
+     },
+     {
+      "f": 458,
+      "x": 2210,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "walk",
+      "speed": 0.95
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 800,
+    "y": 610,
+    "zoom": 1.35
+   },
+   {
+    "f": 458,
+    "x": 2600,
+    "y": 610,
+    "zoom": 1.35
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 458,
+    "seed": 8,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-06",
+  "startFrame": 6781,
+  "durationFrames": 596,
+  "backgroundId": "coast_day",
+  "characterIds": [
+   "soma",
+   "mio"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 61,
+    "speaker": "mio",
+    "text": "진짜야! 어제 뉴스에도 나왔다니까.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 83,
+    "dur": 48,
+    "speaker": "soma",
+    "text": "검은 달이라니, 소설 같네.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 141,
+    "dur": 58,
+    "speaker": "mio",
+    "text": "…웃지 마. 나 좀 무서웠단 말이야.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 209,
+    "dur": 58,
+    "speaker": "soma",
+    "text": "미안. 무슨 일 있으면 내가 있잖아.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1021,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1380,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 83,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 131,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 209,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 267,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "smile"
+     },
+     {
+      "f": 79,
+      "expr": "smile"
+     },
+     {
+      "f": 205,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   },
+   {
+    "id": "mio",
+    "x": 1820,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 73,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 141,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 199,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "embarrassed"
+     },
+     {
+      "f": 8,
+      "expr": "angry"
+     },
+     {
+      "f": 137,
+      "expr": "sad"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 596,
+    "x": 1620,
+    "y": 590,
+    "zoom": 1.8725,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 596,
+    "seed": 6,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-07",
+  "startFrame": 7377,
+  "durationFrames": 183,
+  "backgroundId": "coast_day",
+  "characterIds": [
+   "mio"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 177,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "mio",
+    "x": 1500,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "sad",
+      "look": [
+       -0.4,
+       0.2
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1488,
+    "y": 560,
+    "zoom": 3.2
+   },
+   {
+    "f": 183,
+    "x": 1484,
+    "y": 564,
+    "zoom": 3.5200000000000005,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 183,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-08",
+  "startFrame": 7560,
+  "durationFrames": 550,
+  "backgroundId": "coast_day",
+  "characterIds": [
+   "mio",
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 61,
+    "speaker": "mio",
+    "text": "박사님이 사라지신 지 벌써 삼 년이네.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 83,
+    "dur": 74,
+    "speaker": "soma",
+    "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 167,
+    "dur": 51,
+    "speaker": "mio",
+    "text": "언젠가 알게 될 거야, 분명히.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 360,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "mio",
+    "x": 1380,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 73,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 167,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 218,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     },
+     {
+      "f": 8,
+      "expr": "sad"
+     },
+     {
+      "f": 163,
+      "expr": "smile"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   },
+   {
+    "id": "soma",
+    "x": 1820,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 83,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 157,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     },
+     {
+      "f": 79,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 550,
+    "x": 1620,
+    "y": 590,
+    "zoom": 1.8725,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 550,
+    "seed": 6,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-09",
+  "startFrame": 8110,
+  "durationFrames": 183,
+  "backgroundId": "street_dusk",
+  "characterIds": [],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 74,
+    "speaker": "narration",
+    "text": "해가 기울자, 거리의 시계들이 일제히 멈췄다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 910,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1400,
+    "y": 520,
+    "zoom": 1
+   },
+   {
+    "f": 183,
+    "x": 2100,
+    "y": 520,
+    "zoom": 1.05,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 183,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 183,
+    "seed": 3
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-10",
+  "startFrame": 8293,
+  "durationFrames": 458,
+  "backgroundId": "street_dusk",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 74,
+    "speaker": "soma",
+    "text": "…또야. 모든 시계가 6시 6분에서 멈춰 있어.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 96,
+    "dur": 44,
+    "speaker": "soma",
+    "text": "내 시계도, 저 시계탑도.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 150,
+    "dur": 58,
+    "speaker": "soma",
+    "text": "대체 무슨 일이 벌어지고 있는 거지?",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1093,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 86,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 96,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 140,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 150,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 208,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "surprise",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "surprise",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 92,
+      "expr": "fear",
+      "look": [
+       0.3,
+       0
+      ]
+     },
+     {
+      "f": 146,
+      "expr": "resolve",
+      "look": [
+       0.3,
+       0
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1488,
+    "y": 560,
+    "zoom": 2.4
+   },
+   {
+    "f": 458,
+    "x": 1484,
+    "y": 564,
+    "zoom": 2.64,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 458,
+    "seed": 7,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-11",
+  "startFrame": 8751,
+  "durationFrames": 321,
+  "backgroundId": "street_dusk",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.25
+   },
+   {
+    "f": 2,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 16,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 30,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 44,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 58,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 72,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 86,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 100,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 114,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 128,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 142,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 156,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 170,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 184,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 198,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 212,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 226,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 240,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 254,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 268,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 282,
+    "sound": "step",
+    "volume": 0.25
+   },
+   {
+    "f": 296,
+    "sound": "step",
+    "volume": 0.25
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 111,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 700,
+    "flip": false,
+    "path": [
+     {
+      "f": 0,
+      "x": 700
+     },
+     {
+      "f": 321,
+      "x": 2000,
+      "ease": "linear"
+     }
+    ],
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "walk",
+      "speed": 1
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 900,
+    "y": 610,
+    "zoom": 1.5
+   },
+   {
+    "f": 321,
+    "x": 2200,
+    "y": 610,
+    "zoom": 1.5
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 321,
+    "seed": 8,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-12",
+  "startFrame": 9072,
+  "durationFrames": 596,
+  "backgroundId": "street_dusk",
+  "characterIds": [
+   "mio",
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 12,
+    "dur": 58,
+    "speaker": "mio",
+    "text": "저기 봐, 사람들이 다 멈춰 서 있어!",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 80,
+    "dur": 94,
+    "speaker": "soma",
+    "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   },
+   {
+    "f": 184,
+    "dur": 48,
+    "speaker": "mio",
+    "text": "무서워… 소마, 돌아가자.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 432,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "mio",
+    "x": 1380,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 12,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 70,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 184,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 232,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "fear"
+     },
+     {
+      "f": 8,
+      "expr": "fear"
+     },
+     {
+      "f": 180,
+      "expr": "sad"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   },
+   {
+    "id": "soma",
+    "x": 1820,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     },
+     {
+      "f": 80,
+      "clip": "talk",
+      "blend": 6
+     },
+     {
+      "f": 174,
+      "clip": "idle",
+      "blend": 8
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "surprise"
+     },
+     {
+      "f": 76,
+      "expr": "surprise"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 596,
+    "x": 1620,
+    "y": 590,
+    "zoom": 1.8725,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 596,
+    "seed": 6,
+    "intensity": 0.5
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-13",
+  "startFrame": 9668,
+  "durationFrames": 183,
+  "backgroundId": "street_dusk",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1028,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve",
+      "look": [
+       1,
+       -0.3
+      ]
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1512,
+    "y": 478,
+    "zoom": 5.2
+   },
+   {
+    "f": 183,
+    "x": 1516,
+    "y": 482,
+    "zoom": 5.720000000000001,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 183,
+    "seed": 7,
+    "intensity": 0.4
+   },
+   {
+    "type": "flash",
+    "f": 120,
+    "dur": 5,
+    "intensity": 0.3,
+    "color": "#ff2f6a"
+   }
+  ]
+ },
+ {
+  "sceneId": "S03",
+  "shotId": "S03-14",
+  "startFrame": 9851,
+  "durationFrames": 229,
+  "backgroundId": "street_dusk",
+  "characterIds": [
+   "soma",
+   "mio"
+  ],
+  "voiceAsset": null,
+  "dialogue": [
+   {
+    "f": 16,
+    "dur": 54,
+    "speaker": "narration",
+    "text": "그 순간, 하늘이 검게 물들었다.",
+    "voiceAsset": null,
+    "placeholderVoice": true
+   }
+  ],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.3
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1211,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1800,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   },
+   {
+    "id": "mio",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "idle"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "neutral"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 2200,
+    "y": 500,
+    "zoom": 1.2
+   },
+   {
+    "f": 229,
+    "x": 2500,
+    "y": 500,
+    "zoom": 1.6,
+    "ease": "inOut"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 229,
+    "y": 770,
+    "seed": 5,
+    "intensity": 0.7
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 229,
+    "seed": 3
+   },
+   {
+    "type": "bloom",
+    "f": 0,
+    "dur": 300,
+    "x": 1500,
+    "y": 200,
+    "size": 600,
+    "color": "#7a2cff",
+    "intensity": 0.3
+   }
+  ]
+ }
+]

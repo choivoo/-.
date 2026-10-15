@@ -29,7 +29,7 @@ export const MIO: CharacterDef = {
   palette: {
     skin: '#fadfcd', skinShade: '#e8bba8', hair: '#7b4a3c', hairShade: '#4f2c24', hairHi: '#d99a7e', eye: '#f2a93b', eyeShade: '#a8631a',
     outline: '#2a141c', coat: '#ece3d2', coatShade: '#cbbfa8', coatTrim: '#e98aa0', inner: '#f4a9b8', innerShade: '#d1788d',
-    pants: '#3a3a52', pantsShade: '#26263a', boots: '#6b4a3c', bootsShade: '#47301f', accent: '#e98aa0', blade: '#ccc', bladeGlow: '#fff',
+    pants: '#3a3a52', pantsShade: '#26263a', boots: '#6b4a3c', bootsShade: '#47301f', accent: '#e98aa0', blade: '#cccccc', bladeGlow: '#ffffff',
   },
   hair: 'bob', coat: 'jacket', accessory: 'ribbon', headAcc: 'none', skirt: true, sleeves: 'coat', weapon: 'none',
   build: { shoulder: 0.85, limb: 0.85, hips: 0.95 }, eyeStyle: { size: 1.15, tall: 1.05 },
@@ -40,7 +40,7 @@ export const KAEDE: CharacterDef = {
   palette: {
     skin: '#f0d3bd', skinShade: '#d8b098', hair: '#c9ced8', hairShade: '#8f97a8', hairHi: '#f2f4f8', eye: '#6aa7d8', eyeShade: '#2a5a86',
     outline: '#1a1620', coat: '#f1f3f6', coatShade: '#c3c9d4', coatTrim: '#6aa7d8', inner: '#3b4a63', innerShade: '#26324a',
-    pants: '#3d3f4d', pantsShade: '#272833', boots: '#2a2020', bootsShade: '#161010', accent: '#6aa7d8', blade: '#ccc', bladeGlow: '#fff',
+    pants: '#3d3f4d', pantsShade: '#272833', boots: '#2a2020', bootsShade: '#161010', accent: '#6aa7d8', blade: '#cccccc', bladeGlow: '#ffffff',
   },
   hair: 'swept', coat: 'labcoat', accessory: 'none', headAcc: 'glasses', skirt: false, sleeves: 'coat', weapon: 'none',
   build: { shoulder: 0.95, limb: 0.95, hips: 1 }, eyeStyle: { size: 0.9, tall: 0.9 },

@@ -6,7 +6,7 @@
   "description": "ANIME FORGE - code-driven Japanese-style 2D anime production system",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "tsx tests/run.ts",
+    "test": "NODE_ENV=production tsx tests/run.ts",
     "validate": "tsx scripts/validate-episode.ts",
     "studio": "remotion studio src/index.ts",
     "editor": "vite --config vite.editor.config.ts",
@@ -14,7 +14,13 @@
     "render:test": "tsx scripts/render.ts test5",
     "render:sample": "tsx scripts/render.ts sample30",
     "render:ep": "tsx scripts/render.ts episode",
-    "verify:video": "tsx scripts/verify-video.ts"
+    "verify:video": "tsx scripts/verify-video.ts",
+    "build:data": "tsx scripts/build-sample.ts && tsx scripts/build-episode.ts",
+    "audio:placeholder": "tsx scripts/gen-placeholder-audio.ts",
+    "render:episode": "tsx scripts/render-episode.ts",
+    "render:episode:concat": "tsx scripts/render-episode.ts --concat-only",
+    "check": "npm run typecheck && npm test && npm run validate",
+    "still": "tsx scripts/shotstill.tsx"
   },
   "dependencies": {
     "@remotion/bundler": "^4.0.535",

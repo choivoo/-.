@@ -1,0 +1,658 @@
+{
+ "sfx": {
+  "wind_loop": 102,
+  "step": 360,
+  "hit_heavy": 7,
+  "rumble": 6,
+  "whoosh": 29,
+  "heartbeat": 8,
+  "draw": 2,
+  "hit_clash": 10,
+  "crack": 4
+ },
+ "voiceLines": [
+  {
+   "shotId": "S01-01",
+   "f": 16,
+   "speaker": "narration",
+   "text": "그날 밤, 도시 위로 달이 하나 더 떠올랐다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S01-02",
+   "f": 16,
+   "speaker": "narration",
+   "text": "빛이 아닌 것을 삼키는, 검은 달.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S01-03",
+   "f": 14,
+   "speaker": "kaede",
+   "text": "서둘러야 해… 기록이 지워지기 전에.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S01-04",
+   "f": 12,
+   "speaker": "kaede",
+   "text": "이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S01-04",
+   "f": 139,
+   "speaker": "kaede",
+   "text": "…열두 번째 정지가 오기 전에.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S01-07",
+   "f": 16,
+   "speaker": "narration",
+   "text": "시계는 하나둘, 같은 시각에서 멈추기 시작했다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S01-08",
+   "f": 16,
+   "speaker": "veyra",
+   "text": "…시작됐군.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S01-10",
+   "f": 16,
+   "speaker": "narration",
+   "text": "흑월의 잔향 — 제1화, 정지하는 시간",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-01",
+   "f": 16,
+   "speaker": "narration",
+   "text": "해안도시 미나토. 평범한 아침이었다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-02",
+   "f": 12,
+   "speaker": "mio",
+   "text": "소마! 또 늦잠이야? 학교 늦겠어!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-02",
+   "f": 80,
+   "speaker": "soma",
+   "text": "…오 분만.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-02",
+   "f": 116,
+   "speaker": "mio",
+   "text": "그 말, 이번 주에만 열 번째거든?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-02",
+   "f": 180,
+   "speaker": "soma",
+   "text": "알았어, 알았어. 일어난다니까.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-04",
+   "f": 12,
+   "speaker": "soma",
+   "text": "시계가… 또 멈췄네.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-04",
+   "f": 60,
+   "speaker": "soma",
+   "text": "박사님이 남겨주신 건데.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-05",
+   "f": 14,
+   "speaker": "mio",
+   "text": "너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-05",
+   "f": 105,
+   "speaker": "soma",
+   "text": "또 누가 지어낸 얘기겠지.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-06",
+   "f": 12,
+   "speaker": "mio",
+   "text": "진짜야! 어제 뉴스에도 나왔다니까.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-06",
+   "f": 83,
+   "speaker": "soma",
+   "text": "검은 달이라니, 소설 같네.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-06",
+   "f": 141,
+   "speaker": "mio",
+   "text": "…웃지 마. 나 좀 무서웠단 말이야.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-06",
+   "f": 209,
+   "speaker": "soma",
+   "text": "미안. 무슨 일 있으면 내가 있잖아.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-08",
+   "f": 12,
+   "speaker": "mio",
+   "text": "박사님이 사라지신 지 벌써 삼 년이네.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-08",
+   "f": 83,
+   "speaker": "soma",
+   "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-08",
+   "f": 167,
+   "speaker": "mio",
+   "text": "언젠가 알게 될 거야, 분명히.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-09",
+   "f": 16,
+   "speaker": "narration",
+   "text": "해가 기울자, 거리의 시계들이 일제히 멈췄다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-10",
+   "f": 12,
+   "speaker": "soma",
+   "text": "…또야. 모든 시계가 6시 6분에서 멈춰 있어.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-10",
+   "f": 96,
+   "speaker": "soma",
+   "text": "내 시계도, 저 시계탑도.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-10",
+   "f": 150,
+   "speaker": "soma",
+   "text": "대체 무슨 일이 벌어지고 있는 거지?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-12",
+   "f": 12,
+   "speaker": "mio",
+   "text": "저기 봐, 사람들이 다 멈춰 서 있어!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-12",
+   "f": 80,
+   "speaker": "soma",
+   "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-12",
+   "f": 184,
+   "speaker": "mio",
+   "text": "무서워… 소마, 돌아가자.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S03-14",
+   "f": 16,
+   "speaker": "narration",
+   "text": "그 순간, 하늘이 검게 물들었다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-01",
+   "f": 16,
+   "speaker": "narration",
+   "text": "교차로. 정지한 신호등 아래, 시간이 어긋난다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-02",
+   "f": 14,
+   "speaker": "mio",
+   "text": "소마, 빨리 와! 신호가 바뀌었어!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-04",
+   "f": 12,
+   "speaker": "mio",
+   "text": "…어?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-05",
+   "f": 12,
+   "speaker": "soma",
+   "text": "미오!!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-07",
+   "f": 14,
+   "speaker": "soma",
+   "text": "…멈췄어? 아니, 모든 게 멈춘 거야.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-08",
+   "f": 12,
+   "speaker": "soma",
+   "text": "소리도, 바람도 없어. 나만 움직일 수 있어.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-08",
+   "f": 93,
+   "speaker": "soma",
+   "text": "이게… 시계가 멈춘 이유인가.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-10",
+   "f": 12,
+   "speaker": "soma",
+   "text": "미오, 미안해. 조금만 거칠게 할게.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-12",
+   "f": 12,
+   "speaker": "mio",
+   "text": "방금… 트럭이 있었는데? 어떻게 된 거야?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-12",
+   "f": 89,
+   "speaker": "soma",
+   "text": "나도 몰라. 하지만… 이제 괜찮아.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-12",
+   "f": 157,
+   "speaker": "mio",
+   "text": "소마, 네 눈… 파랗게 빛나고 있어.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-14",
+   "f": 16,
+   "speaker": "narration",
+   "text": "그날 밤, 시계 소리를 따라 소마는 항구로 향했다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-15",
+   "f": 14,
+   "speaker": "soma",
+   "text": "이 시계… 방향을 가리키고 있어.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-16",
+   "f": 12,
+   "speaker": "soma",
+   "text": "폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-17",
+   "f": 16,
+   "speaker": "narration",
+   "text": "열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-19",
+   "f": 12,
+   "speaker": "soma",
+   "text": "전부 십이 년 전에 멈춰 있어.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S04-19",
+   "f": 70,
+   "speaker": "soma",
+   "text": "날짜가… 이 도시가 처음 멈춘 날이야.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-01",
+   "f": 16,
+   "speaker": "kaede",
+   "text": "…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-02",
+   "f": 12,
+   "speaker": "soma",
+   "text": "박사님…? 이건 기록… 영상인가요?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-02",
+   "f": 83,
+   "speaker": "kaede",
+   "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-02",
+   "f": 220,
+   "speaker": "kaede",
+   "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-03",
+   "f": 12,
+   "speaker": "soma",
+   "text": "열쇠… 내가?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-05",
+   "f": 12,
+   "speaker": "veyra",
+   "text": "그 시계를 넘겨라.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-05",
+   "f": 56,
+   "speaker": "soma",
+   "text": "누구지? 이 연구소 사람은 아닌데.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-05",
+   "f": 124,
+   "speaker": "veyra",
+   "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-05",
+   "f": 234,
+   "speaker": "soma",
+   "text": "…싫다면?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-06",
+   "f": 12,
+   "speaker": "veyra",
+   "text": "베어 내겠다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-11",
+   "f": 6,
+   "speaker": "soma",
+   "text": "윽…!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-12",
+   "f": 12,
+   "speaker": "soma",
+   "text": "힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-13",
+   "f": 12,
+   "speaker": "veyra",
+   "text": "아직 각성이 불완전하군. 실망이다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-13",
+   "f": 83,
+   "speaker": "soma",
+   "text": "아직… 끝나지 않았어.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-14",
+   "f": 14,
+   "speaker": "soma",
+   "text": "일단 도망쳐야 해!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S05-18",
+   "f": 16,
+   "speaker": "narration",
+   "text": "폐허가 된 구시가지. 그리고 검은 달 아래의 대치.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-02",
+   "f": 16,
+   "speaker": "soma",
+   "text": "…온다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-12",
+   "f": 30,
+   "speaker": "veyra",
+   "text": "…흥미롭군.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-12",
+   "f": 68,
+   "speaker": "soma",
+   "text": "아직 끝나지 않았어.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-13",
+   "f": 12,
+   "speaker": "soma",
+   "text": "…온다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-16",
+   "f": 12,
+   "speaker": "soma",
+   "text": "이 정도로는… 안 돼. 더, 더 빨리!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-17",
+   "f": 12,
+   "speaker": "veyra",
+   "text": "이제 끝이다. 시계를 내놔.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-17",
+   "f": 70,
+   "speaker": "soma",
+   "text": "미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-18",
+   "f": 14,
+   "speaker": "soma",
+   "text": "들려… 시계 소리가. 이게 진짜 내 힘이야!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-20",
+   "f": 12,
+   "speaker": "veyra",
+   "text": "이 속도… 설마, 정지 속에서 움직인 건가?",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S06-23",
+   "f": 12,
+   "speaker": "soma",
+   "text": "이걸로 끝이야!",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S07-02",
+   "f": 12,
+   "speaker": "soma",
+   "text": "…그 얼굴은, 뭐야.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S07-03",
+   "f": 12,
+   "speaker": "veyra",
+   "text": "열두 번째다. 나도, 너도.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S08-01",
+   "f": 16,
+   "speaker": "narration",
+   "text": "검은 달은, 아직 저물지 않았다.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S08-06",
+   "f": 12,
+   "speaker": "soma",
+   "text": "미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  },
+  {
+   "shotId": "S08-07",
+   "f": 16,
+   "speaker": "kaede",
+   "text": "[기록] 다음 정지까지, 남은 시간 열하루.",
+   "voiceAsset": null,
+   "status": "NOT RECORDED"
+  }
+ ],
+ "music": [
+  "tension_drone (placeholder)"
+ ]
+}

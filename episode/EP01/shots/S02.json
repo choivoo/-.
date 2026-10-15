@@ -1,0 +1,1046 @@
+[
+ {
+  "sceneId": "S02",
+  "shotId": "S02-01",
+  "startFrame": 2880,
+  "durationFrames": 216,
+  "backgroundId": "ruins_night",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 82,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 0,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "흑월의 잔향",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 86,
+      "clip": "run",
+      "blend": 3
+     },
+     {
+      "f": 110,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 86,
+      "to": 100,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 1.7249999999999999
+   },
+   {
+    "f": 216,
+    "x": 1600,
+    "y": 620,
+    "zoom": 1.5,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 216,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 86,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S02",
+  "shotId": "S02-02",
+  "startFrame": 3096,
+  "durationFrames": 240,
+  "backgroundId": "coast_day",
+  "characterIds": [
+   "mio"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 92,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 216,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "MIO HOSHIKAWA",
+  "characters": [
+   {
+    "id": "mio",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 96,
+      "clip": "idle",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "smile"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 96,
+      "to": 110,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 2.76
+   },
+   {
+    "f": 240,
+    "x": 1600,
+    "y": 620,
+    "zoom": 2.4,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 96,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S02",
+  "shotId": "S02-03",
+  "startFrame": 3336,
+  "durationFrames": 240,
+  "backgroundId": "street_dusk",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 92,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 456,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "SOMA KIRITANI",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 96,
+      "clip": "drawSword",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 96,
+      "to": 110,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 2.3
+   },
+   {
+    "f": 240,
+    "x": 1600,
+    "y": 620,
+    "zoom": 2,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 96,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S02",
+  "shotId": "S02-04",
+  "startFrame": 3576,
+  "durationFrames": 240,
+  "backgroundId": "ruins_night",
+  "characterIds": [
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 92,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 696,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "VEYRA",
+  "characters": [
+   {
+    "id": "veyra",
+    "x": 1500,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 96,
+      "clip": "slashV",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 96,
+      "to": 110,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 2.07
+   },
+   {
+    "f": 240,
+    "x": 1600,
+    "y": 620,
+    "zoom": 1.8,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 96,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S02",
+  "shotId": "S02-05",
+  "startFrame": 3816,
+  "durationFrames": 240,
+  "backgroundId": "lab_corridor",
+  "characterIds": [
+   "kaede"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 92,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 936,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "DR. KUON KAEDE",
+  "characters": [
+   {
+    "id": "kaede",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 96,
+      "clip": "talk",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "sad"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 96,
+      "to": 110,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 2.53
+   },
+   {
+    "f": 240,
+    "x": 1600,
+    "y": 620,
+    "zoom": 2.2,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 96,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S02",
+  "shotId": "S02-06",
+  "startFrame": 4056,
+  "durationFrames": 240,
+  "backgroundId": "harbor_night",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 92,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1176,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "ORIGINAL OPENING — PLACEHOLDER CREDITS",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 96,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 96,
+      "to": 110,
+      "frames": 4
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 1950,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 1.6099999999999999
+   },
+   {
+    "f": 240,
+    "x": 1600,
+    "y": 620,
+    "zoom": 1.4,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 96,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S02",
+  "shotId": "S02-07",
+  "startFrame": 4296,
+  "durationFrames": 240,
+  "backgroundId": "timestop_void",
+  "characterIds": [
+   "soma"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 92,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 1416,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "THE STOPPING HOUR",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 96,
+      "clip": "jump",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 96,
+      "to": 110,
+      "frames": 4
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 1.6099999999999999
+   },
+   {
+    "f": 240,
+    "x": 1600,
+    "y": 620,
+    "zoom": 1.4,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 96,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S02",
+  "shotId": "S02-08",
+  "startFrame": 4536,
+  "durationFrames": 240,
+  "backgroundId": "rooftop_night",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 92,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 216,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "BLACK MOON",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 96,
+      "clip": "slashH",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 96,
+      "to": 110,
+      "frames": 4
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 1950,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 1.7249999999999999
+   },
+   {
+    "f": 240,
+    "x": 1600,
+    "y": 620,
+    "zoom": 1.5,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 240,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 96,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ },
+ {
+  "sceneId": "S02",
+  "shotId": "S02-09",
+  "startFrame": 4776,
+  "durationFrames": 264,
+  "backgroundId": "ruins_night",
+  "characterIds": [
+   "soma",
+   "veyra"
+  ],
+  "voiceAsset": null,
+  "dialogue": [],
+  "soundEffects": [
+   {
+    "f": 0,
+    "sound": "wind_loop",
+    "volume": 0.2
+   },
+   {
+    "f": 102,
+    "sound": "whoosh",
+    "volume": 0.5
+   }
+  ],
+  "musicCue": {
+   "id": "tension_drone",
+   "trackOffset": 456,
+   "volume": 0.35
+  },
+  "renderStatus": "pending",
+  "fidelity": "animatic",
+  "title": "흑월의 잔향",
+  "characters": [
+   {
+    "id": "soma",
+    "x": 1500,
+    "flip": false,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     },
+     {
+      "f": 106,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 130,
+      "clip": "stance",
+      "blend": 6
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "resolve"
+     }
+    ],
+    "cadence": [
+     {
+      "f": 0,
+      "mode": "twos"
+     }
+    ],
+    "swordTrail": [
+     {
+      "from": 106,
+      "to": 120,
+      "frames": 4
+     }
+    ]
+   },
+   {
+    "id": "veyra",
+    "x": 1950,
+    "flip": true,
+    "animationClips": [
+     {
+      "f": 0,
+      "clip": "stance"
+     }
+    ],
+    "face": [
+     {
+      "f": 0,
+      "expr": "angry"
+     }
+    ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1500,
+    "y": 640,
+    "zoom": 1.8399999999999999
+   },
+   {
+    "f": 264,
+    "x": 1600,
+    "y": 620,
+    "zoom": 1.6,
+    "ease": "out"
+   }
+  ],
+  "vfx": [
+   {
+    "type": "speedLines",
+    "f": 0,
+    "dur": 30,
+    "seed": 31,
+    "intensity": 0.5
+   },
+   {
+    "type": "wind",
+    "f": 0,
+    "dur": 264,
+    "seed": 9
+   },
+   {
+    "type": "flash",
+    "f": 106,
+    "dur": 4,
+    "intensity": 0.4
+   }
+  ]
+ }
+]

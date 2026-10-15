@@ -1,0 +1,1605 @@
+[
+ {
+  "shotId": "S01-01",
+  "startFrame": 0,
+  "durationFrames": 336,
+  "bg": "harbor_night",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(2000,420) z1.00",
+   "f336:(2300,300) z1.12"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-02",
+  "startFrame": 336,
+  "durationFrames": 192,
+  "bg": "harbor_night",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1200,640) z1.20",
+   "f192:(1700,640) z1.25"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-03",
+  "startFrame": 528,
+  "durationFrames": 288,
+  "bg": "lab_corridor",
+  "chars": [
+   "kaede"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(800,610) z1.50",
+   "f288:(2800,610) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-04",
+  "startFrame": 816,
+  "durationFrames": 336,
+  "bg": "lab_corridor",
+  "chars": [
+   "kaede"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.60",
+   "f336:(1516,564) z2.86"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-05",
+  "startFrame": 1152,
+  "durationFrames": 240,
+  "bg": "lab_corridor",
+  "chars": [
+   "kaede"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,478) z5.20",
+   "f240:(1516,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-06",
+  "startFrame": 1392,
+  "durationFrames": 288,
+  "bg": "harbor_night",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,200) z1.30",
+   "f288:(1700,160) z1.90"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-07",
+  "startFrame": 1680,
+  "durationFrames": 288,
+  "bg": "street_dusk",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1000,600) z1.10",
+   "f288:(1900,600) z1.10"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-08",
+  "startFrame": 1968,
+  "durationFrames": 384,
+  "bg": "rooftop_night",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1600,520) z1.30",
+   "f384:(1600,520) z1.10"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-09",
+  "startFrame": 2352,
+  "durationFrames": 192,
+  "bg": "rooftop_night",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1488,478) z5.20",
+   "f192:(1484,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S01-10",
+  "startFrame": 2544,
+  "durationFrames": 336,
+  "bg": "ruins_night",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1700,560) z1.40",
+   "f336:(1700,400) z1.00"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-01",
+  "startFrame": 2880,
+  "durationFrames": 216,
+  "bg": "ruins_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z1.72",
+   "f216:(1600,620) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-02",
+  "startFrame": 3096,
+  "durationFrames": 240,
+  "bg": "coast_day",
+  "chars": [
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z2.76",
+   "f240:(1600,620) z2.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-03",
+  "startFrame": 3336,
+  "durationFrames": 240,
+  "bg": "street_dusk",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z2.30",
+   "f240:(1600,620) z2.00"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-04",
+  "startFrame": 3576,
+  "durationFrames": 240,
+  "bg": "ruins_night",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z2.07",
+   "f240:(1600,620) z1.80"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-05",
+  "startFrame": 3816,
+  "durationFrames": 240,
+  "bg": "lab_corridor",
+  "chars": [
+   "kaede"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z2.53",
+   "f240:(1600,620) z2.20"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-06",
+  "startFrame": 4056,
+  "durationFrames": 240,
+  "bg": "harbor_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z1.61",
+   "f240:(1600,620) z1.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-07",
+  "startFrame": 4296,
+  "durationFrames": 240,
+  "bg": "timestop_void",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z1.61",
+   "f240:(1600,620) z1.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-08",
+  "startFrame": 4536,
+  "durationFrames": 240,
+  "bg": "rooftop_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z1.72",
+   "f240:(1600,620) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S02-09",
+  "startFrame": 4776,
+  "durationFrames": 264,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z1.84",
+   "f264:(1600,620) z1.60"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-01",
+  "startFrame": 5040,
+  "durationFrames": 229,
+  "bg": "coast_day",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(900,560) z1.10",
+   "f229:(1800,560) z1.10"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-02",
+  "startFrame": 5269,
+  "durationFrames": 550,
+  "bg": "apartment_room",
+  "chars": [
+   "mio",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1600,600) z1.75",
+   "f550:(1620,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-03",
+  "startFrame": 5819,
+  "durationFrames": 183,
+  "bg": "apartment_room",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z3.40",
+   "f183:(1516,564) z3.74"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-04",
+  "startFrame": 6002,
+  "durationFrames": 321,
+  "bg": "apartment_room",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.80",
+   "f321:(1516,564) z3.08"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-05",
+  "startFrame": 6323,
+  "durationFrames": 458,
+  "bg": "coast_day",
+  "chars": [
+   "soma",
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(800,610) z1.35",
+   "f458:(2600,610) z1.35"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-06",
+  "startFrame": 6781,
+  "durationFrames": 596,
+  "bg": "coast_day",
+  "chars": [
+   "soma",
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1600,600) z1.75",
+   "f596:(1620,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-07",
+  "startFrame": 7377,
+  "durationFrames": 183,
+  "bg": "coast_day",
+  "chars": [
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1488,560) z3.20",
+   "f183:(1484,564) z3.52"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-08",
+  "startFrame": 7560,
+  "durationFrames": 550,
+  "bg": "coast_day",
+  "chars": [
+   "mio",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1600,600) z1.75",
+   "f550:(1620,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-09",
+  "startFrame": 8110,
+  "durationFrames": 183,
+  "bg": "street_dusk",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1400,520) z1.00",
+   "f183:(2100,520) z1.05"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-10",
+  "startFrame": 8293,
+  "durationFrames": 458,
+  "bg": "street_dusk",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1488,560) z2.40",
+   "f458:(1484,564) z2.64"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-11",
+  "startFrame": 8751,
+  "durationFrames": 321,
+  "bg": "street_dusk",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(900,610) z1.50",
+   "f321:(2200,610) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-12",
+  "startFrame": 9072,
+  "durationFrames": 596,
+  "bg": "street_dusk",
+  "chars": [
+   "mio",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1600,600) z1.75",
+   "f596:(1620,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-13",
+  "startFrame": 9668,
+  "durationFrames": 183,
+  "bg": "street_dusk",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,478) z5.20",
+   "f183:(1516,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S03-14",
+  "startFrame": 9851,
+  "durationFrames": 229,
+  "bg": "street_dusk",
+  "chars": [
+   "soma",
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(2200,500) z1.20",
+   "f229:(2500,500) z1.60"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-01",
+  "startFrame": 10080,
+  "durationFrames": 255,
+  "bg": "street_dusk",
+  "chars": [
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1200,600) z1.20",
+   "f255:(2000,600) z1.20"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-02",
+  "startFrame": 10335,
+  "durationFrames": 298,
+  "bg": "street_dusk",
+  "chars": [
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1100,610) z1.50",
+   "f298:(2100,610) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-03",
+  "startFrame": 10633,
+  "durationFrames": 170,
+  "bg": "street_dusk",
+  "chars": [
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(2300,560) z1.30",
+   "f170:(1800,560) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-04",
+  "startFrame": 10803,
+  "durationFrames": 170,
+  "bg": "street_dusk",
+  "chars": [
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1488,478) z5.20",
+   "f170:(1484,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-05",
+  "startFrame": 10973,
+  "durationFrames": 170,
+  "bg": "street_dusk",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z3.40",
+   "f170:(1516,564) z3.74"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-06",
+  "startFrame": 11143,
+  "durationFrames": 170,
+  "bg": "timestop_void",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,478) z5.20",
+   "f170:(1516,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-07",
+  "startFrame": 11313,
+  "durationFrames": 426,
+  "bg": "timestop_void",
+  "chars": [
+   "mio",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1100,620) z1.40",
+   "f426:(1800,600) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-08",
+  "startFrame": 11739,
+  "durationFrames": 426,
+  "bg": "timestop_void",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.60",
+   "f426:(1516,564) z2.86"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-09",
+  "startFrame": 12165,
+  "durationFrames": 298,
+  "bg": "timestop_void",
+  "chars": [
+   "mio",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1100,620) z1.40",
+   "f298:(1800,600) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-10",
+  "startFrame": 12463,
+  "durationFrames": 298,
+  "bg": "timestop_void",
+  "chars": [
+   "soma",
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1690,600) z1.75",
+   "f298:(1710,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-11",
+  "startFrame": 12761,
+  "durationFrames": 170,
+  "bg": "street_dusk",
+  "chars": [
+   "soma",
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1800,560) z1.30",
+   "f170:(1750,560) z1.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-12",
+  "startFrame": 12931,
+  "durationFrames": 527,
+  "bg": "street_dusk",
+  "chars": [
+   "mio",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1600,600) z1.75",
+   "f527:(1620,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-13",
+  "startFrame": 13458,
+  "durationFrames": 170,
+  "bg": "street_dusk",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,478) z5.20",
+   "f170:(1516,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-14",
+  "startFrame": 13628,
+  "durationFrames": 255,
+  "bg": "harbor_night",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1000,560) z1.10",
+   "f255:(2200,560) z1.10"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-15",
+  "startFrame": 13883,
+  "durationFrames": 383,
+  "bg": "harbor_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(900,610) z1.50",
+   "f383:(2500,610) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-16",
+  "startFrame": 14266,
+  "durationFrames": 298,
+  "bg": "harbor_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.40",
+   "f298:(1516,564) z2.64"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-17",
+  "startFrame": 14564,
+  "durationFrames": 298,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(900,540) z1.10",
+   "f298:(2500,540) z1.10"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-18",
+  "startFrame": 14862,
+  "durationFrames": 340,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(900,610) z1.50",
+   "f340:(2400,610) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-19",
+  "startFrame": 15202,
+  "durationFrames": 426,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.40",
+   "f426:(1516,564) z2.64"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S04-20",
+  "startFrame": 15628,
+  "durationFrames": 212,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,540) z1.30",
+   "f212:(1700,540) z1.60"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-01",
+  "startFrame": 15840,
+  "durationFrames": 305,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma",
+   "kaede"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1400,540) z1.20",
+   "f305:(1900,540) z1.30"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-02",
+  "startFrame": 16145,
+  "durationFrames": 677,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma",
+   "kaede"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1600,600) z1.75",
+   "f677:(1620,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-03",
+  "startFrame": 16822,
+  "durationFrames": 254,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z3.00",
+   "f254:(1516,564) z3.30"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-04",
+  "startFrame": 17076,
+  "durationFrames": 254,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(2400,540) z1.20",
+   "f254:(2200,540) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-05",
+  "startFrame": 17330,
+  "durationFrames": 662,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1625,600) z1.75",
+   "f662:(1645,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-06",
+  "startFrame": 17992,
+  "durationFrames": 203,
+  "bg": "lab_corridor",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1488,478) z5.20",
+   "f203:(1484,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-07",
+  "startFrame": 18195,
+  "durationFrames": 203,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,478) z5.20",
+   "f203:(1516,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-08",
+  "startFrame": 18398,
+  "durationFrames": 254,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1660,650) z1.30",
+   "f254:(1700,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-09",
+  "startFrame": 18652,
+  "durationFrames": 203,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1560,650) z1.30",
+   "f203:(1600,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-10",
+  "startFrame": 18855,
+  "durationFrames": 203,
+  "bg": "lab_corridor",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(2200,610) z1.40",
+   "f203:(1300,610) z1.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-11",
+  "startFrame": 19058,
+  "durationFrames": 203,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1760,650) z1.30",
+   "f203:(1800,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-12",
+  "startFrame": 19261,
+  "durationFrames": 254,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.80",
+   "f254:(1516,564) z3.08"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-13",
+  "startFrame": 19515,
+  "durationFrames": 407,
+  "bg": "lab_corridor",
+  "chars": [
+   "veyra",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1550,600) z1.75",
+   "f407:(1570,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-14",
+  "startFrame": 19922,
+  "durationFrames": 356,
+  "bg": "lab_corridor",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(900,610) z1.40",
+   "f356:(2700,610) z1.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-15",
+  "startFrame": 20278,
+  "durationFrames": 356,
+  "bg": "lab_corridor",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(800,610) z1.40",
+   "f356:(2600,610) z1.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-16",
+  "startFrame": 20634,
+  "durationFrames": 305,
+  "bg": "harbor_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(800,610) z1.40",
+   "f305:(2600,610) z1.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-17",
+  "startFrame": 20939,
+  "durationFrames": 305,
+  "bg": "harbor_night",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(700,610) z1.40",
+   "f305:(2500,610) z1.40"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S05-18",
+  "startFrame": 21244,
+  "durationFrames": 356,
+  "bg": "ruins_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(800,560) z1.00",
+   "f356:(1700,560) z1.10"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-01",
+  "startFrame": 21600,
+  "durationFrames": 90,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(780,560) z1.00",
+   "f90:(1650,600) z1.08"
+  ],
+  "notes": "Slow pan across the ruined district under the black moon; both fighters already in frame, idling."
+ },
+ {
+  "shotId": "S06-02",
+  "startFrame": 21690,
+  "durationFrames": 66,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1262,478) z4.20",
+   "f66:(1268,482) z4.70"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-03",
+  "startFrame": 21756,
+  "durationFrames": 42,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1274,462) z7.50",
+   "f42:(1278,462) z8.20"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-04",
+  "startFrame": 21798,
+  "durationFrames": 66,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(2300,620) z1.10",
+   "f66:(1750,640) z1.25"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-05",
+  "startFrame": 21864,
+  "durationFrames": 48,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1400,610) z2.00",
+   "f48:(1420,604) z2.25"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-06",
+  "startFrame": 21912,
+  "durationFrames": 60,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1660,650) z1.50",
+   "f60:(1670,640) z1.60"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-07",
+  "startFrame": 21972,
+  "durationFrames": 48,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1670,640) z1.70",
+   "f48:(1670,620) z1.15"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-08",
+  "startFrame": 22020,
+  "durationFrames": 30,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1250,640) z1.50",
+   "f11:(1900,600) z1.25",
+   "f30:(1860,560) z1.30"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-09",
+  "startFrame": 22050,
+  "durationFrames": 48,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1550,600) z1.40",
+   "f48:(1450,650) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-10",
+  "startFrame": 22098,
+  "durationFrames": 60,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1420,640) z1.40",
+   "f16:(1450,620) z1.70",
+   "f60:(1480,630) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-11",
+  "startFrame": 22158,
+  "durationFrames": 54,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1540,640) z1.50",
+   "f54:(1750,620) z1.20"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-12",
+  "startFrame": 22212,
+  "durationFrames": 108,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "final-draft",
+  "camera": [
+   "f0:(1650,590) z1.30",
+   "f108:(1660,520) z0.95"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-13",
+  "startFrame": 22320,
+  "durationFrames": 331,
+  "bg": "ruins_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.60",
+   "f331:(1516,564) z2.86"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-14",
+  "startFrame": 22651,
+  "durationFrames": 221,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1610,650) z1.30",
+   "f221:(1650,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-15",
+  "startFrame": 22872,
+  "durationFrames": 221,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1660,650) z1.30",
+   "f221:(1700,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-16",
+  "startFrame": 23093,
+  "durationFrames": 331,
+  "bg": "ruins_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.80",
+   "f331:(1516,564) z3.08"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-17",
+  "startFrame": 23424,
+  "durationFrames": 563,
+  "bg": "ruins_night",
+  "chars": [
+   "veyra",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1575,600) z1.75",
+   "f563:(1595,590) z1.87"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-18",
+  "startFrame": 23987,
+  "durationFrames": 497,
+  "bg": "timestop_void",
+  "chars": [
+   "veyra",
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1100,620) z1.40",
+   "f497:(1800,600) z1.50"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-19",
+  "startFrame": 24484,
+  "durationFrames": 221,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1710,650) z1.30",
+   "f221:(1750,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-20",
+  "startFrame": 24705,
+  "durationFrames": 221,
+  "bg": "ruins_night",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1488,478) z5.20",
+   "f221:(1484,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-21",
+  "startFrame": 24926,
+  "durationFrames": 221,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1610,650) z1.30",
+   "f221:(1650,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-22",
+  "startFrame": 25147,
+  "durationFrames": 221,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1660,650) z1.30",
+   "f221:(1700,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-23",
+  "startFrame": 25368,
+  "durationFrames": 276,
+  "bg": "ruins_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z3.00",
+   "f276:(1516,564) z3.30"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S06-24",
+  "startFrame": 25644,
+  "durationFrames": 276,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1660,650) z1.30",
+   "f276:(1700,640) z1.55"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S07-01",
+  "startFrame": 25920,
+  "durationFrames": 192,
+  "bg": "ruins_night",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1488,478) z5.20",
+   "f192:(1484,482) z5.72"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S07-02",
+  "startFrame": 26112,
+  "durationFrames": 288,
+  "bg": "ruins_night",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z3.20",
+   "f288:(1516,564) z3.52"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S07-03",
+  "startFrame": 26400,
+  "durationFrames": 240,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1600,600) z2.00",
+   "f240:(1620,590) z2.14"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S08-01",
+  "startFrame": 26640,
+  "durationFrames": 336,
+  "bg": "ruins_night",
+  "chars": [
+   "soma",
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1700,520) z1.00",
+   "f336:(1700,340) z1.00"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S08-02",
+  "startFrame": 26976,
+  "durationFrames": 240,
+  "bg": "coast_day",
+  "chars": [
+   "mio"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z2.53",
+   "f240:(1600,620) z2.20"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S08-03",
+  "startFrame": 27216,
+  "durationFrames": 288,
+  "bg": "street_dusk",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z1.84",
+   "f288:(1600,620) z1.60"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S08-04",
+  "startFrame": 27504,
+  "durationFrames": 288,
+  "bg": "harbor_night",
+  "chars": [
+   "veyra"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z1.95",
+   "f288:(1600,620) z1.70"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S08-05",
+  "startFrame": 27792,
+  "durationFrames": 288,
+  "bg": "lab_corridor",
+  "chars": [
+   "kaede"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1500,640) z2.53",
+   "f288:(1600,620) z2.20"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S08-06",
+  "startFrame": 28080,
+  "durationFrames": 288,
+  "bg": "apartment_room",
+  "chars": [
+   "soma"
+  ],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1512,560) z2.60",
+   "f288:(1516,564) z2.86"
+  ],
+  "notes": ""
+ },
+ {
+  "shotId": "S08-07",
+  "startFrame": 28368,
+  "durationFrames": 432,
+  "bg": "ruins_night",
+  "chars": [],
+  "fidelity": "animatic",
+  "camera": [
+   "f0:(1700,300) z1.40",
+   "f432:(1700,260) z2.20"
+  ],
+  "notes": ""
+ }
+]
