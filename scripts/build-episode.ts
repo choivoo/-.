@@ -1,4 +1,5 @@
-import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
+import { mkdirSync, writeFileSync, existsSync, readFileSync } from 'node:fs';
+const ANALYSIS: Record<string, { frames: number; cues: unknown[] }> = existsSync('episode/EP01/audio/voice_analysis.json') ? JSON.parse(readFileSync('episode/EP01/audio/voice_analysis.json', 'utf8')) : {};
 import { SCENES, EP_TITLE } from './lib/episodeScript';
 import { buildSampleShots } from './lib/sampleShots';
 import type { ShotSpec, SceneMeta, EpisodeMeta } from '../src/scenes/types';
@@ -52,7 +53,7 @@ for (const sc of SCENES) {
   for (const s of fixed) { s.kind = 'duel'; s.priority = 'P0'; s.purpose = '액션 — 30초 완성 샘플(충돌·회피·반격)'; s.shotSize = 'MS'; s.description = '폐허에서의 검전 샘플'; }
   shots.push(...fixed, ...beatShots);
   shots.forEach((s, i) => { s.shotId = `${sc.meta.sceneId}-${String(i + 1).padStart(2, '0')}`; s.startFrame = cursor; cursor += s.durationFrames; s.musicCue = { id: 'tension_drone', trackOffset: s.startFrame % 1440, volume: 0.35 }; });
-  for (const s of shots) s.dialogue.forEach((d, i) => { const id = `${s.shotId}-D${String(i + 1).padStart(2, '0')}`; if (existsSync(`public/voices/${id}.wav`)) { d.voiceAsset = `voices/${id}.wav`; d.placeholderVoice = true; (d as any).synthetic = true; } });
+  for (const s of shots) s.dialogue.forEach((d, i) => { const an = ANALYSIS[`${d.speaker}|${d.text}`]; if (an && !d.mouthCues) { d.mouthCues = an.cues as never; d.dur = Math.min(Math.max(d.dur, an.frames + 4), s.durationFrames - d.f); } const id = `${s.shotId}-D${String(i + 1).padStart(2, '0')}`; if (existsSync(`public/voices/${id}.wav`)) { d.voiceAsset = `voices/${id}.wav`; d.placeholderVoice = true; (d as any).synthetic = true; } });
   const sum = shots.reduce((a, s) => a + s.durationFrames, 0);
   if (sum !== target) throw new Error(`scene ${sc.meta.sceneId}: ${sum} != ${target}`);
   sceneMetas.push({ ...sc.meta, startFrame: sceneStart });

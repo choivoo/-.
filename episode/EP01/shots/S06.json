@@ -136,6 +136,24 @@
     "speaker": "soma",
     "text": "…온다.",
     "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "o"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "o"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     }
+    ],
     "voiceAsset": "voices/S06-02-D01.wav",
     "synthetic": true
    }
@@ -2008,19 +2026,135 @@
   "dialogue": [
    {
     "f": 30,
-    "dur": 30,
+    "dur": 43,
     "speaker": "veyra",
     "text": "…흥미롭군.",
     "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "u"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "u"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "o"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "closed"
+     }
+    ],
     "voiceAsset": "voices/S06-12-D01.wav",
     "synthetic": true
    },
    {
     "f": 68,
-    "dur": 28,
+    "dur": 40,
     "speaker": "soma",
     "text": "아직 끝나지 않았어.",
     "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "a"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "a"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "closed"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "i"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "i"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "i"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "i"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "i"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "i"
+     },
+     {
+      "f": 34,
+      "shape": "closed"
+     }
+    ],
     "voiceAsset": "voices/S06-12-D02.wav",
     "synthetic": true
    }
