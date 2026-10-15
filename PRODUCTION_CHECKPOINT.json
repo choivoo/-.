@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-15T08:02:06.558Z",
- "phase": "report",
+ "updated": "2026-10-15T08:08:31.734Z",
+ "phase": "render 1080p",
  "lastAudit": "2026-10-15T07:50:18.232Z",
  "auditIssues": 0,
  "outDir": "renders/EP01",
- "currentShot": "S01-10",
+ "currentShot": "S01-04",
  "attempt": 1,
  "lastCompletedShot": "S01-10",
  "counters": {

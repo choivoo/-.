@@ -34,3 +34,25 @@ Failures are isolated per cut and recorded in `renders/status_*.json`.
 - `episode/SAMPLE01` (30 s) and `episode/EP01` (script, storyboard, shots, audio plan, metadata) — plain JSON, editable without recompiling.
 
 See `STATUS.md` for what is real and what is placeholder.
+
+## Episode Factory 3.0 (production commands)
+All commands: `npm run production:<name> -- [args]` (implemented in `scripts/production/*`; state in `episode/EP01/production/state.json`, checkpoint in `PRODUCTION_CHECKPOINT.json`, outputs in `renders/EP01/`).
+
+| command | what it does (all implemented) |
+|---|---|
+| `production:audit` | environment/resources/assets/validation audit → `renders/EP01/audit.json` |
+| `production:status` | sync + print per-stage counts, render/QA/approval counts |
+| `production:storyboard [-- --scene S01]` | scene contact sheets + 105-cut overview into `episode/EP01/storyboard/sheets/` (marks cuts STORYBOARD_READY by content hash) |
+| `production:voices [-- --force]` | synthetic **espeak-ng TTS placeholders** → `public/voices/<dialogueId>.wav` + waveform lip-sync analysis (then `npm run build:data`) |
+| `production:audio` | `episode/EP01/audio/voice_manifest.json` (dialogue ids, lip-sync, subtitles, track classes) |
+| `production:preview [-- --scene S01]` | 720p cut renders |
+| `production:render-shot -- <ids> [--720] [--frames a-b] [--force]` | render specific cuts (partial frame range goes to `renders/EP01/partial/`) |
+| `production:render-scene -- --scene S01` / `production:render-all [-- --limit N]` | priority-ordered queue (P0→P3), retries, per-cut verification, content-hash cache |
+| `production:resume [-- --failed-only]` | continue after interruption / re-render failed cuts |
+| `production:qa [-- --scene S01]` | technical + continuity + combat-sync + flash checks, contact sheets per cut |
+| `production:approve -- --shots A,B` | explicit human sign-off (only for QA PASS cuts) — never automatic |
+| `production:assemble [-- --partial] [--720]` | trims audio per cut to exact frame length, joins cuts, verifies frame count |
+| `production:report` / `production:finalize` | QA report, manifest, status JSON, asset report, contact sheets. `finalize` only names a file `EP01_FINAL_1080P.mp4` when every condition is met |
+| `scripts/production/run-all.sh` | whole chain (pilot S01 → all cuts → assemble → report); safe to re-run |
+
+Dashboard: `npm run editor` → **Production** tab (real state from the files above; buttons call these commands).

@@ -1,6 +1,6 @@
 {
  "episode": "EP01",
- "updated": "2026-10-15T08:02:02.028Z",
+ "updated": "2026-10-15T08:08:31.728Z",
  "shots": {
   "S01-01": {
    "shotId": "S01-01",
@@ -24,11 +24,12 @@
      "characterId": "narration",
      "text": "그날 밤, 도시 위로 달이 하나 더 떠올랐다.",
      "startFrame": 16,
-     "durationFrames": 67,
+     "durationFrames": 113,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S01-01-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -43,84 +44,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
-   "qualityResults": {
-    "verdict": "PASS",
-    "at": "2026-10-15T08:00:53.403Z",
-    "tag": "1080p",
-    "checks": [
-     {
-      "name": "technical",
-      "verdict": "PASS",
-      "info": "1920x1080 24fps 336f h264/aac 4.43MB"
-     },
-     {
-      "name": "audio-length",
-      "verdict": "PASS",
-      "info": "audio 14.016s vs video 14.000s (Δ0.016s; trimmed at assembly)"
-     },
-     {
-      "name": "black-frames",
-      "verdict": "PASS",
-      "info": "none beyond intended fades"
-     },
-     {
-      "name": "empty-frames",
-      "verdict": "PASS",
-      "info": "4 low-contrast frames"
-     },
-     {
-      "name": "flash",
-      "verdict": "PASS",
-      "info": "max 0 large luminance jumps in any 1s window"
-     },
-     {
-      "name": "assets",
-      "verdict": "PASS",
-      "info": "bg/characters/clips resolve"
-     },
-     {
-      "name": "character-consistency",
-      "verdict": "PASS",
-      "info": "no characters"
-     },
-     {
-      "name": "motion-continuity",
-      "verdict": "PASS",
-      "info": "max joint Δ 0°/f, max root move 0px/f"
-     },
-     {
-      "name": "camera-continuity",
-      "verdict": "PASS",
-      "info": "max camera move 3px/f (non-whip), shake amp ≤ 0"
-     },
-     {
-      "name": "dialogue-sync",
-      "verdict": "PASS",
-      "info": "1 lines, lip-sync cues derived from text"
-     },
-     {
-      "name": "continuity",
-      "verdict": "PASS",
-      "info": "lighting/time-of-day and screen direction consistent with neighbours"
-     },
-     {
-      "name": "contact-sheet",
-      "verdict": "PASS",
-      "info": "renders/EP01/contact/S01-01_1080p.png"
-     }
-    ],
-    "visual": "PENDING_HUMAN_REVIEW"
-   },
+   "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:31.368Z",
-   "contentHash": "cf7102a03c36",
-   "storyboardHash": "cf7102a03c36",
+   "lastModified": "2026-10-15T08:08:26.675Z",
+   "contentHash": "54ec4471dfe4",
    "fidelity": "animatic"
   },
   "S01-02": {
@@ -145,11 +75,12 @@
      "characterId": "narration",
      "text": "빛이 아닌 것을 삼키는, 검은 달.",
      "startFrame": 16,
-     "durationFrames": 54,
+     "durationFrames": 103,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S01-02-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -163,84 +94,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
-   "qualityResults": {
-    "verdict": "PASS",
-    "at": "2026-10-15T08:00:56.746Z",
-    "tag": "1080p",
-    "checks": [
-     {
-      "name": "technical",
-      "verdict": "PASS",
-      "info": "1920x1080 24fps 192f h264/aac 2.37MB"
-     },
-     {
-      "name": "audio-length",
-      "verdict": "PASS",
-      "info": "audio 8.021s vs video 8.000s (Δ0.021s; trimmed at assembly)"
-     },
-     {
-      "name": "black-frames",
-      "verdict": "PASS",
-      "info": "none beyond intended fades"
-     },
-     {
-      "name": "empty-frames",
-      "verdict": "PASS",
-      "info": "0 low-contrast frames"
-     },
-     {
-      "name": "flash",
-      "verdict": "PASS",
-      "info": "max 0 large luminance jumps in any 1s window"
-     },
-     {
-      "name": "assets",
-      "verdict": "PASS",
-      "info": "bg/characters/clips resolve"
-     },
-     {
-      "name": "character-consistency",
-      "verdict": "PASS",
-      "info": "no characters"
-     },
-     {
-      "name": "motion-continuity",
-      "verdict": "PASS",
-      "info": "max joint Δ 0°/f, max root move 0px/f"
-     },
-     {
-      "name": "camera-continuity",
-      "verdict": "PASS",
-      "info": "max camera move 8px/f (non-whip), shake amp ≤ 0"
-     },
-     {
-      "name": "dialogue-sync",
-      "verdict": "PASS",
-      "info": "1 lines, lip-sync cues derived from text"
-     },
-     {
-      "name": "continuity",
-      "verdict": "PASS",
-      "info": "lighting/time-of-day and screen direction consistent with neighbours"
-     },
-     {
-      "name": "contact-sheet",
-      "verdict": "PASS",
-      "info": "renders/EP01/contact/S01-02_1080p.png"
-     }
-    ],
-    "visual": "PENDING_HUMAN_REVIEW"
-   },
+   "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:31.422Z",
-   "contentHash": "9e72b62877f8",
-   "storyboardHash": "9e72b62877f8",
+   "lastModified": "2026-10-15T08:08:26.725Z",
+   "contentHash": "44d34f043108",
    "fidelity": "animatic"
   },
   "S01-03": {
@@ -269,11 +129,12 @@
      "characterId": "kaede",
      "text": "서둘러야 해… 기록이 지워지기 전에.",
      "startFrame": 14,
-     "durationFrames": 61,
+     "durationFrames": 100,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S01-03-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -325,84 +186,13 @@
     "step@282",
     "music:tension_drone"
    ],
-   "productionStatus": "COMPOSITING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
-   "qualityResults": {
-    "verdict": "PASS",
-    "at": "2026-10-15T08:01:00.962Z",
-    "tag": "1080p",
-    "checks": [
-     {
-      "name": "technical",
-      "verdict": "PASS",
-      "info": "1920x1080 24fps 288f h264/aac 2.26MB"
-     },
-     {
-      "name": "audio-length",
-      "verdict": "PASS",
-      "info": "audio 12.011s vs video 12.000s (Δ0.011s; trimmed at assembly)"
-     },
-     {
-      "name": "black-frames",
-      "verdict": "PASS",
-      "info": "none beyond intended fades"
-     },
-     {
-      "name": "empty-frames",
-      "verdict": "PASS",
-      "info": "0 low-contrast frames"
-     },
-     {
-      "name": "flash",
-      "verdict": "PASS",
-      "info": "max 0 large luminance jumps in any 1s window"
-     },
-     {
-      "name": "assets",
-      "verdict": "PASS",
-      "info": "bg/characters/clips resolve"
-     },
-     {
-      "name": "character-consistency",
-      "verdict": "PASS",
-      "info": "kaede:728ba328e3"
-     },
-     {
-      "name": "motion-continuity",
-      "verdict": "PASS",
-      "info": "max joint Δ 35°/f, max root move 7px/f"
-     },
-     {
-      "name": "camera-continuity",
-      "verdict": "PASS",
-      "info": "max camera move 21px/f (non-whip), shake amp ≤ 0"
-     },
-     {
-      "name": "dialogue-sync",
-      "verdict": "PASS",
-      "info": "1 lines, lip-sync cues derived from text"
-     },
-     {
-      "name": "continuity",
-      "verdict": "PASS",
-      "info": "lighting/time-of-day and screen direction consistent with neighbours"
-     },
-     {
-      "name": "contact-sheet",
-      "verdict": "PASS",
-      "info": "renders/EP01/contact/S01-03_1080p.png"
-     }
-    ],
-    "visual": "PENDING_HUMAN_REVIEW"
-   },
+   "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:31.497Z",
-   "contentHash": "638ea5cc1952",
-   "storyboardHash": "638ea5cc1952",
+   "lastModified": "2026-10-15T08:08:26.784Z",
+   "contentHash": "53aceaea79f1",
    "fidelity": "directed"
   },
   "S01-04": {
@@ -431,23 +221,25 @@
      "characterId": "kaede",
      "text": "이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.",
      "startFrame": 12,
-     "durationFrames": 117,
+     "durationFrames": 198,
      "emotion": "sad",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S01-04-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S01-04-D02",
      "characterId": "kaede",
      "text": "…열두 번째 정지가 오기 전에.",
-     "startFrame": 139,
-     "durationFrames": 51,
+     "startFrame": 220,
+     "durationFrames": 82,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S01-04-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -464,84 +256,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "COMPOSITING",
-   "blocked": [
-    "MISSING_VOICE x2"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
-   "qualityResults": {
-    "verdict": "PASS",
-    "at": "2026-10-15T08:01:05.598Z",
-    "tag": "1080p",
-    "checks": [
-     {
-      "name": "technical",
-      "verdict": "PASS",
-      "info": "1920x1080 24fps 336f h264/aac 2.20MB"
-     },
-     {
-      "name": "audio-length",
-      "verdict": "PASS",
-      "info": "audio 14.016s vs video 14.000s (Δ0.016s; trimmed at assembly)"
-     },
-     {
-      "name": "black-frames",
-      "verdict": "PASS",
-      "info": "none beyond intended fades"
-     },
-     {
-      "name": "empty-frames",
-      "verdict": "PASS",
-      "info": "0 low-contrast frames"
-     },
-     {
-      "name": "flash",
-      "verdict": "PASS",
-      "info": "max 0 large luminance jumps in any 1s window"
-     },
-     {
-      "name": "assets",
-      "verdict": "PASS",
-      "info": "bg/characters/clips resolve"
-     },
-     {
-      "name": "character-consistency",
-      "verdict": "PASS",
-      "info": "kaede:728ba328e3"
-     },
-     {
-      "name": "motion-continuity",
-      "verdict": "PASS",
-      "info": "max joint Δ 44°/f, max root move 0px/f"
-     },
-     {
-      "name": "camera-continuity",
-      "verdict": "PASS",
-      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
-     },
-     {
-      "name": "dialogue-sync",
-      "verdict": "PASS",
-      "info": "2 lines, lip-sync cues derived from text"
-     },
-     {
-      "name": "continuity",
-      "verdict": "PASS",
-      "info": "lighting/time-of-day and screen direction consistent with neighbours"
-     },
-     {
-      "name": "contact-sheet",
-      "verdict": "PASS",
-      "info": "renders/EP01/contact/S01-04_1080p.png"
-     }
-    ],
-    "visual": "PENDING_HUMAN_REVIEW"
-   },
+   "renderStatus1080": "RENDERING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:31.556Z",
-   "contentHash": "39d84b3d4400",
-   "storyboardHash": "39d84b3d4400",
+   "lastModified": "2026-10-15T08:08:26.832Z",
+   "contentHash": "0bbd7fdf9480",
    "fidelity": "directed"
   },
   "S01-05": {
@@ -577,7 +298,7 @@
     "hit_heavy@38",
     "music:tension_drone"
    ],
-   "productionStatus": "QA",
+   "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
@@ -785,11 +506,12 @@
      "characterId": "narration",
      "text": "시계는 하나둘, 같은 시각에서 멈추기 시작했다.",
      "startFrame": 16,
-     "durationFrames": 77,
+     "durationFrames": 132,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S01-07-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -803,94 +525,23 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
-   "qualityResults": {
-    "verdict": "REVIEW",
-    "at": "2026-10-15T08:01:18.308Z",
-    "tag": "1080p",
-    "checks": [
-     {
-      "name": "technical",
-      "verdict": "PASS",
-      "info": "1920x1080 24fps 288f h264/aac 3.63MB"
-     },
-     {
-      "name": "audio-length",
-      "verdict": "PASS",
-      "info": "audio 12.011s vs video 12.000s (Δ0.011s; trimmed at assembly)"
-     },
-     {
-      "name": "black-frames",
-      "verdict": "PASS",
-      "info": "none beyond intended fades"
-     },
-     {
-      "name": "empty-frames",
-      "verdict": "PASS",
-      "info": "0 low-contrast frames"
-     },
-     {
-      "name": "flash",
-      "verdict": "PASS",
-      "info": "max 0 large luminance jumps in any 1s window"
-     },
-     {
-      "name": "assets",
-      "verdict": "PASS",
-      "info": "bg/characters/clips resolve"
-     },
-     {
-      "name": "character-consistency",
-      "verdict": "PASS",
-      "info": "no characters"
-     },
-     {
-      "name": "motion-continuity",
-      "verdict": "PASS",
-      "info": "max joint Δ 0°/f, max root move 0px/f"
-     },
-     {
-      "name": "camera-continuity",
-      "verdict": "PASS",
-      "info": "max camera move 9px/f (non-whip), shake amp ≤ 0"
-     },
-     {
-      "name": "dialogue-sync",
-      "verdict": "PASS",
-      "info": "1 lines, lip-sync cues derived from text"
-     },
-     {
-      "name": "continuity",
-      "verdict": "REVIEW",
-      "info": "time-of-day regresses harbor_night→street_dusk"
-     },
-     {
-      "name": "contact-sheet",
-      "verdict": "PASS",
-      "info": "renders/EP01/contact/S01-07_1080p.png"
-     }
-    ],
-    "visual": "PENDING_HUMAN_REVIEW"
-   },
+   "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:31.741Z",
-   "contentHash": "ddd8d8b8ef6d",
-   "storyboardHash": "ddd8d8b8ef6d",
+   "lastModified": "2026-10-15T08:08:26.968Z",
+   "contentHash": "9c14f1fb18dc",
    "fidelity": "animatic"
   },
   "S01-08": {
    "shotId": "S01-08",
    "sceneId": "S01",
-   "title": "S01-08 establish",
+   "title": "S01-08 closeup",
    "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「…시작됐군.」",
-   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "purpose": "감정 변화와 시선 연출",
    "durationFrames": 384,
-   "priority": "P3",
+   "priority": "P1",
    "assignedCharacters": [
     "veyra"
    ],
@@ -907,106 +558,37 @@
      "dialogueId": "S01-08-D01",
      "characterId": "veyra",
      "text": "…시작됐군.",
-     "startFrame": 16,
-     "durationFrames": 28,
-     "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "startFrame": 12,
+     "durationFrames": 47,
+     "emotion": "smile",
+     "voiceAsset": "public/voices/S01-08-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
    "animationClips": [
-    "veyra:idle"
+    "veyra:idle",
+    "veyra:gestureB"
    ],
-   "cameraPlan": "f0(1600,520)x1.30 → f384(1600,520)x1.10",
+   "cameraPlan": "f0(1488,560)x1.70 → f384(1484,564)x1.87",
    "vfxPlan": [
-    "fog@0",
-    "wind@0"
+    "wind@0",
+    "fog@0"
    ],
    "audioPlan": [
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
-   "qualityResults": {
-    "verdict": "PASS",
-    "at": "2026-10-15T08:01:24.626Z",
-    "tag": "1080p",
-    "checks": [
-     {
-      "name": "technical",
-      "verdict": "PASS",
-      "info": "1920x1080 24fps 384f h264/aac 4.78MB"
-     },
-     {
-      "name": "audio-length",
-      "verdict": "PASS",
-      "info": "audio 16.021s vs video 16.000s (Δ0.021s; trimmed at assembly)"
-     },
-     {
-      "name": "black-frames",
-      "verdict": "PASS",
-      "info": "none beyond intended fades"
-     },
-     {
-      "name": "empty-frames",
-      "verdict": "PASS",
-      "info": "0 low-contrast frames"
-     },
-     {
-      "name": "flash",
-      "verdict": "PASS",
-      "info": "max 0 large luminance jumps in any 1s window"
-     },
-     {
-      "name": "assets",
-      "verdict": "PASS",
-      "info": "bg/characters/clips resolve"
-     },
-     {
-      "name": "character-consistency",
-      "verdict": "PASS",
-      "info": "veyra:055fc12669"
-     },
-     {
-      "name": "motion-continuity",
-      "verdict": "PASS",
-      "info": "max joint Δ 0°/f, max root move 0px/f"
-     },
-     {
-      "name": "camera-continuity",
-      "verdict": "PASS",
-      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
-     },
-     {
-      "name": "dialogue-sync",
-      "verdict": "PASS",
-      "info": "1 lines, lip-sync cues derived from text"
-     },
-     {
-      "name": "continuity",
-      "verdict": "PASS",
-      "info": "lighting/time-of-day and screen direction consistent with neighbours"
-     },
-     {
-      "name": "contact-sheet",
-      "verdict": "PASS",
-      "info": "renders/EP01/contact/S01-08_1080p.png"
-     }
-    ],
-    "visual": "PENDING_HUMAN_REVIEW"
-   },
+   "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:31.805Z",
-   "contentHash": "372abc7fba2b",
-   "storyboardHash": "372abc7fba2b",
-   "fidelity": "animatic"
+   "lastModified": "2026-10-15T08:08:27.011Z",
+   "contentHash": "24e3d08795f2",
+   "fidelity": "directed"
   },
   "S01-09": {
    "shotId": "S01-09",
@@ -1038,7 +620,7 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "QA",
+   "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
@@ -1138,11 +720,12 @@
      "characterId": "narration",
      "text": "흑월의 잔향 — 제1화, 정지하는 시간",
      "startFrame": 16,
-     "durationFrames": 61,
+     "durationFrames": 134,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S01-10-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -1157,84 +740,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
-   "qualityResults": {
-    "verdict": "PASS",
-    "at": "2026-10-15T08:01:33.471Z",
-    "tag": "1080p",
-    "checks": [
-     {
-      "name": "technical",
-      "verdict": "PASS",
-      "info": "1920x1080 24fps 336f h264/aac 3.62MB"
-     },
-     {
-      "name": "audio-length",
-      "verdict": "PASS",
-      "info": "audio 14.016s vs video 14.000s (Δ0.016s; trimmed at assembly)"
-     },
-     {
-      "name": "black-frames",
-      "verdict": "PASS",
-      "info": "none beyond intended fades"
-     },
-     {
-      "name": "empty-frames",
-      "verdict": "PASS",
-      "info": "8 low-contrast frames"
-     },
-     {
-      "name": "flash",
-      "verdict": "PASS",
-      "info": "max 0 large luminance jumps in any 1s window"
-     },
-     {
-      "name": "assets",
-      "verdict": "PASS",
-      "info": "bg/characters/clips resolve"
-     },
-     {
-      "name": "character-consistency",
-      "verdict": "PASS",
-      "info": "no characters"
-     },
-     {
-      "name": "motion-continuity",
-      "verdict": "PASS",
-      "info": "max joint Δ 0°/f, max root move 0px/f"
-     },
-     {
-      "name": "camera-continuity",
-      "verdict": "PASS",
-      "info": "max camera move 1px/f (non-whip), shake amp ≤ 0"
-     },
-     {
-      "name": "dialogue-sync",
-      "verdict": "PASS",
-      "info": "1 lines, lip-sync cues derived from text"
-     },
-     {
-      "name": "continuity",
-      "verdict": "PASS",
-      "info": "lighting/time-of-day and screen direction consistent with neighbours"
-     },
-     {
-      "name": "contact-sheet",
-      "verdict": "PASS",
-      "info": "renders/EP01/contact/S01-10_1080p.png"
-     }
-    ],
-    "visual": "PENDING_HUMAN_REVIEW"
-   },
+   "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:31.922Z",
-   "contentHash": "2d3649d2c1b0",
-   "storyboardHash": "2d3649d2c1b0",
+   "lastModified": "2026-10-15T08:08:27.106Z",
+   "contentHash": "f88efa3052e7",
    "fidelity": "animatic"
   },
   "S02-01": {
@@ -1673,11 +1185,12 @@
      "characterId": "narration",
      "text": "해안도시 미나토. 평범한 아침이었다.",
      "startFrame": 16,
-     "durationFrames": 64,
+     "durationFrames": 112,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-01-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -1691,16 +1204,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:32.457Z",
-   "contentHash": "96bf774600b1",
-   "storyboardHash": "96bf774600b1",
+   "lastModified": "2026-10-15T08:08:27.499Z",
+   "contentHash": "886c0e564021",
    "fidelity": "animatic"
   },
   "S03-02": {
@@ -1733,47 +1243,51 @@
      "characterId": "mio",
      "text": "소마! 또 늦잠이야? 학교 늦겠어!",
      "startFrame": 12,
-     "durationFrames": 58,
+     "durationFrames": 98,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-02-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-02-D02",
      "characterId": "soma",
      "text": "…오 분만.",
-     "startFrame": 80,
-     "durationFrames": 26,
+     "startFrame": 120,
+     "durationFrames": 33,
      "emotion": "embarrassed",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-02-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-02-D03",
      "characterId": "mio",
      "text": "그 말, 이번 주에만 열 번째거든?",
-     "startFrame": 116,
-     "durationFrames": 54,
+     "startFrame": 163,
+     "durationFrames": 81,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-02-D03.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-02-D04",
      "characterId": "soma",
      "text": "알았어, 알았어. 일어난다니까.",
-     "startFrame": 180,
-     "durationFrames": 58,
+     "startFrame": 254,
+     "durationFrames": 78,
      "emotion": "smile",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-02-D04.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -1785,7 +1299,7 @@
     "soma:recoil",
     "soma:gestureB"
    ],
-   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f72(1530,595)x1.82 → f86(1670,587)x1.86 → f108(1670,587)x1.86 → f122(1530,595)x1.91 → f172(1530,595)x1.91 → f186(1670,587)x1.82 → f550(1682,587)x1.87",
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f112(1530,595)x1.82 → f126(1670,587)x1.86 → f155(1670,587)x1.86 → f169(1530,595)x1.91 → f246(1530,595)x1.91 → f260(1670,587)x1.82 → f550(1682,587)x1.87",
    "vfxPlan": [
     "wind@0"
    ],
@@ -1793,16 +1307,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x4"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:32.500Z",
-   "contentHash": "940a3ca3b474",
-   "storyboardHash": "940a3ca3b474",
+   "lastModified": "2026-10-15T08:08:27.543Z",
+   "contentHash": "2751a8723a37",
    "fidelity": "directed"
   },
   "S03-03": {
@@ -1871,23 +1382,25 @@
      "characterId": "soma",
      "text": "시계가… 또 멈췄네.",
      "startFrame": 12,
-     "durationFrames": 38,
+     "durationFrames": 63,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-04-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-04-D02",
      "characterId": "soma",
      "text": "박사님이 남겨주신 건데.",
-     "startFrame": 60,
-     "durationFrames": 44,
+     "startFrame": 85,
+     "durationFrames": 63,
      "emotion": "sad",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-04-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -1904,16 +1417,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x2"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:32.598Z",
-   "contentHash": "e9f01eefc253",
-   "storyboardHash": "e9f01eefc253",
+   "lastModified": "2026-10-15T08:08:27.622Z",
+   "contentHash": "a98de880306e",
    "fidelity": "directed"
   },
   "S03-05": {
@@ -1945,23 +1455,25 @@
      "characterId": "mio",
      "text": "너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.",
      "startFrame": 14,
-     "durationFrames": 81,
+     "durationFrames": 116,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-05-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-05-D02",
      "characterId": "soma",
      "text": "또 누가 지어낸 얘기겠지.",
-     "startFrame": 105,
-     "durationFrames": 44,
+     "startFrame": 140,
+     "durationFrames": 62,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-05-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2009,16 +1521,13 @@
     "step@436",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x2"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:32.656Z",
-   "contentHash": "1f2bbae80280",
-   "storyboardHash": "1f2bbae80280",
+   "lastModified": "2026-10-15T08:08:27.678Z",
+   "contentHash": "eda792c797de",
    "fidelity": "directed"
   },
   "S03-06": {
@@ -2051,47 +1560,51 @@
      "characterId": "mio",
      "text": "진짜야! 어제 뉴스에도 나왔다니까.",
      "startFrame": 12,
-     "durationFrames": 61,
+     "durationFrames": 83,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-06-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-06-D02",
      "characterId": "soma",
      "text": "검은 달이라니, 소설 같네.",
-     "startFrame": 83,
-     "durationFrames": 48,
+     "startFrame": 105,
+     "durationFrames": 69,
      "emotion": "smile",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-06-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-06-D03",
      "characterId": "mio",
      "text": "…웃지 마. 나 좀 무서웠단 말이야.",
-     "startFrame": 141,
-     "durationFrames": 58,
+     "startFrame": 184,
+     "durationFrames": 84,
      "emotion": "sad",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-06-D03.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-06-D04",
      "characterId": "soma",
      "text": "미안. 무슨 일 있으면 내가 있잖아.",
-     "startFrame": 209,
-     "durationFrames": 58,
+     "startFrame": 278,
+     "durationFrames": 88,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-06-D04.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2106,7 +1619,7 @@
     "mio:nod",
     "mio:clutch"
    ],
-   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1670,595)x1.82 → f75(1670,595)x1.82 → f89(1530,587)x1.86 → f133(1530,587)x1.86 → f147(1670,595)x1.91 → f201(1670,595)x1.91 → f215(1530,587)x1.82 → f596(1542,587)x1.87",
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1670,595)x1.82 → f97(1670,595)x1.82 → f111(1530,587)x1.86 → f176(1530,587)x1.86 → f190(1670,595)x1.91 → f270(1670,595)x1.91 → f284(1530,587)x1.82 → f596(1542,587)x1.87",
    "vfxPlan": [
     "wind@0"
    ],
@@ -2114,16 +1627,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x4"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:32.703Z",
-   "contentHash": "aa04e7b059a1",
-   "storyboardHash": "aa04e7b059a1",
+   "lastModified": "2026-10-15T08:08:27.726Z",
+   "contentHash": "3d7610f1f903",
    "fidelity": "directed"
   },
   "S03-07": {
@@ -2195,35 +1705,38 @@
      "characterId": "mio",
      "text": "박사님이 사라지신 지 벌써 삼 년이네.",
      "startFrame": 12,
-     "durationFrames": 61,
+     "durationFrames": 84,
      "emotion": "sad",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-08-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-08-D02",
      "characterId": "soma",
      "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아.",
-     "startFrame": 83,
-     "durationFrames": 74,
+     "startFrame": 106,
+     "durationFrames": 107,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-08-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-08-D03",
      "characterId": "mio",
      "text": "언젠가 알게 될 거야, 분명히.",
-     "startFrame": 167,
-     "durationFrames": 51,
+     "startFrame": 223,
+     "durationFrames": 77,
      "emotion": "smile",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-08-D03.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2236,7 +1749,7 @@
     "soma:nod",
     "soma:talk"
    ],
-   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f75(1530,595)x1.82 → f89(1670,587)x1.86 → f159(1670,587)x1.86 → f173(1530,595)x1.91 → f550(1542,595)x1.96",
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f98(1530,595)x1.82 → f112(1670,587)x1.86 → f215(1670,587)x1.86 → f229(1530,595)x1.91 → f550(1542,595)x1.96",
    "vfxPlan": [
     "wind@0"
    ],
@@ -2244,16 +1757,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x3"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:32.805Z",
-   "contentHash": "33377531fed3",
-   "storyboardHash": "33377531fed3",
+   "lastModified": "2026-10-15T08:08:27.861Z",
+   "contentHash": "16139b2c28b5",
    "fidelity": "directed"
   },
   "S03-09": {
@@ -2278,11 +1788,12 @@
      "characterId": "narration",
      "text": "해가 기울자, 거리의 시계들이 일제히 멈췄다.",
      "startFrame": 16,
-     "durationFrames": 74,
+     "durationFrames": 116,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-09-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2296,16 +1807,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:32.853Z",
-   "contentHash": "c09aa081c4e6",
-   "storyboardHash": "c09aa081c4e6",
+   "lastModified": "2026-10-15T08:08:27.926Z",
+   "contentHash": "8dfad31ff414",
    "fidelity": "animatic"
   },
   "S03-10": {
@@ -2335,35 +1843,38 @@
      "characterId": "soma",
      "text": "…또야. 모든 시계가 6시 6분에서 멈춰 있어.",
      "startFrame": 12,
-     "durationFrames": 74,
+     "durationFrames": 111,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-10-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-10-D02",
      "characterId": "soma",
      "text": "내 시계도, 저 시계탑도.",
-     "startFrame": 96,
-     "durationFrames": 44,
+     "startFrame": 133,
+     "durationFrames": 71,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-10-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-10-D03",
      "characterId": "soma",
      "text": "대체 무슨 일이 벌어지고 있는 거지?",
-     "startFrame": 150,
-     "durationFrames": 58,
+     "startFrame": 214,
+     "durationFrames": 76,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-10-D03.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2381,16 +1892,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x3"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:32.916Z",
-   "contentHash": "b8dc63222718",
-   "storyboardHash": "b8dc63222718",
+   "lastModified": "2026-10-15T08:08:27.981Z",
+   "contentHash": "c751841a16ac",
    "fidelity": "directed"
   },
   "S03-11": {
@@ -2485,35 +1993,38 @@
      "characterId": "mio",
      "text": "저기 봐, 사람들이 다 멈춰 서 있어!",
      "startFrame": 12,
-     "durationFrames": 58,
+     "durationFrames": 87,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-12-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-12-D02",
      "characterId": "soma",
      "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.",
-     "startFrame": 80,
-     "durationFrames": 94,
+     "startFrame": 109,
+     "durationFrames": 135,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-12-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S03-12-D03",
      "characterId": "mio",
      "text": "무서워… 소마, 돌아가자.",
-     "startFrame": 184,
-     "durationFrames": 48,
+     "startFrame": 254,
+     "durationFrames": 67,
      "emotion": "sad",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-12-D03.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2526,7 +2037,7 @@
     "soma:recoil",
     "soma:nod"
    ],
-   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f72(1530,595)x1.82 → f86(1670,587)x1.86 → f176(1670,587)x1.86 → f190(1530,595)x1.91 → f596(1542,595)x1.96",
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f101(1530,595)x1.82 → f115(1670,587)x1.86 → f246(1670,587)x1.86 → f260(1530,595)x1.91 → f596(1542,595)x1.96",
    "vfxPlan": [
     "wind@0"
    ],
@@ -2534,16 +2045,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x3"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.065Z",
-   "contentHash": "25f0783eaa08",
-   "storyboardHash": "25f0783eaa08",
+   "lastModified": "2026-10-15T08:08:28.071Z",
+   "contentHash": "a57de6f78cd7",
    "fidelity": "directed"
   },
   "S03-13": {
@@ -2614,11 +2122,12 @@
      "characterId": "narration",
      "text": "그 순간, 하늘이 검게 물들었다.",
      "startFrame": 16,
-     "durationFrames": 54,
+     "durationFrames": 94,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S03-14-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2636,16 +2145,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.169Z",
-   "contentHash": "59d0d9f6f5fe",
-   "storyboardHash": "59d0d9f6f5fe",
+   "lastModified": "2026-10-15T08:08:28.166Z",
+   "contentHash": "6b1abc17e06d",
    "fidelity": "animatic"
   },
   "S04-01": {
@@ -2673,11 +2179,12 @@
      "characterId": "narration",
      "text": "교차로. 정지한 신호등 아래, 시간이 어긋난다.",
      "startFrame": 16,
-     "durationFrames": 77,
+     "durationFrames": 140,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-01-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2693,16 +2200,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.215Z",
-   "contentHash": "0d468e82ee57",
-   "storyboardHash": "0d468e82ee57",
+   "lastModified": "2026-10-15T08:08:28.212Z",
+   "contentHash": "fb4c8e9ac31b",
    "fidelity": "animatic"
   },
   "S04-02": {
@@ -2731,11 +2235,12 @@
      "characterId": "mio",
      "text": "소마, 빨리 와! 신호가 바뀌었어!",
      "startFrame": 14,
-     "durationFrames": 58,
+     "durationFrames": 89,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-02-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2771,16 +2276,13 @@
     "step@282",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.262Z",
-   "contentHash": "a8576ace218b",
-   "storyboardHash": "a8576ace218b",
+   "lastModified": "2026-10-15T08:08:28.261Z",
+   "contentHash": "12fbe8161f74",
    "fidelity": "directed"
   },
   "S04-03": {
@@ -2856,11 +2358,12 @@
      "characterId": "mio",
      "text": "…어?",
      "startFrame": 12,
-     "durationFrames": 26,
+     "durationFrames": 21,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-04-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2877,16 +2380,13 @@
     "heartbeat@30",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.353Z",
-   "contentHash": "06a7a6208ee2",
-   "storyboardHash": "06a7a6208ee2",
+   "lastModified": "2026-10-15T08:08:28.353Z",
+   "contentHash": "3c5600931c2b",
    "fidelity": "directed"
   },
   "S04-05": {
@@ -2916,9 +2416,10 @@
      "startFrame": 12,
      "durationFrames": 26,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-05-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -2935,16 +2436,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.395Z",
-   "contentHash": "7e461dd3e9b7",
-   "storyboardHash": "7e461dd3e9b7",
+   "lastModified": "2026-10-15T08:08:28.395Z",
+   "contentHash": "ce567bef693e",
    "fidelity": "directed"
   },
   "S04-06": {
@@ -3018,11 +2516,12 @@
      "characterId": "soma",
      "text": "…멈췄어? 아니, 모든 게 멈춘 거야.",
      "startFrame": 14,
-     "durationFrames": 61,
+     "durationFrames": 97,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-07-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3040,16 +2539,13 @@
     "rumble@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.472Z",
-   "contentHash": "636232e97aca",
-   "storyboardHash": "636232e97aca",
+   "lastModified": "2026-10-15T08:08:28.472Z",
+   "contentHash": "008228feb599",
    "fidelity": "directed"
   },
   "S04-08": {
@@ -3078,23 +2574,25 @@
      "characterId": "soma",
      "text": "소리도, 바람도 없어. 나만 움직일 수 있어.",
      "startFrame": 12,
-     "durationFrames": 71,
+     "durationFrames": 105,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-08-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S04-08-D02",
      "characterId": "soma",
      "text": "이게… 시계가 멈춘 이유인가.",
-     "startFrame": 93,
-     "durationFrames": 51,
+     "startFrame": 127,
+     "durationFrames": 72,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-08-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3111,16 +2609,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x2"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.523Z",
-   "contentHash": "5f346e1dd845",
-   "storyboardHash": "5f346e1dd845",
+   "lastModified": "2026-10-15T08:08:28.549Z",
+   "contentHash": "5355c602e5bd",
    "fidelity": "directed"
   },
   "S04-09": {
@@ -3196,11 +2691,12 @@
      "characterId": "soma",
      "text": "미오, 미안해. 조금만 거칠게 할게.",
      "startFrame": 12,
-     "durationFrames": 61,
+     "durationFrames": 98,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-10-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3217,16 +2713,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.604Z",
-   "contentHash": "bd7960ce59f6",
-   "storyboardHash": "bd7960ce59f6",
+   "lastModified": "2026-10-15T08:08:28.619Z",
+   "contentHash": "32a79d13ae8b",
    "fidelity": "directed"
   },
   "S04-11": {
@@ -3306,35 +2799,38 @@
      "characterId": "mio",
      "text": "방금… 트럭이 있었는데? 어떻게 된 거야?",
      "startFrame": 12,
-     "durationFrames": 67,
+     "durationFrames": 107,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-12-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S04-12-D02",
      "characterId": "soma",
      "text": "나도 몰라. 하지만… 이제 괜찮아.",
-     "startFrame": 89,
-     "durationFrames": 58,
+     "startFrame": 129,
+     "durationFrames": 90,
      "emotion": "embarrassed",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-12-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S04-12-D03",
      "characterId": "mio",
      "text": "소마, 네 눈… 파랗게 빛나고 있어.",
-     "startFrame": 157,
-     "durationFrames": 58,
+     "startFrame": 229,
+     "durationFrames": 86,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-12-D03.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3348,7 +2844,7 @@
     "soma:gestureB",
     "soma:recoil"
    ],
-   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f81(1530,595)x1.82 → f95(1670,587)x1.86 → f149(1670,587)x1.86 → f163(1530,595)x1.91 → f527(1542,595)x1.96",
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f121(1530,595)x1.82 → f135(1670,587)x1.86 → f221(1670,587)x1.86 → f235(1530,595)x1.91 → f527(1542,595)x1.96",
    "vfxPlan": [
     "wind@0"
    ],
@@ -3356,16 +2852,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x3"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.713Z",
-   "contentHash": "7f8adfb23c1f",
-   "storyboardHash": "7f8adfb23c1f",
+   "lastModified": "2026-10-15T08:08:28.741Z",
+   "contentHash": "831ba8f78c16",
    "fidelity": "directed"
   },
   "S04-13": {
@@ -3430,11 +2923,12 @@
      "characterId": "narration",
      "text": "그날 밤, 시계 소리를 따라 소마는 항구로 향했다.",
      "startFrame": 16,
-     "durationFrames": 77,
+     "durationFrames": 138,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-14-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3448,16 +2942,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.802Z",
-   "contentHash": "8375972fa3ab",
-   "storyboardHash": "8375972fa3ab",
+   "lastModified": "2026-10-15T08:08:28.837Z",
+   "contentHash": "7c7b06131afb",
    "fidelity": "animatic"
   },
   "S04-15": {
@@ -3486,11 +2977,12 @@
      "characterId": "soma",
      "text": "이 시계… 방향을 가리키고 있어.",
      "startFrame": 14,
-     "durationFrames": 54,
+     "durationFrames": 80,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-15-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3532,16 +3024,13 @@
     "step@366",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.851Z",
-   "contentHash": "a57adce428d2",
-   "storyboardHash": "a57adce428d2",
+   "lastModified": "2026-10-15T08:08:28.887Z",
+   "contentHash": "82562b9b68bd",
    "fidelity": "directed"
   },
   "S04-16": {
@@ -3569,11 +3058,12 @@
      "characterId": "soma",
      "text": "폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.",
      "startFrame": 12,
-     "durationFrames": 91,
+     "durationFrames": 139,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-16-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3589,16 +3079,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.898Z",
-   "contentHash": "8b00c833b4cf",
-   "storyboardHash": "8b00c833b4cf",
+   "lastModified": "2026-10-15T08:08:28.935Z",
+   "contentHash": "97e1323265b2",
    "fidelity": "directed"
   },
   "S04-17": {
@@ -3626,11 +3113,12 @@
      "characterId": "narration",
      "text": "열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.",
      "startFrame": 16,
-     "durationFrames": 84,
+     "durationFrames": 134,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-17-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3646,16 +3134,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:33.942Z",
-   "contentHash": "8d45db4a8fc7",
-   "storyboardHash": "8d45db4a8fc7",
+   "lastModified": "2026-10-15T08:08:28.983Z",
+   "contentHash": "5237b4de6b01",
    "fidelity": "animatic"
   },
   "S04-18": {
@@ -3749,23 +3234,25 @@
      "characterId": "soma",
      "text": "전부 십이 년 전에 멈춰 있어.",
      "startFrame": 12,
-     "durationFrames": 48,
+     "durationFrames": 74,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-19-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S04-19-D02",
      "characterId": "soma",
      "text": "날짜가… 이 도시가 처음 멈춘 날이야.",
-     "startFrame": 70,
-     "durationFrames": 61,
+     "startFrame": 96,
+     "durationFrames": 94,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S04-19-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3782,16 +3269,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x2"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.034Z",
-   "contentHash": "6673c1801ebd",
-   "storyboardHash": "6673c1801ebd",
+   "lastModified": "2026-10-15T08:08:29.077Z",
+   "contentHash": "1271c285d8a1",
    "fidelity": "directed"
   },
   "S04-20": {
@@ -3865,11 +3349,12 @@
      "characterId": "kaede",
      "text": "…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.",
      "startFrame": 16,
-     "durationFrames": 81,
+     "durationFrames": 133,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-01-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3886,16 +3371,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.127Z",
-   "contentHash": "2550e634f3de",
-   "storyboardHash": "2550e634f3de",
+   "lastModified": "2026-10-15T08:08:29.187Z",
+   "contentHash": "34135789bbb0",
    "fidelity": "animatic"
   },
   "S05-02": {
@@ -3927,35 +3409,38 @@
      "characterId": "soma",
      "text": "박사님…? 이건 기록… 영상인가요?",
      "startFrame": 12,
-     "durationFrames": 61,
+     "durationFrames": 92,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-02-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S05-02-D02",
      "characterId": "kaede",
      "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.",
-     "startFrame": 83,
-     "durationFrames": 127,
+     "startFrame": 114,
+     "durationFrames": 230,
      "emotion": "sad",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-02-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S05-02-D03",
      "characterId": "kaede",
      "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라.",
-     "startFrame": 220,
-     "durationFrames": 77,
+     "startFrame": 354,
+     "durationFrames": 134,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-02-D03.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -3968,7 +3453,7 @@
     "kaede:clutch",
     "kaede:cower"
    ],
-   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f75(1530,595)x1.82 → f89(1670,587)x1.86 → f212(1670,587)x1.86 → f226(1670,595)x1.91 → f673(1682,595)x1.96",
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f106(1530,595)x1.82 → f120(1670,587)x1.86 → f346(1670,587)x1.86 → f360(1670,595)x1.91 → f673(1682,595)x1.96",
    "vfxPlan": [
     "wind@0"
    ],
@@ -3976,16 +3461,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x3"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.176Z",
-   "contentHash": "b6246757d46f",
-   "storyboardHash": "b6246757d46f",
+   "lastModified": "2026-10-15T08:08:29.241Z",
+   "contentHash": "258ff5085725",
    "fidelity": "directed"
   },
   "S05-03": {
@@ -4013,11 +3495,12 @@
      "characterId": "soma",
      "text": "열쇠… 내가?",
      "startFrame": 12,
-     "durationFrames": 28,
+     "durationFrames": 48,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-03-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -4033,16 +3516,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.224Z",
-   "contentHash": "c512365b0282",
-   "storyboardHash": "c512365b0282",
+   "lastModified": "2026-10-15T08:08:29.282Z",
+   "contentHash": "36fcea27c251",
    "fidelity": "directed"
   },
   "S05-04": {
@@ -4122,47 +3602,51 @@
      "characterId": "veyra",
      "text": "그 시계를 넘겨라.",
      "startFrame": 12,
-     "durationFrames": 34,
+     "durationFrames": 58,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-05-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S05-05-D02",
      "characterId": "soma",
      "text": "누구지? 이 연구소 사람은 아닌데.",
-     "startFrame": 56,
-     "durationFrames": 58,
+     "startFrame": 80,
+     "durationFrames": 82,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-05-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S05-05-D03",
      "characterId": "veyra",
      "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.",
-     "startFrame": 124,
-     "durationFrames": 100,
+     "startFrame": 172,
+     "durationFrames": 189,
      "emotion": "smile",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-05-D03.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S05-05-D04",
      "characterId": "soma",
      "text": "…싫다면?",
-     "startFrame": 234,
-     "durationFrames": 26,
+     "startFrame": 371,
+     "durationFrames": 38,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-05-D04.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -4178,7 +3662,7 @@
     "veyra:gestureB",
     "veyra:nod"
    ],
-   "cameraPlan": "f0(1625,600)x1.75 → f4(1625,600)x1.75 → f18(1713,595)x1.82 → f48(1713,595)x1.82 → f62(1537,587)x1.86 → f116(1537,587)x1.86 → f130(1713,595)x1.91 → f226(1713,595)x1.91 → f240(1537,587)x1.82 → f656(1549,587)x1.87",
+   "cameraPlan": "f0(1625,600)x1.75 → f4(1625,600)x1.75 → f18(1713,595)x1.82 → f72(1713,595)x1.82 → f86(1537,587)x1.86 → f164(1537,587)x1.86 → f178(1713,595)x1.91 → f363(1713,595)x1.91 → f377(1537,587)x1.82 → f656(1549,587)x1.87",
    "vfxPlan": [
     "wind@0"
    ],
@@ -4186,16 +3670,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x4"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.323Z",
-   "contentHash": "ee9f0e9e1d25",
-   "storyboardHash": "ee9f0e9e1d25",
+   "lastModified": "2026-10-15T08:08:29.384Z",
+   "contentHash": "67491f2b52b4",
    "fidelity": "directed"
   },
   "S05-06": {
@@ -4223,11 +3704,12 @@
      "characterId": "veyra",
      "text": "베어 내겠다.",
      "startFrame": 12,
-     "durationFrames": 28,
+     "durationFrames": 43,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-06-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -4243,16 +3725,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.385Z",
-   "contentHash": "fcebcb377bf4",
-   "storyboardHash": "fcebcb377bf4",
+   "lastModified": "2026-10-15T08:08:29.424Z",
+   "contentHash": "2e4489cca634",
    "fidelity": "directed"
   },
   "S05-07": {
@@ -4608,11 +4087,12 @@
      "characterId": "soma",
      "text": "힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?",
      "startFrame": 12,
-     "durationFrames": 84,
+     "durationFrames": 133,
      "emotion": "pain",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-12-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -4628,16 +4108,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.713Z",
-   "contentHash": "0b08cb75945f",
-   "storyboardHash": "0b08cb75945f",
+   "lastModified": "2026-10-15T08:08:29.723Z",
+   "contentHash": "751e7d8f6e4c",
    "fidelity": "directed"
   },
   "S05-13": {
@@ -4668,23 +4145,25 @@
      "characterId": "veyra",
      "text": "아직 각성이 불완전하군. 실망이다.",
      "startFrame": 12,
-     "durationFrames": 61,
+     "durationFrames": 106,
      "emotion": "smile",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-13-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S05-13-D02",
      "characterId": "soma",
      "text": "아직… 끝나지 않았어.",
-     "startFrame": 83,
-     "durationFrames": 41,
+     "startFrame": 128,
+     "durationFrames": 58,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-13-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -4696,7 +4175,7 @@
     "soma:nod",
     "soma:talk"
    ],
-   "cameraPlan": "f0(1550,600)x1.75 → f4(1550,600)x1.75 → f18(1470,595)x1.82 → f75(1470,595)x1.82 → f89(1630,587)x1.86 → f403(1642,587)x1.92",
+   "cameraPlan": "f0(1550,600)x1.75 → f4(1550,600)x1.75 → f18(1470,595)x1.82 → f120(1470,595)x1.82 → f134(1630,587)x1.86 → f403(1642,587)x1.92",
    "vfxPlan": [
     "wind@0"
    ],
@@ -4704,16 +4183,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x2"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.756Z",
-   "contentHash": "2133509ac755",
-   "storyboardHash": "2133509ac755",
+   "lastModified": "2026-10-15T08:08:29.775Z",
+   "contentHash": "0cb770dd38f7",
    "fidelity": "directed"
   },
   "S05-14": {
@@ -4742,11 +4218,12 @@
      "characterId": "soma",
      "text": "일단 도망쳐야 해!",
      "startFrame": 14,
-     "durationFrames": 34,
+     "durationFrames": 56,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-14-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -4806,16 +4283,13 @@
     "step@346",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:34.812Z",
-   "contentHash": "bdb0adee6a78",
-   "storyboardHash": "bdb0adee6a78",
+   "lastModified": "2026-10-15T08:08:29.837Z",
+   "contentHash": "601fbdfca5bb",
    "fidelity": "directed"
   },
   "S05-15": {
@@ -5087,11 +4561,12 @@
      "characterId": "narration",
      "text": "폐허가 된 구시가지. 그리고 검은 달 아래의 대치.",
      "startFrame": 16,
-     "durationFrames": 77,
+     "durationFrames": 139,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S05-18-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -5107,16 +4582,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:35.018Z",
-   "contentHash": "de07cf12025f",
-   "storyboardHash": "de07cf12025f",
+   "lastModified": "2026-10-15T08:08:30.066Z",
+   "contentHash": "d8c276b73737",
    "fidelity": "animatic"
   },
   "S06-01": {
@@ -5196,9 +4668,10 @@
      "startFrame": 16,
      "durationFrames": 26,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-02-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -5215,16 +4688,13 @@
     "heartbeat@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:35.126Z",
-   "contentHash": "fcd80af44f86",
-   "storyboardHash": "fcd80af44f86",
+   "lastModified": "2026-10-15T08:08:30.152Z",
+   "contentHash": "d425b016ca90",
    "fidelity": "final-draft"
   },
   "S06-03": {
@@ -5725,11 +5195,12 @@
      "characterId": "veyra",
      "text": "…흥미롭군.",
      "startFrame": 30,
-     "durationFrames": 30,
+     "durationFrames": 43,
      "emotion": "smile",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-12-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
@@ -5737,11 +5208,12 @@
      "characterId": "soma",
      "text": "아직 끝나지 않았어.",
      "startFrame": 68,
-     "durationFrames": 28,
+     "durationFrames": 40,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-12-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -5760,16 +5232,13 @@
     "heartbeat@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x2"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:35.578Z",
-   "contentHash": "b73ad7487d7e",
-   "storyboardHash": "b73ad7487d7e",
+   "lastModified": "2026-10-15T08:08:30.614Z",
+   "contentHash": "cab56e868dcb",
    "fidelity": "final-draft"
   },
   "S06-13": {
@@ -5797,11 +5266,12 @@
      "characterId": "soma",
      "text": "…온다.",
      "startFrame": 12,
-     "durationFrames": 26,
+     "durationFrames": 27,
      "emotion": "resolve",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-13-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -5817,16 +5287,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:35.621Z",
-   "contentHash": "97c0ca2f94cd",
-   "storyboardHash": "97c0ca2f94cd",
+   "lastModified": "2026-10-15T08:08:30.663Z",
+   "contentHash": "1036369090ec",
    "fidelity": "directed"
   },
   "S06-14": {
@@ -6005,11 +5472,12 @@
      "characterId": "soma",
      "text": "이 정도로는… 안 돼. 더, 더 빨리!",
      "startFrame": 12,
-     "durationFrames": 58,
+     "durationFrames": 97,
      "emotion": "pain",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-16-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -6025,16 +5493,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:35.770Z",
-   "contentHash": "ba0324ac5871",
-   "storyboardHash": "ba0324ac5871",
+   "lastModified": "2026-10-15T08:08:30.817Z",
+   "contentHash": "894eba359d2e",
    "fidelity": "directed"
   },
   "S06-17": {
@@ -6065,23 +5530,25 @@
      "characterId": "veyra",
      "text": "이제 끝이다. 시계를 내놔.",
      "startFrame": 12,
-     "durationFrames": 48,
+     "durationFrames": 85,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-17-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     },
     {
      "dialogueId": "S06-17-D02",
      "characterId": "soma",
      "text": "미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!",
-     "startFrame": 70,
-     "durationFrames": 84,
+     "startFrame": 107,
+     "durationFrames": 120,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-17-D02.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -6093,7 +5560,7 @@
     "soma:recoil",
     "soma:gestureA"
    ],
-   "cameraPlan": "f0(1575,600)x1.75 → f4(1575,600)x1.75 → f18(1487,595)x1.82 → f62(1487,595)x1.82 → f76(1663,587)x1.86 → f547(1675,587)x1.92",
+   "cameraPlan": "f0(1575,600)x1.75 → f4(1575,600)x1.75 → f18(1487,595)x1.82 → f99(1487,595)x1.82 → f113(1663,587)x1.86 → f547(1675,587)x1.92",
    "vfxPlan": [
     "wind@0"
    ],
@@ -6101,16 +5568,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x2"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:35.831Z",
-   "contentHash": "394454a83ca0",
-   "storyboardHash": "394454a83ca0",
+   "lastModified": "2026-10-15T08:08:30.864Z",
+   "contentHash": "828d9dbacde3",
    "fidelity": "directed"
   },
   "S06-18": {
@@ -6141,11 +5605,12 @@
      "characterId": "soma",
      "text": "들려… 시계 소리가. 이게 진짜 내 힘이야!",
      "startFrame": 14,
-     "durationFrames": 67,
+     "durationFrames": 104,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-18-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -6163,16 +5628,13 @@
     "rumble@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:35.869Z",
-   "contentHash": "9a6d4d73664a",
-   "storyboardHash": "9a6d4d73664a",
+   "lastModified": "2026-10-15T08:08:30.896Z",
+   "contentHash": "d79723c0568c",
    "fidelity": "directed"
   },
   "S06-19": {
@@ -6274,11 +5736,12 @@
      "characterId": "veyra",
      "text": "이 속도… 설마, 정지 속에서 움직인 건가?",
      "startFrame": 12,
-     "durationFrames": 67,
+     "durationFrames": 120,
      "emotion": "surprise",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-20-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -6294,16 +5757,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:35.964Z",
-   "contentHash": "9d94ebd1206e",
-   "storyboardHash": "9d94ebd1206e",
+   "lastModified": "2026-10-15T08:08:30.995Z",
+   "contentHash": "84b9681e49f7",
    "fidelity": "directed"
   },
   "S06-21": {
@@ -6489,11 +5949,12 @@
      "characterId": "soma",
      "text": "이걸로 끝이야!",
      "startFrame": 12,
-     "durationFrames": 31,
+     "durationFrames": 44,
      "emotion": "angry",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S06-23-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -6509,16 +5970,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:36.106Z",
-   "contentHash": "1678818ab8eb",
-   "storyboardHash": "1678818ab8eb",
+   "lastModified": "2026-10-15T08:08:31.148Z",
+   "contentHash": "4595f29367db",
    "fidelity": "directed"
   },
   "S06-24": {
@@ -6669,11 +6127,12 @@
      "characterId": "soma",
      "text": "…그 얼굴은, 뭐야.",
      "startFrame": 12,
-     "durationFrames": 38,
+     "durationFrames": 52,
      "emotion": "fear",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S07-02-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -6690,16 +6149,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:36.255Z",
-   "contentHash": "2f46ddfcca85",
-   "storyboardHash": "2f46ddfcca85",
+   "lastModified": "2026-10-15T08:08:31.282Z",
+   "contentHash": "8e16869e2649",
    "fidelity": "directed"
   },
   "S07-03": {
@@ -6729,11 +6185,12 @@
      "characterId": "veyra",
      "text": "열두 번째다. 나도, 너도.",
      "startFrame": 12,
-     "durationFrames": 48,
+     "durationFrames": 93,
      "emotion": "sad",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S07-03-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -6751,16 +6208,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:36.298Z",
-   "contentHash": "8e4e269166c4",
-   "storyboardHash": "8e4e269166c4",
+   "lastModified": "2026-10-15T08:08:31.334Z",
+   "contentHash": "45cf6479498b",
    "fidelity": "directed"
   },
   "S08-01": {
@@ -6790,11 +6244,12 @@
      "characterId": "narration",
      "text": "검은 달은, 아직 저물지 않았다.",
      "startFrame": 16,
-     "durationFrames": 54,
+     "durationFrames": 95,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S08-01-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -6812,16 +6267,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:36.350Z",
-   "contentHash": "16f00bfb1d0c",
-   "storyboardHash": "16f00bfb1d0c",
+   "lastModified": "2026-10-15T08:08:31.378Z",
+   "contentHash": "9d4ec50b6cf3",
    "fidelity": "animatic"
   },
   "S08-02": {
@@ -7028,11 +6480,12 @@
      "characterId": "soma",
      "text": "미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.",
      "startFrame": 12,
-     "durationFrames": 87,
+     "durationFrames": 121,
      "emotion": "sad",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S08-06-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -7048,16 +6501,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:36.594Z",
-   "contentHash": "77bb7474444a",
-   "storyboardHash": "77bb7474444a",
+   "lastModified": "2026-10-15T08:08:31.635Z",
+   "contentHash": "b4c2f6f4289f",
    "fidelity": "directed"
   },
   "S08-07": {
@@ -7082,11 +6532,12 @@
      "characterId": "kaede",
      "text": "[기록] 다음 정지까지, 남은 시간 열하루.",
      "startFrame": 16,
-     "durationFrames": 71,
+     "durationFrames": 123,
      "emotion": "neutral",
-     "voiceAsset": null,
-     "voiceStatus": "MISSING_VOICE",
-     "lipSync": "text-derived-hangul-vowels",
+     "voiceAsset": "public/voices/S08-07-D01.wav",
+     "voiceStatus": "LINKED",
+     "voiceKind": "synthetic-tts",
+     "lipSync": "cues",
      "subtitle": true
     }
    ],
@@ -7101,16 +6552,13 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "BLOCKING",
-   "blocked": [
-    "MISSING_VOICE x1"
-   ],
+   "productionStatus": "SCRIPT_READY",
+   "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "PENDING",
    "approved": false,
-   "lastModified": "2026-10-15T07:50:36.639Z",
-   "contentHash": "6eecce63f331",
-   "storyboardHash": "6eecce63f331",
+   "lastModified": "2026-10-15T08:08:31.685Z",
+   "contentHash": "6a034b8b8a5d",
    "fidelity": "animatic"
   }
  },
