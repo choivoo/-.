@@ -1,6 +1,6 @@
 {
  "episode": "EP01",
- "updated": "2026-10-15T08:17:03.212Z",
+ "updated": "2026-10-15T08:17:27.040Z",
  "shots": {
   "S01-01": {
    "shotId": "S01-01",
@@ -48,10 +48,6 @@
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
-   "approved": false,
-   "lastModified": "2026-10-15T08:08:26.675Z",
-   "contentHash": "54ec4471dfe4",
-   "fidelity": "animatic",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:13:22.462Z",
@@ -119,7 +115,11 @@
      }
     ],
     "visual": "PENDING_HUMAN_REVIEW"
-   }
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T08:08:26.675Z",
+   "contentHash": "54ec4471dfe4",
+   "fidelity": "animatic"
   },
   "S01-02": {
    "shotId": "S01-02",
@@ -166,10 +166,6 @@
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
-   "approved": false,
-   "lastModified": "2026-10-15T08:08:26.725Z",
-   "contentHash": "44d34f043108",
-   "fidelity": "animatic",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:14:08.948Z",
@@ -237,7 +233,11 @@
      }
     ],
     "visual": "PENDING_HUMAN_REVIEW"
-   }
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T08:08:26.725Z",
+   "contentHash": "44d34f043108",
+   "fidelity": "animatic"
   },
   "S01-03": {
    "shotId": "S01-03",
@@ -326,10 +326,6 @@
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
-   "approved": false,
-   "lastModified": "2026-10-15T08:08:26.784Z",
-   "contentHash": "53aceaea79f1",
-   "fidelity": "directed",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:12:01.444Z",
@@ -397,7 +393,11 @@
      }
     ],
     "visual": "PENDING_HUMAN_REVIEW"
-   }
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T08:08:26.784Z",
+   "contentHash": "53aceaea79f1",
+   "fidelity": "directed"
   },
   "S01-04": {
    "shotId": "S01-04",
@@ -464,10 +464,6 @@
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
-   "approved": false,
-   "lastModified": "2026-10-15T08:08:26.832Z",
-   "contentHash": "0bbd7fdf9480",
-   "fidelity": "directed",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:09:12.783Z",
@@ -535,7 +531,11 @@
      }
     ],
     "visual": "PENDING_HUMAN_REVIEW"
-   }
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T08:08:26.832Z",
+   "contentHash": "0bbd7fdf9480",
+   "fidelity": "directed"
   },
   "S01-05": {
    "shotId": "S01-05",
@@ -570,7 +570,7 @@
     "hit_heavy@38",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
+   "productionStatus": "QA",
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
@@ -801,10 +801,6 @@
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
-   "approved": false,
-   "lastModified": "2026-10-15T08:08:26.968Z",
-   "contentHash": "9c14f1fb18dc",
-   "fidelity": "animatic",
    "qualityResults": {
     "verdict": "REVIEW",
     "at": "2026-10-15T08:15:29.546Z",
@@ -872,7 +868,11 @@
      }
     ],
     "visual": "PENDING_HUMAN_REVIEW"
-   }
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T08:08:26.968Z",
+   "contentHash": "9c14f1fb18dc",
+   "fidelity": "animatic"
   },
   "S01-08": {
    "shotId": "S01-08",
@@ -925,10 +925,6 @@
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
-   "approved": false,
-   "lastModified": "2026-10-15T08:08:27.011Z",
-   "contentHash": "24e3d08795f2",
-   "fidelity": "directed",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:10:58.168Z",
@@ -996,7 +992,11 @@
      }
     ],
     "visual": "PENDING_HUMAN_REVIEW"
-   }
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T08:08:27.011Z",
+   "contentHash": "24e3d08795f2",
+   "fidelity": "directed"
   },
   "S01-09": {
    "shotId": "S01-09",
@@ -1028,7 +1028,7 @@
     "wind_loop@0",
     "music:tension_drone"
    ],
-   "productionStatus": "ANIMATION",
+   "productionStatus": "QA",
    "blocked": [],
    "renderStatus": "PENDING",
    "renderStatus1080": "DONE",
@@ -1151,7 +1151,75 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "VERIFYING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:17:09.288Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 336f h264/aac 3.62MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 14.016s vs video 14.000s (Δ0.016s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "7 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "no characters"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 1px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-10_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
    "approved": false,
    "lastModified": "2026-10-15T08:08:27.106Z",
    "contentHash": "f88efa3052e7",
@@ -2950,7 +3018,7 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "RENDERING",
    "approved": false,
    "lastModified": "2026-10-15T08:08:28.472Z",
    "contentHash": "008228feb599",

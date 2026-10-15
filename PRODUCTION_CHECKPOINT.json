@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-15T08:15:29.589Z",
+ "updated": "2026-10-15T08:17:27.047Z",
  "phase": "render 1080p",
  "lastAudit": "2026-10-15T07:50:18.232Z",
  "auditIssues": 0,
  "outDir": "renders/EP01",
- "currentShot": "S01-10",
+ "currentShot": "S04-07",
  "attempt": 1,
- "lastCompletedShot": "S01-07",
+ "lastCompletedShot": "S01-10",
  "counters": {
-  "done": 9,
+  "done": 10,
   "cached": 0,
   "failed": 0
  },
@@ -26,16 +26,16 @@
    "BLOCKING": 1092
   },
   "render1080": {
-   "DONE": 9,
-   "PENDING": 96
+   "DONE": 10,
+   "PENDING": 95
   },
   "failed": [],
   "missingVoiceLines": 0,
   "qa": {
-   "PASS": 8,
+   "PASS": 9,
    "REVIEW": 1,
    "FAIL": 0,
-   "none": 96
+   "none": 95
   },
   "approved": 0,
   "animatic": 19,
