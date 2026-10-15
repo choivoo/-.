@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-15T08:08:31.734Z",
+ "updated": "2026-10-15T08:15:29.589Z",
  "phase": "render 1080p",
  "lastAudit": "2026-10-15T07:50:18.232Z",
  "auditIssues": 0,
  "outDir": "renders/EP01",
- "currentShot": "S01-04",
+ "currentShot": "S01-10",
  "attempt": 1,
- "lastCompletedShot": "S01-10",
+ "lastCompletedShot": "S01-07",
  "counters": {
-  "done": 10,
+  "done": 9,
   "cached": 0,
   "failed": 0
  },
@@ -16,28 +16,30 @@
   "shots": 105,
   "frames": 28800,
   "byStage": {
-   "BLOCKING": 20,
-   "ANIMATION": 85
+   "SCRIPT_READY": 52,
+   "ANIMATION": 48,
+   "BLOCKING": 5
   },
   "framesByStage": {
-   "BLOCKING": 5500,
-   "ANIMATION": 23300
+   "SCRIPT_READY": 17917,
+   "ANIMATION": 9791,
+   "BLOCKING": 1092
   },
   "render1080": {
-   "DONE": 10,
-   "PENDING": 95
+   "DONE": 9,
+   "PENDING": 96
   },
   "failed": [],
-  "missingVoiceLines": 79,
+  "missingVoiceLines": 0,
   "qa": {
-   "PASS": 6,
+   "PASS": 8,
    "REVIEW": 1,
-   "FAIL": 3,
-   "none": 95
+   "FAIL": 0,
+   "none": 96
   },
   "approved": 0,
-  "animatic": 20,
-  "directed": 73,
+  "animatic": 19,
+  "directed": 74,
   "finalDraft": 12
  },
  "status": "WORK_IN_PROGRESS",
