@@ -1,6 +1,6 @@
 {
  "episode": "EP01",
- "updated": "2026-10-15T08:17:27.040Z",
+ "updated": "2026-10-15T08:38:57.183Z",
  "shots": {
   "S01-01": {
    "shotId": "S01-01",
@@ -463,7 +463,7 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
+   "renderStatus1080": "SKIPPED_CACHE",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:09:12.783Z",
@@ -573,7 +573,7 @@
    "productionStatus": "QA",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
+   "renderStatus1080": "SKIPPED_CACHE",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:09:42.107Z",
@@ -924,7 +924,7 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
+   "renderStatus1080": "SKIPPED_CACHE",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:10:58.168Z",
@@ -1031,7 +1031,7 @@
    "productionStatus": "QA",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "DONE",
+   "renderStatus1080": "SKIPPED_CACHE",
    "qualityResults": {
     "verdict": "PASS",
     "at": "2026-10-15T08:11:20.795Z",
@@ -1786,11 +1786,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:27.543Z",
    "contentHash": "2751a8723a37",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:36:48.896Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 550f h264/aac 4.73MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 22.933s vs video 22.917s (Δ0.016s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "mio:a82995c7cb soma:a1cc8d7cd8"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 23°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 26px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "4 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S03-02_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S03-03": {
    "shotId": "S03-03",
@@ -1825,12 +1893,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:32.552Z",
    "contentHash": "53a4fbf0e88c",
    "storyboardHash": "53a4fbf0e88c",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:37:13.449Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 183f h264/aac 1.47MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 7.637s vs video 7.625s (Δ0.012s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S03-03_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S03-04": {
    "shotId": "S03-04",
@@ -1896,11 +2032,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:27.622Z",
    "contentHash": "a98de880306e",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:37:54.784Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 321f h264/aac 2.33MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 13.376s vs video 13.375s (Δ0.001s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 26°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "2 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S03-04_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S03-05": {
    "shotId": "S03-05",
@@ -2106,11 +2310,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:27.726Z",
    "contentHash": "3d7610f1f903",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:38:57.136Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 596f h264/aac 6.51MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 24.853s vs video 24.833s (Δ0.020s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 mio:a82995c7cb"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 26°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 26px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "4 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S03-06_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S03-07": {
    "shotId": "S03-07",
@@ -2145,7 +2417,7 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "RENDERING",
    "approved": false,
    "lastModified": "2026-10-15T07:50:32.749Z",
    "contentHash": "70ab8d99a4ff",
@@ -3018,11 +3290,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "RENDERING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:28.472Z",
    "contentHash": "008228feb599",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:18:58.986Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 426f h264/aac 7.11MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 17.771s vs video 17.750s (Δ0.021s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "mio:a82995c7cb soma:a1cc8d7cd8"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 35°/f, max root move 2px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 5px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S04-07_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S04-08": {
    "shotId": "S04-08",
@@ -3133,12 +3473,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:33.552Z",
    "contentHash": "4a435b35ac58",
    "storyboardHash": "4a435b35ac58",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:20:02.450Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 298f h264/aac 5.07MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 12.437s vs video 12.417s (Δ0.020s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "mio:a82995c7cb soma:a1cc8d7cd8"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 35°/f, max root move 3px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 7px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S04-09_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S04-10": {
    "shotId": "S04-10",
@@ -4321,12 +4729,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:34.495Z",
    "contentHash": "8fadb59bf4aa",
    "storyboardHash": "8fadb59bf4aa",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:20:45.034Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 277f h264/aac 3.88MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 11.563s vs video 11.542s (Δ0.021s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 88°/f, max root move 7px/f; large joint jumps: soma.elR@73, soma.elR@150"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 24px/f (non-whip), shake amp ≤ 21.200000000000003"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "5 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S05-08_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S05-09": {
    "shotId": "S05-09",
@@ -4397,12 +4878,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:34.549Z",
    "contentHash": "a3439956c98e",
    "storyboardHash": "a3439956c98e",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:21:20.972Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 226f h264/aac 3.23MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 9.429s vs video 9.417s (Δ0.012s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 88°/f, max root move 6px/f; large joint jumps: soma.elR@33, soma.elR@75, veyra.elR@153"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 25px/f (non-whip), shake amp ≤ 21.200000000000003"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "4 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S05-09_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S05-10": {
    "shotId": "S05-10",
@@ -4531,12 +5085,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:34.669Z",
    "contentHash": "e14e6c087e40",
    "storyboardHash": "e14e6c087e40",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:21:51.672Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 201f h264/aac 2.57MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 8.384s vs video 8.375s (Δ0.009s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 88°/f, max root move 2px/f; large joint jumps: soma.elR@73, veyra.elR@110"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 46px/f (non-whip), shake amp ≤ 24"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "3 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S05-11_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S05-12": {
    "shotId": "S05-12",
@@ -5107,12 +5734,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.075Z",
    "contentHash": "dbe7656507b1",
    "storyboardHash": "dbe7656507b1",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:22:16.359Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 90f h264/aac 1.39MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 3.755s vs video 3.750s (Δ0.005s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "4 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 28px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-01_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-02": {
    "shotId": "S06-02",
@@ -5167,11 +5862,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:30.152Z",
    "contentHash": "d425b016ca90",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:22:33.665Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 66f h264/aac 0.64MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 2.752s vs video 2.750s (Δ0.002s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-02_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-03": {
    "shotId": "S06-03",
@@ -5211,12 +5974,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.171Z",
    "contentHash": "c131c74eba0b",
    "storyboardHash": "c131c74eba0b",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:22:42.567Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 42f h264/aac 0.46MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 1.771s vs video 1.750s (Δ0.021s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-03_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-04": {
    "shotId": "S06-04",
@@ -5266,12 +6097,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.234Z",
    "contentHash": "dc786dec646f",
    "storyboardHash": "dc786dec646f",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:23:02.262Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 66f h264/aac 1.85MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 2.752s vs video 2.750s (Δ0.002s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 35°/f, max root move 36px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 20px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-04_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-05": {
    "shotId": "S06-05",
@@ -5314,12 +6213,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.274Z",
    "contentHash": "aa76d123cbd3",
    "storyboardHash": "aa76d123cbd3",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:23:18.462Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 48f h264/aac 0.82MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 2.005s vs video 2.000s (Δ0.005s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 3 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 79°/f, max root move 5px/f; large joint jumps: soma.shR@18"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 1px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-05_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-06": {
    "shotId": "S06-06",
@@ -5370,12 +6337,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.320Z",
    "contentHash": "a60733fbe7ad",
    "storyboardHash": "a60733fbe7ad",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:23:35.941Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 60f h264/aac 1.40MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 2.517s vs video 2.500s (Δ0.017s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 79°/f, max root move 0px/f; large joint jumps: soma.elR@18"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 44px/f (non-whip), shake amp ≤ 30"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-06_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-07": {
    "shotId": "S06-07",
@@ -5426,12 +6461,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.362Z",
    "contentHash": "e306458843ae",
    "storyboardHash": "e306458843ae",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:23:50.677Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 48f h264/aac 1.10MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 2.005s vs video 2.000s (Δ0.005s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 20°/f, max root move 13px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 30px/f (non-whip), shake amp ≤ 22"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-07_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-08": {
    "shotId": "S06-08",
@@ -5473,12 +6576,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.409Z",
    "contentHash": "ec50057b334b",
    "storyboardHash": "ec50057b334b",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:24:07.378Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 30f h264/aac 0.71MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 1.259s vs video 1.250s (Δ0.009s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 106°/f, max root move 27px/f; large joint jumps: veyra.shR@13"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 7px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-08_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-09": {
    "shotId": "S06-09",
@@ -5527,12 +6698,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.459Z",
    "contentHash": "4822ad548290",
    "storyboardHash": "4822ad548290",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:24:22.931Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 48f h264/aac 0.96MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 2.005s vs video 2.000s (Δ0.005s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 67°/f, max root move 71px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 21px/f (non-whip), shake amp ≤ 18"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-09_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-10": {
    "shotId": "S06-10",
@@ -5582,12 +6821,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.498Z",
    "contentHash": "61e2cbb6414d",
    "storyboardHash": "61e2cbb6414d",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:24:40.732Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 60f h264/aac 1.25MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 2.517s vs video 2.500s (Δ0.017s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 3 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 74°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 42px/f (non-whip), shake amp ≤ 28"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-10_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-11": {
    "shotId": "S06-11",
@@ -5635,12 +6942,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.537Z",
    "contentHash": "bf1a7d1a3df5",
    "storyboardHash": "bf1a7d1a3df5",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:24:55.158Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 54f h264/aac 0.94MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 2.261s vs video 2.250s (Δ0.011s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 3°/f, max root move 36px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 126px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-11_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-12": {
    "shotId": "S06-12",
@@ -5711,11 +7086,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:30.614Z",
    "contentHash": "cab56e868dcb",
-   "fidelity": "final-draft"
+   "fidelity": "final-draft",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:25:23.493Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 108f h264/aac 1.71MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 4.501s vs video 4.500s (Δ0.001s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 2px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "2 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-12_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-13": {
    "shotId": "S06-13",
@@ -5843,12 +7286,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.670Z",
    "contentHash": "35f15b345b25",
    "storyboardHash": "35f15b345b25",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:26:19.094Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 241f h264/aac 4.33MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 10.048s vs video 10.042s (Δ0.006s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 88°/f, max root move 6px/f; large joint jumps: soma.elR@33, soma.elR@75"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 35px/f (non-whip), shake amp ≤ 21.200000000000003"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "4 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-14_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-15": {
    "shotId": "S06-15",
@@ -5916,12 +7432,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.722Z",
    "contentHash": "9714017238a8",
    "storyboardHash": "9714017238a8",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:27:13.689Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 241f h264/aac 4.08MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 10.048s vs video 10.042s (Δ0.006s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 88°/f, max root move 6px/f; large joint jumps: veyra.elR@34, soma.elR@71"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 31px/f (non-whip), shake amp ≤ 21.200000000000003"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "4 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-15_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-16": {
    "shotId": "S06-16",
@@ -6107,11 +7696,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:30.896Z",
    "contentHash": "d79723c0568c",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:28:55.263Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 483f h264/aac 8.25MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 20.139s vs video 20.125s (Δ0.014s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "veyra:055fc12669 soma:a1cc8d7cd8"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 35°/f, max root move 2px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 4px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-18_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-19": {
    "shotId": "S06-19",
@@ -6180,12 +7837,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:35.926Z",
    "contentHash": "e23c7e12917c",
    "storyboardHash": "e23c7e12917c",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:29:45.283Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 214f h264/aac 4.05MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 8.917s vs video 8.917s (Δ0.000s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 79°/f, max root move 6px/f; large joint jumps: soma.elR@73, soma.elR@153"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 35px/f (non-whip), shake amp ≤ 24"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "4 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-19_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-20": {
    "shotId": "S06-20",
@@ -6313,12 +8043,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:36.012Z",
    "contentHash": "bbb07254f668",
    "storyboardHash": "bbb07254f668",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:30:41.363Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 241f h264/aac 4.29MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 10.048s vs video 10.042s (Δ0.006s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 88°/f, max root move 6px/f; large joint jumps: soma.elR@77, soma.elR@155"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 33px/f (non-whip), shake amp ≤ 24"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "4 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-21_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-22": {
    "shotId": "S06-22",
@@ -6393,12 +8196,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:36.055Z",
    "contentHash": "2a376ea28cba",
    "storyboardHash": "2a376ea28cba",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:31:36.123Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 241f h264/aac 4.32MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 10.048s vs video 10.042s (Δ0.006s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 88°/f, max root move 6px/f; large joint jumps: soma.elR@77"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 34px/f (non-whip), shake amp ≤ 24"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "4 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-22_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S06-23": {
    "shotId": "S06-23",
@@ -6527,12 +8403,85 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:36.157Z",
    "contentHash": "75ca31e4a6d2",
    "storyboardHash": "75ca31e4a6d2",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:32:34.568Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 268f h264/aac 4.75MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 11.179s vs video 11.167s (Δ0.012s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 88°/f, max root move 7px/f; large joint jumps: soma.elR@73, soma.elR@150"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 42px/f (non-whip), shake amp ≤ 24"
+     },
+     {
+      "name": "combat-sync",
+      "verdict": "PASS",
+      "info": "5 collision events share sfx/fx/shake/hit-stop"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S06-24_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S07-01": {
    "shotId": "S07-01",
@@ -6571,12 +8520,80 @@
    "productionStatus": "ANIMATION",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T07:50:36.207Z",
    "contentHash": "74fb64b57935",
    "storyboardHash": "74fb64b57935",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:33:03.098Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 192f h264/aac 2.21MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 8.021s vs video 8.000s (Δ0.021s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 3 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S07-01_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S07-02": {
    "shotId": "S07-02",
@@ -6628,11 +8645,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:31.282Z",
    "contentHash": "8e16869e2649",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:34:27.287Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 288f h264/aac 3.14MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 12.011s vs video 12.000s (Δ0.011s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 32°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S07-02_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S07-03": {
    "shotId": "S07-03",
@@ -6687,11 +8772,79 @@
    "productionStatus": "SCRIPT_READY",
    "blocked": [],
    "renderStatus": "PENDING",
-   "renderStatus1080": "PENDING",
+   "renderStatus1080": "DONE",
    "approved": false,
    "lastModified": "2026-10-15T08:08:31.334Z",
    "contentHash": "45cf6479498b",
-   "fidelity": "directed"
+   "fidelity": "directed",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:35:26.679Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 240f h264/aac 2.93MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 10.005s vs video 10.000s (Δ0.005s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "soma:a1cc8d7cd8 veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 26°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 13px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S07-03_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   }
   },
   "S08-01": {
    "shotId": "S08-01",
