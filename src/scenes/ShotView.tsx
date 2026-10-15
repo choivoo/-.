@@ -146,7 +146,7 @@ export function ShotView({ shot, frame, opts = {} }: { shot: ShotSpec; frame: nu
           {wrap(line.text).map((l, i, arr) => <text key={i} x={VIEW_W / 2} y={VIEW_H - 70 - (arr.length - 1 - i) * 56} fill="#fff" stroke="#000" strokeWidth="8" paintOrder="stroke" strokeLinejoin="round">{l}</text>)}
         </g>
       )}
-      {opts.badge && <g fontFamily="monospace" fontSize="20" fill="#ffd34d"><rect x="16" y="16" width="520" height="34" fill="#000" opacity="0.6" /><text x="26" y="40">{shot.fidelity === 'final-draft' ? 'PLACEHOLDER VECTOR ART · TEMP SFX' : 'ANIMATIC · PLACEHOLDER STAGING'}</text></g>}
+      {opts.badge && <g fontFamily="monospace" fontSize="20" fill="#ffd34d"><rect x="16" y="16" width="760" height="34" fill="#000" opacity="0.6" /><text x="26" y="40">{shot.fidelity === 'final-draft' ? 'PLACEHOLDER VECTOR ART · TEMP SFX' : shot.fidelity === 'directed' ? 'PLACEHOLDER VECTOR ART · DIRECTED · TTS/SFX TEMP' : 'ANIMATIC · ENVIRONMENT/CAMERA ONLY · PLACEHOLDER'}</text></g>}
     </svg>
   );
 }

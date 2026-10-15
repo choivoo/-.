@@ -1,0 +1,11530 @@
+{
+ "narration|그날 밤, 도시 위로 달이 하나 더 떠올랐다.": {
+  "speaker": "narration",
+  "text": "그날 밤, 도시 위로 달이 하나 더 떠올랐다.",
+  "durationSec": 4.375,
+  "frames": 105,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "u"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "u"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "a"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "i"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "i"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "i"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "i"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 50,
+    "shape": "i"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "i"
+   },
+   {
+    "f": 57,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "closed"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "a"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 65,
+    "shape": "a"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "closed"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "e"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "closed"
+   },
+   {
+    "f": 76,
+    "shape": "e"
+   },
+   {
+    "f": 81,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "e"
+   },
+   {
+    "f": 83,
+    "shape": "small"
+   },
+   {
+    "f": 85,
+    "shape": "e"
+   },
+   {
+    "f": 87,
+    "shape": "closed"
+   },
+   {
+    "f": 90,
+    "shape": "small"
+   },
+   {
+    "f": 91,
+    "shape": "a"
+   },
+   {
+    "f": 94,
+    "shape": "small"
+   },
+   {
+    "f": 95,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|빛이 아닌 것을 삼키는, 검은 달.": {
+  "speaker": "narration",
+  "text": "빛이 아닌 것을 삼키는, 검은 달.",
+  "durationSec": 3.958,
+  "frames": 95,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "i"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "i"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "i"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "i"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "closed"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "i"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "i"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "i"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "closed"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "closed"
+   },
+   {
+    "f": 62,
+    "shape": "u"
+   },
+   {
+    "f": 64,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "u"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "closed"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "u"
+   },
+   {
+    "f": 81,
+    "shape": "small"
+   },
+   {
+    "f": 85,
+    "shape": "closed"
+   }
+  ]
+ },
+ "kaede|서둘러야 해… 기록이 지워지기 전에.": {
+  "speaker": "kaede",
+  "text": "서둘러야 해… 기록이 지워지기 전에.",
+  "durationSec": 3.833,
+  "frames": 92,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "e"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "e"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "e"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "e"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "closed"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "e"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "closed"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "i"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "i"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "closed"
+   },
+   {
+    "f": 46,
+    "shape": "i"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "closed"
+   },
+   {
+    "f": 50,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "i"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 57,
+    "shape": "i"
+   },
+   {
+    "f": 59,
+    "shape": "closed"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "u"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "closed"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "i"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "closed"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 72,
+    "shape": "i"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "i"
+   },
+   {
+    "f": 80,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "closed"
+   }
+  ]
+ },
+ "kaede|이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.": {
+  "speaker": "kaede",
+  "text": "이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.",
+  "durationSec": 7.917,
+  "frames": 190,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "i"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "closed"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "e"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "e"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "e"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "e"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "closed"
+   },
+   {
+    "f": 32,
+    "shape": "e"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "e"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "closed"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "a"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "a"
+   },
+   {
+    "f": 71,
+    "shape": "small"
+   },
+   {
+    "f": 73,
+    "shape": "a"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "closed"
+   },
+   {
+    "f": 77,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "i"
+   },
+   {
+    "f": 85,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "closed"
+   },
+   {
+    "f": 89,
+    "shape": "a"
+   },
+   {
+    "f": 92,
+    "shape": "small"
+   },
+   {
+    "f": 93,
+    "shape": "a"
+   },
+   {
+    "f": 95,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "closed"
+   },
+   {
+    "f": 99,
+    "shape": "small"
+   },
+   {
+    "f": 101,
+    "shape": "closed"
+   },
+   {
+    "f": 103,
+    "shape": "small"
+   },
+   {
+    "f": 104,
+    "shape": "a"
+   },
+   {
+    "f": 106,
+    "shape": "small"
+   },
+   {
+    "f": 114,
+    "shape": "closed"
+   },
+   {
+    "f": 115,
+    "shape": "small"
+   },
+   {
+    "f": 116,
+    "shape": "i"
+   },
+   {
+    "f": 119,
+    "shape": "small"
+   },
+   {
+    "f": 125,
+    "shape": "i"
+   },
+   {
+    "f": 127,
+    "shape": "small"
+   },
+   {
+    "f": 128,
+    "shape": "closed"
+   },
+   {
+    "f": 130,
+    "shape": "o"
+   },
+   {
+    "f": 132,
+    "shape": "small"
+   },
+   {
+    "f": 135,
+    "shape": "o"
+   },
+   {
+    "f": 137,
+    "shape": "small"
+   },
+   {
+    "f": 138,
+    "shape": "closed"
+   },
+   {
+    "f": 139,
+    "shape": "small"
+   },
+   {
+    "f": 140,
+    "shape": "e"
+   },
+   {
+    "f": 142,
+    "shape": "small"
+   },
+   {
+    "f": 143,
+    "shape": "closed"
+   },
+   {
+    "f": 144,
+    "shape": "o"
+   },
+   {
+    "f": 146,
+    "shape": "small"
+   },
+   {
+    "f": 149,
+    "shape": "o"
+   },
+   {
+    "f": 151,
+    "shape": "small"
+   },
+   {
+    "f": 157,
+    "shape": "o"
+   },
+   {
+    "f": 160,
+    "shape": "small"
+   },
+   {
+    "f": 162,
+    "shape": "o"
+   },
+   {
+    "f": 163,
+    "shape": "small"
+   },
+   {
+    "f": 165,
+    "shape": "closed"
+   },
+   {
+    "f": 169,
+    "shape": "small"
+   },
+   {
+    "f": 171,
+    "shape": "i"
+   },
+   {
+    "f": 172,
+    "shape": "small"
+   },
+   {
+    "f": 180,
+    "shape": "closed"
+   }
+  ]
+ },
+ "kaede|…열두 번째 정지가 오기 전에.": {
+  "speaker": "kaede",
+  "text": "…열두 번째 정지가 오기 전에.",
+  "durationSec": 3.083,
+  "frames": 74,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "e"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "closed"
+   },
+   {
+    "f": 14,
+    "shape": "e"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "closed"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "e"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "closed"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "e"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "closed"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "a"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "a"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "closed"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "closed"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "i"
+   },
+   {
+    "f": 57,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "i"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|시계는 하나둘, 같은 시각에서 멈추기 시작했다.": {
+  "speaker": "narration",
+  "text": "시계는 하나둘, 같은 시각에서 멈추기 시작했다.",
+  "durationSec": 5.167,
+  "frames": 124,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "i"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "closed"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "e"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "e"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "closed"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "a"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "a"
+   },
+   {
+    "f": 27,
+    "shape": "closed"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "u"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "closed"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "u"
+   },
+   {
+    "f": 44,
+    "shape": "closed"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "closed"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "a"
+   },
+   {
+    "f": 58,
+    "shape": "small"
+   },
+   {
+    "f": 59,
+    "shape": "closed"
+   },
+   {
+    "f": 61,
+    "shape": "e"
+   },
+   {
+    "f": 63,
+    "shape": "closed"
+   },
+   {
+    "f": 65,
+    "shape": "e"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "e"
+   },
+   {
+    "f": 72,
+    "shape": "small"
+   },
+   {
+    "f": 73,
+    "shape": "e"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "closed"
+   },
+   {
+    "f": 83,
+    "shape": "small"
+   },
+   {
+    "f": 84,
+    "shape": "u"
+   },
+   {
+    "f": 85,
+    "shape": "small"
+   },
+   {
+    "f": 86,
+    "shape": "closed"
+   },
+   {
+    "f": 87,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "i"
+   },
+   {
+    "f": 89,
+    "shape": "small"
+   },
+   {
+    "f": 90,
+    "shape": "closed"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 93,
+    "shape": "i"
+   },
+   {
+    "f": 96,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "closed"
+   },
+   {
+    "f": 98,
+    "shape": "small"
+   },
+   {
+    "f": 99,
+    "shape": "a"
+   },
+   {
+    "f": 100,
+    "shape": "closed"
+   },
+   {
+    "f": 101,
+    "shape": "small"
+   },
+   {
+    "f": 104,
+    "shape": "a"
+   },
+   {
+    "f": 105,
+    "shape": "small"
+   },
+   {
+    "f": 106,
+    "shape": "closed"
+   },
+   {
+    "f": 109,
+    "shape": "small"
+   },
+   {
+    "f": 110,
+    "shape": "e"
+   },
+   {
+    "f": 113,
+    "shape": "small"
+   },
+   {
+    "f": 114,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|…시작됐군.": {
+  "speaker": "veyra",
+  "text": "…시작됐군.",
+  "durationSec": 1.625,
+  "frames": 39,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "i"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "i"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "a"
+   },
+   {
+    "f": 17,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "e"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|흑월의 잔향 — 제1화, 정지하는 시간": {
+  "speaker": "narration",
+  "text": "흑월의 잔향 — 제1화, 정지하는 시간",
+  "durationSec": 5.25,
+  "frames": 126,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "u"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "closed"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "u"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "i"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "closed"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "a"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "closed"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "e"
+   },
+   {
+    "f": 55,
+    "shape": "small"
+   },
+   {
+    "f": 57,
+    "shape": "closed"
+   },
+   {
+    "f": 61,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "e"
+   },
+   {
+    "f": 71,
+    "shape": "closed"
+   },
+   {
+    "f": 79,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "e"
+   },
+   {
+    "f": 83,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "e"
+   },
+   {
+    "f": 89,
+    "shape": "closed"
+   },
+   {
+    "f": 90,
+    "shape": "small"
+   },
+   {
+    "f": 91,
+    "shape": "a"
+   },
+   {
+    "f": 93,
+    "shape": "small"
+   },
+   {
+    "f": 99,
+    "shape": "closed"
+   },
+   {
+    "f": 100,
+    "shape": "small"
+   },
+   {
+    "f": 102,
+    "shape": "u"
+   },
+   {
+    "f": 103,
+    "shape": "small"
+   },
+   {
+    "f": 104,
+    "shape": "closed"
+   },
+   {
+    "f": 105,
+    "shape": "small"
+   },
+   {
+    "f": 106,
+    "shape": "i"
+   },
+   {
+    "f": 111,
+    "shape": "small"
+   },
+   {
+    "f": 116,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|해안도시 미나토. 평범한 아침이었다.": {
+  "speaker": "narration",
+  "text": "해안도시 미나토. 평범한 아침이었다.",
+  "durationSec": 4.333,
+  "frames": 104,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "e"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "e"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "e"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "e"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "e"
+   },
+   {
+    "f": 22,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "closed"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "a"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "closed"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 50,
+    "shape": "o"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "o"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "closed"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "a"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "a"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "closed"
+   },
+   {
+    "f": 78,
+    "shape": "small"
+   },
+   {
+    "f": 84,
+    "shape": "i"
+   },
+   {
+    "f": 85,
+    "shape": "small"
+   },
+   {
+    "f": 86,
+    "shape": "closed"
+   },
+   {
+    "f": 89,
+    "shape": "small"
+   },
+   {
+    "f": 90,
+    "shape": "e"
+   },
+   {
+    "f": 93,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|소마! 또 늦잠이야? 학교 늦겠어!": {
+  "speaker": "mio",
+  "text": "소마! 또 늦잠이야? 학교 늦겠어!",
+  "durationSec": 3.75,
+  "frames": 90,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "o"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "o"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "o"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "closed"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "a"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "a"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "a"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "closed"
+   },
+   {
+    "f": 53,
+    "shape": "a"
+   },
+   {
+    "f": 55,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "closed"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "a"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 65,
+    "shape": "a"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "closed"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "u"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "u"
+   },
+   {
+    "f": 81,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|…오 분만.": {
+  "speaker": "soma",
+  "text": "…오 분만.",
+  "durationSec": 1.042,
+  "frames": 25,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "o"
+   },
+   {
+    "f": 3,
+    "shape": "closed"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "o"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "o"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|그 말, 이번 주에만 열 번째거든?": {
+  "speaker": "mio",
+  "text": "그 말, 이번 주에만 열 번째거든?",
+  "durationSec": 3.042,
+  "frames": 73,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "u"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "u"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "closed"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "i"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "e"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "e"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "e"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "e"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "closed"
+   },
+   {
+    "f": 45,
+    "shape": "e"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "closed"
+   },
+   {
+    "f": 50,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "e"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   },
+   {
+    "f": 57,
+    "shape": "e"
+   },
+   {
+    "f": 59,
+    "shape": "closed"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "e"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|알았어, 알았어. 일어난다니까.": {
+  "speaker": "soma",
+  "text": "알았어, 알았어. 일어난다니까.",
+  "durationSec": 2.917,
+  "frames": 70,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "a"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "a"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "a"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "closed"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "a"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "a"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "a"
+   },
+   {
+    "f": 31,
+    "shape": "closed"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "i"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "i"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "i"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "i"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "closed"
+   },
+   {
+    "f": 58,
+    "shape": "small"
+   },
+   {
+    "f": 59,
+    "shape": "i"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|시계가… 또 멈췄네.": {
+  "speaker": "soma",
+  "text": "시계가… 또 멈췄네.",
+  "durationSec": 2.292,
+  "frames": 55,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "i"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "closed"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "e"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "closed"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "e"
+   },
+   {
+    "f": 16,
+    "shape": "closed"
+   },
+   {
+    "f": 24,
+    "shape": "a"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "a"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "closed"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "closed"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "e"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "e"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|박사님이 남겨주신 건데.": {
+  "speaker": "soma",
+  "text": "박사님이 남겨주신 건데.",
+  "durationSec": 2.292,
+  "frames": 55,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "a"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "closed"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "a"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "a"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "a"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "a"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "a"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "a"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "a"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "closed"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "i"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "i"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.": {
+  "speaker": "mio",
+  "text": "너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.",
+  "durationSec": 4.5,
+  "frames": 108,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "e"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "e"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "e"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "e"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "closed"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "a"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "o"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "o"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "closed"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 45,
+    "shape": "u"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "u"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "closed"
+   },
+   {
+    "f": 62,
+    "shape": "a"
+   },
+   {
+    "f": 64,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "closed"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "u"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 75,
+    "shape": "u"
+   },
+   {
+    "f": 76,
+    "shape": "small"
+   },
+   {
+    "f": 77,
+    "shape": "closed"
+   },
+   {
+    "f": 78,
+    "shape": "small"
+   },
+   {
+    "f": 79,
+    "shape": "a"
+   },
+   {
+    "f": 81,
+    "shape": "small"
+   },
+   {
+    "f": 83,
+    "shape": "a"
+   },
+   {
+    "f": 84,
+    "shape": "small"
+   },
+   {
+    "f": 85,
+    "shape": "closed"
+   },
+   {
+    "f": 86,
+    "shape": "i"
+   },
+   {
+    "f": 88,
+    "shape": "small"
+   },
+   {
+    "f": 90,
+    "shape": "closed"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 92,
+    "shape": "u"
+   },
+   {
+    "f": 94,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "u"
+   },
+   {
+    "f": 98,
+    "shape": "small"
+   },
+   {
+    "f": 100,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|또 누가 지어낸 얘기겠지.": {
+  "speaker": "soma",
+  "text": "또 누가 지어낸 얘기겠지.",
+  "durationSec": 2.25,
+  "frames": 54,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "o"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "o"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 10,
+    "shape": "u"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "u"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "u"
+   },
+   {
+    "f": 22,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "u"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "closed"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "i"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "closed"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "i"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "closed"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "e"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|진짜야! 어제 뉴스에도 나왔다니까.": {
+  "speaker": "mio",
+  "text": "진짜야! 어제 뉴스에도 나왔다니까.",
+  "durationSec": 3.125,
+  "frames": 75,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "i"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "closed"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "a"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "a"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 26,
+    "shape": "e"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "e"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "e"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "e"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 45,
+    "shape": "e"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "e"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 50,
+    "shape": "e"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   },
+   {
+    "f": 58,
+    "shape": "a"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "a"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "closed"
+   },
+   {
+    "f": 64,
+    "shape": "small"
+   },
+   {
+    "f": 65,
+    "shape": "i"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|검은 달이라니, 소설 같네.": {
+  "speaker": "soma",
+  "text": "검은 달이라니, 소설 같네.",
+  "durationSec": 2.542,
+  "frames": 61,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "e"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "e"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "closed"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "u"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "u"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "u"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "closed"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "i"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "i"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "closed"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "e"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "e"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|…웃지 마. 나 좀 무서웠단 말이야.": {
+  "speaker": "mio",
+  "text": "…웃지 마. 나 좀 무서웠단 말이야.",
+  "durationSec": 3.167,
+  "frames": 76,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "u"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "closed"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "u"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "u"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "a"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "closed"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "o"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "o"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "o"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "o"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "closed"
+   },
+   {
+    "f": 52,
+    "shape": "a"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 57,
+    "shape": "a"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 65,
+    "shape": "a"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|미안. 무슨 일 있으면 내가 있잖아.": {
+  "speaker": "soma",
+  "text": "미안. 무슨 일 있으면 내가 있잖아.",
+  "durationSec": 3.333,
+  "frames": 80,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "i"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "i"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "u"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "u"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "u"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "u"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "u"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "u"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "u"
+   },
+   {
+    "f": 52,
+    "shape": "closed"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "a"
+   },
+   {
+    "f": 58,
+    "shape": "small"
+   },
+   {
+    "f": 59,
+    "shape": "closed"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "i"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "i"
+   },
+   {
+    "f": 72,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|박사님이 사라지신 지 벌써 삼 년이네.": {
+  "speaker": "mio",
+  "text": "박사님이 사라지신 지 벌써 삼 년이네.",
+  "durationSec": 3.167,
+  "frames": 76,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "a"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "closed"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "a"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "a"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "a"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "a"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "a"
+   },
+   {
+    "f": 23,
+    "shape": "closed"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "a"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "a"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "closed"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "i"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "closed"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "i"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "i"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "e"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "e"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "e"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "e"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|…응. 그 연구소 얘기만 나오면 다들 입을 닫아.": {
+  "speaker": "soma",
+  "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아.",
+  "durationSec": 4.125,
+  "frames": 99,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "u"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "u"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "u"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "closed"
+   },
+   {
+    "f": 28,
+    "shape": "u"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "u"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "u"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "closed"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "i"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "i"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "i"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "i"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "closed"
+   },
+   {
+    "f": 63,
+    "shape": "a"
+   },
+   {
+    "f": 65,
+    "shape": "closed"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "a"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 72,
+    "shape": "a"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "closed"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "i"
+   },
+   {
+    "f": 79,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "i"
+   },
+   {
+    "f": 85,
+    "shape": "small"
+   },
+   {
+    "f": 86,
+    "shape": "closed"
+   },
+   {
+    "f": 87,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "a"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 92,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|언젠가 알게 될 거야, 분명히.": {
+  "speaker": "mio",
+  "text": "언젠가 알게 될 거야, 분명히.",
+  "durationSec": 2.875,
+  "frames": 69,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "e"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "e"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "e"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "closed"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "a"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "a"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "o"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "o"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "closed"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "a"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "a"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "e"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|해가 기울자, 거리의 시계들이 일제히 멈췄다.": {
+  "speaker": "narration",
+  "text": "해가 기울자, 거리의 시계들이 일제히 멈췄다.",
+  "durationSec": 4.5,
+  "frames": 108,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "e"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "closed"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "a"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "a"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "a"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "closed"
+   },
+   {
+    "f": 33,
+    "shape": "e"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "e"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "e"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "closed"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "e"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "u"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "closed"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "closed"
+   },
+   {
+    "f": 72,
+    "shape": "small"
+   },
+   {
+    "f": 73,
+    "shape": "e"
+   },
+   {
+    "f": 74,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "e"
+   },
+   {
+    "f": 79,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "closed"
+   },
+   {
+    "f": 87,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "e"
+   },
+   {
+    "f": 90,
+    "shape": "closed"
+   },
+   {
+    "f": 93,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "u"
+   },
+   {
+    "f": 97,
+    "shape": "small"
+   },
+   {
+    "f": 99,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|…또야. 모든 시계가 6시 6분에서 멈춰 있어.": {
+  "speaker": "soma",
+  "text": "…또야. 모든 시계가 6시 6분에서 멈춰 있어.",
+  "durationSec": 4.292,
+  "frames": 103,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "o"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "o"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "o"
+   },
+   {
+    "f": 22,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "o"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "o"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "closed"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "e"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "closed"
+   },
+   {
+    "f": 40,
+    "shape": "a"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 45,
+    "shape": "a"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   },
+   {
+    "f": 50,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "i"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "i"
+   },
+   {
+    "f": 58,
+    "shape": "small"
+   },
+   {
+    "f": 59,
+    "shape": "closed"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "u"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "u"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "u"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "u"
+   },
+   {
+    "f": 76,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "closed"
+   },
+   {
+    "f": 79,
+    "shape": "small"
+   },
+   {
+    "f": 80,
+    "shape": "closed"
+   },
+   {
+    "f": 82,
+    "shape": "small"
+   },
+   {
+    "f": 83,
+    "shape": "u"
+   },
+   {
+    "f": 88,
+    "shape": "small"
+   },
+   {
+    "f": 91,
+    "shape": "u"
+   },
+   {
+    "f": 95,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|내 시계도, 저 시계탑도.": {
+  "speaker": "soma",
+  "text": "내 시계도, 저 시계탑도.",
+  "durationSec": 2.625,
+  "frames": 63,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "e"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "e"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "closed"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "e"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "e"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "closed"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "e"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "e"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "closed"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "e"
+   },
+   {
+    "f": 40,
+    "shape": "closed"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "a"
+   },
+   {
+    "f": 46,
+    "shape": "closed"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "o"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|대체 무슨 일이 벌어지고 있는 거지?": {
+  "speaker": "soma",
+  "text": "대체 무슨 일이 벌어지고 있는 거지?",
+  "durationSec": 2.833,
+  "frames": 68,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "e"
+   },
+   {
+    "f": 3,
+    "shape": "closed"
+   },
+   {
+    "f": 8,
+    "shape": "e"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "e"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "e"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "closed"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "i"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "i"
+   },
+   {
+    "f": 32,
+    "shape": "closed"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "e"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "closed"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "i"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "i"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 50,
+    "shape": "closed"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "u"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "e"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|저기 봐, 사람들이 다 멈춰 서 있어!": {
+  "speaker": "mio",
+  "text": "저기 봐, 사람들이 다 멈춰 서 있어!",
+  "durationSec": 3.292,
+  "frames": 79,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "e"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "closed"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "i"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "closed"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "i"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "a"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "a"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "a"
+   },
+   {
+    "f": 40,
+    "shape": "closed"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "a"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 45,
+    "shape": "a"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "closed"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "u"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 59,
+    "shape": "u"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "u"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.": {
+  "speaker": "soma",
+  "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.",
+  "durationSec": 5.292,
+  "frames": 127,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "a"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "a"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "closed"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "u"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "u"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "i"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 25,
+    "shape": "i"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "i"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "i"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "i"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "closed"
+   },
+   {
+    "f": 50,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "e"
+   },
+   {
+    "f": 53,
+    "shape": "closed"
+   },
+   {
+    "f": 57,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "closed"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "u"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "u"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "closed"
+   },
+   {
+    "f": 72,
+    "shape": "small"
+   },
+   {
+    "f": 73,
+    "shape": "a"
+   },
+   {
+    "f": 74,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "closed"
+   },
+   {
+    "f": 79,
+    "shape": "small"
+   },
+   {
+    "f": 80,
+    "shape": "a"
+   },
+   {
+    "f": 82,
+    "shape": "small"
+   },
+   {
+    "f": 85,
+    "shape": "a"
+   },
+   {
+    "f": 87,
+    "shape": "closed"
+   },
+   {
+    "f": 88,
+    "shape": "small"
+   },
+   {
+    "f": 90,
+    "shape": "a"
+   },
+   {
+    "f": 92,
+    "shape": "small"
+   },
+   {
+    "f": 93,
+    "shape": "closed"
+   },
+   {
+    "f": 94,
+    "shape": "small"
+   },
+   {
+    "f": 95,
+    "shape": "o"
+   },
+   {
+    "f": 96,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "o"
+   },
+   {
+    "f": 98,
+    "shape": "small"
+   },
+   {
+    "f": 101,
+    "shape": "o"
+   },
+   {
+    "f": 104,
+    "shape": "small"
+   },
+   {
+    "f": 106,
+    "shape": "closed"
+   },
+   {
+    "f": 107,
+    "shape": "small"
+   },
+   {
+    "f": 108,
+    "shape": "u"
+   },
+   {
+    "f": 110,
+    "shape": "small"
+   },
+   {
+    "f": 115,
+    "shape": "u"
+   },
+   {
+    "f": 119,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|무서워… 소마, 돌아가자.": {
+  "speaker": "mio",
+  "text": "무서워… 소마, 돌아가자.",
+  "durationSec": 2.458,
+  "frames": 59,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "u"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "u"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "u"
+   },
+   {
+    "f": 15,
+    "shape": "closed"
+   },
+   {
+    "f": 22,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "o"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "o"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "closed"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "o"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "closed"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 45,
+    "shape": "a"
+   },
+   {
+    "f": 47,
+    "shape": "closed"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "a"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|그 순간, 하늘이 검게 물들었다.": {
+  "speaker": "narration",
+  "text": "그 순간, 하늘이 검게 물들었다.",
+  "durationSec": 3.583,
+  "frames": 86,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "u"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "u"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "closed"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "a"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "u"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "u"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "closed"
+   },
+   {
+    "f": 42,
+    "shape": "e"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "closed"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 50,
+    "shape": "e"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "e"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "closed"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "u"
+   },
+   {
+    "f": 68,
+    "shape": "closed"
+   },
+   {
+    "f": 72,
+    "shape": "a"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|교차로. 정지한 신호등 아래, 시간이 어긋난다.": {
+  "speaker": "narration",
+  "text": "교차로. 정지한 신호등 아래, 시간이 어긋난다.",
+  "durationSec": 5.5,
+  "frames": 132,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "o"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "a"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "a"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "closed"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "e"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "e"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "closed"
+   },
+   {
+    "f": 45,
+    "shape": "a"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "a"
+   },
+   {
+    "f": 55,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "closed"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "o"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "o"
+   },
+   {
+    "f": 74,
+    "shape": "small"
+   },
+   {
+    "f": 77,
+    "shape": "o"
+   },
+   {
+    "f": 80,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "closed"
+   },
+   {
+    "f": 86,
+    "shape": "small"
+   },
+   {
+    "f": 89,
+    "shape": "i"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 92,
+    "shape": "closed"
+   },
+   {
+    "f": 93,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "a"
+   },
+   {
+    "f": 95,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "a"
+   },
+   {
+    "f": 98,
+    "shape": "small"
+   },
+   {
+    "f": 99,
+    "shape": "a"
+   },
+   {
+    "f": 101,
+    "shape": "small"
+   },
+   {
+    "f": 102,
+    "shape": "closed"
+   },
+   {
+    "f": 103,
+    "shape": "small"
+   },
+   {
+    "f": 113,
+    "shape": "e"
+   },
+   {
+    "f": 114,
+    "shape": "small"
+   },
+   {
+    "f": 118,
+    "shape": "e"
+   },
+   {
+    "f": 121,
+    "shape": "small"
+   },
+   {
+    "f": 122,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|소마, 빨리 와! 신호가 바뀌었어!": {
+  "speaker": "mio",
+  "text": "소마, 빨리 와! 신호가 바뀌었어!",
+  "durationSec": 3.375,
+  "frames": 81,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "o"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "o"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "a"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "a"
+   },
+   {
+    "f": 22,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "a"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "closed"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "i"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "closed"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "a"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 50,
+    "shape": "closed"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "a"
+   },
+   {
+    "f": 54,
+    "shape": "closed"
+   },
+   {
+    "f": 56,
+    "shape": "a"
+   },
+   {
+    "f": 60,
+    "shape": "closed"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "i"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "i"
+   },
+   {
+    "f": 72,
+    "shape": "small"
+   },
+   {
+    "f": 73,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|…어?": {
+  "speaker": "mio",
+  "text": "…어?",
+  "durationSec": 0.542,
+  "frames": 13,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "e"
+   },
+   {
+    "f": 6,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|미오!!": {
+  "speaker": "soma",
+  "text": "미오!!",
+  "durationSec": 0.75,
+  "frames": 18,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "i"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "i"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|…멈췄어? 아니, 모든 게 멈춘 거야.": {
+  "speaker": "soma",
+  "text": "…멈췄어? 아니, 모든 게 멈춘 거야.",
+  "durationSec": 3.708,
+  "frames": 89,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "e"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "closed"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "u"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "u"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "a"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "a"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "closed"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "o"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "closed"
+   },
+   {
+    "f": 47,
+    "shape": "u"
+   },
+   {
+    "f": 50,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "closed"
+   },
+   {
+    "f": 54,
+    "shape": "e"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 57,
+    "shape": "e"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "closed"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "closed"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "e"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "closed"
+   },
+   {
+    "f": 72,
+    "shape": "e"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 77,
+    "shape": "e"
+   },
+   {
+    "f": 80,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|소리도, 바람도 없어. 나만 움직일 수 있어.": {
+  "speaker": "soma",
+  "text": "소리도, 바람도 없어. 나만 움직일 수 있어.",
+  "durationSec": 4.042,
+  "frames": 97,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "o"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "closed"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "o"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "closed"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "a"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "a"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "a"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "closed"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "e"
+   },
+   {
+    "f": 45,
+    "shape": "closed"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "a"
+   },
+   {
+    "f": 57,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "a"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "a"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "a"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "closed"
+   },
+   {
+    "f": 70,
+    "shape": "i"
+   },
+   {
+    "f": 72,
+    "shape": "small"
+   },
+   {
+    "f": 77,
+    "shape": "i"
+   },
+   {
+    "f": 80,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "i"
+   },
+   {
+    "f": 82,
+    "shape": "small"
+   },
+   {
+    "f": 86,
+    "shape": "i"
+   },
+   {
+    "f": 89,
+    "shape": "small"
+   },
+   {
+    "f": 90,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|이게… 시계가 멈춘 이유인가.": {
+  "speaker": "soma",
+  "text": "이게… 시계가 멈춘 이유인가.",
+  "durationSec": 2.667,
+  "frames": 64,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "closed"
+   },
+   {
+    "f": 5,
+    "shape": "e"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "closed"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "i"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "e"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "a"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "a"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "closed"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "closed"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "u"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "u"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "u"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "u"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "closed"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "i"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 57,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|미오, 미안해. 조금만 거칠게 할게.": {
+  "speaker": "soma",
+  "text": "미오, 미안해. 조금만 거칠게 할게.",
+  "durationSec": 3.75,
+  "frames": 90,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "i"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "i"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "closed"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "i"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "closed"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "e"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "closed"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "o"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "closed"
+   },
+   {
+    "f": 43,
+    "shape": "u"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "u"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "closed"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "e"
+   },
+   {
+    "f": 57,
+    "shape": "closed"
+   },
+   {
+    "f": 61,
+    "shape": "small"
+   },
+   {
+    "f": 65,
+    "shape": "closed"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "e"
+   },
+   {
+    "f": 69,
+    "shape": "closed"
+   },
+   {
+    "f": 71,
+    "shape": "e"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "closed"
+   },
+   {
+    "f": 78,
+    "shape": "small"
+   },
+   {
+    "f": 79,
+    "shape": "e"
+   },
+   {
+    "f": 81,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|방금… 트럭이 있었는데? 어떻게 된 거야?": {
+  "speaker": "mio",
+  "text": "방금… 트럭이 있었는데? 어떻게 된 거야?",
+  "durationSec": 4.125,
+  "frames": 99,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "a"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "closed"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "closed"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "u"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "u"
+   },
+   {
+    "f": 30,
+    "shape": "closed"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "e"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "e"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "e"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "closed"
+   },
+   {
+    "f": 60,
+    "shape": "e"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "closed"
+   },
+   {
+    "f": 64,
+    "shape": "e"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "closed"
+   },
+   {
+    "f": 71,
+    "shape": "e"
+   },
+   {
+    "f": 73,
+    "shape": "closed"
+   },
+   {
+    "f": 74,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "e"
+   },
+   {
+    "f": 78,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "closed"
+   },
+   {
+    "f": 83,
+    "shape": "o"
+   },
+   {
+    "f": 86,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "o"
+   },
+   {
+    "f": 90,
+    "shape": "small"
+   },
+   {
+    "f": 92,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|나도 몰라. 하지만… 이제 괜찮아.": {
+  "speaker": "soma",
+  "text": "나도 몰라. 하지만… 이제 괜찮아.",
+  "durationSec": 3.417,
+  "frames": 82,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "a"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "a"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "a"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "a"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "a"
+   },
+   {
+    "f": 30,
+    "shape": "closed"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "a"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "a"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "closed"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "a"
+   },
+   {
+    "f": 50,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "a"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "a"
+   },
+   {
+    "f": 58,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "closed"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "closed"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "a"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "a"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "closed"
+   }
+  ]
+ },
+ "mio|소마, 네 눈… 파랗게 빛나고 있어.": {
+  "speaker": "mio",
+  "text": "소마, 네 눈… 파랗게 빛나고 있어.",
+  "durationSec": 3.25,
+  "frames": 78,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "o"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "o"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "e"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "e"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "closed"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "a"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "a"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "closed"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "i"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   },
+   {
+    "f": 50,
+    "shape": "i"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "i"
+   },
+   {
+    "f": 57,
+    "shape": "closed"
+   },
+   {
+    "f": 59,
+    "shape": "o"
+   },
+   {
+    "f": 64,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "o"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|그날 밤, 시계 소리를 따라 소마는 항구로 향했다.": {
+  "speaker": "narration",
+  "text": "그날 밤, 시계 소리를 따라 소마는 항구로 향했다.",
+  "durationSec": 5.417,
+  "frames": 130,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "u"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "u"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "a"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "e"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "closed"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "o"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "o"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "o"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "o"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "closed"
+   },
+   {
+    "f": 57,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "a"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "a"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "a"
+   },
+   {
+    "f": 71,
+    "shape": "small"
+   },
+   {
+    "f": 73,
+    "shape": "a"
+   },
+   {
+    "f": 74,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "closed"
+   },
+   {
+    "f": 82,
+    "shape": "small"
+   },
+   {
+    "f": 83,
+    "shape": "a"
+   },
+   {
+    "f": 86,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "closed"
+   },
+   {
+    "f": 90,
+    "shape": "small"
+   },
+   {
+    "f": 91,
+    "shape": "u"
+   },
+   {
+    "f": 92,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "u"
+   },
+   {
+    "f": 96,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "closed"
+   },
+   {
+    "f": 98,
+    "shape": "small"
+   },
+   {
+    "f": 100,
+    "shape": "o"
+   },
+   {
+    "f": 104,
+    "shape": "small"
+   },
+   {
+    "f": 108,
+    "shape": "closed"
+   },
+   {
+    "f": 109,
+    "shape": "small"
+   },
+   {
+    "f": 110,
+    "shape": "e"
+   },
+   {
+    "f": 111,
+    "shape": "small"
+   },
+   {
+    "f": 112,
+    "shape": "closed"
+   },
+   {
+    "f": 115,
+    "shape": "small"
+   },
+   {
+    "f": 116,
+    "shape": "e"
+   },
+   {
+    "f": 120,
+    "shape": "small"
+   },
+   {
+    "f": 121,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|이 시계… 방향을 가리키고 있어.": {
+  "speaker": "soma",
+  "text": "이 시계… 방향을 가리키고 있어.",
+  "durationSec": 3,
+  "frames": 72,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "i"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "i"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "closed"
+   },
+   {
+    "f": 23,
+    "shape": "a"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "a"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "a"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "closed"
+   },
+   {
+    "f": 40,
+    "shape": "a"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "a"
+   },
+   {
+    "f": 45,
+    "shape": "closed"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "i"
+   },
+   {
+    "f": 50,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "closed"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "o"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "o"
+   },
+   {
+    "f": 57,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "o"
+   },
+   {
+    "f": 64,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.": {
+  "speaker": "soma",
+  "text": "폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.",
+  "durationSec": 5.458,
+  "frames": 131,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "e"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "e"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "e"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "closed"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "i"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "closed"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "i"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "closed"
+   },
+   {
+    "f": 39,
+    "shape": "e"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "e"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "closed"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "o"
+   },
+   {
+    "f": 57,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "closed"
+   },
+   {
+    "f": 66,
+    "shape": "a"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "closed"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 72,
+    "shape": "i"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 75,
+    "shape": "i"
+   },
+   {
+    "f": 76,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "i"
+   },
+   {
+    "f": 79,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "i"
+   },
+   {
+    "f": 82,
+    "shape": "closed"
+   },
+   {
+    "f": 83,
+    "shape": "small"
+   },
+   {
+    "f": 84,
+    "shape": "i"
+   },
+   {
+    "f": 85,
+    "shape": "small"
+   },
+   {
+    "f": 87,
+    "shape": "i"
+   },
+   {
+    "f": 88,
+    "shape": "small"
+   },
+   {
+    "f": 89,
+    "shape": "closed"
+   },
+   {
+    "f": 90,
+    "shape": "small"
+   },
+   {
+    "f": 95,
+    "shape": "a"
+   },
+   {
+    "f": 96,
+    "shape": "small"
+   },
+   {
+    "f": 100,
+    "shape": "a"
+   },
+   {
+    "f": 101,
+    "shape": "small"
+   },
+   {
+    "f": 105,
+    "shape": "a"
+   },
+   {
+    "f": 107,
+    "shape": "closed"
+   },
+   {
+    "f": 110,
+    "shape": "e"
+   },
+   {
+    "f": 113,
+    "shape": "small"
+   },
+   {
+    "f": 116,
+    "shape": "closed"
+   },
+   {
+    "f": 117,
+    "shape": "small"
+   },
+   {
+    "f": 118,
+    "shape": "o"
+   },
+   {
+    "f": 120,
+    "shape": "small"
+   },
+   {
+    "f": 121,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.": {
+  "speaker": "narration",
+  "text": "열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.",
+  "durationSec": 5.25,
+  "frames": 126,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "e"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "e"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "e"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "e"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "e"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "e"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "e"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "closed"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "a"
+   },
+   {
+    "f": 72,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "a"
+   },
+   {
+    "f": 76,
+    "shape": "small"
+   },
+   {
+    "f": 83,
+    "shape": "closed"
+   },
+   {
+    "f": 84,
+    "shape": "small"
+   },
+   {
+    "f": 85,
+    "shape": "a"
+   },
+   {
+    "f": 87,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "closed"
+   },
+   {
+    "f": 89,
+    "shape": "i"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 93,
+    "shape": "i"
+   },
+   {
+    "f": 94,
+    "shape": "small"
+   },
+   {
+    "f": 95,
+    "shape": "closed"
+   },
+   {
+    "f": 96,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "o"
+   },
+   {
+    "f": 99,
+    "shape": "small"
+   },
+   {
+    "f": 104,
+    "shape": "o"
+   },
+   {
+    "f": 108,
+    "shape": "small"
+   },
+   {
+    "f": 109,
+    "shape": "closed"
+   },
+   {
+    "f": 112,
+    "shape": "small"
+   },
+   {
+    "f": 113,
+    "shape": "a"
+   },
+   {
+    "f": 116,
+    "shape": "small"
+   },
+   {
+    "f": 117,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|전부 십이 년 전에 멈춰 있어.": {
+  "speaker": "soma",
+  "text": "전부 십이 년 전에 멈춰 있어.",
+  "durationSec": 2.75,
+  "frames": 66,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "e"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "e"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "e"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "closed"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "i"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "i"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "e"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "e"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "e"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "closed"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "closed"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "u"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "u"
+   },
+   {
+    "f": 58,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|날짜가… 이 도시가 처음 멈춘 날이야.": {
+  "speaker": "soma",
+  "text": "날짜가… 이 도시가 처음 멈춘 날이야.",
+  "durationSec": 3.583,
+  "frames": 86,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "a"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "closed"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "a"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "closed"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "a"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "i"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "i"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "i"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "closed"
+   },
+   {
+    "f": 36,
+    "shape": "a"
+   },
+   {
+    "f": 39,
+    "shape": "closed"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "closed"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "e"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "e"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "e"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 58,
+    "shape": "closed"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "u"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "u"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "u"
+   },
+   {
+    "f": 77,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "closed"
+   }
+  ]
+ },
+ "kaede|…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.": {
+  "speaker": "kaede",
+  "text": "…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.",
+  "durationSec": 5.208,
+  "frames": 125,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "closed"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "i"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "i"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "closed"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "o"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "u"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "closed"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "o"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "o"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "closed"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "i"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "i"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "closed"
+   },
+   {
+    "f": 57,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "e"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "closed"
+   },
+   {
+    "f": 64,
+    "shape": "small"
+   },
+   {
+    "f": 65,
+    "shape": "e"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "e"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 75,
+    "shape": "e"
+   },
+   {
+    "f": 78,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "e"
+   },
+   {
+    "f": 84,
+    "shape": "small"
+   },
+   {
+    "f": 86,
+    "shape": "e"
+   },
+   {
+    "f": 88,
+    "shape": "small"
+   },
+   {
+    "f": 89,
+    "shape": "e"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 93,
+    "shape": "closed"
+   },
+   {
+    "f": 96,
+    "shape": "small"
+   },
+   {
+    "f": 98,
+    "shape": "i"
+   },
+   {
+    "f": 100,
+    "shape": "closed"
+   },
+   {
+    "f": 104,
+    "shape": "small"
+   },
+   {
+    "f": 106,
+    "shape": "e"
+   },
+   {
+    "f": 108,
+    "shape": "small"
+   },
+   {
+    "f": 111,
+    "shape": "e"
+   },
+   {
+    "f": 114,
+    "shape": "small"
+   },
+   {
+    "f": 115,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|박사님…? 이건 기록… 영상인가요?": {
+  "speaker": "soma",
+  "text": "박사님…? 이건 기록… 영상인가요?",
+  "durationSec": 3.5,
+  "frames": 84,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "a"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "closed"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "a"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "a"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "closed"
+   },
+   {
+    "f": 24,
+    "shape": "i"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "closed"
+   },
+   {
+    "f": 28,
+    "shape": "i"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 35,
+    "shape": "i"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "i"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "closed"
+   },
+   {
+    "f": 50,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "o"
+   },
+   {
+    "f": 55,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "o"
+   },
+   {
+    "f": 61,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "o"
+   },
+   {
+    "f": 64,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "closed"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "a"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 72,
+    "shape": "a"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "closed"
+   }
+  ]
+ },
+ "kaede|소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.": {
+  "speaker": "kaede",
+  "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.",
+  "durationSec": 9.25,
+  "frames": 222,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "o"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "o"
+   },
+   {
+    "f": 13,
+    "shape": "closed"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "e"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "e"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "e"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "closed"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "u"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "closed"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "e"
+   },
+   {
+    "f": 50,
+    "shape": "closed"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "u"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "closed"
+   },
+   {
+    "f": 55,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "a"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "a"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "a"
+   },
+   {
+    "f": 78,
+    "shape": "small"
+   },
+   {
+    "f": 79,
+    "shape": "closed"
+   },
+   {
+    "f": 90,
+    "shape": "small"
+   },
+   {
+    "f": 92,
+    "shape": "a"
+   },
+   {
+    "f": 94,
+    "shape": "small"
+   },
+   {
+    "f": 96,
+    "shape": "closed"
+   },
+   {
+    "f": 97,
+    "shape": "small"
+   },
+   {
+    "f": 98,
+    "shape": "i"
+   },
+   {
+    "f": 99,
+    "shape": "small"
+   },
+   {
+    "f": 106,
+    "shape": "i"
+   },
+   {
+    "f": 108,
+    "shape": "small"
+   },
+   {
+    "f": 110,
+    "shape": "closed"
+   },
+   {
+    "f": 112,
+    "shape": "small"
+   },
+   {
+    "f": 113,
+    "shape": "closed"
+   },
+   {
+    "f": 116,
+    "shape": "small"
+   },
+   {
+    "f": 117,
+    "shape": "e"
+   },
+   {
+    "f": 118,
+    "shape": "small"
+   },
+   {
+    "f": 121,
+    "shape": "e"
+   },
+   {
+    "f": 122,
+    "shape": "small"
+   },
+   {
+    "f": 126,
+    "shape": "closed"
+   },
+   {
+    "f": 127,
+    "shape": "small"
+   },
+   {
+    "f": 128,
+    "shape": "u"
+   },
+   {
+    "f": 129,
+    "shape": "small"
+   },
+   {
+    "f": 132,
+    "shape": "u"
+   },
+   {
+    "f": 134,
+    "shape": "small"
+   },
+   {
+    "f": 138,
+    "shape": "closed"
+   },
+   {
+    "f": 139,
+    "shape": "small"
+   },
+   {
+    "f": 141,
+    "shape": "u"
+   },
+   {
+    "f": 143,
+    "shape": "small"
+   },
+   {
+    "f": 149,
+    "shape": "closed"
+   },
+   {
+    "f": 150,
+    "shape": "small"
+   },
+   {
+    "f": 151,
+    "shape": "e"
+   },
+   {
+    "f": 154,
+    "shape": "small"
+   },
+   {
+    "f": 159,
+    "shape": "e"
+   },
+   {
+    "f": 162,
+    "shape": "small"
+   },
+   {
+    "f": 165,
+    "shape": "e"
+   },
+   {
+    "f": 166,
+    "shape": "small"
+   },
+   {
+    "f": 169,
+    "shape": "e"
+   },
+   {
+    "f": 170,
+    "shape": "small"
+   },
+   {
+    "f": 174,
+    "shape": "closed"
+   },
+   {
+    "f": 175,
+    "shape": "small"
+   },
+   {
+    "f": 176,
+    "shape": "u"
+   },
+   {
+    "f": 180,
+    "shape": "small"
+   },
+   {
+    "f": 182,
+    "shape": "u"
+   },
+   {
+    "f": 183,
+    "shape": "small"
+   },
+   {
+    "f": 185,
+    "shape": "u"
+   },
+   {
+    "f": 187,
+    "shape": "small"
+   },
+   {
+    "f": 193,
+    "shape": "u"
+   },
+   {
+    "f": 197,
+    "shape": "small"
+   },
+   {
+    "f": 203,
+    "shape": "u"
+   },
+   {
+    "f": 204,
+    "shape": "small"
+   },
+   {
+    "f": 206,
+    "shape": "u"
+   },
+   {
+    "f": 211,
+    "shape": "small"
+   },
+   {
+    "f": 212,
+    "shape": "closed"
+   }
+  ]
+ },
+ "kaede|하지만 그 힘을 노리는 자들이 있다. 조심하거라.": {
+  "speaker": "kaede",
+  "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라.",
+  "durationSec": 5.25,
+  "frames": 126,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "a"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "closed"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "a"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "a"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "closed"
+   },
+   {
+    "f": 18,
+    "shape": "a"
+   },
+   {
+    "f": 22,
+    "shape": "closed"
+   },
+   {
+    "f": 24,
+    "shape": "u"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "u"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "u"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "u"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "u"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "u"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "u"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "closed"
+   },
+   {
+    "f": 70,
+    "shape": "i"
+   },
+   {
+    "f": 74,
+    "shape": "small"
+   },
+   {
+    "f": 75,
+    "shape": "closed"
+   },
+   {
+    "f": 86,
+    "shape": "small"
+   },
+   {
+    "f": 89,
+    "shape": "a"
+   },
+   {
+    "f": 90,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "a"
+   },
+   {
+    "f": 96,
+    "shape": "small"
+   },
+   {
+    "f": 100,
+    "shape": "closed"
+   },
+   {
+    "f": 101,
+    "shape": "small"
+   },
+   {
+    "f": 102,
+    "shape": "a"
+   },
+   {
+    "f": 104,
+    "shape": "closed"
+   },
+   {
+    "f": 106,
+    "shape": "a"
+   },
+   {
+    "f": 109,
+    "shape": "small"
+   },
+   {
+    "f": 112,
+    "shape": "a"
+   },
+   {
+    "f": 116,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|열쇠… 내가?": {
+  "speaker": "soma",
+  "text": "열쇠… 내가?",
+  "durationSec": 1.667,
+  "frames": 40,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "e"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "e"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "closed"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "e"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "closed"
+   },
+   {
+    "f": 28,
+    "shape": "a"
+   },
+   {
+    "f": 32,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|그 시계를 넘겨라.": {
+  "speaker": "veyra",
+  "text": "그 시계를 넘겨라.",
+  "durationSec": 2.083,
+  "frames": 50,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "u"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "u"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "i"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "i"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "i"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "closed"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "e"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "e"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 41,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|누구지? 이 연구소 사람은 아닌데.": {
+  "speaker": "soma",
+  "text": "누구지? 이 연구소 사람은 아닌데.",
+  "durationSec": 3.083,
+  "frames": 74,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "u"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "closed"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "u"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "closed"
+   },
+   {
+    "f": 23,
+    "shape": "i"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "i"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "closed"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "u"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "u"
+   },
+   {
+    "f": 40,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "u"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "u"
+   },
+   {
+    "f": 48,
+    "shape": "small"
+   },
+   {
+    "f": 50,
+    "shape": "u"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "u"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "u"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 66,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.": {
+  "speaker": "veyra",
+  "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.",
+  "durationSec": 7.542,
+  "frames": 181,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "i"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "i"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 12,
+    "shape": "a"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "a"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "a"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "closed"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "i"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "i"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "closed"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "e"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "e"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "e"
+   },
+   {
+    "f": 69,
+    "shape": "closed"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "i"
+   },
+   {
+    "f": 76,
+    "shape": "small"
+   },
+   {
+    "f": 79,
+    "shape": "i"
+   },
+   {
+    "f": 81,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "closed"
+   },
+   {
+    "f": 84,
+    "shape": "i"
+   },
+   {
+    "f": 86,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "i"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "i"
+   },
+   {
+    "f": 99,
+    "shape": "small"
+   },
+   {
+    "f": 106,
+    "shape": "closed"
+   },
+   {
+    "f": 107,
+    "shape": "small"
+   },
+   {
+    "f": 109,
+    "shape": "u"
+   },
+   {
+    "f": 112,
+    "shape": "small"
+   },
+   {
+    "f": 120,
+    "shape": "u"
+   },
+   {
+    "f": 123,
+    "shape": "small"
+   },
+   {
+    "f": 124,
+    "shape": "closed"
+   },
+   {
+    "f": 125,
+    "shape": "small"
+   },
+   {
+    "f": 126,
+    "shape": "a"
+   },
+   {
+    "f": 129,
+    "shape": "small"
+   },
+   {
+    "f": 130,
+    "shape": "a"
+   },
+   {
+    "f": 132,
+    "shape": "small"
+   },
+   {
+    "f": 135,
+    "shape": "a"
+   },
+   {
+    "f": 140,
+    "shape": "small"
+   },
+   {
+    "f": 141,
+    "shape": "closed"
+   },
+   {
+    "f": 143,
+    "shape": "small"
+   },
+   {
+    "f": 144,
+    "shape": "closed"
+   },
+   {
+    "f": 147,
+    "shape": "e"
+   },
+   {
+    "f": 150,
+    "shape": "small"
+   },
+   {
+    "f": 152,
+    "shape": "e"
+   },
+   {
+    "f": 153,
+    "shape": "small"
+   },
+   {
+    "f": 156,
+    "shape": "e"
+   },
+   {
+    "f": 157,
+    "shape": "small"
+   },
+   {
+    "f": 160,
+    "shape": "closed"
+   },
+   {
+    "f": 161,
+    "shape": "small"
+   },
+   {
+    "f": 162,
+    "shape": "a"
+   },
+   {
+    "f": 164,
+    "shape": "small"
+   },
+   {
+    "f": 165,
+    "shape": "closed"
+   },
+   {
+    "f": 166,
+    "shape": "small"
+   },
+   {
+    "f": 167,
+    "shape": "a"
+   },
+   {
+    "f": 170,
+    "shape": "small"
+   },
+   {
+    "f": 171,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|…싫다면?": {
+  "speaker": "soma",
+  "text": "…싫다면?",
+  "durationSec": 1.25,
+  "frames": 30,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "i"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "closed"
+   },
+   {
+    "f": 11,
+    "shape": "a"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "a"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|베어 내겠다.": {
+  "speaker": "veyra",
+  "text": "베어 내겠다.",
+  "durationSec": 1.458,
+  "frames": 35,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "e"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "e"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "e"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   },
+   {
+    "f": 13,
+    "shape": "e"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "e"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?": {
+  "speaker": "soma",
+  "text": "힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?",
+  "durationSec": 5.208,
+  "frames": 125,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "i"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "i"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "closed"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "o"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "closed"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "closed"
+   },
+   {
+    "f": 30,
+    "shape": "e"
+   },
+   {
+    "f": 31,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "e"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "closed"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "i"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "closed"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "a"
+   },
+   {
+    "f": 55,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "a"
+   },
+   {
+    "f": 63,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "closed"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "closed"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "u"
+   },
+   {
+    "f": 71,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "u"
+   },
+   {
+    "f": 77,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "u"
+   },
+   {
+    "f": 83,
+    "shape": "small"
+   },
+   {
+    "f": 84,
+    "shape": "u"
+   },
+   {
+    "f": 85,
+    "shape": "small"
+   },
+   {
+    "f": 86,
+    "shape": "closed"
+   },
+   {
+    "f": 87,
+    "shape": "e"
+   },
+   {
+    "f": 90,
+    "shape": "closed"
+   },
+   {
+    "f": 93,
+    "shape": "small"
+   },
+   {
+    "f": 95,
+    "shape": "e"
+   },
+   {
+    "f": 96,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "closed"
+   },
+   {
+    "f": 98,
+    "shape": "small"
+   },
+   {
+    "f": 99,
+    "shape": "a"
+   },
+   {
+    "f": 101,
+    "shape": "small"
+   },
+   {
+    "f": 107,
+    "shape": "closed"
+   },
+   {
+    "f": 108,
+    "shape": "small"
+   },
+   {
+    "f": 109,
+    "shape": "e"
+   },
+   {
+    "f": 112,
+    "shape": "closed"
+   },
+   {
+    "f": 113,
+    "shape": "small"
+   },
+   {
+    "f": 115,
+    "shape": "i"
+   },
+   {
+    "f": 116,
+    "shape": "small"
+   },
+   {
+    "f": 117,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|아직 각성이 불완전하군. 실망이다.": {
+  "speaker": "veyra",
+  "text": "아직 각성이 불완전하군. 실망이다.",
+  "durationSec": 4.083,
+  "frames": 98,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "a"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "a"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "i"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "closed"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "a"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "a"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "i"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "i"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "i"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "closed"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 45,
+    "shape": "e"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "closed"
+   },
+   {
+    "f": 49,
+    "shape": "a"
+   },
+   {
+    "f": 52,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "a"
+   },
+   {
+    "f": 55,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "closed"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "u"
+   },
+   {
+    "f": 71,
+    "shape": "small"
+   },
+   {
+    "f": 76,
+    "shape": "u"
+   },
+   {
+    "f": 77,
+    "shape": "small"
+   },
+   {
+    "f": 79,
+    "shape": "u"
+   },
+   {
+    "f": 81,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "closed"
+   },
+   {
+    "f": 83,
+    "shape": "small"
+   },
+   {
+    "f": 84,
+    "shape": "i"
+   },
+   {
+    "f": 87,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|아직… 끝나지 않았어.": {
+  "speaker": "soma",
+  "text": "아직… 끝나지 않았어.",
+  "durationSec": 2.083,
+  "frames": 50,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "a"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "a"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 18,
+    "shape": "u"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "u"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "u"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "u"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "u"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "u"
+   },
+   {
+    "f": 42,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|일단 도망쳐야 해!": {
+  "speaker": "soma",
+  "text": "일단 도망쳐야 해!",
+  "durationSec": 2,
+  "frames": 48,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "i"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "i"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "i"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "closed"
+   },
+   {
+    "f": 22,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "a"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "a"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "a"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|폐허가 된 구시가지. 그리고 검은 달 아래의 대치.": {
+  "speaker": "narration",
+  "text": "폐허가 된 구시가지. 그리고 검은 달 아래의 대치.",
+  "durationSec": 5.458,
+  "frames": 131,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "e"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "closed"
+   },
+   {
+    "f": 9,
+    "shape": "e"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "closed"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "e"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "e"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "closed"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "u"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "closed"
+   },
+   {
+    "f": 40,
+    "shape": "a"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "closed"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 45,
+    "shape": "i"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "u"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 65,
+    "shape": "u"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "closed"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "i"
+   },
+   {
+    "f": 71,
+    "shape": "small"
+   },
+   {
+    "f": 72,
+    "shape": "closed"
+   },
+   {
+    "f": 73,
+    "shape": "o"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "o"
+   },
+   {
+    "f": 80,
+    "shape": "small"
+   },
+   {
+    "f": 85,
+    "shape": "closed"
+   },
+   {
+    "f": 86,
+    "shape": "small"
+   },
+   {
+    "f": 87,
+    "shape": "u"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "u"
+   },
+   {
+    "f": 97,
+    "shape": "small"
+   },
+   {
+    "f": 99,
+    "shape": "u"
+   },
+   {
+    "f": 100,
+    "shape": "small"
+   },
+   {
+    "f": 106,
+    "shape": "closed"
+   },
+   {
+    "f": 107,
+    "shape": "small"
+   },
+   {
+    "f": 108,
+    "shape": "i"
+   },
+   {
+    "f": 111,
+    "shape": "small"
+   },
+   {
+    "f": 113,
+    "shape": "closed"
+   },
+   {
+    "f": 117,
+    "shape": "small"
+   },
+   {
+    "f": 119,
+    "shape": "i"
+   },
+   {
+    "f": 120,
+    "shape": "small"
+   },
+   {
+    "f": 121,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|…온다.": {
+  "speaker": "soma",
+  "text": "…온다.",
+  "durationSec": 0.792,
+  "frames": 19,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "o"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "o"
+   },
+   {
+    "f": 11,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|…흥미롭군.": {
+  "speaker": "veyra",
+  "text": "…흥미롭군.",
+  "durationSec": 1.625,
+  "frames": 39,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 2,
+    "shape": "u"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "u"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "o"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 29,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|아직 끝나지 않았어.": {
+  "speaker": "soma",
+  "text": "아직 끝나지 않았어.",
+  "durationSec": 1.75,
+  "frames": 42,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "a"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "a"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "closed"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "i"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "i"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "i"
+   },
+   {
+    "f": 20,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "i"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "i"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "i"
+   },
+   {
+    "f": 34,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|이 정도로는… 안 돼. 더, 더 빨리!": {
+  "speaker": "soma",
+  "text": "이 정도로는… 안 돼. 더, 더 빨리!",
+  "durationSec": 3.708,
+  "frames": 89,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "closed"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "i"
+   },
+   {
+    "f": 8,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "i"
+   },
+   {
+    "f": 14,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "i"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "u"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "u"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "closed"
+   },
+   {
+    "f": 55,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "e"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "closed"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "e"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "closed"
+   },
+   {
+    "f": 71,
+    "shape": "small"
+   },
+   {
+    "f": 72,
+    "shape": "a"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 80,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|이제 끝이다. 시계를 내놔.": {
+  "speaker": "veyra",
+  "text": "이제 끝이다. 시계를 내놔.",
+  "durationSec": 3.208,
+  "frames": 77,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "i"
+   },
+   {
+    "f": 7,
+    "shape": "closed"
+   },
+   {
+    "f": 9,
+    "shape": "e"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 16,
+    "shape": "closed"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "u"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "i"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "closed"
+   },
+   {
+    "f": 38,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "a"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "closed"
+   },
+   {
+    "f": 44,
+    "shape": "small"
+   },
+   {
+    "f": 45,
+    "shape": "i"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "i"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "i"
+   },
+   {
+    "f": 58,
+    "shape": "small"
+   },
+   {
+    "f": 59,
+    "shape": "i"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 62,
+    "shape": "i"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 68,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!": {
+  "speaker": "soma",
+  "text": "미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!",
+  "durationSec": 4.667,
+  "frames": 112,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "i"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "i"
+   },
+   {
+    "f": 5,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "i"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "closed"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 15,
+    "shape": "i"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "closed"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "i"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "e"
+   },
+   {
+    "f": 29,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "e"
+   },
+   {
+    "f": 33,
+    "shape": "small"
+   },
+   {
+    "f": 34,
+    "shape": "closed"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "u"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 47,
+    "shape": "u"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 50,
+    "shape": "closed"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "u"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 54,
+    "shape": "u"
+   },
+   {
+    "f": 56,
+    "shape": "closed"
+   },
+   {
+    "f": 58,
+    "shape": "e"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "closed"
+   },
+   {
+    "f": 61,
+    "shape": "e"
+   },
+   {
+    "f": 64,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "e"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "closed"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "i"
+   },
+   {
+    "f": 72,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "i"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 79,
+    "shape": "closed"
+   },
+   {
+    "f": 80,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "e"
+   },
+   {
+    "f": 83,
+    "shape": "closed"
+   },
+   {
+    "f": 87,
+    "shape": "small"
+   },
+   {
+    "f": 88,
+    "shape": "e"
+   },
+   {
+    "f": 89,
+    "shape": "small"
+   },
+   {
+    "f": 91,
+    "shape": "e"
+   },
+   {
+    "f": 97,
+    "shape": "small"
+   },
+   {
+    "f": 99,
+    "shape": "e"
+   },
+   {
+    "f": 102,
+    "shape": "small"
+   },
+   {
+    "f": 103,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|들려… 시계 소리가. 이게 진짜 내 힘이야!": {
+  "speaker": "soma",
+  "text": "들려… 시계 소리가. 이게 진짜 내 힘이야!",
+  "durationSec": 4,
+  "frames": 96,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "u"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 8,
+    "shape": "u"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "closed"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 21,
+    "shape": "i"
+   },
+   {
+    "f": 23,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 26,
+    "shape": "o"
+   },
+   {
+    "f": 28,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "o"
+   },
+   {
+    "f": 34,
+    "shape": "small"
+   },
+   {
+    "f": 37,
+    "shape": "closed"
+   },
+   {
+    "f": 39,
+    "shape": "a"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "closed"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 52,
+    "shape": "i"
+   },
+   {
+    "f": 54,
+    "shape": "closed"
+   },
+   {
+    "f": 56,
+    "shape": "e"
+   },
+   {
+    "f": 58,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "e"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "closed"
+   },
+   {
+    "f": 65,
+    "shape": "small"
+   },
+   {
+    "f": 67,
+    "shape": "a"
+   },
+   {
+    "f": 69,
+    "shape": "small"
+   },
+   {
+    "f": 71,
+    "shape": "a"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "closed"
+   },
+   {
+    "f": 75,
+    "shape": "i"
+   },
+   {
+    "f": 78,
+    "shape": "small"
+   },
+   {
+    "f": 82,
+    "shape": "i"
+   },
+   {
+    "f": 86,
+    "shape": "small"
+   },
+   {
+    "f": 87,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|이 속도… 설마, 정지 속에서 움직인 건가?": {
+  "speaker": "veyra",
+  "text": "이 속도… 설마, 정지 속에서 움직인 건가?",
+  "durationSec": 4.667,
+  "frames": 112,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "i"
+   },
+   {
+    "f": 9,
+    "shape": "small"
+   },
+   {
+    "f": 10,
+    "shape": "closed"
+   },
+   {
+    "f": 13,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "o"
+   },
+   {
+    "f": 17,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "o"
+   },
+   {
+    "f": 32,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "o"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "closed"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "e"
+   },
+   {
+    "f": 53,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "e"
+   },
+   {
+    "f": 56,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "e"
+   },
+   {
+    "f": 63,
+    "shape": "closed"
+   },
+   {
+    "f": 65,
+    "shape": "e"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "e"
+   },
+   {
+    "f": 75,
+    "shape": "small"
+   },
+   {
+    "f": 79,
+    "shape": "e"
+   },
+   {
+    "f": 80,
+    "shape": "small"
+   },
+   {
+    "f": 81,
+    "shape": "closed"
+   },
+   {
+    "f": 82,
+    "shape": "small"
+   },
+   {
+    "f": 83,
+    "shape": "i"
+   },
+   {
+    "f": 85,
+    "shape": "small"
+   },
+   {
+    "f": 86,
+    "shape": "i"
+   },
+   {
+    "f": 88,
+    "shape": "small"
+   },
+   {
+    "f": 90,
+    "shape": "i"
+   },
+   {
+    "f": 93,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "i"
+   },
+   {
+    "f": 95,
+    "shape": "small"
+   },
+   {
+    "f": 96,
+    "shape": "closed"
+   },
+   {
+    "f": 98,
+    "shape": "a"
+   },
+   {
+    "f": 102,
+    "shape": "small"
+   },
+   {
+    "f": 103,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|이걸로 끝이야!": {
+  "speaker": "soma",
+  "text": "이걸로 끝이야!",
+  "durationSec": 1.5,
+  "frames": 36,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "i"
+   },
+   {
+    "f": 2,
+    "shape": "small"
+   },
+   {
+    "f": 3,
+    "shape": "closed"
+   },
+   {
+    "f": 4,
+    "shape": "i"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 7,
+    "shape": "i"
+   },
+   {
+    "f": 10,
+    "shape": "closed"
+   },
+   {
+    "f": 12,
+    "shape": "o"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "closed"
+   },
+   {
+    "f": 19,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "u"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 23,
+    "shape": "u"
+   },
+   {
+    "f": 27,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|…그 얼굴은, 뭐야.": {
+  "speaker": "soma",
+  "text": "…그 얼굴은, 뭐야.",
+  "durationSec": 1.833,
+  "frames": 44,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "u"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 4,
+    "shape": "u"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "closed"
+   },
+   {
+    "f": 10,
+    "shape": "small"
+   },
+   {
+    "f": 11,
+    "shape": "e"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "closed"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "u"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "u"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 36,
+    "shape": "closed"
+   }
+  ]
+ },
+ "veyra|열두 번째다. 나도, 너도.": {
+  "speaker": "veyra",
+  "text": "열두 번째다. 나도, 너도.",
+  "durationSec": 3.542,
+  "frames": 85,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 1,
+    "shape": "e"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "e"
+   },
+   {
+    "f": 11,
+    "shape": "small"
+   },
+   {
+    "f": 12,
+    "shape": "closed"
+   },
+   {
+    "f": 13,
+    "shape": "u"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 17,
+    "shape": "closed"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 20,
+    "shape": "e"
+   },
+   {
+    "f": 24,
+    "shape": "small"
+   },
+   {
+    "f": 25,
+    "shape": "closed"
+   },
+   {
+    "f": 26,
+    "shape": "small"
+   },
+   {
+    "f": 27,
+    "shape": "e"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 31,
+    "shape": "closed"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "a"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "a"
+   },
+   {
+    "f": 47,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "closed"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 51,
+    "shape": "a"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 55,
+    "shape": "closed"
+   },
+   {
+    "f": 60,
+    "shape": "small"
+   },
+   {
+    "f": 63,
+    "shape": "o"
+   },
+   {
+    "f": 66,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "o"
+   },
+   {
+    "f": 72,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "closed"
+   }
+  ]
+ },
+ "narration|검은 달은, 아직 저물지 않았다.": {
+  "speaker": "narration",
+  "text": "검은 달은, 아직 저물지 않았다.",
+  "durationSec": 3.625,
+  "frames": 87,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 1,
+    "shape": "e"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "e"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 14,
+    "shape": "e"
+   },
+   {
+    "f": 16,
+    "shape": "small"
+   },
+   {
+    "f": 30,
+    "shape": "closed"
+   },
+   {
+    "f": 35,
+    "shape": "i"
+   },
+   {
+    "f": 37,
+    "shape": "small"
+   },
+   {
+    "f": 38,
+    "shape": "closed"
+   },
+   {
+    "f": 39,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "e"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "closed"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 48,
+    "shape": "e"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "e"
+   },
+   {
+    "f": 54,
+    "shape": "small"
+   },
+   {
+    "f": 56,
+    "shape": "closed"
+   },
+   {
+    "f": 57,
+    "shape": "i"
+   },
+   {
+    "f": 59,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "i"
+   },
+   {
+    "f": 61,
+    "shape": "small"
+   },
+   {
+    "f": 65,
+    "shape": "i"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 70,
+    "shape": "closed"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 74,
+    "shape": "a"
+   },
+   {
+    "f": 76,
+    "shape": "small"
+   },
+   {
+    "f": 78,
+    "shape": "closed"
+   }
+  ]
+ },
+ "soma|미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.": {
+  "speaker": "soma",
+  "text": "미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.",
+  "durationSec": 4.708,
+  "frames": 113,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "small"
+   },
+   {
+    "f": 2,
+    "shape": "i"
+   },
+   {
+    "f": 3,
+    "shape": "small"
+   },
+   {
+    "f": 6,
+    "shape": "i"
+   },
+   {
+    "f": 7,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "closed"
+   },
+   {
+    "f": 15,
+    "shape": "small"
+   },
+   {
+    "f": 18,
+    "shape": "a"
+   },
+   {
+    "f": 22,
+    "shape": "small"
+   },
+   {
+    "f": 24,
+    "shape": "closed"
+   },
+   {
+    "f": 27,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "e"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 33,
+    "shape": "e"
+   },
+   {
+    "f": 36,
+    "shape": "small"
+   },
+   {
+    "f": 39,
+    "shape": "e"
+   },
+   {
+    "f": 42,
+    "shape": "small"
+   },
+   {
+    "f": 43,
+    "shape": "e"
+   },
+   {
+    "f": 45,
+    "shape": "small"
+   },
+   {
+    "f": 46,
+    "shape": "closed"
+   },
+   {
+    "f": 47,
+    "shape": "i"
+   },
+   {
+    "f": 49,
+    "shape": "small"
+   },
+   {
+    "f": 61,
+    "shape": "i"
+   },
+   {
+    "f": 64,
+    "shape": "closed"
+   },
+   {
+    "f": 68,
+    "shape": "small"
+   },
+   {
+    "f": 69,
+    "shape": "i"
+   },
+   {
+    "f": 70,
+    "shape": "small"
+   },
+   {
+    "f": 72,
+    "shape": "i"
+   },
+   {
+    "f": 73,
+    "shape": "small"
+   },
+   {
+    "f": 75,
+    "shape": "i"
+   },
+   {
+    "f": 77,
+    "shape": "small"
+   },
+   {
+    "f": 80,
+    "shape": "i"
+   },
+   {
+    "f": 82,
+    "shape": "small"
+   },
+   {
+    "f": 90,
+    "shape": "i"
+   },
+   {
+    "f": 91,
+    "shape": "small"
+   },
+   {
+    "f": 93,
+    "shape": "i"
+   },
+   {
+    "f": 94,
+    "shape": "small"
+   },
+   {
+    "f": 97,
+    "shape": "i"
+   },
+   {
+    "f": 98,
+    "shape": "small"
+   },
+   {
+    "f": 102,
+    "shape": "i"
+   },
+   {
+    "f": 103,
+    "shape": "small"
+   },
+   {
+    "f": 105,
+    "shape": "closed"
+   }
+  ]
+ },
+ "kaede|[기록] 다음 정지까지, 남은 시간 열하루.": {
+  "speaker": "kaede",
+  "text": "[기록] 다음 정지까지, 남은 시간 열하루.",
+  "durationSec": 4.792,
+  "frames": 115,
+  "cues": [
+   {
+    "f": 0,
+    "shape": "closed"
+   },
+   {
+    "f": 4,
+    "shape": "small"
+   },
+   {
+    "f": 5,
+    "shape": "e"
+   },
+   {
+    "f": 6,
+    "shape": "small"
+   },
+   {
+    "f": 9,
+    "shape": "e"
+   },
+   {
+    "f": 12,
+    "shape": "small"
+   },
+   {
+    "f": 13,
+    "shape": "closed"
+   },
+   {
+    "f": 18,
+    "shape": "small"
+   },
+   {
+    "f": 19,
+    "shape": "i"
+   },
+   {
+    "f": 21,
+    "shape": "small"
+   },
+   {
+    "f": 22,
+    "shape": "i"
+   },
+   {
+    "f": 25,
+    "shape": "small"
+   },
+   {
+    "f": 28,
+    "shape": "closed"
+   },
+   {
+    "f": 30,
+    "shape": "small"
+   },
+   {
+    "f": 32,
+    "shape": "e"
+   },
+   {
+    "f": 35,
+    "shape": "small"
+   },
+   {
+    "f": 40,
+    "shape": "e"
+   },
+   {
+    "f": 41,
+    "shape": "small"
+   },
+   {
+    "f": 42,
+    "shape": "closed"
+   },
+   {
+    "f": 43,
+    "shape": "small"
+   },
+   {
+    "f": 44,
+    "shape": "e"
+   },
+   {
+    "f": 46,
+    "shape": "small"
+   },
+   {
+    "f": 49,
+    "shape": "e"
+   },
+   {
+    "f": 51,
+    "shape": "small"
+   },
+   {
+    "f": 53,
+    "shape": "closed"
+   },
+   {
+    "f": 58,
+    "shape": "small"
+   },
+   {
+    "f": 60,
+    "shape": "a"
+   },
+   {
+    "f": 62,
+    "shape": "small"
+   },
+   {
+    "f": 64,
+    "shape": "a"
+   },
+   {
+    "f": 67,
+    "shape": "small"
+   },
+   {
+    "f": 73,
+    "shape": "a"
+   },
+   {
+    "f": 74,
+    "shape": "small"
+   },
+   {
+    "f": 75,
+    "shape": "closed"
+   },
+   {
+    "f": 77,
+    "shape": "u"
+   },
+   {
+    "f": 81,
+    "shape": "small"
+   },
+   {
+    "f": 85,
+    "shape": "u"
+   },
+   {
+    "f": 90,
+    "shape": "small"
+   },
+   {
+    "f": 92,
+    "shape": "closed"
+   },
+   {
+    "f": 93,
+    "shape": "small"
+   },
+   {
+    "f": 94,
+    "shape": "e"
+   },
+   {
+    "f": 95,
+    "shape": "small"
+   },
+   {
+    "f": 99,
+    "shape": "e"
+   },
+   {
+    "f": 102,
+    "shape": "small"
+   },
+   {
+    "f": 103,
+    "shape": "closed"
+   }
+  ]
+ }
+}

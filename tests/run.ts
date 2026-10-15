@@ -14,7 +14,7 @@ import { BACKGROUNDS } from '../src/scenes/backgrounds';
 import { CHARACTERS } from '../src/characters/defs';
 import { CharacterRig2D } from '../src/rigs/CharacterRig2D';
 import { validateShots, validateCharacters } from '../src/scenes/validate';
-import { soundExists, validateCharacterAssetPaths } from '../scripts/lib/fsAssets';
+import { soundExists, publicFileExists, validateCharacterAssetPaths } from '../scripts/lib/fsAssets';
 import { swordTip } from '../src/rigs/skeleton';
 
 let pass = 0, fail = 0;
@@ -65,7 +65,7 @@ t('character override asset paths exist', () => assert.deepEqual(validateCharact
 
 console.log('Scene data');
 t('sample: 12 shots, 720 frames, contiguous', () => { const i = validateShots(sample, { expectedTotal: 720, soundExists }); assert.deepEqual(i, []); });
-t('EP01: contiguous, 28,800 frames, scenes match metadata, assets exist', () => { const i = validateShots(ep, { expectedTotal: 28800, scenes: epMeta.scenes, soundExists }); assert.deepEqual(i, []); });
+t('EP01: contiguous, 28,800 frames, scenes match metadata, assets exist', () => { const i = validateShots(ep, { expectedTotal: 28800, scenes: epMeta.scenes, soundExists, fileExists: publicFileExists }); assert.deepEqual(i, []); });
 t('validator catches overlap / negative / gap', () => { const bad = [{ ...sample[0] }, { ...sample[1], startFrame: 10 }, { ...sample[2], startFrame: 500, durationFrames: -3 }]; const i = validateShots(bad, {}); assert.ok(i.some((x) => /overlap/.test(x.msg))); assert.ok(i.some((x) => /non-positive/.test(x.msg))); assert.ok(i.some((x) => /gap/.test(x.msg))); });
 t('episode total equals 1200 s at 24fps', () => assert.equal(ep.reduce((a: number, s: any) => a + s.durationFrames, 0) / 24, 1200));
 

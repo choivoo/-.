@@ -1,0 +1,7118 @@
+{
+ "episode": "EP01",
+ "updated": "2026-10-15T08:02:02.028Z",
+ "shots": {
+  "S01-01": {
+   "shotId": "S01-01",
+   "sceneId": "S01",
+   "title": "S01-01 establish",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「그날 밤, 도시 위로 달이 하나 더 떠올랐다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 336,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S01-01-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S01-01-D01",
+     "characterId": "narration",
+     "text": "그날 밤, 도시 위로 달이 하나 더 떠올랐다.",
+     "startFrame": 16,
+     "durationFrames": 67,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [],
+   "cameraPlan": "f0(2000,420)x1.00 → f336(2300,300)x1.12",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "bloom@20"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:00:53.403Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 336f h264/aac 4.43MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 14.016s vs video 14.000s (Δ0.016s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "4 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "no characters"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 3px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-01_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.368Z",
+   "contentHash": "cf7102a03c36",
+   "storyboardHash": "cf7102a03c36",
+   "fidelity": "animatic"
+  },
+  "S01-02": {
+   "shotId": "S01-02",
+   "sceneId": "S01",
+   "title": "S01-02 establish",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「빛이 아닌 것을 삼키는, 검은 달.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 192,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S01-02-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S01-02-D01",
+     "characterId": "narration",
+     "text": "빛이 아닌 것을 삼키는, 검은 달.",
+     "startFrame": 16,
+     "durationFrames": 54,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [],
+   "cameraPlan": "f0(1200,640)x1.20 → f192(1700,640)x1.25",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:00:56.746Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 192f h264/aac 2.37MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 8.021s vs video 8.000s (Δ0.021s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "no characters"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 8px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-02_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.422Z",
+   "contentHash": "9e72b62877f8",
+   "storyboardHash": "9e72b62877f8",
+   "fidelity": "animatic"
+  },
+  "S01-03": {
+   "shotId": "S01-03",
+   "sceneId": "S01",
+   "title": "S01-03 movement",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「서둘러야 해… 기록이 지워지기 전에.」",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 288,
+   "priority": "P2",
+   "assignedCharacters": [
+    "kaede"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:kaede",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone",
+    "voice:S01-03-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S01-03-D01",
+     "characterId": "kaede",
+     "text": "서둘러야 해… 기록이 지워지기 전에.",
+     "startFrame": 14,
+     "durationFrames": 61,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "kaede:run"
+   ],
+   "cameraPlan": "f0(800,610)x1.50 → f288(2800,610)x1.50",
+   "vfxPlan": [
+    "wind@0",
+    "dust@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@10",
+    "step@18",
+    "step@26",
+    "step@34",
+    "step@42",
+    "step@50",
+    "step@58",
+    "step@66",
+    "step@74",
+    "step@82",
+    "step@90",
+    "step@98",
+    "step@106",
+    "step@114",
+    "step@122",
+    "step@130",
+    "step@138",
+    "step@146",
+    "step@154",
+    "step@162",
+    "step@170",
+    "step@178",
+    "step@186",
+    "step@194",
+    "step@202",
+    "step@210",
+    "step@218",
+    "step@226",
+    "step@234",
+    "step@242",
+    "step@250",
+    "step@258",
+    "step@266",
+    "step@274",
+    "step@282",
+    "music:tension_drone"
+   ],
+   "productionStatus": "COMPOSITING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:01:00.962Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 288f h264/aac 2.26MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 12.011s vs video 12.000s (Δ0.011s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "kaede:728ba328e3"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 35°/f, max root move 7px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 21px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-03_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.497Z",
+   "contentHash": "638ea5cc1952",
+   "storyboardHash": "638ea5cc1952",
+   "fidelity": "directed"
+  },
+  "S01-04": {
+   "shotId": "S01-04",
+   "sceneId": "S01",
+   "title": "S01-04 closeup",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 336,
+   "priority": "P1",
+   "assignedCharacters": [
+    "kaede"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:kaede",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S01-04-D01",
+    "voice:S01-04-D02"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S01-04-D01",
+     "characterId": "kaede",
+     "text": "이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.",
+     "startFrame": 12,
+     "durationFrames": 117,
+     "emotion": "sad",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S01-04-D02",
+     "characterId": "kaede",
+     "text": "…열두 번째 정지가 오기 전에.",
+     "startFrame": 139,
+     "durationFrames": 51,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "kaede:idle",
+    "kaede:clutch",
+    "kaede:talk"
+   ],
+   "cameraPlan": "f0(1512,560)x2.60 → f336(1516,564)x2.86",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "COMPOSITING",
+   "blocked": [
+    "MISSING_VOICE x2"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:01:05.598Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 336f h264/aac 2.20MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 14.016s vs video 14.000s (Δ0.016s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "kaede:728ba328e3"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 44°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "2 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-04_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.556Z",
+   "contentHash": "39d84b3d4400",
+   "storyboardHash": "39d84b3d4400",
+   "fidelity": "directed"
+  },
+  "S01-05": {
+   "shotId": "S01-05",
+   "sceneId": "S01",
+   "title": "S01-05 closeup",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 240,
+   "priority": "P1",
+   "assignedCharacters": [
+    "kaede"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:kaede",
+    "sfx:wind_loop",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "kaede:idle"
+   ],
+   "cameraPlan": "f0(1512,478)x5.20 → f240(1516,482)x5.72",
+   "vfxPlan": [
+    "wind@0",
+    "flash@40"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "hit_heavy@38",
+    "music:tension_drone"
+   ],
+   "productionStatus": "QA",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:01:09.138Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 240f h264/aac 1.81MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 10.005s vs video 10.000s (Δ0.005s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 2 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "kaede:728ba328e3"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-05_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.619Z",
+   "contentHash": "1d3af219f64d",
+   "storyboardHash": "1d3af219f64d",
+   "fidelity": "directed"
+  },
+  "S01-06": {
+   "shotId": "S01-06",
+   "sceneId": "S01",
+   "title": "S01-06 establish",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다.",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 288,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "sfx:wind_loop",
+    "sfx:rumble",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [],
+   "cameraPlan": "f0(1500,200)x1.30 → f288(1700,160)x1.90",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "flash@90",
+    "shockwave@90"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "rumble@90",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:01:13.388Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 288f h264/aac 2.69MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 12.011s vs video 12.000s (Δ0.011s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 1 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "no characters"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 2px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-06_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.686Z",
+   "contentHash": "6f0c114d641f",
+   "storyboardHash": "6f0c114d641f",
+   "fidelity": "animatic"
+  },
+  "S01-07": {
+   "shotId": "S01-07",
+   "sceneId": "S01",
+   "title": "S01-07 establish",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「시계는 하나둘, 같은 시각에서 멈추기 시작했다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 288,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S01-07-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S01-07-D01",
+     "characterId": "narration",
+     "text": "시계는 하나둘, 같은 시각에서 멈추기 시작했다.",
+     "startFrame": 16,
+     "durationFrames": 77,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [],
+   "cameraPlan": "f0(1000,600)x1.10 → f288(1900,600)x1.10",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "REVIEW",
+    "at": "2026-10-15T08:01:18.308Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 288f h264/aac 3.63MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 12.011s vs video 12.000s (Δ0.011s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "no characters"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 9px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "REVIEW",
+      "info": "time-of-day regresses harbor_night→street_dusk"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-07_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.741Z",
+   "contentHash": "ddd8d8b8ef6d",
+   "storyboardHash": "ddd8d8b8ef6d",
+   "fidelity": "animatic"
+  },
+  "S01-08": {
+   "shotId": "S01-08",
+   "sceneId": "S01",
+   "title": "S01-08 establish",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「…시작됐군.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 384,
+   "priority": "P3",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "rooftop_night",
+   "requiredAssets": [
+    "bg:rooftop_night",
+    "char:veyra",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S01-08-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S01-08-D01",
+     "characterId": "veyra",
+     "text": "…시작됐군.",
+     "startFrame": 16,
+     "durationFrames": 28,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "veyra:idle"
+   ],
+   "cameraPlan": "f0(1600,520)x1.30 → f384(1600,520)x1.10",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:01:24.626Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 384f h264/aac 4.78MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 16.021s vs video 16.000s (Δ0.021s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-08_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.805Z",
+   "contentHash": "372abc7fba2b",
+   "storyboardHash": "372abc7fba2b",
+   "fidelity": "animatic"
+  },
+  "S01-09": {
+   "shotId": "S01-09",
+   "sceneId": "S01",
+   "title": "S01-09 closeup",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 192,
+   "priority": "P1",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "rooftop_night",
+   "requiredAssets": [
+    "bg:rooftop_night",
+    "char:veyra",
+    "sfx:wind_loop",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "veyra:idle"
+   ],
+   "cameraPlan": "f0(1488,478)x5.20 → f192(1484,482)x5.72",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "QA",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:01:27.977Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 192f h264/aac 2.20MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 8.021s vs video 8.000s (Δ0.021s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "0 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "veyra:055fc12669"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 0px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "0 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-09_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.862Z",
+   "contentHash": "a0d7e497af3b",
+   "storyboardHash": "a0d7e497af3b",
+   "fidelity": "directed"
+  },
+  "S01-10": {
+   "shotId": "S01-10",
+   "sceneId": "S01",
+   "title": "S01-10 establish",
+   "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「흑월의 잔향 — 제1화, 정지하는 시간」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 336,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S01-10-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S01-10-D01",
+     "characterId": "narration",
+     "text": "흑월의 잔향 — 제1화, 정지하는 시간",
+     "startFrame": 16,
+     "durationFrames": 61,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [],
+   "cameraPlan": "f0(1700,560)x1.40 → f336(1700,400)x1.00",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "bloom@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "DONE",
+   "qualityResults": {
+    "verdict": "PASS",
+    "at": "2026-10-15T08:01:33.471Z",
+    "tag": "1080p",
+    "checks": [
+     {
+      "name": "technical",
+      "verdict": "PASS",
+      "info": "1920x1080 24fps 336f h264/aac 3.62MB"
+     },
+     {
+      "name": "audio-length",
+      "verdict": "PASS",
+      "info": "audio 14.016s vs video 14.000s (Δ0.016s; trimmed at assembly)"
+     },
+     {
+      "name": "black-frames",
+      "verdict": "PASS",
+      "info": "none beyond intended fades"
+     },
+     {
+      "name": "empty-frames",
+      "verdict": "PASS",
+      "info": "8 low-contrast frames"
+     },
+     {
+      "name": "flash",
+      "verdict": "PASS",
+      "info": "max 0 large luminance jumps in any 1s window"
+     },
+     {
+      "name": "assets",
+      "verdict": "PASS",
+      "info": "bg/characters/clips resolve"
+     },
+     {
+      "name": "character-consistency",
+      "verdict": "PASS",
+      "info": "no characters"
+     },
+     {
+      "name": "motion-continuity",
+      "verdict": "PASS",
+      "info": "max joint Δ 0°/f, max root move 0px/f"
+     },
+     {
+      "name": "camera-continuity",
+      "verdict": "PASS",
+      "info": "max camera move 1px/f (non-whip), shake amp ≤ 0"
+     },
+     {
+      "name": "dialogue-sync",
+      "verdict": "PASS",
+      "info": "1 lines, lip-sync cues derived from text"
+     },
+     {
+      "name": "continuity",
+      "verdict": "PASS",
+      "info": "lighting/time-of-day and screen direction consistent with neighbours"
+     },
+     {
+      "name": "contact-sheet",
+      "verdict": "PASS",
+      "info": "renders/EP01/contact/S01-10_1080p.png"
+     }
+    ],
+    "visual": "PENDING_HUMAN_REVIEW"
+   },
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.922Z",
+   "contentHash": "2d3649d2c1b0",
+   "storyboardHash": "2d3649d2c1b0",
+   "fidelity": "animatic"
+  },
+  "S02-01": {
+   "shotId": "S02-01",
+   "sceneId": "S02",
+   "title": "S02-01 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 216,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:run"
+   ],
+   "cameraPlan": "f0(1500,640)x1.72 → f216(1600,620)x1.50",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@86"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@82",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:31.987Z",
+   "contentHash": "ad8f25c728e3",
+   "storyboardHash": "ad8f25c728e3",
+   "fidelity": "directed"
+  },
+  "S02-02": {
+   "shotId": "S02-02",
+   "sceneId": "S02",
+   "title": "S02-02 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 240,
+   "priority": "P2",
+   "assignedCharacters": [
+    "mio"
+   ],
+   "backgroundId": "coast_day",
+   "requiredAssets": [
+    "bg:coast_day",
+    "char:mio",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "mio:stance",
+    "mio:idle"
+   ],
+   "cameraPlan": "f0(1500,640)x2.76 → f240(1600,620)x2.40",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@96"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@92",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.049Z",
+   "contentHash": "a1f74a73a7d5",
+   "storyboardHash": "a1f74a73a7d5",
+   "fidelity": "directed"
+  },
+  "S02-03": {
+   "shotId": "S02-03",
+   "sceneId": "S02",
+   "title": "S02-03 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 240,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:drawSword"
+   ],
+   "cameraPlan": "f0(1500,640)x2.30 → f240(1600,620)x2.00",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@96"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@92",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.112Z",
+   "contentHash": "7159426477b9",
+   "storyboardHash": "7159426477b9",
+   "fidelity": "directed"
+  },
+  "S02-04": {
+   "shotId": "S02-04",
+   "sceneId": "S02",
+   "title": "S02-04 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 240,
+   "priority": "P2",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "veyra:stance",
+    "veyra:slashV"
+   ],
+   "cameraPlan": "f0(1500,640)x2.07 → f240(1600,620)x1.80",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@96"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@92",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.176Z",
+   "contentHash": "eb6047e33c67",
+   "storyboardHash": "eb6047e33c67",
+   "fidelity": "directed"
+  },
+  "S02-05": {
+   "shotId": "S02-05",
+   "sceneId": "S02",
+   "title": "S02-05 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 240,
+   "priority": "P2",
+   "assignedCharacters": [
+    "kaede"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:kaede",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "kaede:stance",
+    "kaede:talk"
+   ],
+   "cameraPlan": "f0(1500,640)x2.53 → f240(1600,620)x2.20",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@96"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@92",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.222Z",
+   "contentHash": "748d46a0a832",
+   "storyboardHash": "748d46a0a832",
+   "fidelity": "directed"
+  },
+  "S02-06": {
+   "shotId": "S02-06",
+   "sceneId": "S02",
+   "title": "S02-06 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 240,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:thrust",
+    "veyra:stance"
+   ],
+   "cameraPlan": "f0(1500,640)x1.61 → f240(1600,620)x1.40",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@96"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@92",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.269Z",
+   "contentHash": "5e5528fdf950",
+   "storyboardHash": "5e5528fdf950",
+   "fidelity": "directed"
+  },
+  "S02-07": {
+   "shotId": "S02-07",
+   "sceneId": "S02",
+   "title": "S02-07 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 240,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "timestop_void",
+   "requiredAssets": [
+    "bg:timestop_void",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:jump"
+   ],
+   "cameraPlan": "f0(1500,640)x1.61 → f240(1600,620)x1.40",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@96"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@92",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.318Z",
+   "contentHash": "908e04110030",
+   "storyboardHash": "908e04110030",
+   "fidelity": "directed"
+  },
+  "S02-08": {
+   "shotId": "S02-08",
+   "sceneId": "S02",
+   "title": "S02-08 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 240,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "rooftop_night",
+   "requiredAssets": [
+    "bg:rooftop_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:slashH",
+    "veyra:stance"
+   ],
+   "cameraPlan": "f0(1500,640)x1.72 → f240(1600,620)x1.50",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@96"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@92",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.363Z",
+   "contentHash": "4ced96ee8912",
+   "storyboardHash": "4ced96ee8912",
+   "fidelity": "directed"
+  },
+  "S02-09": {
+   "shotId": "S02-09",
+   "sceneId": "S02",
+   "title": "S02-09 montage",
+   "description": "오프닝 몽타주(임시 크레딧).",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 264,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:counter",
+    "veyra:stance"
+   ],
+   "cameraPlan": "f0(1500,640)x1.84 → f264(1600,620)x1.60",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@106"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@102",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.410Z",
+   "contentHash": "bd8c7408117b",
+   "storyboardHash": "bd8c7408117b",
+   "fidelity": "directed"
+  },
+  "S03-01": {
+   "shotId": "S03-01",
+   "sceneId": "S03",
+   "title": "S03-01 establish",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「해안도시 미나토. 평범한 아침이었다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 229,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "coast_day",
+   "requiredAssets": [
+    "bg:coast_day",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-01-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-01-D01",
+     "characterId": "narration",
+     "text": "해안도시 미나토. 평범한 아침이었다.",
+     "startFrame": 16,
+     "durationFrames": 64,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [],
+   "cameraPlan": "f0(900,560)x1.10 → f229(1800,560)x1.10",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.457Z",
+   "contentHash": "96bf774600b1",
+   "storyboardHash": "96bf774600b1",
+   "fidelity": "animatic"
+  },
+  "S03-02": {
+   "shotId": "S03-02",
+   "sceneId": "S03",
+   "title": "S03-02 dialogue",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「소마! 또 늦잠이야? 학교 늦겠어!」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 550,
+   "priority": "P1",
+   "assignedCharacters": [
+    "mio",
+    "soma"
+   ],
+   "backgroundId": "apartment_room",
+   "requiredAssets": [
+    "bg:apartment_room",
+    "char:mio",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-02-D01",
+    "voice:S03-02-D02",
+    "voice:S03-02-D03",
+    "voice:S03-02-D04"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-02-D01",
+     "characterId": "mio",
+     "text": "소마! 또 늦잠이야? 학교 늦겠어!",
+     "startFrame": 12,
+     "durationFrames": 58,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-02-D02",
+     "characterId": "soma",
+     "text": "…오 분만.",
+     "startFrame": 80,
+     "durationFrames": 26,
+     "emotion": "embarrassed",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-02-D03",
+     "characterId": "mio",
+     "text": "그 말, 이번 주에만 열 번째거든?",
+     "startFrame": 116,
+     "durationFrames": 54,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-02-D04",
+     "characterId": "soma",
+     "text": "알았어, 알았어. 일어난다니까.",
+     "startFrame": 180,
+     "durationFrames": 58,
+     "emotion": "smile",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "mio:idle",
+    "mio:gestureA",
+    "mio:nod",
+    "soma:idle",
+    "soma:recoil",
+    "soma:gestureB"
+   ],
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f72(1530,595)x1.82 → f86(1670,587)x1.86 → f108(1670,587)x1.86 → f122(1530,595)x1.91 → f172(1530,595)x1.91 → f186(1670,587)x1.82 → f550(1682,587)x1.87",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x4"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.500Z",
+   "contentHash": "940a3ca3b474",
+   "storyboardHash": "940a3ca3b474",
+   "fidelity": "directed"
+  },
+  "S03-03": {
+   "shotId": "S03-03",
+   "sceneId": "S03",
+   "title": "S03-03 closeup",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 183,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "apartment_room",
+   "requiredAssets": [
+    "bg:apartment_room",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle"
+   ],
+   "cameraPlan": "f0(1512,560)x3.40 → f183(1516,564)x3.74",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.552Z",
+   "contentHash": "53a4fbf0e88c",
+   "storyboardHash": "53a4fbf0e88c",
+   "fidelity": "directed"
+  },
+  "S03-04": {
+   "shotId": "S03-04",
+   "sceneId": "S03",
+   "title": "S03-04 closeup",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「시계가… 또 멈췄네.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 321,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "apartment_room",
+   "requiredAssets": [
+    "bg:apartment_room",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-04-D01",
+    "voice:S03-04-D02"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-04-D01",
+     "characterId": "soma",
+     "text": "시계가… 또 멈췄네.",
+     "startFrame": 12,
+     "durationFrames": 38,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-04-D02",
+     "characterId": "soma",
+     "text": "박사님이 남겨주신 건데.",
+     "startFrame": 60,
+     "durationFrames": 44,
+     "emotion": "sad",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:talk",
+    "soma:clutch"
+   ],
+   "cameraPlan": "f0(1512,560)x2.80 → f321(1516,564)x3.08",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x2"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.598Z",
+   "contentHash": "e9f01eefc253",
+   "storyboardHash": "e9f01eefc253",
+   "fidelity": "directed"
+  },
+  "S03-05": {
+   "shotId": "S03-05",
+   "sceneId": "S03",
+   "title": "S03-05 movement",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.」",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 458,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma",
+    "mio"
+   ],
+   "backgroundId": "coast_day",
+   "requiredAssets": [
+    "bg:coast_day",
+    "char:soma",
+    "char:mio",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone",
+    "voice:S03-05-D01",
+    "voice:S03-05-D02"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-05-D01",
+     "characterId": "mio",
+     "text": "너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.",
+     "startFrame": 14,
+     "durationFrames": 81,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-05-D02",
+     "characterId": "soma",
+     "text": "또 누가 지어낸 얘기겠지.",
+     "startFrame": 105,
+     "durationFrames": 44,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:walk",
+    "mio:walk"
+   ],
+   "cameraPlan": "f0(800,610)x1.35 → f458(2600,610)x1.35",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@16",
+    "step@30",
+    "step@44",
+    "step@58",
+    "step@72",
+    "step@86",
+    "step@100",
+    "step@114",
+    "step@128",
+    "step@142",
+    "step@156",
+    "step@170",
+    "step@184",
+    "step@198",
+    "step@212",
+    "step@226",
+    "step@240",
+    "step@254",
+    "step@268",
+    "step@282",
+    "step@296",
+    "step@310",
+    "step@324",
+    "step@338",
+    "step@352",
+    "step@366",
+    "step@380",
+    "step@394",
+    "step@408",
+    "step@422",
+    "step@436",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x2"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.656Z",
+   "contentHash": "1f2bbae80280",
+   "storyboardHash": "1f2bbae80280",
+   "fidelity": "directed"
+  },
+  "S03-06": {
+   "shotId": "S03-06",
+   "sceneId": "S03",
+   "title": "S03-06 dialogue",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「진짜야! 어제 뉴스에도 나왔다니까.」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 596,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma",
+    "mio"
+   ],
+   "backgroundId": "coast_day",
+   "requiredAssets": [
+    "bg:coast_day",
+    "char:soma",
+    "char:mio",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-06-D01",
+    "voice:S03-06-D02",
+    "voice:S03-06-D03",
+    "voice:S03-06-D04"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-06-D01",
+     "characterId": "mio",
+     "text": "진짜야! 어제 뉴스에도 나왔다니까.",
+     "startFrame": 12,
+     "durationFrames": 61,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-06-D02",
+     "characterId": "soma",
+     "text": "검은 달이라니, 소설 같네.",
+     "startFrame": 83,
+     "durationFrames": 48,
+     "emotion": "smile",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-06-D03",
+     "characterId": "mio",
+     "text": "…웃지 마. 나 좀 무서웠단 말이야.",
+     "startFrame": 141,
+     "durationFrames": 58,
+     "emotion": "sad",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-06-D04",
+     "characterId": "soma",
+     "text": "미안. 무슨 일 있으면 내가 있잖아.",
+     "startFrame": 209,
+     "durationFrames": 58,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:recoil",
+    "soma:gestureB",
+    "soma:nod",
+    "soma:talk",
+    "mio:idle",
+    "mio:gestureA",
+    "mio:nod",
+    "mio:clutch"
+   ],
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1670,595)x1.82 → f75(1670,595)x1.82 → f89(1530,587)x1.86 → f133(1530,587)x1.86 → f147(1670,595)x1.91 → f201(1670,595)x1.91 → f215(1530,587)x1.82 → f596(1542,587)x1.87",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x4"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.703Z",
+   "contentHash": "aa04e7b059a1",
+   "storyboardHash": "aa04e7b059a1",
+   "fidelity": "directed"
+  },
+  "S03-07": {
+   "shotId": "S03-07",
+   "sceneId": "S03",
+   "title": "S03-07 closeup",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 183,
+   "priority": "P1",
+   "assignedCharacters": [
+    "mio"
+   ],
+   "backgroundId": "coast_day",
+   "requiredAssets": [
+    "bg:coast_day",
+    "char:mio",
+    "sfx:wind_loop",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "mio:idle"
+   ],
+   "cameraPlan": "f0(1488,560)x3.20 → f183(1484,564)x3.52",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.749Z",
+   "contentHash": "70ab8d99a4ff",
+   "storyboardHash": "70ab8d99a4ff",
+   "fidelity": "directed"
+  },
+  "S03-08": {
+   "shotId": "S03-08",
+   "sceneId": "S03",
+   "title": "S03-08 dialogue",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「박사님이 사라지신 지 벌써 삼 년이네.」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 550,
+   "priority": "P1",
+   "assignedCharacters": [
+    "mio",
+    "soma"
+   ],
+   "backgroundId": "coast_day",
+   "requiredAssets": [
+    "bg:coast_day",
+    "char:mio",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-08-D01",
+    "voice:S03-08-D02",
+    "voice:S03-08-D03"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-08-D01",
+     "characterId": "mio",
+     "text": "박사님이 사라지신 지 벌써 삼 년이네.",
+     "startFrame": 12,
+     "durationFrames": 61,
+     "emotion": "sad",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-08-D02",
+     "characterId": "soma",
+     "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아.",
+     "startFrame": 83,
+     "durationFrames": 74,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-08-D03",
+     "characterId": "mio",
+     "text": "언젠가 알게 될 거야, 분명히.",
+     "startFrame": 167,
+     "durationFrames": 51,
+     "emotion": "smile",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "mio:idle",
+    "mio:clutch",
+    "mio:nod",
+    "mio:gestureB",
+    "soma:idle",
+    "soma:nod",
+    "soma:talk"
+   ],
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f75(1530,595)x1.82 → f89(1670,587)x1.86 → f159(1670,587)x1.86 → f173(1530,595)x1.91 → f550(1542,595)x1.96",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x3"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.805Z",
+   "contentHash": "33377531fed3",
+   "storyboardHash": "33377531fed3",
+   "fidelity": "directed"
+  },
+  "S03-09": {
+   "shotId": "S03-09",
+   "sceneId": "S03",
+   "title": "S03-09 establish",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「해가 기울자, 거리의 시계들이 일제히 멈췄다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 183,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-09-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-09-D01",
+     "characterId": "narration",
+     "text": "해가 기울자, 거리의 시계들이 일제히 멈췄다.",
+     "startFrame": 16,
+     "durationFrames": 74,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [],
+   "cameraPlan": "f0(1400,520)x1.00 → f183(2100,520)x1.05",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.853Z",
+   "contentHash": "c09aa081c4e6",
+   "storyboardHash": "c09aa081c4e6",
+   "fidelity": "animatic"
+  },
+  "S03-10": {
+   "shotId": "S03-10",
+   "sceneId": "S03",
+   "title": "S03-10 closeup",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「…또야. 모든 시계가 6시 6분에서 멈춰 있어.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 458,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-10-D01",
+    "voice:S03-10-D02",
+    "voice:S03-10-D03"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-10-D01",
+     "characterId": "soma",
+     "text": "…또야. 모든 시계가 6시 6분에서 멈춰 있어.",
+     "startFrame": 12,
+     "durationFrames": 74,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-10-D02",
+     "characterId": "soma",
+     "text": "내 시계도, 저 시계탑도.",
+     "startFrame": 96,
+     "durationFrames": 44,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-10-D03",
+     "characterId": "soma",
+     "text": "대체 무슨 일이 벌어지고 있는 거지?",
+     "startFrame": 150,
+     "durationFrames": 58,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:recoil",
+    "soma:cower",
+    "soma:talk"
+   ],
+   "cameraPlan": "f0(1488,560)x2.40 → f458(1484,564)x2.64",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x3"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.916Z",
+   "contentHash": "b8dc63222718",
+   "storyboardHash": "b8dc63222718",
+   "fidelity": "directed"
+  },
+  "S03-11": {
+   "shotId": "S03-11",
+   "sceneId": "S03",
+   "title": "S03-11 movement",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계.",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 321,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:walk"
+   ],
+   "cameraPlan": "f0(900,610)x1.50 → f321(2200,610)x1.50",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@16",
+    "step@30",
+    "step@44",
+    "step@58",
+    "step@72",
+    "step@86",
+    "step@100",
+    "step@114",
+    "step@128",
+    "step@142",
+    "step@156",
+    "step@170",
+    "step@184",
+    "step@198",
+    "step@212",
+    "step@226",
+    "step@240",
+    "step@254",
+    "step@268",
+    "step@282",
+    "step@296",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:32.997Z",
+   "contentHash": "fbb8e54f9ab6",
+   "storyboardHash": "fbb8e54f9ab6",
+   "fidelity": "directed"
+  },
+  "S03-12": {
+   "shotId": "S03-12",
+   "sceneId": "S03",
+   "title": "S03-12 dialogue",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「저기 봐, 사람들이 다 멈춰 서 있어!」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 596,
+   "priority": "P1",
+   "assignedCharacters": [
+    "mio",
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:mio",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-12-D01",
+    "voice:S03-12-D02",
+    "voice:S03-12-D03"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-12-D01",
+     "characterId": "mio",
+     "text": "저기 봐, 사람들이 다 멈춰 서 있어!",
+     "startFrame": 12,
+     "durationFrames": 58,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-12-D02",
+     "characterId": "soma",
+     "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.",
+     "startFrame": 80,
+     "durationFrames": 94,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S03-12-D03",
+     "characterId": "mio",
+     "text": "무서워… 소마, 돌아가자.",
+     "startFrame": 184,
+     "durationFrames": 48,
+     "emotion": "sad",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "mio:idle",
+    "mio:cower",
+    "mio:headShake",
+    "mio:clutch",
+    "soma:idle",
+    "soma:recoil",
+    "soma:nod"
+   ],
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f72(1530,595)x1.82 → f86(1670,587)x1.86 → f176(1670,587)x1.86 → f190(1530,595)x1.91 → f596(1542,595)x1.96",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x3"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.065Z",
+   "contentHash": "25f0783eaa08",
+   "storyboardHash": "25f0783eaa08",
+   "fidelity": "directed"
+  },
+  "S03-13": {
+   "shotId": "S03-13",
+   "sceneId": "S03",
+   "title": "S03-13 closeup",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 183,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle"
+   ],
+   "cameraPlan": "f0(1512,478)x5.20 → f183(1516,482)x5.72",
+   "vfxPlan": [
+    "wind@0",
+    "flash@120"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.121Z",
+   "contentHash": "f6d6a13487fa",
+   "storyboardHash": "f6d6a13487fa",
+   "fidelity": "directed"
+  },
+  "S03-14": {
+   "shotId": "S03-14",
+   "sceneId": "S03",
+   "title": "S03-14 establish",
+   "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「그 순간, 하늘이 검게 물들었다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 229,
+   "priority": "P3",
+   "assignedCharacters": [
+    "soma",
+    "mio"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "char:mio",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S03-14-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S03-14-D01",
+     "characterId": "narration",
+     "text": "그 순간, 하늘이 검게 물들었다.",
+     "startFrame": 16,
+     "durationFrames": 54,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "mio:idle"
+   ],
+   "cameraPlan": "f0(2200,500)x1.20 → f229(2500,500)x1.60",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "bloom@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.169Z",
+   "contentHash": "59d0d9f6f5fe",
+   "storyboardHash": "59d0d9f6f5fe",
+   "fidelity": "animatic"
+  },
+  "S04-01": {
+   "shotId": "S04-01",
+   "sceneId": "S04",
+   "title": "S04-01 establish",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「교차로. 정지한 신호등 아래, 시간이 어긋난다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 255,
+   "priority": "P3",
+   "assignedCharacters": [
+    "mio"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:mio",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-01-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-01-D01",
+     "characterId": "narration",
+     "text": "교차로. 정지한 신호등 아래, 시간이 어긋난다.",
+     "startFrame": 16,
+     "durationFrames": 77,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "mio:idle"
+   ],
+   "cameraPlan": "f0(1200,600)x1.20 → f255(2000,600)x1.20",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.215Z",
+   "contentHash": "0d468e82ee57",
+   "storyboardHash": "0d468e82ee57",
+   "fidelity": "animatic"
+  },
+  "S04-02": {
+   "shotId": "S04-02",
+   "sceneId": "S04",
+   "title": "S04-02 movement",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「소마, 빨리 와! 신호가 바뀌었어!」",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 298,
+   "priority": "P2",
+   "assignedCharacters": [
+    "mio"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:mio",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone",
+    "voice:S04-02-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-02-D01",
+     "characterId": "mio",
+     "text": "소마, 빨리 와! 신호가 바뀌었어!",
+     "startFrame": 14,
+     "durationFrames": 58,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "mio:walk"
+   ],
+   "cameraPlan": "f0(1100,610)x1.50 → f298(2100,610)x1.50",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@16",
+    "step@30",
+    "step@44",
+    "step@58",
+    "step@72",
+    "step@86",
+    "step@100",
+    "step@114",
+    "step@128",
+    "step@142",
+    "step@156",
+    "step@170",
+    "step@184",
+    "step@198",
+    "step@212",
+    "step@226",
+    "step@240",
+    "step@254",
+    "step@268",
+    "step@282",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.262Z",
+   "contentHash": "a8576ace218b",
+   "storyboardHash": "a8576ace218b",
+   "fidelity": "directed"
+  },
+  "S04-03": {
+   "shotId": "S04-03",
+   "sceneId": "S04",
+   "title": "S04-03 establish",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적.",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 170,
+   "priority": "P3",
+   "assignedCharacters": [
+    "mio"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:mio",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "mio:idle"
+   ],
+   "cameraPlan": "f0(2300,560)x1.30 → f170(1800,560)x1.50",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "speedLines@30",
+    "flash@60"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@20",
+    "hit_heavy@60",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.306Z",
+   "contentHash": "c03fef190e80",
+   "storyboardHash": "c03fef190e80",
+   "fidelity": "animatic"
+  },
+  "S04-04": {
+   "shotId": "S04-04",
+   "sceneId": "S04",
+   "title": "S04-04 closeup",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「…어?」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 170,
+   "priority": "P1",
+   "assignedCharacters": [
+    "mio"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:mio",
+    "sfx:wind_loop",
+    "sfx:heartbeat",
+    "music:tension_drone",
+    "voice:S04-04-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-04-D01",
+     "characterId": "mio",
+     "text": "…어?",
+     "startFrame": 12,
+     "durationFrames": 26,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "mio:idle",
+    "mio:recoil"
+   ],
+   "cameraPlan": "f0(1488,478)x5.20 → f170(1484,482)x5.72",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "heartbeat@30",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.353Z",
+   "contentHash": "06a7a6208ee2",
+   "storyboardHash": "06a7a6208ee2",
+   "fidelity": "directed"
+  },
+  "S04-05": {
+   "shotId": "S04-05",
+   "sceneId": "S04",
+   "title": "S04-05 closeup",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「미오!!」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 170,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-05-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-05-D01",
+     "characterId": "soma",
+     "text": "미오!!",
+     "startFrame": 12,
+     "durationFrames": 26,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:cower"
+   ],
+   "cameraPlan": "f0(1512,560)x3.40 → f170(1516,564)x3.74",
+   "vfxPlan": [
+    "wind@0",
+    "speedLines@10"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.395Z",
+   "contentHash": "7e461dd3e9b7",
+   "storyboardHash": "7e461dd3e9b7",
+   "fidelity": "directed"
+  },
+  "S04-06": {
+   "shotId": "S04-06",
+   "sceneId": "S04",
+   "title": "S04-06 closeup",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 170,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "timestop_void",
+   "requiredAssets": [
+    "bg:timestop_void",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle"
+   ],
+   "cameraPlan": "f0(1512,478)x5.20 → f170(1516,482)x5.72",
+   "vfxPlan": [
+    "wind@0",
+    "flash@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "hit_heavy@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.444Z",
+   "contentHash": "5d1712a5bd72",
+   "storyboardHash": "5d1712a5bd72",
+   "fidelity": "directed"
+  },
+  "S04-07": {
+   "shotId": "S04-07",
+   "sceneId": "S04",
+   "title": "S04-07 ability",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「…멈췄어? 아니, 모든 게 멈춘 거야.」",
+   "purpose": "이야기의 전환 — 시간 정지 각성",
+   "durationFrames": 426,
+   "priority": "P0",
+   "assignedCharacters": [
+    "mio",
+    "soma"
+   ],
+   "backgroundId": "timestop_void",
+   "requiredAssets": [
+    "bg:timestop_void",
+    "char:mio",
+    "char:soma",
+    "sfx:heartbeat",
+    "sfx:rumble",
+    "music:tension_drone",
+    "voice:S04-07-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-07-D01",
+     "characterId": "soma",
+     "text": "…멈췄어? 아니, 모든 게 멈춘 거야.",
+     "startFrame": 14,
+     "durationFrames": 61,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "mio:run",
+    "soma:run"
+   ],
+   "cameraPlan": "f0(1100,620)x1.40 → f426(1800,600)x1.50",
+   "vfxPlan": [
+    "energy@0",
+    "bloom@0"
+   ],
+   "audioPlan": [
+    "heartbeat@0",
+    "rumble@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.472Z",
+   "contentHash": "636232e97aca",
+   "storyboardHash": "636232e97aca",
+   "fidelity": "directed"
+  },
+  "S04-08": {
+   "shotId": "S04-08",
+   "sceneId": "S04",
+   "title": "S04-08 closeup",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「소리도, 바람도 없어. 나만 움직일 수 있어.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 426,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "timestop_void",
+   "requiredAssets": [
+    "bg:timestop_void",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-08-D01",
+    "voice:S04-08-D02"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-08-D01",
+     "characterId": "soma",
+     "text": "소리도, 바람도 없어. 나만 움직일 수 있어.",
+     "startFrame": 12,
+     "durationFrames": 71,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S04-08-D02",
+     "characterId": "soma",
+     "text": "이게… 시계가 멈춘 이유인가.",
+     "startFrame": 93,
+     "durationFrames": 51,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:cower",
+    "soma:talk"
+   ],
+   "cameraPlan": "f0(1512,560)x2.60 → f426(1516,564)x2.86",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x2"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.523Z",
+   "contentHash": "5f346e1dd845",
+   "storyboardHash": "5f346e1dd845",
+   "fidelity": "directed"
+  },
+  "S04-09": {
+   "shotId": "S04-09",
+   "sceneId": "S04",
+   "title": "S04-09 ability",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적.",
+   "purpose": "이야기의 전환 — 시간 정지 각성",
+   "durationFrames": 298,
+   "priority": "P0",
+   "assignedCharacters": [
+    "mio",
+    "soma"
+   ],
+   "backgroundId": "timestop_void",
+   "requiredAssets": [
+    "bg:timestop_void",
+    "char:mio",
+    "char:soma",
+    "sfx:heartbeat",
+    "sfx:rumble",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "mio:run",
+    "soma:run"
+   ],
+   "cameraPlan": "f0(1100,620)x1.40 → f298(1800,600)x1.50",
+   "vfxPlan": [
+    "energy@0",
+    "bloom@0"
+   ],
+   "audioPlan": [
+    "heartbeat@0",
+    "rumble@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.552Z",
+   "contentHash": "4a435b35ac58",
+   "storyboardHash": "4a435b35ac58",
+   "fidelity": "directed"
+  },
+  "S04-10": {
+   "shotId": "S04-10",
+   "sceneId": "S04",
+   "title": "S04-10 dialogue",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「미오, 미안해. 조금만 거칠게 할게.」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 298,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma",
+    "mio"
+   ],
+   "backgroundId": "timestop_void",
+   "requiredAssets": [
+    "bg:timestop_void",
+    "char:soma",
+    "char:mio",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-10-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-10-D01",
+     "characterId": "soma",
+     "text": "미오, 미안해. 조금만 거칠게 할게.",
+     "startFrame": 12,
+     "durationFrames": 61,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:talk",
+    "mio:idle"
+   ],
+   "cameraPlan": "f0(1690,600)x1.75 → f4(1690,600)x1.75 → f18(1648,595)x1.82 → f298(1660,595)x1.87",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.604Z",
+   "contentHash": "bd7960ce59f6",
+   "storyboardHash": "bd7960ce59f6",
+   "fidelity": "directed"
+  },
+  "S04-11": {
+   "shotId": "S04-11",
+   "sceneId": "S04",
+   "title": "S04-11 establish",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적.",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 170,
+   "priority": "P3",
+   "assignedCharacters": [
+    "soma",
+    "mio"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "char:mio",
+    "sfx:wind_loop",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle",
+    "mio:idle"
+   ],
+   "cameraPlan": "f0(1800,560)x1.30 → f170(1750,560)x1.40",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "flash@0",
+    "dust@6"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "hit_heavy@4",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.659Z",
+   "contentHash": "c46e904d54d7",
+   "storyboardHash": "c46e904d54d7",
+   "fidelity": "animatic"
+  },
+  "S04-12": {
+   "shotId": "S04-12",
+   "sceneId": "S04",
+   "title": "S04-12 dialogue",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「방금… 트럭이 있었는데? 어떻게 된 거야?」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 527,
+   "priority": "P1",
+   "assignedCharacters": [
+    "mio",
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:mio",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-12-D01",
+    "voice:S04-12-D02",
+    "voice:S04-12-D03"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-12-D01",
+     "characterId": "mio",
+     "text": "방금… 트럭이 있었는데? 어떻게 된 거야?",
+     "startFrame": 12,
+     "durationFrames": 67,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S04-12-D02",
+     "characterId": "soma",
+     "text": "나도 몰라. 하지만… 이제 괜찮아.",
+     "startFrame": 89,
+     "durationFrames": 58,
+     "emotion": "embarrassed",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S04-12-D03",
+     "characterId": "mio",
+     "text": "소마, 네 눈… 파랗게 빛나고 있어.",
+     "startFrame": 157,
+     "durationFrames": 58,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "mio:idle",
+    "mio:recoil",
+    "mio:nod",
+    "mio:cower",
+    "soma:idle",
+    "soma:headShake",
+    "soma:gestureB",
+    "soma:recoil"
+   ],
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f81(1530,595)x1.82 → f95(1670,587)x1.86 → f149(1670,587)x1.86 → f163(1530,595)x1.91 → f527(1542,595)x1.96",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x3"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.713Z",
+   "contentHash": "7f8adfb23c1f",
+   "storyboardHash": "7f8adfb23c1f",
+   "fidelity": "directed"
+  },
+  "S04-13": {
+   "shotId": "S04-13",
+   "sceneId": "S04",
+   "title": "S04-13 closeup",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 170,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle"
+   ],
+   "cameraPlan": "f0(1512,478)x5.20 → f170(1516,482)x5.72",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.758Z",
+   "contentHash": "dc0c16f0a808",
+   "storyboardHash": "dc0c16f0a808",
+   "fidelity": "directed"
+  },
+  "S04-14": {
+   "shotId": "S04-14",
+   "sceneId": "S04",
+   "title": "S04-14 establish",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「그날 밤, 시계 소리를 따라 소마는 항구로 향했다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 255,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-14-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-14-D01",
+     "characterId": "narration",
+     "text": "그날 밤, 시계 소리를 따라 소마는 항구로 향했다.",
+     "startFrame": 16,
+     "durationFrames": 77,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [],
+   "cameraPlan": "f0(1000,560)x1.10 → f255(2200,560)x1.10",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.802Z",
+   "contentHash": "8375972fa3ab",
+   "storyboardHash": "8375972fa3ab",
+   "fidelity": "animatic"
+  },
+  "S04-15": {
+   "shotId": "S04-15",
+   "sceneId": "S04",
+   "title": "S04-15 movement",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「이 시계… 방향을 가리키고 있어.」",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 383,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone",
+    "voice:S04-15-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-15-D01",
+     "characterId": "soma",
+     "text": "이 시계… 방향을 가리키고 있어.",
+     "startFrame": 14,
+     "durationFrames": 54,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:walk"
+   ],
+   "cameraPlan": "f0(900,610)x1.50 → f383(2500,610)x1.50",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@16",
+    "step@30",
+    "step@44",
+    "step@58",
+    "step@72",
+    "step@86",
+    "step@100",
+    "step@114",
+    "step@128",
+    "step@142",
+    "step@156",
+    "step@170",
+    "step@184",
+    "step@198",
+    "step@212",
+    "step@226",
+    "step@240",
+    "step@254",
+    "step@268",
+    "step@282",
+    "step@296",
+    "step@310",
+    "step@324",
+    "step@338",
+    "step@352",
+    "step@366",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.851Z",
+   "contentHash": "a57adce428d2",
+   "storyboardHash": "a57adce428d2",
+   "fidelity": "directed"
+  },
+  "S04-16": {
+   "shotId": "S04-16",
+   "sceneId": "S04",
+   "title": "S04-16 closeup",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 298,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-16-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-16-D01",
+     "characterId": "soma",
+     "text": "폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.",
+     "startFrame": 12,
+     "durationFrames": 91,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:talk"
+   ],
+   "cameraPlan": "f0(1512,560)x2.40 → f298(1516,564)x2.64",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.898Z",
+   "contentHash": "8b00c833b4cf",
+   "storyboardHash": "8b00c833b4cf",
+   "fidelity": "directed"
+  },
+  "S04-17": {
+   "shotId": "S04-17",
+   "sceneId": "S04",
+   "title": "S04-17 establish",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 298,
+   "priority": "P3",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-17-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-17-D01",
+     "characterId": "narration",
+     "text": "열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.",
+     "startFrame": 16,
+     "durationFrames": 84,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle"
+   ],
+   "cameraPlan": "f0(900,540)x1.10 → f298(2500,540)x1.10",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.942Z",
+   "contentHash": "8d45db4a8fc7",
+   "storyboardHash": "8d45db4a8fc7",
+   "fidelity": "animatic"
+  },
+  "S04-18": {
+   "shotId": "S04-18",
+   "sceneId": "S04",
+   "title": "S04-18 movement",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적.",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 340,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:walk"
+   ],
+   "cameraPlan": "f0(900,610)x1.50 → f340(2400,610)x1.50",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@16",
+    "step@30",
+    "step@44",
+    "step@58",
+    "step@72",
+    "step@86",
+    "step@100",
+    "step@114",
+    "step@128",
+    "step@142",
+    "step@156",
+    "step@170",
+    "step@184",
+    "step@198",
+    "step@212",
+    "step@226",
+    "step@240",
+    "step@254",
+    "step@268",
+    "step@282",
+    "step@296",
+    "step@310",
+    "step@324",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:33.990Z",
+   "contentHash": "2a7a90bd5f2a",
+   "storyboardHash": "2a7a90bd5f2a",
+   "fidelity": "directed"
+  },
+  "S04-19": {
+   "shotId": "S04-19",
+   "sceneId": "S04",
+   "title": "S04-19 closeup",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「전부 십이 년 전에 멈춰 있어.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 426,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S04-19-D01",
+    "voice:S04-19-D02"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S04-19-D01",
+     "characterId": "soma",
+     "text": "전부 십이 년 전에 멈춰 있어.",
+     "startFrame": 12,
+     "durationFrames": 48,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S04-19-D02",
+     "characterId": "soma",
+     "text": "날짜가… 이 도시가 처음 멈춘 날이야.",
+     "startFrame": 70,
+     "durationFrames": 61,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:recoil",
+    "soma:cower"
+   ],
+   "cameraPlan": "f0(1512,560)x2.40 → f426(1516,564)x2.64",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x2"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.034Z",
+   "contentHash": "6673c1801ebd",
+   "storyboardHash": "6673c1801ebd",
+   "fidelity": "directed"
+  },
+  "S04-20": {
+   "shotId": "S04-20",
+   "sceneId": "S04",
+   "title": "S04-20 establish",
+   "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적.",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 212,
+   "priority": "P3",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:heartbeat",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle"
+   ],
+   "cameraPlan": "f0(1500,540)x1.30 → f212(1700,540)x1.60",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "energy@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "heartbeat@20",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.079Z",
+   "contentHash": "d6a549787676",
+   "storyboardHash": "d6a549787676",
+   "fidelity": "animatic"
+  },
+  "S05-01": {
+   "shotId": "S05-01",
+   "sceneId": "S05",
+   "title": "S05-01 establish",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 302,
+   "priority": "P3",
+   "assignedCharacters": [
+    "soma",
+    "kaede"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "char:kaede",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S05-01-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-01-D01",
+     "characterId": "kaede",
+     "text": "…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.",
+     "startFrame": 16,
+     "durationFrames": 81,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "kaede:idle"
+   ],
+   "cameraPlan": "f0(1400,540)x1.20 → f302(1900,540)x1.30",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.127Z",
+   "contentHash": "2550e634f3de",
+   "storyboardHash": "2550e634f3de",
+   "fidelity": "animatic"
+  },
+  "S05-02": {
+   "shotId": "S05-02",
+   "sceneId": "S05",
+   "title": "S05-02 dialogue",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「박사님…? 이건 기록… 영상인가요?」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 673,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma",
+    "kaede"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "char:kaede",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S05-02-D01",
+    "voice:S05-02-D02",
+    "voice:S05-02-D03"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-02-D01",
+     "characterId": "soma",
+     "text": "박사님…? 이건 기록… 영상인가요?",
+     "startFrame": 12,
+     "durationFrames": 61,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S05-02-D02",
+     "characterId": "kaede",
+     "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.",
+     "startFrame": 83,
+     "durationFrames": 127,
+     "emotion": "sad",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S05-02-D03",
+     "characterId": "kaede",
+     "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라.",
+     "startFrame": 220,
+     "durationFrames": 77,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:recoil",
+    "soma:nod",
+    "kaede:idle",
+    "kaede:headShake",
+    "kaede:clutch",
+    "kaede:cower"
+   ],
+   "cameraPlan": "f0(1600,600)x1.75 → f4(1600,600)x1.75 → f18(1530,595)x1.82 → f75(1530,595)x1.82 → f89(1670,587)x1.86 → f212(1670,587)x1.86 → f226(1670,595)x1.91 → f673(1682,595)x1.96",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x3"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.176Z",
+   "contentHash": "b6246757d46f",
+   "storyboardHash": "b6246757d46f",
+   "fidelity": "directed"
+  },
+  "S05-03": {
+   "shotId": "S05-03",
+   "sceneId": "S05",
+   "title": "S05-03 closeup",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「열쇠… 내가?」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 252,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S05-03-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-03-D01",
+     "characterId": "soma",
+     "text": "열쇠… 내가?",
+     "startFrame": 12,
+     "durationFrames": 28,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:recoil"
+   ],
+   "cameraPlan": "f0(1512,560)x3.00 → f252(1516,564)x3.30",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.224Z",
+   "contentHash": "c512365b0282",
+   "storyboardHash": "c512365b0282",
+   "fidelity": "directed"
+  },
+  "S05-04": {
+   "shotId": "S05-04",
+   "sceneId": "S05",
+   "title": "S05-04 establish",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 252,
+   "priority": "P3",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle",
+    "veyra:idle"
+   ],
+   "cameraPlan": "f0(2400,540)x1.20 → f252(2200,540)x1.50",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "flash@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "hit_heavy@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.277Z",
+   "contentHash": "17dc82ea731e",
+   "storyboardHash": "17dc82ea731e",
+   "fidelity": "animatic"
+  },
+  "S05-05": {
+   "shotId": "S05-05",
+   "sceneId": "S05",
+   "title": "S05-05 dialogue",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「그 시계를 넘겨라.」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 656,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S05-05-D01",
+    "voice:S05-05-D02",
+    "voice:S05-05-D03",
+    "voice:S05-05-D04"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-05-D01",
+     "characterId": "veyra",
+     "text": "그 시계를 넘겨라.",
+     "startFrame": 12,
+     "durationFrames": 34,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S05-05-D02",
+     "characterId": "soma",
+     "text": "누구지? 이 연구소 사람은 아닌데.",
+     "startFrame": 56,
+     "durationFrames": 58,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S05-05-D03",
+     "characterId": "veyra",
+     "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.",
+     "startFrame": 124,
+     "durationFrames": 100,
+     "emotion": "smile",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S05-05-D04",
+     "characterId": "soma",
+     "text": "…싫다면?",
+     "startFrame": 234,
+     "durationFrames": 26,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:recoil",
+    "soma:cower",
+    "soma:nod",
+    "soma:talk",
+    "veyra:idle",
+    "veyra:gestureA",
+    "veyra:recoil",
+    "veyra:gestureB",
+    "veyra:nod"
+   ],
+   "cameraPlan": "f0(1625,600)x1.75 → f4(1625,600)x1.75 → f18(1713,595)x1.82 → f48(1713,595)x1.82 → f62(1537,587)x1.86 → f116(1537,587)x1.86 → f130(1713,595)x1.91 → f226(1713,595)x1.91 → f240(1537,587)x1.82 → f656(1549,587)x1.87",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x4"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.323Z",
+   "contentHash": "ee9f0e9e1d25",
+   "storyboardHash": "ee9f0e9e1d25",
+   "fidelity": "directed"
+  },
+  "S05-06": {
+   "shotId": "S05-06",
+   "sceneId": "S05",
+   "title": "S05-06 closeup",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「베어 내겠다.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 201,
+   "priority": "P1",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:veyra",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S05-06-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-06-D01",
+     "characterId": "veyra",
+     "text": "베어 내겠다.",
+     "startFrame": 12,
+     "durationFrames": 28,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "veyra:idle",
+    "veyra:gestureA"
+   ],
+   "cameraPlan": "f0(1488,478)x5.20 → f201(1484,482)x5.72",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.385Z",
+   "contentHash": "fcebcb377bf4",
+   "storyboardHash": "fcebcb377bf4",
+   "fidelity": "directed"
+  },
+  "S05-07": {
+   "shotId": "S05-07",
+   "sceneId": "S05",
+   "title": "S05-07 closeup",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 201,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:draw",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle"
+   ],
+   "cameraPlan": "f0(1512,478)x5.20 → f201(1516,482)x5.72",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "draw@20",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.438Z",
+   "contentHash": "7080daff2236",
+   "storyboardHash": "7080daff2236",
+   "fidelity": "directed"
+  },
+  "S05-08": {
+   "shotId": "S05-08",
+   "sceneId": "S05",
+   "title": "S05-08 duel",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 277,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:crack",
+    "sfx:hit_clash",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:dodge",
+    "soma:thrust",
+    "soma:guard",
+    "soma:slashH",
+    "veyra:stance",
+    "veyra:slashV",
+    "veyra:dodge",
+    "veyra:counter"
+   ],
+   "cameraPlan": "f0(1700,650)x1.30 → f29(1700,650)x1.30 → f43(1700,640)x1.59 → f63(1700,650)x1.30 → f67(1700,650)x1.30 → f81(1700,640)x1.59 → f101(1700,650)x1.30 → f103(1700,650)x1.30 → f117(1700,640)x1.59 → f137(1700,650)x1.30 → f144(1700,650)x1.30 → f158(1700,640)x1.59 → f178(1700,650)x1.30 → f183(1700,650)x1.30 → f197(1700,640)x1.59 → f217(1700,650)x1.30 → f277(1700,650)x1.30 +2 shake",
+   "vfxPlan": [
+    "wind@0",
+    "crack@37",
+    "dust@37",
+    "crack@75",
+    "dust@75",
+    "flash@111",
+    "impactBurst@111",
+    "sparks@111",
+    "dust@111",
+    "shockwave@112",
+    "flash@191",
+    "impactBurst@191",
+    "sparks@191",
+    "dust@191",
+    "shockwave@192"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@28",
+    "crack@37",
+    "whoosh@66",
+    "crack@75",
+    "whoosh@102",
+    "hit_clash@111",
+    "whoosh@143",
+    "whoosh@182",
+    "hit_clash@191",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.495Z",
+   "contentHash": "8fadb59bf4aa",
+   "storyboardHash": "8fadb59bf4aa",
+   "fidelity": "directed"
+  },
+  "S05-09": {
+   "shotId": "S05-09",
+   "sceneId": "S05",
+   "title": "S05-09 duel",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 226,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:hit_clash",
+    "sfx:crack",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:slashH",
+    "soma:thrust",
+    "soma:guard",
+    "soma:dodge",
+    "veyra:stance",
+    "veyra:guard",
+    "veyra:dodge",
+    "veyra:counter",
+    "veyra:thrust"
+   ],
+   "cameraPlan": "f0(1600,650)x1.30 → f27(1600,650)x1.30 → f41(1600,640)x1.59 → f61(1600,650)x1.30 → f69(1600,650)x1.30 → f83(1600,640)x1.59 → f103(1600,650)x1.30 → f105(1600,650)x1.30 → f119(1600,640)x1.59 → f139(1600,650)x1.30 → f147(1600,650)x1.30 → f161(1600,640)x1.59 → f181(1600,650)x1.30 → f226(1600,650)x1.30 +2 shake",
+   "vfxPlan": [
+    "wind@0",
+    "flash@35",
+    "impactBurst@35",
+    "sparks@35",
+    "dust@35",
+    "shockwave@36",
+    "crack@77",
+    "dust@77",
+    "flash@113",
+    "impactBurst@113",
+    "sparks@113",
+    "dust@113",
+    "shockwave@114",
+    "crack@155",
+    "dust@155"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@26",
+    "hit_clash@35",
+    "whoosh@68",
+    "crack@77",
+    "whoosh@104",
+    "hit_clash@113",
+    "whoosh@146",
+    "crack@155",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.549Z",
+   "contentHash": "a3439956c98e",
+   "storyboardHash": "a3439956c98e",
+   "fidelity": "directed"
+  },
+  "S05-10": {
+   "shotId": "S05-10",
+   "sceneId": "S05",
+   "title": "S05-10 movement",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 201,
+   "priority": "P2",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "veyra:run"
+   ],
+   "cameraPlan": "f0(2200,610)x1.40 → f201(1300,610)x1.40",
+   "vfxPlan": [
+    "wind@0",
+    "dust@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@10",
+    "step@18",
+    "step@26",
+    "step@34",
+    "step@42",
+    "step@50",
+    "step@58",
+    "step@66",
+    "step@74",
+    "step@82",
+    "step@90",
+    "step@98",
+    "step@106",
+    "step@114",
+    "step@122",
+    "step@130",
+    "step@138",
+    "step@146",
+    "step@154",
+    "step@162",
+    "step@170",
+    "step@178",
+    "step@186",
+    "step@194",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.613Z",
+   "contentHash": "8414fda99e4c",
+   "storyboardHash": "8414fda99e4c",
+   "fidelity": "directed"
+  },
+  "S05-11": {
+   "shotId": "S05-11",
+   "sceneId": "S05",
+   "title": "S05-11 duel",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 201,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:crack",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:dodge",
+    "soma:thrust",
+    "soma:stagger",
+    "veyra:stance",
+    "veyra:slashV",
+    "veyra:dodge",
+    "veyra:slashH"
+   ],
+   "cameraPlan": "f0(1800,650)x1.30 → f29(1800,650)x1.30 → f43(1800,640)x1.59 → f63(1800,650)x1.30 → f67(1800,650)x1.30 → f81(1800,640)x1.59 → f101(1800,650)x1.30 → f104(1800,650)x1.30 → f118(1800,640)x1.59 → f138(1800,650)x1.30 → f201(1800,650)x1.30 +1 shake",
+   "vfxPlan": [
+    "wind@0",
+    "crack@37",
+    "dust@37",
+    "crack@75",
+    "dust@75",
+    "flash@112",
+    "impactBurst@112",
+    "sparks@112",
+    "dust@112",
+    "shockwave@113"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@28",
+    "crack@37",
+    "whoosh@66",
+    "crack@75",
+    "whoosh@103",
+    "hit_heavy@112",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.669Z",
+   "contentHash": "e14e6c087e40",
+   "storyboardHash": "e14e6c087e40",
+   "fidelity": "directed"
+  },
+  "S05-12": {
+   "shotId": "S05-12",
+   "sceneId": "S05",
+   "title": "S05-12 closeup",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 252,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S05-12-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-12-D01",
+     "characterId": "soma",
+     "text": "힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?",
+     "startFrame": 12,
+     "durationFrames": 84,
+     "emotion": "pain",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:clutch"
+   ],
+   "cameraPlan": "f0(1512,560)x2.80 → f252(1516,564)x3.08",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.713Z",
+   "contentHash": "0b08cb75945f",
+   "storyboardHash": "0b08cb75945f",
+   "fidelity": "directed"
+  },
+  "S05-13": {
+   "shotId": "S05-13",
+   "sceneId": "S05",
+   "title": "S05-13 dialogue",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「아직 각성이 불완전하군. 실망이다.」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 403,
+   "priority": "P1",
+   "assignedCharacters": [
+    "veyra",
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:veyra",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S05-13-D01",
+    "voice:S05-13-D02"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-13-D01",
+     "characterId": "veyra",
+     "text": "아직 각성이 불완전하군. 실망이다.",
+     "startFrame": 12,
+     "durationFrames": 61,
+     "emotion": "smile",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S05-13-D02",
+     "characterId": "soma",
+     "text": "아직… 끝나지 않았어.",
+     "startFrame": 83,
+     "durationFrames": 41,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "veyra:idle",
+    "veyra:gestureB",
+    "veyra:nod",
+    "soma:idle",
+    "soma:nod",
+    "soma:talk"
+   ],
+   "cameraPlan": "f0(1550,600)x1.75 → f4(1550,600)x1.75 → f18(1470,595)x1.82 → f75(1470,595)x1.82 → f89(1630,587)x1.86 → f403(1642,587)x1.92",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x2"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.756Z",
+   "contentHash": "2133509ac755",
+   "storyboardHash": "2133509ac755",
+   "fidelity": "directed"
+  },
+  "S05-14": {
+   "shotId": "S05-14",
+   "sceneId": "S05",
+   "title": "S05-14 movement",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「일단 도망쳐야 해!」",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 353,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone",
+    "voice:S05-14-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-14-D01",
+     "characterId": "soma",
+     "text": "일단 도망쳐야 해!",
+     "startFrame": 14,
+     "durationFrames": 34,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:run"
+   ],
+   "cameraPlan": "f0(900,610)x1.40 → f353(2700,610)x1.40",
+   "vfxPlan": [
+    "wind@0",
+    "dust@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@10",
+    "step@18",
+    "step@26",
+    "step@34",
+    "step@42",
+    "step@50",
+    "step@58",
+    "step@66",
+    "step@74",
+    "step@82",
+    "step@90",
+    "step@98",
+    "step@106",
+    "step@114",
+    "step@122",
+    "step@130",
+    "step@138",
+    "step@146",
+    "step@154",
+    "step@162",
+    "step@170",
+    "step@178",
+    "step@186",
+    "step@194",
+    "step@202",
+    "step@210",
+    "step@218",
+    "step@226",
+    "step@234",
+    "step@242",
+    "step@250",
+    "step@258",
+    "step@266",
+    "step@274",
+    "step@282",
+    "step@290",
+    "step@298",
+    "step@306",
+    "step@314",
+    "step@322",
+    "step@330",
+    "step@338",
+    "step@346",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.812Z",
+   "contentHash": "bdb0adee6a78",
+   "storyboardHash": "bdb0adee6a78",
+   "fidelity": "directed"
+  },
+  "S05-15": {
+   "shotId": "S05-15",
+   "sceneId": "S05",
+   "title": "S05-15 movement",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 353,
+   "priority": "P2",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "veyra:run"
+   ],
+   "cameraPlan": "f0(800,610)x1.40 → f353(2600,610)x1.40",
+   "vfxPlan": [
+    "wind@0",
+    "dust@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@10",
+    "step@18",
+    "step@26",
+    "step@34",
+    "step@42",
+    "step@50",
+    "step@58",
+    "step@66",
+    "step@74",
+    "step@82",
+    "step@90",
+    "step@98",
+    "step@106",
+    "step@114",
+    "step@122",
+    "step@130",
+    "step@138",
+    "step@146",
+    "step@154",
+    "step@162",
+    "step@170",
+    "step@178",
+    "step@186",
+    "step@194",
+    "step@202",
+    "step@210",
+    "step@218",
+    "step@226",
+    "step@234",
+    "step@242",
+    "step@250",
+    "step@258",
+    "step@266",
+    "step@274",
+    "step@282",
+    "step@290",
+    "step@298",
+    "step@306",
+    "step@314",
+    "step@322",
+    "step@330",
+    "step@338",
+    "step@346",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.865Z",
+   "contentHash": "948564c5366f",
+   "storyboardHash": "948564c5366f",
+   "fidelity": "directed"
+  },
+  "S05-16": {
+   "shotId": "S05-16",
+   "sceneId": "S05",
+   "title": "S05-16 movement",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 302,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:run"
+   ],
+   "cameraPlan": "f0(800,610)x1.40 → f302(2600,610)x1.40",
+   "vfxPlan": [
+    "wind@0",
+    "dust@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@10",
+    "step@18",
+    "step@26",
+    "step@34",
+    "step@42",
+    "step@50",
+    "step@58",
+    "step@66",
+    "step@74",
+    "step@82",
+    "step@90",
+    "step@98",
+    "step@106",
+    "step@114",
+    "step@122",
+    "step@130",
+    "step@138",
+    "step@146",
+    "step@154",
+    "step@162",
+    "step@170",
+    "step@178",
+    "step@186",
+    "step@194",
+    "step@202",
+    "step@210",
+    "step@218",
+    "step@226",
+    "step@234",
+    "step@242",
+    "step@250",
+    "step@258",
+    "step@266",
+    "step@274",
+    "step@282",
+    "step@290",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.918Z",
+   "contentHash": "11151b39a1d7",
+   "storyboardHash": "11151b39a1d7",
+   "fidelity": "directed"
+  },
+  "S05-17": {
+   "shotId": "S05-17",
+   "sceneId": "S05",
+   "title": "S05-17 movement",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주.",
+   "purpose": "캐릭터 행동과 장면 연결",
+   "durationFrames": 302,
+   "priority": "P2",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:step",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "veyra:run"
+   ],
+   "cameraPlan": "f0(700,610)x1.40 → f302(2500,610)x1.40",
+   "vfxPlan": [
+    "wind@0",
+    "dust@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@10",
+    "step@18",
+    "step@26",
+    "step@34",
+    "step@42",
+    "step@50",
+    "step@58",
+    "step@66",
+    "step@74",
+    "step@82",
+    "step@90",
+    "step@98",
+    "step@106",
+    "step@114",
+    "step@122",
+    "step@130",
+    "step@138",
+    "step@146",
+    "step@154",
+    "step@162",
+    "step@170",
+    "step@178",
+    "step@186",
+    "step@194",
+    "step@202",
+    "step@210",
+    "step@218",
+    "step@226",
+    "step@234",
+    "step@242",
+    "step@250",
+    "step@258",
+    "step@266",
+    "step@274",
+    "step@282",
+    "step@290",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:34.974Z",
+   "contentHash": "dadbb41008bd",
+   "storyboardHash": "dadbb41008bd",
+   "fidelity": "directed"
+  },
+  "S05-18": {
+   "shotId": "S05-18",
+   "sceneId": "S05",
+   "title": "S05-18 establish",
+   "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「폐허가 된 구시가지. 그리고 검은 달 아래의 대치.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 353,
+   "priority": "P3",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S05-18-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S05-18-D01",
+     "characterId": "narration",
+     "text": "폐허가 된 구시가지. 그리고 검은 달 아래의 대치.",
+     "startFrame": 16,
+     "durationFrames": 77,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle"
+   ],
+   "cameraPlan": "f0(800,560)x1.00 → f353(1700,560)x1.10",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.018Z",
+   "contentHash": "de07cf12025f",
+   "storyboardHash": "de07cf12025f",
+   "fidelity": "animatic"
+  },
+  "S06-01": {
+   "shotId": "S06-01",
+   "sceneId": "S06",
+   "title": "S06-01 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 90,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:rumble",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle",
+    "veyra:idle"
+   ],
+   "cameraPlan": "f0(780,560)x1.00 → f90(1650,600)x1.08",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "dust@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "rumble@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.075Z",
+   "contentHash": "dbe7656507b1",
+   "storyboardHash": "dbe7656507b1",
+   "fidelity": "final-draft"
+  },
+  "S06-02": {
+   "shotId": "S06-02",
+   "sceneId": "S06",
+   "title": "S06-02 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 66,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:heartbeat",
+    "music:tension_drone",
+    "voice:S06-02-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S06-02-D01",
+     "characterId": "soma",
+     "text": "…온다.",
+     "startFrame": 16,
+     "durationFrames": 26,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "veyra:idle"
+   ],
+   "cameraPlan": "f0(1262,478)x4.20 → f66(1268,482)x4.70",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "heartbeat@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.126Z",
+   "contentHash": "fcd80af44f86",
+   "storyboardHash": "fcd80af44f86",
+   "fidelity": "final-draft"
+  },
+  "S06-03": {
+   "shotId": "S06-03",
+   "sceneId": "S06",
+   "title": "S06-03 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 42,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:heartbeat",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle",
+    "veyra:idle"
+   ],
+   "cameraPlan": "f0(1274,462)x7.50 → f42(1278,462)x8.20",
+   "vfxPlan": [],
+   "audioPlan": [
+    "wind_loop@0",
+    "heartbeat@0",
+    "whoosh@12",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.171Z",
+   "contentHash": "c131c74eba0b",
+   "storyboardHash": "c131c74eba0b",
+   "fidelity": "final-draft"
+  },
+  "S06-04": {
+   "shotId": "S06-04",
+   "sceneId": "S06",
+   "title": "S06-04 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 66,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:step",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:idle",
+    "soma:stance",
+    "veyra:run"
+   ],
+   "cameraPlan": "f0(2300,620)x1.10 → f66(1750,640)x1.25",
+   "vfxPlan": [
+    "dust@4",
+    "dust@24",
+    "speedLines@6"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@2",
+    "step@12",
+    "step@20",
+    "step@28",
+    "step@36",
+    "step@44",
+    "step@52",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.234Z",
+   "contentHash": "dc786dec646f",
+   "storyboardHash": "dc786dec646f",
+   "fidelity": "final-draft"
+  },
+  "S06-05": {
+   "shotId": "S06-05",
+   "sceneId": "S06",
+   "title": "S06-05 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 48,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:draw",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:drawSword",
+    "veyra:run"
+   ],
+   "cameraPlan": "f0(1400,610)x2.00 → f48(1420,604)x2.25",
+   "vfxPlan": [
+    "flash@17",
+    "slash@17",
+    "energy@14"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "draw@14",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.274Z",
+   "contentHash": "aa76d123cbd3",
+   "storyboardHash": "aa76d123cbd3",
+   "fidelity": "final-draft"
+  },
+  "S06-06": {
+   "shotId": "S06-06",
+   "sceneId": "S06",
+   "title": "S06-06 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 60,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:hit_clash",
+    "sfx:rumble",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:slashH",
+    "veyra:stance",
+    "veyra:slashV"
+   ],
+   "cameraPlan": "f0(1660,650)x1.50 → f60(1670,640)x1.60 +1 shake",
+   "vfxPlan": [
+    "speedLines@16",
+    "flash@20",
+    "impactBurst@20",
+    "sparks@20",
+    "shockwave@21",
+    "bloom@20"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@8",
+    "hit_clash@20",
+    "rumble@21",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.320Z",
+   "contentHash": "a60733fbe7ad",
+   "storyboardHash": "a60733fbe7ad",
+   "fidelity": "final-draft"
+  },
+  "S06-07": {
+   "shotId": "S06-07",
+   "sceneId": "S06",
+   "title": "S06-07 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 48,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:crack",
+    "sfx:step",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:slashH",
+    "soma:stagger",
+    "soma:stance",
+    "veyra:slashV",
+    "veyra:stagger",
+    "veyra:stance"
+   ],
+   "cameraPlan": "f0(1670,640)x1.70 → f48(1670,620)x1.15 +1 shake",
+   "vfxPlan": [
+    "shockwave@0",
+    "debris@0",
+    "debris@2",
+    "dust@0",
+    "dust@0",
+    "crack@2"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "crack@2",
+    "step@4",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.362Z",
+   "contentHash": "e306458843ae",
+   "storyboardHash": "e306458843ae",
+   "fidelity": "final-draft"
+  },
+  "S06-08": {
+   "shotId": "S06-08",
+   "sceneId": "S06",
+   "title": "S06-08 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 30,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "veyra:stance",
+    "veyra:jump"
+   ],
+   "cameraPlan": "f0(1250,640)x1.50 → f11(1900,600)x1.25 whip → f30(1860,560)x1.30",
+   "vfxPlan": [
+    "speedLines@4",
+    "dust@4"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@3",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.409Z",
+   "contentHash": "ec50057b334b",
+   "storyboardHash": "ec50057b334b",
+   "fidelity": "final-draft"
+  },
+  "S06-09": {
+   "shotId": "S06-09",
+   "sceneId": "S06",
+   "title": "S06-09 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 48,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:crack",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:dodge",
+    "veyra:jump",
+    "veyra:slashV"
+   ],
+   "cameraPlan": "f0(1550,600)x1.40 → f48(1450,650)x1.50 +1 shake",
+   "vfxPlan": [
+    "impactBurst@18",
+    "debris@18",
+    "crack@18",
+    "dust@18"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@8",
+    "crack@18",
+    "hit_heavy@18",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.459Z",
+   "contentHash": "4822ad548290",
+   "storyboardHash": "4822ad548290",
+   "fidelity": "final-draft"
+  },
+  "S06-10": {
+   "shotId": "S06-10",
+   "sceneId": "S06",
+   "title": "S06-10 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 60,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:dodge",
+    "soma:guard",
+    "soma:counter",
+    "veyra:slashV",
+    "veyra:stance",
+    "veyra:stagger"
+   ],
+   "cameraPlan": "f0(1420,640)x1.40 → f16(1450,620)x1.70 → f60(1480,630)x1.55 +1 shake",
+   "vfxPlan": [
+    "slash@12",
+    "flash@16",
+    "impactBurst@16",
+    "sparks@16",
+    "dust@16"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@7",
+    "hit_heavy@16",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.498Z",
+   "contentHash": "61e2cbb6414d",
+   "storyboardHash": "61e2cbb6414d",
+   "fidelity": "final-draft"
+  },
+  "S06-11": {
+   "shotId": "S06-11",
+   "sceneId": "S06",
+   "title": "S06-11 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 54,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:step",
+    "sfx:crack",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:counter",
+    "soma:stance",
+    "veyra:stagger",
+    "veyra:stance"
+   ],
+   "cameraPlan": "f0(1540,640)x1.50 → f54(1750,620)x1.20",
+   "vfxPlan": [
+    "dust@0",
+    "dust@10",
+    "debris@0",
+    "crack@4"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "step@2",
+    "step@12",
+    "crack@22",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.537Z",
+   "contentHash": "bf1a7d1a3df5",
+   "storyboardHash": "bf1a7d1a3df5",
+   "fidelity": "final-draft"
+  },
+  "S06-12": {
+   "shotId": "S06-12",
+   "sceneId": "S06",
+   "title": "S06-12 duel",
+   "description": "폐허에서의 검전 샘플",
+   "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+   "durationFrames": 108,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:heartbeat",
+    "music:tension_drone",
+    "voice:S06-12-D01",
+    "voice:S06-12-D02"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S06-12-D01",
+     "characterId": "veyra",
+     "text": "…흥미롭군.",
+     "startFrame": 30,
+     "durationFrames": 30,
+     "emotion": "smile",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S06-12-D02",
+     "characterId": "soma",
+     "text": "아직 끝나지 않았어.",
+     "startFrame": 68,
+     "durationFrames": 28,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:stance",
+    "veyra:stance"
+   ],
+   "cameraPlan": "f0(1650,590)x1.30 → f108(1660,520)x0.95",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "dust@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "heartbeat@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x2"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.578Z",
+   "contentHash": "b73ad7487d7e",
+   "storyboardHash": "b73ad7487d7e",
+   "fidelity": "final-draft"
+  },
+  "S06-13": {
+   "shotId": "S06-13",
+   "sceneId": "S06",
+   "title": "S06-13 closeup",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「…온다.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 321,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S06-13-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S06-13-D01",
+     "characterId": "soma",
+     "text": "…온다.",
+     "startFrame": 12,
+     "durationFrames": 26,
+     "emotion": "resolve",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:talk"
+   ],
+   "cameraPlan": "f0(1512,560)x2.60 → f321(1516,564)x2.86",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.621Z",
+   "contentHash": "97c0ca2f94cd",
+   "storyboardHash": "97c0ca2f94cd",
+   "fidelity": "directed"
+  },
+  "S06-14": {
+   "shotId": "S06-14",
+   "sceneId": "S06",
+   "title": "S06-14 duel",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 241,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:hit_clash",
+    "sfx:crack",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:slashH",
+    "soma:thrust",
+    "soma:guard",
+    "veyra:stance",
+    "veyra:guard",
+    "veyra:dodge",
+    "veyra:counter",
+    "veyra:slashV"
+   ],
+   "cameraPlan": "f0(1650,650)x1.30 → f27(1650,650)x1.30 → f41(1650,640)x1.59 → f61(1650,650)x1.30 → f69(1650,650)x1.30 → f83(1650,640)x1.59 → f103(1650,650)x1.30 → f105(1650,650)x1.30 → f119(1650,640)x1.59 → f139(1650,650)x1.30 → f148(1650,650)x1.30 → f162(1650,640)x1.59 → f182(1650,650)x1.30 → f241(1650,650)x1.30 +3 shake",
+   "vfxPlan": [
+    "wind@0",
+    "flash@35",
+    "impactBurst@35",
+    "sparks@35",
+    "dust@35",
+    "shockwave@36",
+    "crack@77",
+    "dust@77",
+    "flash@113",
+    "impactBurst@113",
+    "sparks@113",
+    "dust@113",
+    "shockwave@114",
+    "flash@156",
+    "impactBurst@156",
+    "sparks@156",
+    "dust@156",
+    "shockwave@157"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@26",
+    "hit_clash@35",
+    "whoosh@68",
+    "crack@77",
+    "whoosh@104",
+    "hit_clash@113",
+    "whoosh@147",
+    "hit_clash@156",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.670Z",
+   "contentHash": "35f15b345b25",
+   "storyboardHash": "35f15b345b25",
+   "fidelity": "directed"
+  },
+  "S06-15": {
+   "shotId": "S06-15",
+   "sceneId": "S06",
+   "title": "S06-15 duel",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 241,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:crack",
+    "sfx:hit_clash",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:dodge",
+    "soma:slashH",
+    "soma:guard",
+    "soma:counter",
+    "veyra:stance",
+    "veyra:thrust",
+    "veyra:dodge",
+    "veyra:slashV",
+    "veyra:guard"
+   ],
+   "cameraPlan": "f0(1700,650)x1.30 → f28(1700,650)x1.30 → f42(1700,640)x1.59 → f62(1700,650)x1.30 → f65(1700,650)x1.30 → f79(1700,640)x1.59 → f99(1700,650)x1.30 → f104(1700,650)x1.30 → f118(1700,640)x1.59 → f138(1700,650)x1.30 → f144(1700,650)x1.30 → f158(1700,640)x1.59 → f178(1700,650)x1.30 → f241(1700,650)x1.30 +2 shake",
+   "vfxPlan": [
+    "wind@0",
+    "crack@36",
+    "dust@36",
+    "flash@112",
+    "impactBurst@112",
+    "sparks@112",
+    "dust@112",
+    "shockwave@113",
+    "flash@152",
+    "impactBurst@152",
+    "sparks@152",
+    "dust@152",
+    "shockwave@153"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@27",
+    "crack@36",
+    "whoosh@64",
+    "whoosh@103",
+    "hit_clash@112",
+    "whoosh@143",
+    "hit_clash@152",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.722Z",
+   "contentHash": "9714017238a8",
+   "storyboardHash": "9714017238a8",
+   "fidelity": "directed"
+  },
+  "S06-16": {
+   "shotId": "S06-16",
+   "sceneId": "S06",
+   "title": "S06-16 closeup",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「이 정도로는… 안 돼. 더, 더 빨리!」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 321,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S06-16-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S06-16-D01",
+     "characterId": "soma",
+     "text": "이 정도로는… 안 돼. 더, 더 빨리!",
+     "startFrame": 12,
+     "durationFrames": 58,
+     "emotion": "pain",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:clutch"
+   ],
+   "cameraPlan": "f0(1512,560)x2.80 → f321(1516,564)x3.08",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.770Z",
+   "contentHash": "ba0324ac5871",
+   "storyboardHash": "ba0324ac5871",
+   "fidelity": "directed"
+  },
+  "S06-17": {
+   "shotId": "S06-17",
+   "sceneId": "S06",
+   "title": "S06-17 dialogue",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「이제 끝이다. 시계를 내놔.」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 547,
+   "priority": "P1",
+   "assignedCharacters": [
+    "veyra",
+    "soma"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:veyra",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S06-17-D01",
+    "voice:S06-17-D02"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S06-17-D01",
+     "characterId": "veyra",
+     "text": "이제 끝이다. 시계를 내놔.",
+     "startFrame": 12,
+     "durationFrames": 48,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    },
+    {
+     "dialogueId": "S06-17-D02",
+     "characterId": "soma",
+     "text": "미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!",
+     "startFrame": 70,
+     "durationFrames": 84,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "veyra:idle",
+    "veyra:gestureA",
+    "veyra:recoil",
+    "soma:idle",
+    "soma:recoil",
+    "soma:gestureA"
+   ],
+   "cameraPlan": "f0(1575,600)x1.75 → f4(1575,600)x1.75 → f18(1487,595)x1.82 → f62(1487,595)x1.82 → f76(1663,587)x1.86 → f547(1675,587)x1.92",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x2"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.831Z",
+   "contentHash": "394454a83ca0",
+   "storyboardHash": "394454a83ca0",
+   "fidelity": "directed"
+  },
+  "S06-18": {
+   "shotId": "S06-18",
+   "sceneId": "S06",
+   "title": "S06-18 ability",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「들려… 시계 소리가. 이게 진짜 내 힘이야!」",
+   "purpose": "이야기의 전환 — 시간 정지 각성",
+   "durationFrames": 483,
+   "priority": "P0",
+   "assignedCharacters": [
+    "veyra",
+    "soma"
+   ],
+   "backgroundId": "timestop_void",
+   "requiredAssets": [
+    "bg:timestop_void",
+    "char:veyra",
+    "char:soma",
+    "sfx:heartbeat",
+    "sfx:rumble",
+    "music:tension_drone",
+    "voice:S06-18-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S06-18-D01",
+     "characterId": "soma",
+     "text": "들려… 시계 소리가. 이게 진짜 내 힘이야!",
+     "startFrame": 14,
+     "durationFrames": 67,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "veyra:run",
+    "soma:run"
+   ],
+   "cameraPlan": "f0(1100,620)x1.40 → f483(1800,600)x1.50",
+   "vfxPlan": [
+    "energy@0",
+    "bloom@0"
+   ],
+   "audioPlan": [
+    "heartbeat@0",
+    "rumble@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.869Z",
+   "contentHash": "9a6d4d73664a",
+   "storyboardHash": "9a6d4d73664a",
+   "fidelity": "directed"
+  },
+  "S06-19": {
+   "shotId": "S06-19",
+   "sceneId": "S06",
+   "title": "S06-19 duel",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 214,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:hit_clash",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:guard",
+    "soma:slashH",
+    "veyra:stance",
+    "veyra:counter",
+    "veyra:dodge",
+    "veyra:slashV",
+    "veyra:stagger"
+   ],
+   "cameraPlan": "f0(1750,650)x1.30 → f26(1750,650)x1.30 → f40(1750,640)x1.59 → f60(1750,650)x1.30 → f67(1750,650)x1.30 → f81(1750,640)x1.59 → f101(1750,650)x1.30 → f106(1750,650)x1.30 → f120(1750,640)x1.59 → f140(1750,650)x1.30 → f147(1750,650)x1.30 → f161(1750,640)x1.59 → f181(1750,650)x1.30 → f214(1750,650)x1.30 +3 shake",
+   "vfxPlan": [
+    "wind@0",
+    "flash@34",
+    "impactBurst@34",
+    "sparks@34",
+    "dust@34",
+    "shockwave@35",
+    "flash@114",
+    "impactBurst@114",
+    "sparks@114",
+    "dust@114",
+    "shockwave@115",
+    "flash@155",
+    "impactBurst@155",
+    "sparks@155",
+    "dust@155",
+    "shockwave@156"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@25",
+    "hit_clash@34",
+    "whoosh@66",
+    "whoosh@105",
+    "hit_clash@114",
+    "whoosh@146",
+    "hit_heavy@155",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.926Z",
+   "contentHash": "e23c7e12917c",
+   "storyboardHash": "e23c7e12917c",
+   "fidelity": "directed"
+  },
+  "S06-20": {
+   "shotId": "S06-20",
+   "sceneId": "S06",
+   "title": "S06-20 closeup",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「이 속도… 설마, 정지 속에서 움직인 건가?」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 214,
+   "priority": "P1",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:veyra",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S06-20-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S06-20-D01",
+     "characterId": "veyra",
+     "text": "이 속도… 설마, 정지 속에서 움직인 건가?",
+     "startFrame": 12,
+     "durationFrames": 67,
+     "emotion": "surprise",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "veyra:idle",
+    "veyra:recoil"
+   ],
+   "cameraPlan": "f0(1488,478)x5.20 → f214(1484,482)x5.72",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:35.964Z",
+   "contentHash": "9d94ebd1206e",
+   "storyboardHash": "9d94ebd1206e",
+   "fidelity": "directed"
+  },
+  "S06-21": {
+   "shotId": "S06-21",
+   "sceneId": "S06",
+   "title": "S06-21 duel",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 241,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:hit_clash",
+    "sfx:crack",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:guard",
+    "soma:thrust",
+    "veyra:stance",
+    "veyra:slashV",
+    "veyra:dodge",
+    "veyra:counter",
+    "veyra:stagger"
+   ],
+   "cameraPlan": "f0(1650,650)x1.30 → f29(1650,650)x1.30 → f43(1650,640)x1.59 → f63(1650,650)x1.30 → f71(1650,650)x1.30 → f85(1650,640)x1.59 → f105(1650,650)x1.30 → f107(1650,650)x1.30 → f121(1650,640)x1.59 → f141(1650,650)x1.30 → f149(1650,650)x1.30 → f163(1650,640)x1.59 → f183(1650,650)x1.30 → f241(1650,650)x1.30 +3 shake",
+   "vfxPlan": [
+    "wind@0",
+    "flash@37",
+    "impactBurst@37",
+    "sparks@37",
+    "dust@37",
+    "shockwave@38",
+    "crack@79",
+    "dust@79",
+    "flash@115",
+    "impactBurst@115",
+    "sparks@115",
+    "dust@115",
+    "shockwave@116",
+    "flash@157",
+    "impactBurst@157",
+    "sparks@157",
+    "dust@157",
+    "shockwave@158"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@28",
+    "hit_clash@37",
+    "whoosh@70",
+    "crack@79",
+    "whoosh@106",
+    "hit_clash@115",
+    "whoosh@148",
+    "hit_heavy@157",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.012Z",
+   "contentHash": "bbb07254f668",
+   "storyboardHash": "bbb07254f668",
+   "fidelity": "directed"
+  },
+  "S06-22": {
+   "shotId": "S06-22",
+   "sceneId": "S06",
+   "title": "S06-22 duel",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 241,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:hit_clash",
+    "sfx:crack",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:slashV",
+    "soma:thrust",
+    "soma:guard",
+    "soma:counter",
+    "veyra:stance",
+    "veyra:guard",
+    "veyra:dodge",
+    "veyra:counter",
+    "veyra:stagger"
+   ],
+   "cameraPlan": "f0(1700,650)x1.30 → f29(1700,650)x1.30 → f43(1700,640)x1.59 → f63(1700,650)x1.30 → f71(1700,650)x1.30 → f85(1700,640)x1.59 → f105(1700,650)x1.30 → f107(1700,650)x1.30 → f121(1700,640)x1.59 → f141(1700,650)x1.30 → f147(1700,650)x1.30 → f161(1700,640)x1.59 → f181(1700,650)x1.30 → f241(1700,650)x1.30 +3 shake",
+   "vfxPlan": [
+    "wind@0",
+    "flash@37",
+    "impactBurst@37",
+    "sparks@37",
+    "dust@37",
+    "shockwave@38",
+    "crack@79",
+    "dust@79",
+    "flash@115",
+    "impactBurst@115",
+    "sparks@115",
+    "dust@115",
+    "shockwave@116",
+    "flash@155",
+    "impactBurst@155",
+    "sparks@155",
+    "dust@155",
+    "shockwave@156"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@28",
+    "hit_clash@37",
+    "whoosh@70",
+    "crack@79",
+    "whoosh@106",
+    "hit_clash@115",
+    "whoosh@146",
+    "hit_heavy@155",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.055Z",
+   "contentHash": "2a376ea28cba",
+   "storyboardHash": "2a376ea28cba",
+   "fidelity": "directed"
+  },
+  "S06-23": {
+   "shotId": "S06-23",
+   "sceneId": "S06",
+   "title": "S06-23 closeup",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「이걸로 끝이야!」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 268,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S06-23-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S06-23-D01",
+     "characterId": "soma",
+     "text": "이걸로 끝이야!",
+     "startFrame": 12,
+     "durationFrames": 31,
+     "emotion": "angry",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:gestureA"
+   ],
+   "cameraPlan": "f0(1512,560)x3.00 → f268(1516,564)x3.30",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.106Z",
+   "contentHash": "1678818ab8eb",
+   "storyboardHash": "1678818ab8eb",
+   "fidelity": "directed"
+  },
+  "S06-24": {
+   "shotId": "S06-24",
+   "sceneId": "S06",
+   "title": "S06-24 duel",
+   "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성.",
+   "purpose": "액션 — 충돌 이벤트 기반 전투",
+   "durationFrames": 268,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "sfx:crack",
+    "sfx:hit_clash",
+    "sfx:hit_heavy",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:dodge",
+    "soma:thrust",
+    "soma:guard",
+    "soma:slashH",
+    "soma:counter",
+    "veyra:stance",
+    "veyra:slashV",
+    "veyra:dodge",
+    "veyra:counter",
+    "veyra:stagger"
+   ],
+   "cameraPlan": "f0(1700,650)x1.30 → f29(1700,650)x1.30 → f43(1700,640)x1.59 → f63(1700,650)x1.30 → f67(1700,650)x1.30 → f81(1700,640)x1.59 → f101(1700,650)x1.30 → f103(1700,650)x1.30 → f117(1700,640)x1.59 → f137(1700,650)x1.30 → f144(1700,650)x1.30 → f158(1700,640)x1.59 → f178(1700,650)x1.30 → f180(1700,650)x1.30 → f194(1700,640)x1.59 → f214(1700,650)x1.30 → f268(1700,650)x1.30 +2 shake",
+   "vfxPlan": [
+    "wind@0",
+    "crack@37",
+    "dust@37",
+    "crack@75",
+    "dust@75",
+    "flash@111",
+    "impactBurst@111",
+    "sparks@111",
+    "dust@111",
+    "shockwave@112",
+    "flash@188",
+    "impactBurst@188",
+    "sparks@188",
+    "dust@188",
+    "shockwave@189"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@28",
+    "crack@37",
+    "whoosh@66",
+    "crack@75",
+    "whoosh@102",
+    "hit_clash@111",
+    "whoosh@143",
+    "whoosh@179",
+    "hit_heavy@188",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.157Z",
+   "contentHash": "75ca31e4a6d2",
+   "storyboardHash": "75ca31e4a6d2",
+   "fidelity": "directed"
+  },
+  "S07-01": {
+   "shotId": "S07-01",
+   "sceneId": "S07",
+   "title": "S07-01 closeup",
+   "description": "가면이 갈라지고, 베이라의 얼굴은 소마와 같았다.",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 192,
+   "priority": "P0",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:crack",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "veyra:idle"
+   ],
+   "cameraPlan": "f0(1488,478)x5.20 → f192(1484,482)x5.72",
+   "vfxPlan": [
+    "wind@0",
+    "crack@20",
+    "flash@40"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "crack@40",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.207Z",
+   "contentHash": "74fb64b57935",
+   "storyboardHash": "74fb64b57935",
+   "fidelity": "directed"
+  },
+  "S07-02": {
+   "shotId": "S07-02",
+   "sceneId": "S07",
+   "title": "S07-02 closeup",
+   "description": "가면이 갈라지고, 베이라의 얼굴은 소마와 같았다. 「…그 얼굴은, 뭐야.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 288,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S07-02-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S07-02-D01",
+     "characterId": "soma",
+     "text": "…그 얼굴은, 뭐야.",
+     "startFrame": 12,
+     "durationFrames": 38,
+     "emotion": "fear",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:cower"
+   ],
+   "cameraPlan": "f0(1512,560)x3.20 → f288(1516,564)x3.52",
+   "vfxPlan": [
+    "wind@0",
+    "speedLines@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.255Z",
+   "contentHash": "2f46ddfcca85",
+   "storyboardHash": "2f46ddfcca85",
+   "fidelity": "directed"
+  },
+  "S07-03": {
+   "shotId": "S07-03",
+   "sceneId": "S07",
+   "title": "S07-03 dialogue",
+   "description": "가면이 갈라지고, 베이라의 얼굴은 소마와 같았다. 「열두 번째다. 나도, 너도.」",
+   "purpose": "정보 전달과 감정 변화(대사 연기)",
+   "durationFrames": 240,
+   "priority": "P0",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S07-03-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S07-03-D01",
+     "characterId": "veyra",
+     "text": "열두 번째다. 나도, 너도.",
+     "startFrame": 12,
+     "durationFrames": 48,
+     "emotion": "sad",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:nod",
+    "veyra:idle",
+    "veyra:clutch"
+   ],
+   "cameraPlan": "f0(1600,600)x2.00 → f4(1600,600)x2.00 → f18(1670,595)x2.08 → f240(1682,595)x2.14",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.298Z",
+   "contentHash": "8e4e269166c4",
+   "storyboardHash": "8e4e269166c4",
+   "fidelity": "directed"
+  },
+  "S08-01": {
+   "shotId": "S08-01",
+   "sceneId": "S08",
+   "title": "S08-01 establish",
+   "description": "엔딩 몽타주와 다음 화 예고 티저. 「검은 달은, 아직 저물지 않았다.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 336,
+   "priority": "P3",
+   "assignedCharacters": [
+    "soma",
+    "veyra"
+   ],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "char:soma",
+    "char:veyra",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S08-01-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S08-01-D01",
+     "characterId": "narration",
+     "text": "검은 달은, 아직 저물지 않았다.",
+     "startFrame": 16,
+     "durationFrames": 54,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "veyra:idle"
+   ],
+   "cameraPlan": "f0(1700,520)x1.00 → f336(1700,340)x1.00",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "bloom@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.350Z",
+   "contentHash": "16f00bfb1d0c",
+   "storyboardHash": "16f00bfb1d0c",
+   "fidelity": "animatic"
+  },
+  "S08-02": {
+   "shotId": "S08-02",
+   "sceneId": "S08",
+   "title": "S08-02 montage",
+   "description": "엔딩 몽타주와 다음 화 예고 티저.",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 240,
+   "priority": "P2",
+   "assignedCharacters": [
+    "mio"
+   ],
+   "backgroundId": "coast_day",
+   "requiredAssets": [
+    "bg:coast_day",
+    "char:mio",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "mio:stance",
+    "mio:idle"
+   ],
+   "cameraPlan": "f0(1500,640)x2.53 → f240(1600,620)x2.20",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@96"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@92",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.412Z",
+   "contentHash": "e7b6c46b2676",
+   "storyboardHash": "e7b6c46b2676",
+   "fidelity": "directed"
+  },
+  "S08-03": {
+   "shotId": "S08-03",
+   "sceneId": "S08",
+   "title": "S08-03 montage",
+   "description": "엔딩 몽타주와 다음 화 예고 티저.",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 288,
+   "priority": "P2",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "street_dusk",
+   "requiredAssets": [
+    "bg:street_dusk",
+    "char:soma",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "soma:stance",
+    "soma:walk"
+   ],
+   "cameraPlan": "f0(1500,640)x1.84 → f288(1600,620)x1.60",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@115"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@111",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.461Z",
+   "contentHash": "d23cb4385382",
+   "storyboardHash": "d23cb4385382",
+   "fidelity": "directed"
+  },
+  "S08-04": {
+   "shotId": "S08-04",
+   "sceneId": "S08",
+   "title": "S08-04 montage",
+   "description": "엔딩 몽타주와 다음 화 예고 티저.",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 288,
+   "priority": "P2",
+   "assignedCharacters": [
+    "veyra"
+   ],
+   "backgroundId": "harbor_night",
+   "requiredAssets": [
+    "bg:harbor_night",
+    "char:veyra",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "veyra:stance"
+   ],
+   "cameraPlan": "f0(1500,640)x1.95 → f288(1600,620)x1.70",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@115"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@111",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.509Z",
+   "contentHash": "00816e579de6",
+   "storyboardHash": "00816e579de6",
+   "fidelity": "directed"
+  },
+  "S08-05": {
+   "shotId": "S08-05",
+   "sceneId": "S08",
+   "title": "S08-05 montage",
+   "description": "엔딩 몽타주와 다음 화 예고 티저.",
+   "purpose": "오프닝/엔딩 몽타주 연출",
+   "durationFrames": 288,
+   "priority": "P2",
+   "assignedCharacters": [
+    "kaede"
+   ],
+   "backgroundId": "lab_corridor",
+   "requiredAssets": [
+    "bg:lab_corridor",
+    "char:kaede",
+    "sfx:wind_loop",
+    "sfx:whoosh",
+    "music:tension_drone"
+   ],
+   "dialogue": [],
+   "animationClips": [
+    "kaede:stance",
+    "kaede:idle"
+   ],
+   "cameraPlan": "f0(1500,640)x2.53 → f288(1600,620)x2.20",
+   "vfxPlan": [
+    "speedLines@0",
+    "wind@0",
+    "flash@115"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "whoosh@111",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.549Z",
+   "contentHash": "04a5263c359a",
+   "storyboardHash": "04a5263c359a",
+   "fidelity": "directed"
+  },
+  "S08-06": {
+   "shotId": "S08-06",
+   "sceneId": "S08",
+   "title": "S08-06 closeup",
+   "description": "엔딩 몽타주와 다음 화 예고 티저. 「미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.」",
+   "purpose": "감정 변화와 시선 연출",
+   "durationFrames": 288,
+   "priority": "P1",
+   "assignedCharacters": [
+    "soma"
+   ],
+   "backgroundId": "apartment_room",
+   "requiredAssets": [
+    "bg:apartment_room",
+    "char:soma",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S08-06-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S08-06-D01",
+     "characterId": "soma",
+     "text": "미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.",
+     "startFrame": 12,
+     "durationFrames": 87,
+     "emotion": "sad",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [
+    "soma:idle",
+    "soma:clutch"
+   ],
+   "cameraPlan": "f0(1512,560)x2.60 → f288(1516,564)x2.86",
+   "vfxPlan": [
+    "wind@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "ANIMATION",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.594Z",
+   "contentHash": "77bb7474444a",
+   "storyboardHash": "77bb7474444a",
+   "fidelity": "directed"
+  },
+  "S08-07": {
+   "shotId": "S08-07",
+   "sceneId": "S08",
+   "title": "S08-07 establish",
+   "description": "엔딩 몽타주와 다음 화 예고 티저. 「[기록] 다음 정지까지, 남은 시간 열하루.」",
+   "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+   "durationFrames": 432,
+   "priority": "P3",
+   "assignedCharacters": [],
+   "backgroundId": "ruins_night",
+   "requiredAssets": [
+    "bg:ruins_night",
+    "sfx:wind_loop",
+    "music:tension_drone",
+    "voice:S08-07-D01"
+   ],
+   "dialogue": [
+    {
+     "dialogueId": "S08-07-D01",
+     "characterId": "kaede",
+     "text": "[기록] 다음 정지까지, 남은 시간 열하루.",
+     "startFrame": 16,
+     "durationFrames": 71,
+     "emotion": "neutral",
+     "voiceAsset": null,
+     "voiceStatus": "MISSING_VOICE",
+     "lipSync": "text-derived-hangul-vowels",
+     "subtitle": true
+    }
+   ],
+   "animationClips": [],
+   "cameraPlan": "f0(1700,300)x1.40 → f432(1700,260)x2.20",
+   "vfxPlan": [
+    "fog@0",
+    "wind@0",
+    "bloom@0"
+   ],
+   "audioPlan": [
+    "wind_loop@0",
+    "music:tension_drone"
+   ],
+   "productionStatus": "BLOCKING",
+   "blocked": [
+    "MISSING_VOICE x1"
+   ],
+   "renderStatus": "PENDING",
+   "renderStatus1080": "PENDING",
+   "approved": false,
+   "lastModified": "2026-10-15T07:50:36.639Z",
+   "contentHash": "6eecce63f331",
+   "storyboardHash": "6eecce63f331",
+   "fidelity": "animatic"
+  }
+ },
+ "log": []
+}

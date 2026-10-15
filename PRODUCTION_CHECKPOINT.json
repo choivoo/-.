@@ -1,0 +1,46 @@
+{
+ "updated": "2026-10-15T08:02:06.558Z",
+ "phase": "report",
+ "lastAudit": "2026-10-15T07:50:18.232Z",
+ "auditIssues": 0,
+ "outDir": "renders/EP01",
+ "currentShot": "S01-10",
+ "attempt": 1,
+ "lastCompletedShot": "S01-10",
+ "counters": {
+  "done": 10,
+  "cached": 0,
+  "failed": 0
+ },
+ "summary": {
+  "shots": 105,
+  "frames": 28800,
+  "byStage": {
+   "BLOCKING": 20,
+   "ANIMATION": 85
+  },
+  "framesByStage": {
+   "BLOCKING": 5500,
+   "ANIMATION": 23300
+  },
+  "render1080": {
+   "DONE": 10,
+   "PENDING": 95
+  },
+  "failed": [],
+  "missingVoiceLines": 79,
+  "qa": {
+   "PASS": 6,
+   "REVIEW": 1,
+   "FAIL": 3,
+   "none": 95
+  },
+  "approved": 0,
+  "animatic": 20,
+  "directed": 73,
+  "finalDraft": 12
+ },
+ "status": "WORK_IN_PROGRESS",
+ "finalPath": null,
+ "preview": null
+}

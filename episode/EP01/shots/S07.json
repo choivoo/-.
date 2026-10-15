@@ -28,7 +28,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -90,7 +90,12 @@
     "dur": 6,
     "intensity": 0.7
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P0",
+  "shotSize": "ECU",
+  "description": "가면이 갈라지고, 베이라의 얼굴은 소마와 같았다."
  },
  {
   "sceneId": "S07",
@@ -105,11 +110,78 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 38,
+    "dur": 52,
     "speaker": "soma",
     "text": "…그 얼굴은, 뭐야.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S07-02-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "u"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "u"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "closed"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "e"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "u"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "u"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -125,7 +197,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -137,12 +209,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "cower",
+      "blend": 5
      },
      {
-      "f": 50,
+      "f": 66,
       "clip": "idle",
       "blend": 8
      }
@@ -197,7 +269,12 @@
     "seed": 8,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P0",
+  "shotSize": "CU",
+  "description": "가면이 갈라지고, 베이라의 얼굴은 소마와 같았다. 「…그 얼굴은, 뭐야.」"
  },
  {
   "sceneId": "S07",
@@ -213,11 +290,146 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 48,
+    "dur": 93,
     "speaker": "veyra",
     "text": "열두 번째다. 나도, 너도.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S07-03-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "e"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "e"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "closed"
+     },
+     {
+      "f": 13,
+      "shape": "u"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "closed"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "e"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "closed"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "e"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "closed"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "a"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "a"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "a"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "o"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "o"
+     },
+     {
+      "f": 72,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -233,7 +445,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -242,12 +454,32 @@
      {
       "f": 0,
       "clip": "idle"
+     },
+     {
+      "f": 22,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 46,
+      "clip": "idle",
+      "blend": 8
      }
     ],
     "face": [
      {
       "f": 0,
       "expr": "fear"
+     },
+     {
+      "f": 18,
+      "expr": "sad",
+      "blend": 5
+     },
+     {
+      "f": 111,
+      "expr": "fear",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -267,12 +499,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "clutch",
+      "blend": 5
      },
      {
-      "f": 60,
+      "f": 107,
       "clip": "idle",
       "blend": 8
      }
@@ -284,7 +516,8 @@
      },
      {
       "f": 8,
-      "expr": "sad"
+      "expr": "sad",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -303,10 +536,23 @@
     "zoom": 2
    },
    {
+    "f": 4,
+    "x": 1600,
+    "y": 600,
+    "zoom": 2
+   },
+   {
+    "f": 18,
+    "x": 1670.4,
+    "y": 595,
+    "zoom": 2.08,
+    "ease": "inOut"
+   },
+   {
     "f": 240,
-    "x": 1620,
-    "y": 590,
-    "zoom": 2.14,
+    "x": 1682.4,
+    "y": 595,
+    "zoom": 2.1424000000000003,
     "ease": "out"
    }
   ],
@@ -318,6 +564,11 @@
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P0",
+  "shotSize": "MS",
+  "description": "가면이 갈라지고, 베이라의 얼굴은 소마와 같았다. 「열두 번째다. 나도, 너도.」"
  }
 ]

@@ -8,3 +8,4 @@ export function validateCharacterAssetPaths(): Issue[] {
   return out;
 }
 export const listDir = (d: string) => (existsSync(d) ? readdirSync(d) : []);
+export const publicFileExists = (p: string) => existsSync(`public/${p}`);

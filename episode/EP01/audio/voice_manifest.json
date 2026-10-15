@@ -1,0 +1,12036 @@
+{
+ "note": "Drop public/voices/<dialogueId>.wav to link a voice. No TTS engine is installed; nothing here is recorded speech.",
+ "lines": [
+  {
+   "dialogueId": "S01-01-D01",
+   "shotId": "S01-01",
+   "characterId": "narration",
+   "text": "그날 밤, 도시 위로 달이 하나 더 떠올랐다.",
+   "startFrame": 16,
+   "durationFrames": 67,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "o"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "i"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "i"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "o"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 35,
+     "shape": "a"
+    },
+    {
+     "f": 37,
+     "shape": "small"
+    },
+    {
+     "f": 38,
+     "shape": "i"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 43,
+     "shape": "a"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "a"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "e"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "e"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 59,
+     "shape": "o"
+    },
+    {
+     "f": 61,
+     "shape": "small"
+    },
+    {
+     "f": 62,
+     "shape": "a"
+    },
+    {
+     "f": 64,
+     "shape": "small"
+    },
+    {
+     "f": 65,
+     "shape": "a"
+    },
+    {
+     "f": 67,
+     "shape": "closed"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 74,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 83,
+    "text": "그날 밤, 도시 위로 달이 하나 더 떠올랐다."
+   }
+  },
+  {
+   "dialogueId": "S01-02-D01",
+   "shotId": "S01-02",
+   "characterId": "narration",
+   "text": "빛이 아닌 것을 삼키는, 검은 달.",
+   "startFrame": 16,
+   "durationFrames": 54,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "i"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "e"
+    },
+    {
+     "f": 18,
+     "shape": "small"
+    },
+    {
+     "f": 19,
+     "shape": "u"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "a"
+    },
+    {
+     "f": 26,
+     "shape": "small"
+    },
+    {
+     "f": 27,
+     "shape": "i"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "u"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "e"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "u"
+    },
+    {
+     "f": 46,
+     "shape": "small"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "a"
+    },
+    {
+     "f": 51,
+     "shape": "small"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 70,
+    "text": "빛이 아닌 것을 삼키는, 검은 달."
+   }
+  },
+  {
+   "dialogueId": "S01-03-D01",
+   "shotId": "S01-03",
+   "characterId": "kaede",
+   "text": "서둘러야 해… 기록이 지워지기 전에.",
+   "startFrame": 14,
+   "durationFrames": 61,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "e"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "a"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "e"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "o"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "i"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "u"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "i"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "i"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "e"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "e"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 14,
+    "end": 75,
+    "text": "서둘러야 해… 기록이 지워지기 전에."
+   }
+  },
+  {
+   "dialogueId": "S01-04-D01",
+   "shotId": "S01-04",
+   "characterId": "kaede",
+   "text": "이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.",
+   "startFrame": 12,
+   "durationFrames": 117,
+   "emotion": "sad",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "i"
+    },
+    {
+     "f": 7,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "e"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "u"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "a"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "i"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "e"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "a"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "i"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "a"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "u"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "i"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "u"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "a"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "i"
+    },
+    {
+     "f": 65,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "a"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 71,
+     "shape": "e"
+    },
+    {
+     "f": 73,
+     "shape": "small"
+    },
+    {
+     "f": 74,
+     "shape": "u"
+    },
+    {
+     "f": 76,
+     "shape": "small"
+    },
+    {
+     "f": 77,
+     "shape": "closed"
+    },
+    {
+     "f": 79,
+     "shape": "i"
+    },
+    {
+     "f": 81,
+     "shape": "closed"
+    },
+    {
+     "f": 82,
+     "shape": "a"
+    },
+    {
+     "f": 84,
+     "shape": "small"
+    },
+    {
+     "f": 85,
+     "shape": "closed"
+    },
+    {
+     "f": 87,
+     "shape": "o"
+    },
+    {
+     "f": 89,
+     "shape": "small"
+    },
+    {
+     "f": 90,
+     "shape": "e"
+    },
+    {
+     "f": 92,
+     "shape": "closed"
+    },
+    {
+     "f": 93,
+     "shape": "e"
+    },
+    {
+     "f": 95,
+     "shape": "closed"
+    },
+    {
+     "f": 96,
+     "shape": "o"
+    },
+    {
+     "f": 98,
+     "shape": "closed"
+    },
+    {
+     "f": 99,
+     "shape": "closed"
+    },
+    {
+     "f": 101,
+     "shape": "e"
+    },
+    {
+     "f": 103,
+     "shape": "small"
+    },
+    {
+     "f": 104,
+     "shape": "u"
+    },
+    {
+     "f": 106,
+     "shape": "small"
+    },
+    {
+     "f": 107,
+     "shape": "closed"
+    },
+    {
+     "f": 109,
+     "shape": "u"
+    },
+    {
+     "f": 111,
+     "shape": "closed"
+    },
+    {
+     "f": 112,
+     "shape": "closed"
+    },
+    {
+     "f": 114,
+     "shape": "i"
+    },
+    {
+     "f": 116,
+     "shape": "small"
+    },
+    {
+     "f": 117,
+     "shape": "i"
+    },
+    {
+     "f": 119,
+     "shape": "closed"
+    },
+    {
+     "f": 120,
+     "shape": "u"
+    },
+    {
+     "f": 122,
+     "shape": "small"
+    },
+    {
+     "f": 123,
+     "shape": "closed"
+    },
+    {
+     "f": 129,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 129,
+    "text": "이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를."
+   }
+  },
+  {
+   "dialogueId": "S01-04-D02",
+   "shotId": "S01-04",
+   "characterId": "kaede",
+   "text": "…열두 번째 정지가 오기 전에.",
+   "startFrame": 139,
+   "durationFrames": 51,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "e"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "u"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "e"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "e"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "o"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "e"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "e"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 139,
+    "end": 190,
+    "text": "…열두 번째 정지가 오기 전에."
+   }
+  },
+  {
+   "dialogueId": "S01-07-D01",
+   "shotId": "S01-07",
+   "characterId": "narration",
+   "text": "시계는 하나둘, 같은 시각에서 멈추기 시작했다.",
+   "startFrame": 16,
+   "durationFrames": 77,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "u"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "a"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "u"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "u"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "a"
+    },
+    {
+     "f": 41,
+     "shape": "small"
+    },
+    {
+     "f": 42,
+     "shape": "e"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "e"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "e"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "u"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "i"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "i"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "a"
+    },
+    {
+     "f": 66,
+     "shape": "small"
+    },
+    {
+     "f": 67,
+     "shape": "e"
+    },
+    {
+     "f": 69,
+     "shape": "small"
+    },
+    {
+     "f": 70,
+     "shape": "a"
+    },
+    {
+     "f": 72,
+     "shape": "closed"
+    },
+    {
+     "f": 73,
+     "shape": "closed"
+    },
+    {
+     "f": 79,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 93,
+    "text": "시계는 하나둘, 같은 시각에서 멈추기 시작했다."
+   }
+  },
+  {
+   "dialogueId": "S01-08-D01",
+   "shotId": "S01-08",
+   "characterId": "veyra",
+   "text": "…시작됐군.",
+   "startFrame": 16,
+   "durationFrames": 28,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "i"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "a"
+    },
+    {
+     "f": 11,
+     "shape": "small"
+    },
+    {
+     "f": 12,
+     "shape": "e"
+    },
+    {
+     "f": 14,
+     "shape": "small"
+    },
+    {
+     "f": 15,
+     "shape": "u"
+    },
+    {
+     "f": 17,
+     "shape": "small"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 44,
+    "text": "…시작됐군."
+   }
+  },
+  {
+   "dialogueId": "S01-10-D01",
+   "shotId": "S01-10",
+   "characterId": "narration",
+   "text": "흑월의 잔향 — 제1화, 정지하는 시간",
+   "startFrame": 16,
+   "durationFrames": 61,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "i"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "a"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "e"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "e"
+    },
+    {
+     "f": 29,
+     "shape": "a"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "e"
+    },
+    {
+     "f": 42,
+     "shape": "small"
+    },
+    {
+     "f": 43,
+     "shape": "i"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "a"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "u"
+    },
+    {
+     "f": 51,
+     "shape": "small"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 54,
+     "shape": "i"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 57,
+     "shape": "a"
+    },
+    {
+     "f": 59,
+     "shape": "small"
+    },
+    {
+     "f": 60,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 77,
+    "text": "흑월의 잔향 — 제1화, 정지하는 시간"
+   }
+  },
+  {
+   "dialogueId": "S03-01-D01",
+   "shotId": "S03-01",
+   "characterId": "narration",
+   "text": "해안도시 미나토. 평범한 아침이었다.",
+   "startFrame": 16,
+   "durationFrames": 64,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "i"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "o"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "e"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "e"
+    },
+    {
+     "f": 36,
+     "shape": "small"
+    },
+    {
+     "f": 37,
+     "shape": "a"
+    },
+    {
+     "f": 39,
+     "shape": "small"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "a"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "i"
+    },
+    {
+     "f": 47,
+     "shape": "small"
+    },
+    {
+     "f": 48,
+     "shape": "i"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "e"
+    },
+    {
+     "f": 53,
+     "shape": "small"
+    },
+    {
+     "f": 54,
+     "shape": "a"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 80,
+    "text": "해안도시 미나토. 평범한 아침이었다."
+   }
+  },
+  {
+   "dialogueId": "S03-02-D01",
+   "shotId": "S03-02",
+   "characterId": "mio",
+   "text": "소마! 또 늦잠이야? 학교 늦겠어!",
+   "startFrame": 12,
+   "durationFrames": 58,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "o"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "o"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "u"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "a"
+    },
+    {
+     "f": 41,
+     "shape": "small"
+    },
+    {
+     "f": 42,
+     "shape": "o"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "u"
+    },
+    {
+     "f": 49,
+     "shape": "small"
+    },
+    {
+     "f": 50,
+     "shape": "e"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "e"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 70,
+    "text": "소마! 또 늦잠이야? 학교 늦겠어!"
+   }
+  },
+  {
+   "dialogueId": "S03-02-D02",
+   "shotId": "S03-02",
+   "characterId": "soma",
+   "text": "…오 분만.",
+   "startFrame": 80,
+   "durationFrames": 26,
+   "emotion": "embarrassed",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "u"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 80,
+    "end": 106,
+    "text": "…오 분만."
+   }
+  },
+  {
+   "dialogueId": "S03-02-D03",
+   "shotId": "S03-02",
+   "characterId": "mio",
+   "text": "그 말, 이번 주에만 열 번째거든?",
+   "startFrame": 116,
+   "durationFrames": 54,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "a"
+    },
+    {
+     "f": 7,
+     "shape": "small"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "i"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "e"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "u"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "e"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "a"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 35,
+     "shape": "e"
+    },
+    {
+     "f": 37,
+     "shape": "small"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "e"
+    },
+    {
+     "f": 42,
+     "shape": "small"
+    },
+    {
+     "f": 43,
+     "shape": "e"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "e"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "u"
+    },
+    {
+     "f": 51,
+     "shape": "small"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 116,
+    "end": 170,
+    "text": "그 말, 이번 주에만 열 번째거든?"
+   }
+  },
+  {
+   "dialogueId": "S03-02-D04",
+   "shotId": "S03-02",
+   "characterId": "soma",
+   "text": "알았어, 알았어. 일어난다니까.",
+   "startFrame": 180,
+   "durationFrames": 58,
+   "emotion": "smile",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "e"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "a"
+    },
+    {
+     "f": 22,
+     "shape": "small"
+    },
+    {
+     "f": 23,
+     "shape": "e"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "i"
+    },
+    {
+     "f": 36,
+     "shape": "small"
+    },
+    {
+     "f": 37,
+     "shape": "e"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "a"
+    },
+    {
+     "f": 42,
+     "shape": "small"
+    },
+    {
+     "f": 43,
+     "shape": "a"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "i"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "a"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 180,
+    "end": 238,
+    "text": "알았어, 알았어. 일어난다니까."
+   }
+  },
+  {
+   "dialogueId": "S03-04-D01",
+   "shotId": "S03-04",
+   "characterId": "soma",
+   "text": "시계가… 또 멈췄네.",
+   "startFrame": 12,
+   "durationFrames": 38,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "a"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "o"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "u"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "e"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 50,
+    "text": "시계가… 또 멈췄네."
+   }
+  },
+  {
+   "dialogueId": "S03-04-D02",
+   "shotId": "S03-04",
+   "characterId": "soma",
+   "text": "박사님이 남겨주신 건데.",
+   "startFrame": 60,
+   "durationFrames": 44,
+   "emotion": "sad",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "i"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "i"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "e"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "u"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "i"
+    },
+    {
+     "f": 25,
+     "shape": "small"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "e"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "e"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 60,
+    "end": 104,
+    "text": "박사님이 남겨주신 건데."
+   }
+  },
+  {
+   "dialogueId": "S03-05-D01",
+   "shotId": "S03-05",
+   "characterId": "mio",
+   "text": "너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.",
+   "startFrame": 14,
+   "durationFrames": 81,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "o"
+    },
+    {
+     "f": 7,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "u"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 13,
+     "shape": "i"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "a"
+    },
+    {
+     "f": 18,
+     "shape": "small"
+    },
+    {
+     "f": 19,
+     "shape": "a"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "o"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "u"
+    },
+    {
+     "f": 29,
+     "shape": "small"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 32,
+     "shape": "u"
+    },
+    {
+     "f": 34,
+     "shape": "small"
+    },
+    {
+     "f": 35,
+     "shape": "e"
+    },
+    {
+     "f": 37,
+     "shape": "small"
+    },
+    {
+     "f": 38,
+     "shape": "e"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "a"
+    },
+    {
+     "f": 51,
+     "shape": "small"
+    },
+    {
+     "f": 52,
+     "shape": "a"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "u"
+    },
+    {
+     "f": 57,
+     "shape": "small"
+    },
+    {
+     "f": 58,
+     "shape": "e"
+    },
+    {
+     "f": 60,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "a"
+    },
+    {
+     "f": 65,
+     "shape": "small"
+    },
+    {
+     "f": 66,
+     "shape": "i"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 71,
+     "shape": "u"
+    },
+    {
+     "f": 73,
+     "shape": "closed"
+    },
+    {
+     "f": 74,
+     "shape": "closed"
+    },
+    {
+     "f": 76,
+     "shape": "e"
+    },
+    {
+     "f": 78,
+     "shape": "closed"
+    },
+    {
+     "f": 79,
+     "shape": "e"
+    },
+    {
+     "f": 81,
+     "shape": "closed"
+    },
+    {
+     "f": 82,
+     "shape": "closed"
+    },
+    {
+     "f": 88,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 14,
+    "end": 95,
+    "text": "너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래."
+   }
+  },
+  {
+   "dialogueId": "S03-05-D02",
+   "shotId": "S03-05",
+   "characterId": "soma",
+   "text": "또 누가 지어낸 얘기겠지.",
+   "startFrame": 105,
+   "durationFrames": 44,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "o"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "u"
+    },
+    {
+     "f": 7,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 13,
+     "shape": "i"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "e"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "e"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "e"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "i"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "e"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "i"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 105,
+    "end": 149,
+    "text": "또 누가 지어낸 얘기겠지."
+   }
+  },
+  {
+   "dialogueId": "S03-06-D01",
+   "shotId": "S03-06",
+   "characterId": "mio",
+   "text": "진짜야! 어제 뉴스에도 나왔다니까.",
+   "startFrame": 12,
+   "durationFrames": 61,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "a"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "e"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "e"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "u"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "u"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "e"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "o"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "a"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "a"
+    },
+    {
+     "f": 44,
+     "shape": "small"
+    },
+    {
+     "f": 45,
+     "shape": "a"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 48,
+     "shape": "i"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "a"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 73,
+    "text": "진짜야! 어제 뉴스에도 나왔다니까."
+   }
+  },
+  {
+   "dialogueId": "S03-06-D02",
+   "shotId": "S03-06",
+   "characterId": "soma",
+   "text": "검은 달이라니, 소설 같네.",
+   "startFrame": 83,
+   "durationFrames": 48,
+   "emotion": "smile",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "i"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "i"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "o"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "e"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "a"
+    },
+    {
+     "f": 38,
+     "shape": "small"
+    },
+    {
+     "f": 39,
+     "shape": "e"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 83,
+    "end": 131,
+    "text": "검은 달이라니, 소설 같네."
+   }
+  },
+  {
+   "dialogueId": "S03-06-D03",
+   "shotId": "S03-06",
+   "characterId": "mio",
+   "text": "…웃지 마. 나 좀 무서웠단 말이야.",
+   "startFrame": 141,
+   "durationFrames": 58,
+   "emotion": "sad",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "u"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "i"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "a"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "o"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 35,
+     "shape": "u"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "e"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "u"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "a"
+    },
+    {
+     "f": 46,
+     "shape": "small"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "a"
+    },
+    {
+     "f": 51,
+     "shape": "small"
+    },
+    {
+     "f": 52,
+     "shape": "i"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "a"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 141,
+    "end": 199,
+    "text": "…웃지 마. 나 좀 무서웠단 말이야."
+   }
+  },
+  {
+   "dialogueId": "S03-06-D04",
+   "shotId": "S03-06",
+   "characterId": "soma",
+   "text": "미안. 무슨 일 있으면 내가 있잖아.",
+   "startFrame": 209,
+   "durationFrames": 58,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "u"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "u"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "i"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "i"
+    },
+    {
+     "f": 29,
+     "shape": "small"
+    },
+    {
+     "f": 30,
+     "shape": "u"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "e"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "e"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "a"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "i"
+    },
+    {
+     "f": 48,
+     "shape": "small"
+    },
+    {
+     "f": 49,
+     "shape": "a"
+    },
+    {
+     "f": 51,
+     "shape": "small"
+    },
+    {
+     "f": 52,
+     "shape": "a"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 209,
+    "end": 267,
+    "text": "미안. 무슨 일 있으면 내가 있잖아."
+   }
+  },
+  {
+   "dialogueId": "S03-08-D01",
+   "shotId": "S03-08",
+   "characterId": "mio",
+   "text": "박사님이 사라지신 지 벌써 삼 년이네.",
+   "startFrame": 12,
+   "durationFrames": 61,
+   "emotion": "sad",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "i"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "i"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "i"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "i"
+    },
+    {
+     "f": 25,
+     "shape": "small"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "i"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "e"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "e"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "a"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "e"
+    },
+    {
+     "f": 48,
+     "shape": "small"
+    },
+    {
+     "f": 49,
+     "shape": "i"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "e"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 73,
+    "text": "박사님이 사라지신 지 벌써 삼 년이네."
+   }
+  },
+  {
+   "dialogueId": "S03-08-D02",
+   "shotId": "S03-08",
+   "characterId": "soma",
+   "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아.",
+   "startFrame": 83,
+   "durationFrames": 74,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "u"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "u"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "u"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "o"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "e"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "a"
+    },
+    {
+     "f": 41,
+     "shape": "small"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "a"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "o"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "e"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "a"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "u"
+    },
+    {
+     "f": 60,
+     "shape": "small"
+    },
+    {
+     "f": 61,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "i"
+    },
+    {
+     "f": 65,
+     "shape": "small"
+    },
+    {
+     "f": 66,
+     "shape": "u"
+    },
+    {
+     "f": 68,
+     "shape": "small"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 71,
+     "shape": "a"
+    },
+    {
+     "f": 73,
+     "shape": "small"
+    },
+    {
+     "f": 74,
+     "shape": "a"
+    },
+    {
+     "f": 76,
+     "shape": "closed"
+    },
+    {
+     "f": 77,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 83,
+    "end": 157,
+    "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아."
+   }
+  },
+  {
+   "dialogueId": "S03-08-D03",
+   "shotId": "S03-08",
+   "characterId": "mio",
+   "text": "언젠가 알게 될 거야, 분명히.",
+   "startFrame": 167,
+   "durationFrames": 51,
+   "emotion": "smile",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "a"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "a"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "e"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "o"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "e"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "a"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "u"
+    },
+    {
+     "f": 40,
+     "shape": "small"
+    },
+    {
+     "f": 41,
+     "shape": "e"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "i"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 167,
+    "end": 218,
+    "text": "언젠가 알게 될 거야, 분명히."
+   }
+  },
+  {
+   "dialogueId": "S03-09-D01",
+   "shotId": "S03-09",
+   "characterId": "narration",
+   "text": "해가 기울자, 거리의 시계들이 일제히 멈췄다.",
+   "startFrame": 16,
+   "durationFrames": 74,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "i"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "u"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "e"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "i"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "i"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "e"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "u"
+    },
+    {
+     "f": 44,
+     "shape": "small"
+    },
+    {
+     "f": 45,
+     "shape": "i"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "i"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "e"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "i"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "e"
+    },
+    {
+     "f": 63,
+     "shape": "small"
+    },
+    {
+     "f": 64,
+     "shape": "u"
+    },
+    {
+     "f": 66,
+     "shape": "small"
+    },
+    {
+     "f": 67,
+     "shape": "a"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 70,
+     "shape": "closed"
+    },
+    {
+     "f": 76,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 90,
+    "text": "해가 기울자, 거리의 시계들이 일제히 멈췄다."
+   }
+  },
+  {
+   "dialogueId": "S03-10-D01",
+   "shotId": "S03-10",
+   "characterId": "soma",
+   "text": "…또야. 모든 시계가 6시 6분에서 멈춰 있어.",
+   "startFrame": 12,
+   "durationFrames": 74,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "a"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "o"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "u"
+    },
+    {
+     "f": 25,
+     "shape": "small"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "i"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "e"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "a"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "e"
+    },
+    {
+     "f": 42,
+     "shape": "i"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "e"
+    },
+    {
+     "f": 50,
+     "shape": "u"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "e"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "e"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "e"
+    },
+    {
+     "f": 63,
+     "shape": "small"
+    },
+    {
+     "f": 64,
+     "shape": "u"
+    },
+    {
+     "f": 66,
+     "shape": "closed"
+    },
+    {
+     "f": 67,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "i"
+    },
+    {
+     "f": 71,
+     "shape": "small"
+    },
+    {
+     "f": 72,
+     "shape": "e"
+    },
+    {
+     "f": 74,
+     "shape": "closed"
+    },
+    {
+     "f": 75,
+     "shape": "closed"
+    },
+    {
+     "f": 81,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 86,
+    "text": "…또야. 모든 시계가 6시 6분에서 멈춰 있어."
+   }
+  },
+  {
+   "dialogueId": "S03-10-D02",
+   "shotId": "S03-10",
+   "characterId": "soma",
+   "text": "내 시계도, 저 시계탑도.",
+   "startFrame": 96,
+   "durationFrames": 44,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "i"
+    },
+    {
+     "f": 7,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "e"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "o"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "i"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "e"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "a"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "o"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 96,
+    "end": 140,
+    "text": "내 시계도, 저 시계탑도."
+   }
+  },
+  {
+   "dialogueId": "S03-10-D03",
+   "shotId": "S03-10",
+   "characterId": "soma",
+   "text": "대체 무슨 일이 벌어지고 있는 거지?",
+   "startFrame": 150,
+   "durationFrames": 58,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "u"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "u"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "i"
+    },
+    {
+     "f": 18,
+     "shape": "small"
+    },
+    {
+     "f": 19,
+     "shape": "i"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "e"
+    },
+    {
+     "f": 26,
+     "shape": "small"
+    },
+    {
+     "f": 27,
+     "shape": "e"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "i"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "o"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "i"
+    },
+    {
+     "f": 40,
+     "shape": "small"
+    },
+    {
+     "f": 41,
+     "shape": "u"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "e"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "i"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 150,
+    "end": 208,
+    "text": "대체 무슨 일이 벌어지고 있는 거지?"
+   }
+  },
+  {
+   "dialogueId": "S03-12-D01",
+   "shotId": "S03-12",
+   "characterId": "mio",
+   "text": "저기 봐, 사람들이 다 멈춰 서 있어!",
+   "startFrame": 12,
+   "durationFrames": 58,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "a"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "u"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "i"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "a"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "e"
+    },
+    {
+     "f": 40,
+     "shape": "small"
+    },
+    {
+     "f": 41,
+     "shape": "u"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "e"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "i"
+    },
+    {
+     "f": 53,
+     "shape": "small"
+    },
+    {
+     "f": 54,
+     "shape": "e"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 70,
+    "text": "저기 봐, 사람들이 다 멈춰 서 있어!"
+   }
+  },
+  {
+   "dialogueId": "S03-12-D02",
+   "shotId": "S03-12",
+   "characterId": "soma",
+   "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.",
+   "startFrame": 80,
+   "durationFrames": 94,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "u"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "i"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "i"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "o"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "u"
+    },
+    {
+     "f": 28,
+     "shape": "small"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "i"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "e"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "a"
+    },
+    {
+     "f": 47,
+     "shape": "small"
+    },
+    {
+     "f": 48,
+     "shape": "u"
+    },
+    {
+     "f": 50,
+     "shape": "small"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "o"
+    },
+    {
+     "f": 55,
+     "shape": "small"
+    },
+    {
+     "f": 56,
+     "shape": "a"
+    },
+    {
+     "f": 58,
+     "shape": "small"
+    },
+    {
+     "f": 59,
+     "shape": "u"
+    },
+    {
+     "f": 61,
+     "shape": "small"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "a"
+    },
+    {
+     "f": 66,
+     "shape": "small"
+    },
+    {
+     "f": 67,
+     "shape": "o"
+    },
+    {
+     "f": 69,
+     "shape": "small"
+    },
+    {
+     "f": 70,
+     "shape": "a"
+    },
+    {
+     "f": 72,
+     "shape": "closed"
+    },
+    {
+     "f": 73,
+     "shape": "o"
+    },
+    {
+     "f": 75,
+     "shape": "closed"
+    },
+    {
+     "f": 76,
+     "shape": "closed"
+    },
+    {
+     "f": 78,
+     "shape": "i"
+    },
+    {
+     "f": 80,
+     "shape": "small"
+    },
+    {
+     "f": 81,
+     "shape": "u"
+    },
+    {
+     "f": 83,
+     "shape": "small"
+    },
+    {
+     "f": 84,
+     "shape": "closed"
+    },
+    {
+     "f": 86,
+     "shape": "u"
+    },
+    {
+     "f": 88,
+     "shape": "small"
+    },
+    {
+     "f": 89,
+     "shape": "i"
+    },
+    {
+     "f": 91,
+     "shape": "closed"
+    },
+    {
+     "f": 92,
+     "shape": "a"
+    },
+    {
+     "f": 94,
+     "shape": "closed"
+    },
+    {
+     "f": 95,
+     "shape": "closed"
+    },
+    {
+     "f": 101,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 80,
+    "end": 174,
+    "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야."
+   }
+  },
+  {
+   "dialogueId": "S03-12-D03",
+   "shotId": "S03-12",
+   "characterId": "mio",
+   "text": "무서워… 소마, 돌아가자.",
+   "startFrame": 184,
+   "durationFrames": 48,
+   "emotion": "sad",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "u"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "o"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "a"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "o"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "a"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "a"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "a"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 184,
+    "end": 232,
+    "text": "무서워… 소마, 돌아가자."
+   }
+  },
+  {
+   "dialogueId": "S03-14-D01",
+   "shotId": "S03-14",
+   "characterId": "narration",
+   "text": "그 순간, 하늘이 검게 물들었다.",
+   "startFrame": 16,
+   "durationFrames": 54,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "u"
+    },
+    {
+     "f": 7,
+     "shape": "small"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "a"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "u"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "e"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "e"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "u"
+    },
+    {
+     "f": 40,
+     "shape": "small"
+    },
+    {
+     "f": 41,
+     "shape": "u"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "e"
+    },
+    {
+     "f": 46,
+     "shape": "small"
+    },
+    {
+     "f": 47,
+     "shape": "a"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 70,
+    "text": "그 순간, 하늘이 검게 물들었다."
+   }
+  },
+  {
+   "dialogueId": "S04-01-D01",
+   "shotId": "S04-01",
+   "characterId": "narration",
+   "text": "교차로. 정지한 신호등 아래, 시간이 어긋난다.",
+   "startFrame": 16,
+   "durationFrames": 77,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "o"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "e"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "i"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "a"
+    },
+    {
+     "f": 25,
+     "shape": "small"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "i"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "o"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "u"
+    },
+    {
+     "f": 36,
+     "shape": "small"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "a"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "e"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "i"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "a"
+    },
+    {
+     "f": 58,
+     "shape": "small"
+    },
+    {
+     "f": 59,
+     "shape": "i"
+    },
+    {
+     "f": 61,
+     "shape": "closed"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "e"
+    },
+    {
+     "f": 66,
+     "shape": "closed"
+    },
+    {
+     "f": 67,
+     "shape": "u"
+    },
+    {
+     "f": 69,
+     "shape": "small"
+    },
+    {
+     "f": 70,
+     "shape": "a"
+    },
+    {
+     "f": 72,
+     "shape": "small"
+    },
+    {
+     "f": 73,
+     "shape": "a"
+    },
+    {
+     "f": 75,
+     "shape": "closed"
+    },
+    {
+     "f": 76,
+     "shape": "closed"
+    },
+    {
+     "f": 82,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 93,
+    "text": "교차로. 정지한 신호등 아래, 시간이 어긋난다."
+   }
+  },
+  {
+   "dialogueId": "S04-02-D01",
+   "shotId": "S04-02",
+   "characterId": "mio",
+   "text": "소마, 빨리 와! 신호가 바뀌었어!",
+   "startFrame": 14,
+   "durationFrames": 58,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "o"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "i"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "i"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "o"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "a"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "a"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "i"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "e"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "e"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 14,
+    "end": 72,
+    "text": "소마, 빨리 와! 신호가 바뀌었어!"
+   }
+  },
+  {
+   "dialogueId": "S04-04-D01",
+   "shotId": "S04-04",
+   "characterId": "mio",
+   "text": "…어?",
+   "startFrame": 12,
+   "durationFrames": 26,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "e"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 38,
+    "text": "…어?"
+   }
+  },
+  {
+   "dialogueId": "S04-05-D01",
+   "shotId": "S04-05",
+   "characterId": "soma",
+   "text": "미오!!",
+   "startFrame": 12,
+   "durationFrames": 26,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "o"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 38,
+    "text": "미오!!"
+   }
+  },
+  {
+   "dialogueId": "S04-07-D01",
+   "shotId": "S04-07",
+   "characterId": "soma",
+   "text": "…멈췄어? 아니, 모든 게 멈춘 거야.",
+   "startFrame": 14,
+   "durationFrames": 61,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "e"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "u"
+    },
+    {
+     "f": 11,
+     "shape": "small"
+    },
+    {
+     "f": 12,
+     "shape": "e"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "a"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "i"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "o"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "u"
+    },
+    {
+     "f": 42,
+     "shape": "small"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "e"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "e"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "u"
+    },
+    {
+     "f": 55,
+     "shape": "small"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "e"
+    },
+    {
+     "f": 60,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "a"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "closed"
+    },
+    {
+     "f": 70,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 14,
+    "end": 75,
+    "text": "…멈췄어? 아니, 모든 게 멈춘 거야."
+   }
+  },
+  {
+   "dialogueId": "S04-08-D01",
+   "shotId": "S04-08",
+   "characterId": "soma",
+   "text": "소리도, 바람도 없어. 나만 움직일 수 있어.",
+   "startFrame": 12,
+   "durationFrames": 71,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "o"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "a"
+    },
+    {
+     "f": 22,
+     "shape": "small"
+    },
+    {
+     "f": 23,
+     "shape": "o"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "e"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "e"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "a"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "a"
+    },
+    {
+     "f": 47,
+     "shape": "small"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "u"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "i"
+    },
+    {
+     "f": 55,
+     "shape": "small"
+    },
+    {
+     "f": 56,
+     "shape": "i"
+    },
+    {
+     "f": 58,
+     "shape": "small"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "u"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "i"
+    },
+    {
+     "f": 68,
+     "shape": "small"
+    },
+    {
+     "f": 69,
+     "shape": "e"
+    },
+    {
+     "f": 71,
+     "shape": "closed"
+    },
+    {
+     "f": 72,
+     "shape": "closed"
+    },
+    {
+     "f": 78,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 83,
+    "text": "소리도, 바람도 없어. 나만 움직일 수 있어."
+   }
+  },
+  {
+   "dialogueId": "S04-08-D02",
+   "shotId": "S04-08",
+   "characterId": "soma",
+   "text": "이게… 시계가 멈춘 이유인가.",
+   "startFrame": 93,
+   "durationFrames": 51,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "e"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "a"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "e"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "u"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "i"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "u"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "i"
+    },
+    {
+     "f": 41,
+     "shape": "small"
+    },
+    {
+     "f": 42,
+     "shape": "a"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 93,
+    "end": 144,
+    "text": "이게… 시계가 멈춘 이유인가."
+   }
+  },
+  {
+   "dialogueId": "S04-10-D01",
+   "shotId": "S04-10",
+   "characterId": "soma",
+   "text": "미오, 미안해. 조금만 거칠게 할게.",
+   "startFrame": 12,
+   "durationFrames": 61,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "o"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "e"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "o"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "u"
+    },
+    {
+     "f": 36,
+     "shape": "small"
+    },
+    {
+     "f": 37,
+     "shape": "a"
+    },
+    {
+     "f": 39,
+     "shape": "small"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "e"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "i"
+    },
+    {
+     "f": 47,
+     "shape": "small"
+    },
+    {
+     "f": 48,
+     "shape": "e"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "a"
+    },
+    {
+     "f": 55,
+     "shape": "small"
+    },
+    {
+     "f": 56,
+     "shape": "e"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 65,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 73,
+    "text": "미오, 미안해. 조금만 거칠게 할게."
+   }
+  },
+  {
+   "dialogueId": "S04-12-D01",
+   "shotId": "S04-12",
+   "characterId": "mio",
+   "text": "방금… 트럭이 있었는데? 어떻게 된 거야?",
+   "startFrame": 12,
+   "durationFrames": 67,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "u"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "e"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "i"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "e"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "u"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "e"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "e"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 48,
+     "shape": "e"
+    },
+    {
+     "f": 50,
+     "shape": "small"
+    },
+    {
+     "f": 51,
+     "shape": "e"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "o"
+    },
+    {
+     "f": 58,
+     "shape": "small"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "e"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "a"
+    },
+    {
+     "f": 66,
+     "shape": "closed"
+    },
+    {
+     "f": 67,
+     "shape": "closed"
+    },
+    {
+     "f": 73,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 79,
+    "text": "방금… 트럭이 있었는데? 어떻게 된 거야?"
+   }
+  },
+  {
+   "dialogueId": "S04-12-D02",
+   "shotId": "S04-12",
+   "characterId": "soma",
+   "text": "나도 몰라. 하지만… 이제 괜찮아.",
+   "startFrame": 89,
+   "durationFrames": 58,
+   "emotion": "embarrassed",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "o"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "o"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "a"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "i"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "e"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "e"
+    },
+    {
+     "f": 49,
+     "shape": "small"
+    },
+    {
+     "f": 50,
+     "shape": "a"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "a"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 89,
+    "end": 147,
+    "text": "나도 몰라. 하지만… 이제 괜찮아."
+   }
+  },
+  {
+   "dialogueId": "S04-12-D03",
+   "shotId": "S04-12",
+   "characterId": "mio",
+   "text": "소마, 네 눈… 파랗게 빛나고 있어.",
+   "startFrame": 157,
+   "durationFrames": 58,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "o"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "e"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "u"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "a"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "a"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "e"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "i"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "a"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "o"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "i"
+    },
+    {
+     "f": 54,
+     "shape": "small"
+    },
+    {
+     "f": 55,
+     "shape": "e"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 157,
+    "end": 215,
+    "text": "소마, 네 눈… 파랗게 빛나고 있어."
+   }
+  },
+  {
+   "dialogueId": "S04-14-D01",
+   "shotId": "S04-14",
+   "characterId": "narration",
+   "text": "그날 밤, 시계 소리를 따라 소마는 항구로 향했다.",
+   "startFrame": 16,
+   "durationFrames": 77,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "i"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "o"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "i"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "u"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "a"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "a"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "o"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "a"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "u"
+    },
+    {
+     "f": 54,
+     "shape": "small"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 57,
+     "shape": "a"
+    },
+    {
+     "f": 59,
+     "shape": "small"
+    },
+    {
+     "f": 60,
+     "shape": "u"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "o"
+    },
+    {
+     "f": 65,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "closed"
+    },
+    {
+     "f": 68,
+     "shape": "a"
+    },
+    {
+     "f": 70,
+     "shape": "small"
+    },
+    {
+     "f": 71,
+     "shape": "e"
+    },
+    {
+     "f": 73,
+     "shape": "small"
+    },
+    {
+     "f": 74,
+     "shape": "a"
+    },
+    {
+     "f": 76,
+     "shape": "closed"
+    },
+    {
+     "f": 77,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 93,
+    "text": "그날 밤, 시계 소리를 따라 소마는 항구로 향했다."
+   }
+  },
+  {
+   "dialogueId": "S04-15-D01",
+   "shotId": "S04-15",
+   "characterId": "soma",
+   "text": "이 시계… 방향을 가리키고 있어.",
+   "startFrame": 14,
+   "durationFrames": 54,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "i"
+    },
+    {
+     "f": 7,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "e"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "a"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "u"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "a"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "i"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "o"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "i"
+    },
+    {
+     "f": 46,
+     "shape": "small"
+    },
+    {
+     "f": 47,
+     "shape": "e"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 14,
+    "end": 68,
+    "text": "이 시계… 방향을 가리키고 있어."
+   }
+  },
+  {
+   "dialogueId": "S04-16-D01",
+   "shotId": "S04-16",
+   "characterId": "soma",
+   "text": "폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.",
+   "startFrame": 12,
+   "durationFrames": 91,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "e"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "i"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "a"
+    },
+    {
+     "f": 22,
+     "shape": "small"
+    },
+    {
+     "f": 23,
+     "shape": "e"
+    },
+    {
+     "f": 25,
+     "shape": "small"
+    },
+    {
+     "f": 26,
+     "shape": "u"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 29,
+     "shape": "o"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "a"
+    },
+    {
+     "f": 42,
+     "shape": "small"
+    },
+    {
+     "f": 43,
+     "shape": "a"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "i"
+    },
+    {
+     "f": 48,
+     "shape": "small"
+    },
+    {
+     "f": 49,
+     "shape": "i"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 54,
+     "shape": "a"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 57,
+     "shape": "i"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "a"
+    },
+    {
+     "f": 62,
+     "shape": "small"
+    },
+    {
+     "f": 63,
+     "shape": "u"
+    },
+    {
+     "f": 65,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "o"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 71,
+     "shape": "e"
+    },
+    {
+     "f": 73,
+     "shape": "closed"
+    },
+    {
+     "f": 74,
+     "shape": "e"
+    },
+    {
+     "f": 76,
+     "shape": "small"
+    },
+    {
+     "f": 77,
+     "shape": "e"
+    },
+    {
+     "f": 79,
+     "shape": "small"
+    },
+    {
+     "f": 80,
+     "shape": "closed"
+    },
+    {
+     "f": 82,
+     "shape": "o"
+    },
+    {
+     "f": 84,
+     "shape": "small"
+    },
+    {
+     "f": 85,
+     "shape": "closed"
+    },
+    {
+     "f": 91,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 103,
+    "text": "폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳."
+   }
+  },
+  {
+   "dialogueId": "S04-17-D01",
+   "shotId": "S04-17",
+   "characterId": "narration",
+   "text": "열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.",
+   "startFrame": 16,
+   "durationFrames": 84,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "i"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "e"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "e"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "u"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "o"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "u"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 35,
+     "shape": "u"
+    },
+    {
+     "f": 37,
+     "shape": "small"
+    },
+    {
+     "f": 38,
+     "shape": "i"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "o"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "a"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "u"
+    },
+    {
+     "f": 57,
+     "shape": "small"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "i"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "a"
+    },
+    {
+     "f": 65,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "i"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "o"
+    },
+    {
+     "f": 71,
+     "shape": "closed"
+    },
+    {
+     "f": 72,
+     "shape": "closed"
+    },
+    {
+     "f": 74,
+     "shape": "i"
+    },
+    {
+     "f": 76,
+     "shape": "small"
+    },
+    {
+     "f": 77,
+     "shape": "e"
+    },
+    {
+     "f": 79,
+     "shape": "small"
+    },
+    {
+     "f": 80,
+     "shape": "a"
+    },
+    {
+     "f": 82,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "closed"
+    },
+    {
+     "f": 89,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 100,
+    "text": "열려 있어서는 안 되는 문이, 소마를 기다리고 있었다."
+   }
+  },
+  {
+   "dialogueId": "S04-19-D01",
+   "shotId": "S04-19",
+   "characterId": "soma",
+   "text": "전부 십이 년 전에 멈춰 있어.",
+   "startFrame": 12,
+   "durationFrames": 48,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "i"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "i"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "e"
+    },
+    {
+     "f": 18,
+     "shape": "small"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 21,
+     "shape": "e"
+    },
+    {
+     "f": 23,
+     "shape": "small"
+    },
+    {
+     "f": 24,
+     "shape": "e"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 29,
+     "shape": "e"
+    },
+    {
+     "f": 31,
+     "shape": "small"
+    },
+    {
+     "f": 32,
+     "shape": "u"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "i"
+    },
+    {
+     "f": 39,
+     "shape": "small"
+    },
+    {
+     "f": 40,
+     "shape": "e"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 60,
+    "text": "전부 십이 년 전에 멈춰 있어."
+   }
+  },
+  {
+   "dialogueId": "S04-19-D02",
+   "shotId": "S04-19",
+   "characterId": "soma",
+   "text": "날짜가… 이 도시가 처음 멈춘 날이야.",
+   "startFrame": 70,
+   "durationFrames": 61,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "a"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "i"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "o"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "e"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "u"
+    },
+    {
+     "f": 38,
+     "shape": "small"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "e"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "u"
+    },
+    {
+     "f": 46,
+     "shape": "small"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "a"
+    },
+    {
+     "f": 51,
+     "shape": "small"
+    },
+    {
+     "f": 52,
+     "shape": "i"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "a"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 70,
+    "end": 131,
+    "text": "날짜가… 이 도시가 처음 멈춘 날이야."
+   }
+  },
+  {
+   "dialogueId": "S05-01-D01",
+   "shotId": "S05-01",
+   "characterId": "kaede",
+   "text": "…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.",
+   "startFrame": 16,
+   "durationFrames": 81,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "i"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "i"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "o"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "u"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "o"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "o"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "i"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "a"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "e"
+    },
+    {
+     "f": 38,
+     "shape": "small"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "i"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "e"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "u"
+    },
+    {
+     "f": 55,
+     "shape": "small"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "e"
+    },
+    {
+     "f": 60,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "o"
+    },
+    {
+     "f": 65,
+     "shape": "small"
+    },
+    {
+     "f": 66,
+     "shape": "e"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 71,
+     "shape": "i"
+    },
+    {
+     "f": 73,
+     "shape": "small"
+    },
+    {
+     "f": 74,
+     "shape": "e"
+    },
+    {
+     "f": 76,
+     "shape": "small"
+    },
+    {
+     "f": 77,
+     "shape": "u"
+    },
+    {
+     "f": 79,
+     "shape": "closed"
+    },
+    {
+     "f": 80,
+     "shape": "a"
+    },
+    {
+     "f": 82,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "closed"
+    },
+    {
+     "f": 89,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 97,
+    "text": "…이 기록을 보고 있다면, 시계는 네 손에 있겠구나."
+   }
+  },
+  {
+   "dialogueId": "S05-02-D01",
+   "shotId": "S05-02",
+   "characterId": "soma",
+   "text": "박사님…? 이건 기록… 영상인가요?",
+   "startFrame": 12,
+   "durationFrames": 61,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "i"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "i"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "e"
+    },
+    {
+     "f": 28,
+     "shape": "small"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "i"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "o"
+    },
+    {
+     "f": 36,
+     "shape": "small"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "e"
+    },
+    {
+     "f": 47,
+     "shape": "small"
+    },
+    {
+     "f": 48,
+     "shape": "a"
+    },
+    {
+     "f": 50,
+     "shape": "small"
+    },
+    {
+     "f": 51,
+     "shape": "i"
+    },
+    {
+     "f": 53,
+     "shape": "small"
+    },
+    {
+     "f": 54,
+     "shape": "a"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 57,
+     "shape": "o"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 73,
+    "text": "박사님…? 이건 기록… 영상인가요?"
+   }
+  },
+  {
+   "dialogueId": "S05-02-D02",
+   "shotId": "S05-02",
+   "characterId": "kaede",
+   "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.",
+   "startFrame": 83,
+   "durationFrames": 127,
+   "emotion": "sad",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "o"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "e"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "u"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "u"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "e"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "u"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "a"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "a"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "i"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "a"
+    },
+    {
+     "f": 49,
+     "shape": "small"
+    },
+    {
+     "f": 50,
+     "shape": "a"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "i"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "a"
+    },
+    {
+     "f": 66,
+     "shape": "small"
+    },
+    {
+     "f": 67,
+     "shape": "u"
+    },
+    {
+     "f": 69,
+     "shape": "small"
+    },
+    {
+     "f": 70,
+     "shape": "closed"
+    },
+    {
+     "f": 72,
+     "shape": "e"
+    },
+    {
+     "f": 74,
+     "shape": "small"
+    },
+    {
+     "f": 75,
+     "shape": "u"
+    },
+    {
+     "f": 77,
+     "shape": "closed"
+    },
+    {
+     "f": 78,
+     "shape": "u"
+    },
+    {
+     "f": 80,
+     "shape": "small"
+    },
+    {
+     "f": 81,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "i"
+    },
+    {
+     "f": 85,
+     "shape": "small"
+    },
+    {
+     "f": 86,
+     "shape": "u"
+    },
+    {
+     "f": 88,
+     "shape": "small"
+    },
+    {
+     "f": 89,
+     "shape": "closed"
+    },
+    {
+     "f": 91,
+     "shape": "e"
+    },
+    {
+     "f": 93,
+     "shape": "small"
+    },
+    {
+     "f": 94,
+     "shape": "i"
+    },
+    {
+     "f": 96,
+     "shape": "closed"
+    },
+    {
+     "f": 97,
+     "shape": "a"
+    },
+    {
+     "f": 99,
+     "shape": "small"
+    },
+    {
+     "f": 100,
+     "shape": "closed"
+    },
+    {
+     "f": 102,
+     "shape": "o"
+    },
+    {
+     "f": 104,
+     "shape": "closed"
+    },
+    {
+     "f": 105,
+     "shape": "i"
+    },
+    {
+     "f": 107,
+     "shape": "closed"
+    },
+    {
+     "f": 108,
+     "shape": "u"
+    },
+    {
+     "f": 110,
+     "shape": "small"
+    },
+    {
+     "f": 111,
+     "shape": "closed"
+    },
+    {
+     "f": 113,
+     "shape": "o"
+    },
+    {
+     "f": 115,
+     "shape": "closed"
+    },
+    {
+     "f": 116,
+     "shape": "o"
+    },
+    {
+     "f": 118,
+     "shape": "small"
+    },
+    {
+     "f": 119,
+     "shape": "i"
+    },
+    {
+     "f": 121,
+     "shape": "small"
+    },
+    {
+     "f": 122,
+     "shape": "closed"
+    },
+    {
+     "f": 124,
+     "shape": "e"
+    },
+    {
+     "f": 126,
+     "shape": "small"
+    },
+    {
+     "f": 127,
+     "shape": "o"
+    },
+    {
+     "f": 129,
+     "shape": "closed"
+    },
+    {
+     "f": 130,
+     "shape": "a"
+    },
+    {
+     "f": 132,
+     "shape": "closed"
+    },
+    {
+     "f": 133,
+     "shape": "closed"
+    },
+    {
+     "f": 139,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 83,
+    "end": 210,
+    "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야."
+   }
+  },
+  {
+   "dialogueId": "S05-02-D03",
+   "shotId": "S05-02",
+   "characterId": "kaede",
+   "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라.",
+   "startFrame": 220,
+   "durationFrames": 77,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "a"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "u"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "i"
+    },
+    {
+     "f": 18,
+     "shape": "small"
+    },
+    {
+     "f": 19,
+     "shape": "u"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "o"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 27,
+     "shape": "i"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "u"
+    },
+    {
+     "f": 32,
+     "shape": "small"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 35,
+     "shape": "a"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "u"
+    },
+    {
+     "f": 40,
+     "shape": "small"
+    },
+    {
+     "f": 41,
+     "shape": "i"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 46,
+     "shape": "i"
+    },
+    {
+     "f": 48,
+     "shape": "small"
+    },
+    {
+     "f": 49,
+     "shape": "a"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "o"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "i"
+    },
+    {
+     "f": 65,
+     "shape": "small"
+    },
+    {
+     "f": 66,
+     "shape": "a"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "e"
+    },
+    {
+     "f": 71,
+     "shape": "closed"
+    },
+    {
+     "f": 72,
+     "shape": "a"
+    },
+    {
+     "f": 74,
+     "shape": "closed"
+    },
+    {
+     "f": 75,
+     "shape": "closed"
+    },
+    {
+     "f": 81,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 220,
+    "end": 297,
+    "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라."
+   }
+  },
+  {
+   "dialogueId": "S05-03-D01",
+   "shotId": "S05-03",
+   "characterId": "soma",
+   "text": "열쇠… 내가?",
+   "startFrame": 12,
+   "durationFrames": 28,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "o"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "e"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 40,
+    "text": "열쇠… 내가?"
+   }
+  },
+  {
+   "dialogueId": "S05-05-D01",
+   "shotId": "S05-05",
+   "characterId": "veyra",
+   "text": "그 시계를 넘겨라.",
+   "startFrame": 12,
+   "durationFrames": 34,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "i"
+    },
+    {
+     "f": 7,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "e"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "u"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "e"
+    },
+    {
+     "f": 18,
+     "shape": "small"
+    },
+    {
+     "f": 19,
+     "shape": "e"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 46,
+    "text": "그 시계를 넘겨라."
+   }
+  },
+  {
+   "dialogueId": "S05-05-D02",
+   "shotId": "S05-05",
+   "characterId": "soma",
+   "text": "누구지? 이 연구소 사람은 아닌데.",
+   "startFrame": 56,
+   "durationFrames": 58,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "i"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "i"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "u"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "o"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "a"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "a"
+    },
+    {
+     "f": 38,
+     "shape": "small"
+    },
+    {
+     "f": 39,
+     "shape": "u"
+    },
+    {
+     "f": 41,
+     "shape": "small"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "a"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "i"
+    },
+    {
+     "f": 49,
+     "shape": "small"
+    },
+    {
+     "f": 50,
+     "shape": "e"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 56,
+    "end": 114,
+    "text": "누구지? 이 연구소 사람은 아닌데."
+   }
+  },
+  {
+   "dialogueId": "S05-05-D03",
+   "shotId": "S05-05",
+   "characterId": "veyra",
+   "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.",
+   "startFrame": 124,
+   "durationFrames": 100,
+   "emotion": "smile",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "i"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "i"
+    },
+    {
+     "f": 18,
+     "shape": "small"
+    },
+    {
+     "f": 19,
+     "shape": "o"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "e"
+    },
+    {
+     "f": 26,
+     "shape": "small"
+    },
+    {
+     "f": 27,
+     "shape": "e"
+    },
+    {
+     "f": 29,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "e"
+    },
+    {
+     "f": 40,
+     "shape": "small"
+    },
+    {
+     "f": 41,
+     "shape": "i"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "a"
+    },
+    {
+     "f": 46,
+     "shape": "small"
+    },
+    {
+     "f": 47,
+     "shape": "closed"
+    },
+    {
+     "f": 49,
+     "shape": "i"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "a"
+    },
+    {
+     "f": 54,
+     "shape": "small"
+    },
+    {
+     "f": 55,
+     "shape": "u"
+    },
+    {
+     "f": 57,
+     "shape": "small"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "e"
+    },
+    {
+     "f": 62,
+     "shape": "small"
+    },
+    {
+     "f": 63,
+     "shape": "u"
+    },
+    {
+     "f": 65,
+     "shape": "small"
+    },
+    {
+     "f": 66,
+     "shape": "closed"
+    },
+    {
+     "f": 68,
+     "shape": "a"
+    },
+    {
+     "f": 70,
+     "shape": "closed"
+    },
+    {
+     "f": 71,
+     "shape": "u"
+    },
+    {
+     "f": 73,
+     "shape": "small"
+    },
+    {
+     "f": 74,
+     "shape": "closed"
+    },
+    {
+     "f": 76,
+     "shape": "a"
+    },
+    {
+     "f": 78,
+     "shape": "closed"
+    },
+    {
+     "f": 79,
+     "shape": "closed"
+    },
+    {
+     "f": 81,
+     "shape": "a"
+    },
+    {
+     "f": 83,
+     "shape": "closed"
+    },
+    {
+     "f": 84,
+     "shape": "a"
+    },
+    {
+     "f": 86,
+     "shape": "closed"
+    },
+    {
+     "f": 87,
+     "shape": "e"
+    },
+    {
+     "f": 89,
+     "shape": "small"
+    },
+    {
+     "f": 90,
+     "shape": "closed"
+    },
+    {
+     "f": 92,
+     "shape": "u"
+    },
+    {
+     "f": 94,
+     "shape": "small"
+    },
+    {
+     "f": 95,
+     "shape": "u"
+    },
+    {
+     "f": 97,
+     "shape": "small"
+    },
+    {
+     "f": 98,
+     "shape": "a"
+    },
+    {
+     "f": 100,
+     "shape": "closed"
+    },
+    {
+     "f": 101,
+     "shape": "a"
+    },
+    {
+     "f": 103,
+     "shape": "closed"
+    },
+    {
+     "f": 104,
+     "shape": "closed"
+    },
+    {
+     "f": 110,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 124,
+    "end": 224,
+    "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다."
+   }
+  },
+  {
+   "dialogueId": "S05-05-D04",
+   "shotId": "S05-05",
+   "characterId": "soma",
+   "text": "…싫다면?",
+   "startFrame": 234,
+   "durationFrames": 26,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "i"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "a"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "e"
+    },
+    {
+     "f": 14,
+     "shape": "small"
+    },
+    {
+     "f": 15,
+     "shape": "closed"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 234,
+    "end": 260,
+    "text": "…싫다면?"
+   }
+  },
+  {
+   "dialogueId": "S05-06-D01",
+   "shotId": "S05-06",
+   "characterId": "veyra",
+   "text": "베어 내겠다.",
+   "startFrame": 12,
+   "durationFrames": 28,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "e"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "e"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 40,
+    "text": "베어 내겠다."
+   }
+  },
+  {
+   "dialogueId": "S05-12-D01",
+   "shotId": "S05-12",
+   "characterId": "soma",
+   "text": "힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?",
+   "startFrame": 12,
+   "durationFrames": 84,
+   "emotion": "pain",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "o"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "u"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "e"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "a"
+    },
+    {
+     "f": 41,
+     "shape": "small"
+    },
+    {
+     "f": 42,
+     "shape": "u"
+    },
+    {
+     "f": 44,
+     "shape": "small"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "e"
+    },
+    {
+     "f": 49,
+     "shape": "small"
+    },
+    {
+     "f": 50,
+     "shape": "u"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "e"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "e"
+    },
+    {
+     "f": 58,
+     "shape": "small"
+    },
+    {
+     "f": 59,
+     "shape": "closed"
+    },
+    {
+     "f": 61,
+     "shape": "e"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "e"
+    },
+    {
+     "f": 66,
+     "shape": "small"
+    },
+    {
+     "f": 67,
+     "shape": "e"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 70,
+     "shape": "closed"
+    },
+    {
+     "f": 72,
+     "shape": "a"
+    },
+    {
+     "f": 74,
+     "shape": "closed"
+    },
+    {
+     "f": 75,
+     "shape": "u"
+    },
+    {
+     "f": 77,
+     "shape": "small"
+    },
+    {
+     "f": 78,
+     "shape": "closed"
+    },
+    {
+     "f": 80,
+     "shape": "e"
+    },
+    {
+     "f": 82,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "i"
+    },
+    {
+     "f": 85,
+     "shape": "closed"
+    },
+    {
+     "f": 86,
+     "shape": "closed"
+    },
+    {
+     "f": 92,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 96,
+    "text": "힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?"
+   }
+  },
+  {
+   "dialogueId": "S05-13-D01",
+   "shotId": "S05-13",
+   "characterId": "veyra",
+   "text": "아직 각성이 불완전하군. 실망이다.",
+   "startFrame": 12,
+   "durationFrames": 61,
+   "emotion": "smile",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "e"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "u"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "e"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "u"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "i"
+    },
+    {
+     "f": 44,
+     "shape": "small"
+    },
+    {
+     "f": 45,
+     "shape": "a"
+    },
+    {
+     "f": 47,
+     "shape": "small"
+    },
+    {
+     "f": 48,
+     "shape": "i"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "a"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 73,
+    "text": "아직 각성이 불완전하군. 실망이다."
+   }
+  },
+  {
+   "dialogueId": "S05-13-D02",
+   "shotId": "S05-13",
+   "characterId": "soma",
+   "text": "아직… 끝나지 않았어.",
+   "startFrame": 83,
+   "durationFrames": 41,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "u"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "i"
+    },
+    {
+     "f": 22,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "a"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "small"
+    },
+    {
+     "f": 31,
+     "shape": "e"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 83,
+    "end": 124,
+    "text": "아직… 끝나지 않았어."
+   }
+  },
+  {
+   "dialogueId": "S05-14-D01",
+   "shotId": "S05-14",
+   "characterId": "soma",
+   "text": "일단 도망쳐야 해!",
+   "startFrame": 14,
+   "durationFrames": 34,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "a"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "o"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "a"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "e"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 14,
+    "end": 48,
+    "text": "일단 도망쳐야 해!"
+   }
+  },
+  {
+   "dialogueId": "S05-18-D01",
+   "shotId": "S05-18",
+   "characterId": "narration",
+   "text": "폐허가 된 구시가지. 그리고 검은 달 아래의 대치.",
+   "startFrame": 16,
+   "durationFrames": 77,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "a"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "o"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 16,
+     "shape": "u"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "i"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "u"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "i"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "o"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "e"
+    },
+    {
+     "f": 49,
+     "shape": "small"
+    },
+    {
+     "f": 50,
+     "shape": "u"
+    },
+    {
+     "f": 52,
+     "shape": "small"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "a"
+    },
+    {
+     "f": 57,
+     "shape": "small"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "a"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "e"
+    },
+    {
+     "f": 65,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "i"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 71,
+     "shape": "e"
+    },
+    {
+     "f": 73,
+     "shape": "closed"
+    },
+    {
+     "f": 74,
+     "shape": "i"
+    },
+    {
+     "f": 76,
+     "shape": "closed"
+    },
+    {
+     "f": 77,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 93,
+    "text": "폐허가 된 구시가지. 그리고 검은 달 아래의 대치."
+   }
+  },
+  {
+   "dialogueId": "S06-02-D01",
+   "shotId": "S06-02",
+   "characterId": "soma",
+   "text": "…온다.",
+   "startFrame": 16,
+   "durationFrames": 26,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "a"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 42,
+    "text": "…온다."
+   }
+  },
+  {
+   "dialogueId": "S06-12-D01",
+   "shotId": "S06-12",
+   "characterId": "veyra",
+   "text": "…흥미롭군.",
+   "startFrame": 30,
+   "durationFrames": 30,
+   "emotion": "smile",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "u"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "i"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "o"
+    },
+    {
+     "f": 14,
+     "shape": "small"
+    },
+    {
+     "f": 15,
+     "shape": "u"
+    },
+    {
+     "f": 17,
+     "shape": "small"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 30,
+    "end": 60,
+    "text": "…흥미롭군."
+   }
+  },
+  {
+   "dialogueId": "S06-12-D02",
+   "shotId": "S06-12",
+   "characterId": "soma",
+   "text": "아직 끝나지 않았어.",
+   "startFrame": 68,
+   "durationFrames": 28,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "a"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "u"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "a"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "a"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "e"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 68,
+    "end": 96,
+    "text": "아직 끝나지 않았어."
+   }
+  },
+  {
+   "dialogueId": "S06-13-D01",
+   "shotId": "S06-13",
+   "characterId": "soma",
+   "text": "…온다.",
+   "startFrame": 12,
+   "durationFrames": 26,
+   "emotion": "resolve",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "a"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 18,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 38,
+    "text": "…온다."
+   }
+  },
+  {
+   "dialogueId": "S06-16-D01",
+   "shotId": "S06-16",
+   "characterId": "soma",
+   "text": "이 정도로는… 안 돼. 더, 더 빨리!",
+   "startFrame": 12,
+   "durationFrames": 58,
+   "emotion": "pain",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "e"
+    },
+    {
+     "f": 7,
+     "shape": "small"
+    },
+    {
+     "f": 8,
+     "shape": "o"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "o"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "u"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "a"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "e"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "e"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "e"
+    },
+    {
+     "f": 54,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 57,
+     "shape": "a"
+    },
+    {
+     "f": 59,
+     "shape": "small"
+    },
+    {
+     "f": 60,
+     "shape": "i"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 70,
+    "text": "이 정도로는… 안 돼. 더, 더 빨리!"
+   }
+  },
+  {
+   "dialogueId": "S06-17-D01",
+   "shotId": "S06-17",
+   "characterId": "veyra",
+   "text": "이제 끝이다. 시계를 내놔.",
+   "startFrame": 12,
+   "durationFrames": 48,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "u"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "i"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "e"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "u"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "e"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "a"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "closed"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 60,
+    "text": "이제 끝이다. 시계를 내놔."
+   }
+  },
+  {
+   "dialogueId": "S06-17-D02",
+   "shotId": "S06-17",
+   "characterId": "soma",
+   "text": "미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!",
+   "startFrame": 70,
+   "durationFrames": 84,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "o"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "u"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "i"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "e"
+    },
+    {
+     "f": 21,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "u"
+    },
+    {
+     "f": 35,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "closed"
+    },
+    {
+     "f": 38,
+     "shape": "u"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "u"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "e"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "e"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "o"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "i"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "a"
+    },
+    {
+     "f": 60,
+     "shape": "small"
+    },
+    {
+     "f": 61,
+     "shape": "u"
+    },
+    {
+     "f": 63,
+     "shape": "small"
+    },
+    {
+     "f": 64,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "e"
+    },
+    {
+     "f": 68,
+     "shape": "small"
+    },
+    {
+     "f": 69,
+     "shape": "i"
+    },
+    {
+     "f": 71,
+     "shape": "closed"
+    },
+    {
+     "f": 72,
+     "shape": "i"
+    },
+    {
+     "f": 74,
+     "shape": "closed"
+    },
+    {
+     "f": 75,
+     "shape": "closed"
+    },
+    {
+     "f": 77,
+     "shape": "a"
+    },
+    {
+     "f": 79,
+     "shape": "small"
+    },
+    {
+     "f": 80,
+     "shape": "a"
+    },
+    {
+     "f": 82,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "closed"
+    },
+    {
+     "f": 89,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 70,
+    "end": 154,
+    "text": "미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!"
+   }
+  },
+  {
+   "dialogueId": "S06-18-D01",
+   "shotId": "S06-18",
+   "characterId": "soma",
+   "text": "들려… 시계 소리가. 이게 진짜 내 힘이야!",
+   "startFrame": 14,
+   "durationFrames": 67,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "u"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "e"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "o"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "i"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "e"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "i"
+    },
+    {
+     "f": 49,
+     "shape": "small"
+    },
+    {
+     "f": 50,
+     "shape": "a"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "closed"
+    },
+    {
+     "f": 55,
+     "shape": "e"
+    },
+    {
+     "f": 57,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "closed"
+    },
+    {
+     "f": 60,
+     "shape": "i"
+    },
+    {
+     "f": 62,
+     "shape": "small"
+    },
+    {
+     "f": 63,
+     "shape": "i"
+    },
+    {
+     "f": 65,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "a"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 75,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 14,
+    "end": 81,
+    "text": "들려… 시계 소리가. 이게 진짜 내 힘이야!"
+   }
+  },
+  {
+   "dialogueId": "S06-20-D01",
+   "shotId": "S06-20",
+   "characterId": "veyra",
+   "text": "이 속도… 설마, 정지 속에서 움직인 건가?",
+   "startFrame": 12,
+   "durationFrames": 67,
+   "emotion": "surprise",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "closed"
+    },
+    {
+     "f": 5,
+     "shape": "o"
+    },
+    {
+     "f": 7,
+     "shape": "small"
+    },
+    {
+     "f": 8,
+     "shape": "o"
+    },
+    {
+     "f": 10,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 19,
+     "shape": "e"
+    },
+    {
+     "f": 21,
+     "shape": "small"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "e"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "o"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "e"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "e"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "u"
+    },
+    {
+     "f": 54,
+     "shape": "small"
+    },
+    {
+     "f": 55,
+     "shape": "i"
+    },
+    {
+     "f": 57,
+     "shape": "small"
+    },
+    {
+     "f": 58,
+     "shape": "i"
+    },
+    {
+     "f": 60,
+     "shape": "small"
+    },
+    {
+     "f": 61,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "e"
+    },
+    {
+     "f": 65,
+     "shape": "small"
+    },
+    {
+     "f": 66,
+     "shape": "a"
+    },
+    {
+     "f": 68,
+     "shape": "closed"
+    },
+    {
+     "f": 69,
+     "shape": "closed"
+    },
+    {
+     "f": 75,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 79,
+    "text": "이 속도… 설마, 정지 속에서 움직인 건가?"
+   }
+  },
+  {
+   "dialogueId": "S06-23-D01",
+   "shotId": "S06-23",
+   "characterId": "soma",
+   "text": "이걸로 끝이야!",
+   "startFrame": 12,
+   "durationFrames": 31,
+   "emotion": "angry",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "e"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "u"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "i"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "a"
+    },
+    {
+     "f": 19,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 43,
+    "text": "이걸로 끝이야!"
+   }
+  },
+  {
+   "dialogueId": "S07-02-D01",
+   "shotId": "S07-02",
+   "characterId": "soma",
+   "text": "…그 얼굴은, 뭐야.",
+   "startFrame": 12,
+   "durationFrames": 38,
+   "emotion": "fear",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "u"
+    },
+    {
+     "f": 8,
+     "shape": "closed"
+    },
+    {
+     "f": 9,
+     "shape": "closed"
+    },
+    {
+     "f": 11,
+     "shape": "e"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "u"
+    },
+    {
+     "f": 16,
+     "shape": "small"
+    },
+    {
+     "f": 17,
+     "shape": "u"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 26,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "u"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "a"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 50,
+    "text": "…그 얼굴은, 뭐야."
+   }
+  },
+  {
+   "dialogueId": "S07-03-D01",
+   "shotId": "S07-03",
+   "characterId": "veyra",
+   "text": "열두 번째다. 나도, 너도.",
+   "startFrame": 12,
+   "durationFrames": 48,
+   "emotion": "sad",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "e"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "e"
+    },
+    {
+     "f": 13,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "a"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "o"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "closed"
+    },
+    {
+     "f": 37,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "e"
+    },
+    {
+     "f": 41,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "o"
+    },
+    {
+     "f": 44,
+     "shape": "closed"
+    },
+    {
+     "f": 45,
+     "shape": "closed"
+    },
+    {
+     "f": 51,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 60,
+    "text": "열두 번째다. 나도, 너도."
+   }
+  },
+  {
+   "dialogueId": "S08-01-D01",
+   "shotId": "S08-01",
+   "characterId": "narration",
+   "text": "검은 달은, 아직 저물지 않았다.",
+   "startFrame": 16,
+   "durationFrames": 54,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 2,
+     "shape": "small"
+    },
+    {
+     "f": 3,
+     "shape": "u"
+    },
+    {
+     "f": 5,
+     "shape": "small"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 8,
+     "shape": "a"
+    },
+    {
+     "f": 10,
+     "shape": "small"
+    },
+    {
+     "f": 11,
+     "shape": "u"
+    },
+    {
+     "f": 13,
+     "shape": "small"
+    },
+    {
+     "f": 14,
+     "shape": "closed"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "a"
+    },
+    {
+     "f": 24,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "small"
+    },
+    {
+     "f": 28,
+     "shape": "closed"
+    },
+    {
+     "f": 30,
+     "shape": "e"
+    },
+    {
+     "f": 32,
+     "shape": "closed"
+    },
+    {
+     "f": 33,
+     "shape": "u"
+    },
+    {
+     "f": 35,
+     "shape": "small"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "a"
+    },
+    {
+     "f": 43,
+     "shape": "small"
+    },
+    {
+     "f": 44,
+     "shape": "a"
+    },
+    {
+     "f": 46,
+     "shape": "small"
+    },
+    {
+     "f": 47,
+     "shape": "a"
+    },
+    {
+     "f": 49,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 70,
+    "text": "검은 달은, 아직 저물지 않았다."
+   }
+  },
+  {
+   "dialogueId": "S08-06-D01",
+   "shotId": "S08-06",
+   "characterId": "soma",
+   "text": "미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.",
+   "startFrame": 12,
+   "durationFrames": 87,
+   "emotion": "sad",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "i"
+    },
+    {
+     "f": 2,
+     "shape": "closed"
+    },
+    {
+     "f": 3,
+     "shape": "o"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "closed"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "closed"
+    },
+    {
+     "f": 23,
+     "shape": "closed"
+    },
+    {
+     "f": 25,
+     "shape": "e"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "e"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "e"
+    },
+    {
+     "f": 33,
+     "shape": "small"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 36,
+     "shape": "i"
+    },
+    {
+     "f": 38,
+     "shape": "closed"
+    },
+    {
+     "f": 39,
+     "shape": "closed"
+    },
+    {
+     "f": 41,
+     "shape": "o"
+    },
+    {
+     "f": 43,
+     "shape": "closed"
+    },
+    {
+     "f": 44,
+     "shape": "i"
+    },
+    {
+     "f": 46,
+     "shape": "closed"
+    },
+    {
+     "f": 47,
+     "shape": "u"
+    },
+    {
+     "f": 49,
+     "shape": "small"
+    },
+    {
+     "f": 50,
+     "shape": "closed"
+    },
+    {
+     "f": 52,
+     "shape": "e"
+    },
+    {
+     "f": 54,
+     "shape": "small"
+    },
+    {
+     "f": 55,
+     "shape": "closed"
+    },
+    {
+     "f": 57,
+     "shape": "e"
+    },
+    {
+     "f": 59,
+     "shape": "small"
+    },
+    {
+     "f": 60,
+     "shape": "i"
+    },
+    {
+     "f": 62,
+     "shape": "closed"
+    },
+    {
+     "f": 63,
+     "shape": "a"
+    },
+    {
+     "f": 65,
+     "shape": "closed"
+    },
+    {
+     "f": 66,
+     "shape": "closed"
+    },
+    {
+     "f": 68,
+     "shape": "i"
+    },
+    {
+     "f": 70,
+     "shape": "small"
+    },
+    {
+     "f": 71,
+     "shape": "e"
+    },
+    {
+     "f": 73,
+     "shape": "small"
+    },
+    {
+     "f": 74,
+     "shape": "u"
+    },
+    {
+     "f": 76,
+     "shape": "small"
+    },
+    {
+     "f": 77,
+     "shape": "i"
+    },
+    {
+     "f": 79,
+     "shape": "closed"
+    },
+    {
+     "f": 80,
+     "shape": "o"
+    },
+    {
+     "f": 82,
+     "shape": "closed"
+    },
+    {
+     "f": 83,
+     "shape": "closed"
+    },
+    {
+     "f": 85,
+     "shape": "o"
+    },
+    {
+     "f": 87,
+     "shape": "small"
+    },
+    {
+     "f": 88,
+     "shape": "a"
+    },
+    {
+     "f": 90,
+     "shape": "closed"
+    },
+    {
+     "f": 91,
+     "shape": "closed"
+    },
+    {
+     "f": 97,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 12,
+    "end": 99,
+    "text": "미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라."
+   }
+  },
+  {
+   "dialogueId": "S08-07-D01",
+   "shotId": "S08-07",
+   "characterId": "kaede",
+   "text": "[기록] 다음 정지까지, 남은 시간 열하루.",
+   "startFrame": 16,
+   "durationFrames": 71,
+   "emotion": "neutral",
+   "voiceAsset": null,
+   "status": "MISSING_VOICE",
+   "lipSyncData": [
+    {
+     "f": 0,
+     "shape": "e"
+    },
+    {
+     "f": 3,
+     "shape": "i"
+    },
+    {
+     "f": 5,
+     "shape": "closed"
+    },
+    {
+     "f": 6,
+     "shape": "o"
+    },
+    {
+     "f": 8,
+     "shape": "small"
+    },
+    {
+     "f": 9,
+     "shape": "e"
+    },
+    {
+     "f": 12,
+     "shape": "closed"
+    },
+    {
+     "f": 14,
+     "shape": "a"
+    },
+    {
+     "f": 16,
+     "shape": "closed"
+    },
+    {
+     "f": 17,
+     "shape": "u"
+    },
+    {
+     "f": 19,
+     "shape": "small"
+    },
+    {
+     "f": 20,
+     "shape": "closed"
+    },
+    {
+     "f": 22,
+     "shape": "e"
+    },
+    {
+     "f": 24,
+     "shape": "small"
+    },
+    {
+     "f": 25,
+     "shape": "i"
+    },
+    {
+     "f": 27,
+     "shape": "closed"
+    },
+    {
+     "f": 28,
+     "shape": "a"
+    },
+    {
+     "f": 30,
+     "shape": "closed"
+    },
+    {
+     "f": 31,
+     "shape": "i"
+    },
+    {
+     "f": 33,
+     "shape": "closed"
+    },
+    {
+     "f": 34,
+     "shape": "closed"
+    },
+    {
+     "f": 40,
+     "shape": "closed"
+    },
+    {
+     "f": 42,
+     "shape": "a"
+    },
+    {
+     "f": 44,
+     "shape": "small"
+    },
+    {
+     "f": 45,
+     "shape": "u"
+    },
+    {
+     "f": 47,
+     "shape": "small"
+    },
+    {
+     "f": 48,
+     "shape": "closed"
+    },
+    {
+     "f": 50,
+     "shape": "i"
+    },
+    {
+     "f": 52,
+     "shape": "closed"
+    },
+    {
+     "f": 53,
+     "shape": "a"
+    },
+    {
+     "f": 55,
+     "shape": "small"
+    },
+    {
+     "f": 56,
+     "shape": "closed"
+    },
+    {
+     "f": 58,
+     "shape": "e"
+    },
+    {
+     "f": 60,
+     "shape": "small"
+    },
+    {
+     "f": 61,
+     "shape": "a"
+    },
+    {
+     "f": 63,
+     "shape": "closed"
+    },
+    {
+     "f": 64,
+     "shape": "u"
+    },
+    {
+     "f": 66,
+     "shape": "closed"
+    },
+    {
+     "f": 67,
+     "shape": "closed"
+    },
+    {
+     "f": 73,
+     "shape": "closed"
+    }
+   ],
+   "lipSyncSource": "text-derived (Hangul vowels) — replace with cues from the real recording",
+   "subtitleData": {
+    "start": 16,
+    "end": 87,
+    "text": "[기록] 다음 정지까지, 남은 시간 열하루."
+   }
+  }
+ ],
+ "tracks": {
+  "Dialogue": "public/voices/*",
+  "Ambient": {
+   "wind_loop": 102,
+   "rumble": 6,
+   "heartbeat": 8
+  },
+  "Music": {
+   "tension_drone": 105
+  },
+  "Foley": {
+   "step": 358,
+   "whoosh": 57,
+   "draw": 2
+  },
+  "Impact SFX": {
+   "hit_heavy": 12,
+   "crack": 16,
+   "hit_clash": 17
+  },
+  "Master": "mixed in Remotion per cut; trimmed to exact frame length at assembly"
+ }
+}

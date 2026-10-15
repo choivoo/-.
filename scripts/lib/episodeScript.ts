@@ -1,4 +1,4 @@
-import { establish, talk, single, walk, clash, timestop, montage, Beat } from './templates';
+import { establish, talk, single, walk, duel, timestop, montage, Beat } from './templates';
 import type { SceneMeta } from '../../src/scenes/types';
 
 export const FPSV = 24;
@@ -18,7 +18,7 @@ export const SCENES: SceneScript[] = [
       single(10, 'lab_corridor', 'kaede', [], { expr: 'resolve', ext: true, look: [0, 0.4], vfx: [{ type: 'flash', f: 40, dur: 4, intensity: 0.5, color: '#9fe8ff' }], sfx: [{ f: 38, sound: 'hit_heavy', volume: 0.5 }] }),
       establish(12, 'harbor_night', [1500, 200, 1.3], [1700, 160, 1.9], { vfx: [{ type: 'flash', f: 90, dur: 6, intensity: 0.6, color: '#ff2f6a' }, { type: 'shockwave', f: 90, dur: 40, x: 1700, y: 300, size: 1200, color: '#c9a6ff' }], sfx: [{ f: 90, sound: 'rumble', volume: 0.8 }] }),
       establish(12, 'street_dusk', [1000, 600, 1.1], [1900, 600, 1.1], { lines: [['narration', '시계는 하나둘, 같은 시각에서 멈추기 시작했다.']] }),
-      establish(16, 'rooftop_night', [1600, 520, 1.3], [1600, 520, 1.1], { chars: [['veyra', 1650, true]], lines: [['veyra', '…시작됐군.', 'smile']] }),
+      single(16, 'rooftop_night', 'veyra', [['veyra', '…시작됐군.', 'smile']], { expr: 'neutral', zoom: 1.7, flip: true, look: [-1, 0.2], vfx: [{ type: 'fog', f: 0, dur: 400, y: 800, seed: 3, intensity: 0.6 }] }),
       single(8, 'rooftop_night', 'veyra', [], { expr: 'angry', ext: true, flip: true, look: [-1, 0] }),
       establish(14, 'ruins_night', [1700, 560, 1.4], [1700, 400, 1.0], { vfx: [{ type: 'bloom', f: 0, dur: 300, x: 1700, y: 190, size: 560, color: '#ff4f86', intensity: 0.3 }], lines: [['narration', '흑월의 잔향 — 제1화, 정지하는 시간']], fade: 'out' }),
     ],
@@ -91,10 +91,10 @@ export const SCENES: SceneScript[] = [
       talk(26, 'lab_corridor', 'soma', 'veyra', [['veyra', '그 시계를 넘겨라.', 'angry'], ['soma', '누구지? 이 연구소 사람은 아닌데.', 'fear'], ['veyra', '이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.', 'smile'], ['soma', '…싫다면?', 'resolve']], { baseA: 'resolve', baseB: 'angry', aX: 1350, bX: 1900 }),
       single(8, 'lab_corridor', 'veyra', [['veyra', '베어 내겠다.', 'angry']], { expr: 'angry', ext: true, flip: true, look: [-1, 0] }),
       single(8, 'lab_corridor', 'soma', [], { expr: 'fear', ext: true, look: [1, 0], sfx: [{ f: 20, sound: 'draw', volume: 0.8 }] }),
-      clash(10, 'lab_corridor', 'soma', 'veyra', { seed: 5, x: 1700 }),
-      clash(8, 'lab_corridor', 'soma', 'veyra', { seed: 9, x: 1600 }),
+      duel(11, 'lab_corridor', 'soma', 'veyra', [{ attacker: 1, attack: 'slashV', response: 'guard' }], { seed: 5, cx: 1700 }),
+      duel(9, 'lab_corridor', 'soma', 'veyra', [{ attacker: 0, attack: 'slashH', response: 'guard' }, { attacker: 1, attack: 'thrust', response: 'dodge' }], { seed: 9, cx: 1600 }),
       walk(8, 'lab_corridor', ['veyra'], 2400, 1500, { run: true, flip: true, zoom: 1.4 }),
-      clash(8, 'lab_corridor', 'soma', 'veyra', { seed: 13, x: 1800, lines: [['soma', '윽…!', 'pain']] }),
+      duel(8, 'lab_corridor', 'soma', 'veyra', [{ attacker: 1, attack: 'slashH', response: 'hit', strength: 1 }], { seed: 13, cx: 1800 }),
       single(10, 'lab_corridor', 'soma', [['soma', '힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?', 'pain']], { expr: 'pain', zoom: 2.8 }),
       talk(16, 'lab_corridor', 'veyra', 'soma', [['veyra', '아직 각성이 불완전하군. 실망이다.', 'smile'], ['soma', '아직… 끝나지 않았어.', 'resolve']], { baseA: 'angry', baseB: 'pain', aX: 1300, bX: 1800 }),
       walk(14, 'lab_corridor', ['soma'], 700, 2500, { run: true, zoom: 1.4, lines: [['soma', '일단 도망쳐야 해!', 'fear']] }),
@@ -109,17 +109,17 @@ export const SCENES: SceneScript[] = [
     embedSample: true,
     beats: [
       single(12, 'ruins_night', 'soma', [['soma', '…온다.', 'resolve']], { expr: 'resolve', zoom: 2.6 }),
-      clash(8, 'ruins_night', 'soma', 'veyra', { seed: 41, x: 1650 }),
-      clash(8, 'ruins_night', 'soma', 'veyra', { seed: 43, x: 1700 }),
+      duel(9, 'ruins_night', 'soma', 'veyra', [{ attacker: 0, attack: 'slashH', response: 'guard' }, { attacker: 1, attack: 'slashV', response: 'guard' }], { seed: 41, cx: 1650 }),
+      duel(9, 'ruins_night', 'soma', 'veyra', [{ attacker: 1, attack: 'thrust', response: 'dodge' }, { attacker: 0, attack: 'counter', response: 'guard' }], { seed: 43, cx: 1700 }),
       single(12, 'ruins_night', 'soma', [['soma', '이 정도로는… 안 돼. 더, 더 빨리!', 'pain']], { expr: 'pain', zoom: 2.8 }),
       talk(20, 'ruins_night', 'veyra', 'soma', [['veyra', '이제 끝이다. 시계를 내놔.', 'angry'], ['soma', '미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!', 'angry']], { baseA: 'angry', baseB: 'resolve', aX: 1300, bX: 1850 }),
       timestop(18, 'timestop_void', 'soma', [['veyra', 1500]], { run: true, lines: [['soma', '들려… 시계 소리가. 이게 진짜 내 힘이야!', 'resolve']] }),
-      clash(8, 'ruins_night', 'soma', 'veyra', { seed: 51, x: 1750, lines: [] }),
+      duel(8, 'ruins_night', 'soma', 'veyra', [{ attacker: 0, attack: 'slashH', response: 'hit' }], { seed: 51, cx: 1750 }),
       single(8, 'ruins_night', 'veyra', [['veyra', '이 속도… 설마, 정지 속에서 움직인 건가?', 'surprise']], { expr: 'surprise', ext: true, flip: true }),
-      clash(8, 'ruins_night', 'soma', 'veyra', { seed: 53, x: 1650 }),
-      clash(8, 'ruins_night', 'soma', 'veyra', { seed: 57, x: 1700 }),
+      duel(9, 'ruins_night', 'soma', 'veyra', [{ attacker: 1, attack: 'slashV', response: 'guard', strength: 0.8 }, { attacker: 0, attack: 'thrust', response: 'hit' }], { seed: 53, cx: 1650 }),
+      duel(9, 'ruins_night', 'soma', 'veyra', [{ attacker: 0, attack: 'slashV', response: 'guard' }, { attacker: 0, attack: 'counter', response: 'hit' }], { seed: 57, cx: 1700 }),
       single(10, 'ruins_night', 'soma', [['soma', '이걸로 끝이야!', 'angry']], { expr: 'angry', zoom: 3.0 }),
-      clash(10, 'ruins_night', 'soma', 'veyra', { seed: 61, x: 1700 }),
+      duel(10, 'ruins_night', 'soma', 'veyra', [{ attacker: 0, attack: 'counter', response: 'hit', strength: 1 }], { seed: 61, cx: 1700 }),
     ],
   },
   {

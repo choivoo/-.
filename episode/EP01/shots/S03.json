@@ -10,11 +10,162 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 64,
+    "dur": 112,
     "speaker": "narration",
     "text": "해안도시 미나토. 평범한 아침이었다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-01-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "e"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "e"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "e"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "e"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "e"
+     },
+     {
+      "f": 22,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "closed"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "a"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "closed"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 50,
+      "shape": "o"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "o"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "closed"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "a"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "a"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "closed"
+     },
+     {
+      "f": 78,
+      "shape": "small"
+     },
+     {
+      "f": 84,
+      "shape": "i"
+     },
+     {
+      "f": 85,
+      "shape": "small"
+     },
+     {
+      "f": 86,
+      "shape": "closed"
+     },
+     {
+      "f": 89,
+      "shape": "small"
+     },
+     {
+      "f": 90,
+      "shape": "e"
+     },
+     {
+      "f": 93,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -66,7 +217,12 @@
   "transition": {
    "inType": "fadeBlack",
    "inFrames": 18
-  }
+  },
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「해안도시 미나토. 평범한 아침이었다.」"
  },
  {
   "sceneId": "S03",
@@ -82,35 +238,455 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 58,
+    "dur": 98,
     "speaker": "mio",
     "text": "소마! 또 늦잠이야? 학교 늦겠어!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-02-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "o"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "o"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "o"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "closed"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "a"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "a"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "a"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "closed"
+     },
+     {
+      "f": 53,
+      "shape": "a"
+     },
+     {
+      "f": 55,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "closed"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "a"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 65,
+      "shape": "a"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "closed"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "u"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "u"
+     },
+     {
+      "f": 81,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 80,
-    "dur": 26,
+    "f": 120,
+    "dur": 33,
     "speaker": "soma",
     "text": "…오 분만.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-02-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "o"
+     },
+     {
+      "f": 3,
+      "shape": "closed"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "o"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "o"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 116,
-    "dur": 54,
+    "f": 163,
+    "dur": 81,
     "speaker": "mio",
     "text": "그 말, 이번 주에만 열 번째거든?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-02-D03.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "u"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "u"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "closed"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "i"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "e"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "e"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "e"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "e"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "closed"
+     },
+     {
+      "f": 45,
+      "shape": "e"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "closed"
+     },
+     {
+      "f": 50,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "e"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     },
+     {
+      "f": 57,
+      "shape": "e"
+     },
+     {
+      "f": 59,
+      "shape": "closed"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "e"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 180,
-    "dur": 58,
+    "f": 254,
+    "dur": 78,
     "speaker": "soma",
     "text": "알았어, 알았어. 일어난다니까.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-02-D04.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "a"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "a"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "a"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "closed"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "a"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "a"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "a"
+     },
+     {
+      "f": 31,
+      "shape": "closed"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "i"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "i"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "i"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "i"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "closed"
+     },
+     {
+      "f": 58,
+      "shape": "small"
+     },
+     {
+      "f": 59,
+      "shape": "i"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -126,7 +702,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -137,22 +713,42 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "gestureA",
+      "blend": 5
      },
      {
-      "f": 70,
+      "f": 112,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 116,
-      "clip": "talk",
-      "blend": 6
+      "f": 130,
+      "clip": "nod",
+      "blend": 3
      },
      {
-      "f": 170,
+      "f": 154,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 160,
+      "clip": "gestureA",
+      "blend": 5
+     },
+     {
+      "f": 246,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 267,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 288,
       "clip": "idle",
       "blend": 8
      }
@@ -164,11 +760,33 @@
      },
      {
       "f": 8,
-      "expr": "angry"
+      "expr": "angry",
+      "blend": 3
      },
      {
-      "f": 112,
-      "expr": "angry"
+      "f": 126,
+      "expr": "surprise",
+      "blend": 5
+     },
+     {
+      "f": 159,
+      "expr": "smile",
+      "blend": 8
+     },
+     {
+      "f": 159,
+      "expr": "angry",
+      "blend": 3
+     },
+     {
+      "f": 260,
+      "expr": "smile",
+      "blend": 5
+     },
+     {
+      "f": 338,
+      "expr": "smile",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -188,22 +806,42 @@
       "clip": "idle"
      },
      {
-      "f": 80,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "recoil",
+      "blend": 3
      },
      {
-      "f": 106,
+      "f": 46,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 180,
-      "clip": "talk",
-      "blend": 6
+      "f": 117,
+      "clip": "gestureB",
+      "blend": 5
      },
      {
-      "f": 238,
+      "f": 155,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 176,
+      "clip": "recoil",
+      "blend": 3
+     },
+     {
+      "f": 197,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 251,
+      "clip": "gestureB",
+      "blend": 5
+     },
+     {
+      "f": 334,
       "clip": "idle",
       "blend": 8
      }
@@ -214,12 +852,34 @@
       "expr": "embarrassed"
      },
      {
-      "f": 76,
-      "expr": "embarrassed"
+      "f": 18,
+      "expr": "fear",
+      "blend": 5
      },
      {
-      "f": 176,
-      "expr": "smile"
+      "f": 116,
+      "expr": "embarrassed",
+      "blend": 8
+     },
+     {
+      "f": 116,
+      "expr": "embarrassed",
+      "blend": 3
+     },
+     {
+      "f": 169,
+      "expr": "fear",
+      "blend": 5
+     },
+     {
+      "f": 250,
+      "expr": "embarrassed",
+      "blend": 8
+     },
+     {
+      "f": 250,
+      "expr": "smile",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -238,10 +898,62 @@
     "zoom": 1.75
    },
    {
+    "f": 4,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 112,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 126,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 155,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375
+   },
+   {
+    "f": 169,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.9075000000000002,
+    "ease": "inOut"
+   },
+   {
+    "f": 246,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.9075000000000002
+   },
+   {
+    "f": 260,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
     "f": 550,
-    "x": 1620,
-    "y": 590,
-    "zoom": 1.8725,
+    "x": 1682.4,
+    "y": 587,
+    "zoom": 1.8746,
     "ease": "out"
    }
   ],
@@ -253,7 +965,12 @@
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「소마! 또 늦잠이야? 학교 늦겠어!」"
  },
  {
   "sceneId": "S03",
@@ -279,7 +996,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -326,7 +1043,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계."
  },
  {
   "sceneId": "S03",
@@ -341,19 +1063,233 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 38,
+    "dur": 63,
     "speaker": "soma",
     "text": "시계가… 또 멈췄네.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-04-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "i"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "closed"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "e"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "closed"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "e"
+     },
+     {
+      "f": 16,
+      "shape": "closed"
+     },
+     {
+      "f": 24,
+      "shape": "a"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "a"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "closed"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "closed"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "e"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "e"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 60,
-    "dur": 44,
+    "f": 85,
+    "dur": 63,
     "speaker": "soma",
     "text": "박사님이 남겨주신 건데.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-04-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "a"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "closed"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "a"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "a"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "a"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "a"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "a"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "a"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "a"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "closed"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "i"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "i"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -369,7 +1305,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -381,22 +1317,22 @@
       "clip": "idle"
      },
      {
-      "f": 12,
+      "f": 9,
       "clip": "talk",
-      "blend": 6
+      "blend": 5
      },
      {
-      "f": 50,
+      "f": 77,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 60,
-      "clip": "talk",
-      "blend": 6
+      "f": 82,
+      "clip": "clutch",
+      "blend": 5
      },
      {
-      "f": 104,
+      "f": 150,
       "clip": "idle",
       "blend": 8
      }
@@ -419,7 +1355,7 @@
       ]
      },
      {
-      "f": 56,
+      "f": 81,
       "expr": "sad",
       "look": [
        0.3,
@@ -452,7 +1388,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「시계가… 또 멈췄네.」"
  },
  {
   "sceneId": "S03",
@@ -468,19 +1409,337 @@
   "dialogue": [
    {
     "f": 14,
-    "dur": 81,
+    "dur": 116,
     "speaker": "mio",
     "text": "너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-05-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "e"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "e"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "e"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "e"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "closed"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "a"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "o"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "o"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "closed"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 45,
+      "shape": "u"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "u"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "closed"
+     },
+     {
+      "f": 62,
+      "shape": "a"
+     },
+     {
+      "f": 64,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "closed"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "u"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 75,
+      "shape": "u"
+     },
+     {
+      "f": 76,
+      "shape": "small"
+     },
+     {
+      "f": 77,
+      "shape": "closed"
+     },
+     {
+      "f": 78,
+      "shape": "small"
+     },
+     {
+      "f": 79,
+      "shape": "a"
+     },
+     {
+      "f": 81,
+      "shape": "small"
+     },
+     {
+      "f": 83,
+      "shape": "a"
+     },
+     {
+      "f": 84,
+      "shape": "small"
+     },
+     {
+      "f": 85,
+      "shape": "closed"
+     },
+     {
+      "f": 86,
+      "shape": "i"
+     },
+     {
+      "f": 88,
+      "shape": "small"
+     },
+     {
+      "f": 90,
+      "shape": "closed"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 92,
+      "shape": "u"
+     },
+     {
+      "f": 94,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "u"
+     },
+     {
+      "f": 98,
+      "shape": "small"
+     },
+     {
+      "f": 100,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 105,
-    "dur": 44,
+    "f": 140,
+    "dur": 62,
     "speaker": "soma",
     "text": "또 누가 지어낸 얘기겠지.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-05-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "o"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "o"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 10,
+      "shape": "u"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "u"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "u"
+     },
+     {
+      "f": 22,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "u"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "closed"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "i"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "closed"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "i"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "closed"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "e"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -656,7 +1915,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -739,7 +1998,12 @@
     "seed": 8,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "WS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「너 요즘 이상한 소문 들었어? 밤하늘에 달이 두 개래.」"
  },
  {
   "sceneId": "S03",
@@ -755,35 +2019,531 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 61,
+    "dur": 83,
     "speaker": "mio",
     "text": "진짜야! 어제 뉴스에도 나왔다니까.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-06-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "i"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "closed"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "a"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "a"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 26,
+      "shape": "e"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "e"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "e"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "e"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 45,
+      "shape": "e"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "e"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 50,
+      "shape": "e"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     },
+     {
+      "f": 58,
+      "shape": "a"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "a"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "closed"
+     },
+     {
+      "f": 64,
+      "shape": "small"
+     },
+     {
+      "f": 65,
+      "shape": "i"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 83,
-    "dur": 48,
+    "f": 105,
+    "dur": 69,
     "speaker": "soma",
     "text": "검은 달이라니, 소설 같네.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-06-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "e"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "e"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "closed"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "u"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "u"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "u"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "closed"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "i"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "i"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "closed"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "e"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "e"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 141,
-    "dur": 58,
+    "f": 184,
+    "dur": 84,
     "speaker": "mio",
     "text": "…웃지 마. 나 좀 무서웠단 말이야.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-06-D03.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "u"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "closed"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "u"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "u"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "a"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "closed"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "o"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "o"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "o"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "o"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "closed"
+     },
+     {
+      "f": 52,
+      "shape": "a"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 57,
+      "shape": "a"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 65,
+      "shape": "a"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 209,
-    "dur": 58,
+    "f": 278,
+    "dur": 88,
     "speaker": "soma",
     "text": "미안. 무슨 일 있으면 내가 있잖아.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-06-D04.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "i"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "i"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "u"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "u"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "u"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "u"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "u"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "u"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "u"
+     },
+     {
+      "f": 52,
+      "shape": "closed"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "a"
+     },
+     {
+      "f": 58,
+      "shape": "small"
+     },
+     {
+      "f": 59,
+      "shape": "closed"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "i"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "i"
+     },
+     {
+      "f": 72,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -799,7 +2559,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -810,22 +2570,42 @@
       "clip": "idle"
      },
      {
-      "f": 83,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "recoil",
+      "blend": 3
      },
      {
-      "f": 131,
+      "f": 46,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 209,
-      "clip": "talk",
-      "blend": 6
+      "f": 102,
+      "clip": "gestureB",
+      "blend": 5
      },
      {
-      "f": 267,
+      "f": 176,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 197,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 218,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 275,
+      "clip": "talk",
+      "blend": 5
+     },
+     {
+      "f": 368,
       "clip": "idle",
       "blend": 8
      }
@@ -836,12 +2616,34 @@
       "expr": "smile"
      },
      {
-      "f": 79,
-      "expr": "smile"
+      "f": 18,
+      "expr": "fear",
+      "blend": 5
      },
      {
-      "f": 205,
-      "expr": "resolve"
+      "f": 101,
+      "expr": "smile",
+      "blend": 8
+     },
+     {
+      "f": 101,
+      "expr": "smile",
+      "blend": 3
+     },
+     {
+      "f": 190,
+      "expr": "sad",
+      "blend": 5
+     },
+     {
+      "f": 274,
+      "expr": "smile",
+      "blend": 8
+     },
+     {
+      "f": 274,
+      "expr": "resolve",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -861,22 +2663,42 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "gestureA",
+      "blend": 5
      },
      {
-      "f": 73,
+      "f": 97,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 141,
-      "clip": "talk",
-      "blend": 6
+      "f": 115,
+      "clip": "nod",
+      "blend": 3
      },
      {
-      "f": 199,
+      "f": 139,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 181,
+      "clip": "clutch",
+      "blend": 5
+     },
+     {
+      "f": 270,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 291,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 312,
       "clip": "idle",
       "blend": 8
      }
@@ -888,11 +2710,28 @@
      },
      {
       "f": 8,
-      "expr": "angry"
+      "expr": "angry",
+      "blend": 3
      },
      {
-      "f": 137,
-      "expr": "sad"
+      "f": 111,
+      "expr": "smile",
+      "blend": 5
+     },
+     {
+      "f": 180,
+      "expr": "embarrassed",
+      "blend": 8
+     },
+     {
+      "f": 180,
+      "expr": "sad",
+      "blend": 3
+     },
+     {
+      "f": 372,
+      "expr": "embarrassed",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -911,10 +2750,62 @@
     "zoom": 1.75
    },
    {
+    "f": 4,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1670.4,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 97,
+    "x": 1670.4,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 111,
+    "x": 1529.6,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 176,
+    "x": 1529.6,
+    "y": 587,
+    "zoom": 1.86375
+   },
+   {
+    "f": 190,
+    "x": 1670.4,
+    "y": 595,
+    "zoom": 1.9075000000000002,
+    "ease": "inOut"
+   },
+   {
+    "f": 270,
+    "x": 1670.4,
+    "y": 595,
+    "zoom": 1.9075000000000002
+   },
+   {
+    "f": 284,
+    "x": 1529.6,
+    "y": 587,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
     "f": 596,
-    "x": 1620,
-    "y": 590,
-    "zoom": 1.8725,
+    "x": 1541.6,
+    "y": 587,
+    "zoom": 1.8746,
     "ease": "out"
    }
   ],
@@ -926,7 +2817,12 @@
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「진짜야! 어제 뉴스에도 나왔다니까.」"
  },
  {
   "sceneId": "S03",
@@ -952,7 +2848,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -999,7 +2895,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계."
  },
  {
   "sceneId": "S03",
@@ -1015,27 +2916,500 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 61,
+    "dur": 84,
     "speaker": "mio",
     "text": "박사님이 사라지신 지 벌써 삼 년이네.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-08-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "a"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "closed"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "a"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "a"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "a"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "a"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "a"
+     },
+     {
+      "f": 23,
+      "shape": "closed"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "a"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "a"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "closed"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "i"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "closed"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "i"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "i"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "e"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "e"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "e"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "e"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 83,
-    "dur": 74,
+    "f": 106,
+    "dur": 107,
     "speaker": "soma",
     "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-08-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "u"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "u"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "u"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "closed"
+     },
+     {
+      "f": 28,
+      "shape": "u"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "u"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "u"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "closed"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "i"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "i"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "i"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "i"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "closed"
+     },
+     {
+      "f": 63,
+      "shape": "a"
+     },
+     {
+      "f": 65,
+      "shape": "closed"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "a"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 72,
+      "shape": "a"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "closed"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "i"
+     },
+     {
+      "f": 79,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "i"
+     },
+     {
+      "f": 85,
+      "shape": "small"
+     },
+     {
+      "f": 86,
+      "shape": "closed"
+     },
+     {
+      "f": 87,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "a"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 92,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 167,
-    "dur": 51,
+    "f": 223,
+    "dur": 77,
     "speaker": "mio",
     "text": "언젠가 알게 될 거야, 분명히.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-08-D03.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "e"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "e"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "e"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "closed"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "a"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "a"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "o"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "o"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "closed"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "a"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "a"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "e"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1051,7 +3425,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -1062,22 +3436,32 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "clutch",
+      "blend": 5
      },
      {
-      "f": 73,
+      "f": 98,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 167,
-      "clip": "talk",
-      "blend": 6
+      "f": 116,
+      "clip": "nod",
+      "blend": 3
      },
      {
-      "f": 218,
+      "f": 140,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 220,
+      "clip": "gestureB",
+      "blend": 5
+     },
+     {
+      "f": 302,
       "clip": "idle",
       "blend": 8
      }
@@ -1089,11 +3473,18 @@
      },
      {
       "f": 8,
-      "expr": "sad"
+      "expr": "sad",
+      "blend": 3
      },
      {
-      "f": 163,
-      "expr": "smile"
+      "f": 219,
+      "expr": "neutral",
+      "blend": 8
+     },
+     {
+      "f": 219,
+      "expr": "smile",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -1113,12 +3504,32 @@
       "clip": "idle"
      },
      {
-      "f": 83,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "nod",
+      "blend": 3
      },
      {
-      "f": 157,
+      "f": 46,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "clip": "talk",
+      "blend": 5
+     },
+     {
+      "f": 215,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 236,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 257,
       "clip": "idle",
       "blend": 8
      }
@@ -1129,8 +3540,29 @@
       "expr": "resolve"
      },
      {
-      "f": 79,
-      "expr": "resolve"
+      "f": 18,
+      "expr": "sad",
+      "blend": 5
+     },
+     {
+      "f": 102,
+      "expr": "resolve",
+      "blend": 8
+     },
+     {
+      "f": 102,
+      "expr": "resolve",
+      "blend": 3
+     },
+     {
+      "f": 229,
+      "expr": "smile",
+      "blend": 5
+     },
+     {
+      "f": 306,
+      "expr": "resolve",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -1149,10 +3581,49 @@
     "zoom": 1.75
    },
    {
+    "f": 4,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 98,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 112,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 215,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375
+   },
+   {
+    "f": 229,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.9075000000000002,
+    "ease": "inOut"
+   },
+   {
     "f": 550,
-    "x": 1620,
-    "y": 590,
-    "zoom": 1.8725,
+    "x": 1541.6,
+    "y": 595,
+    "zoom": 1.9647250000000003,
     "ease": "out"
    }
   ],
@@ -1164,7 +3635,12 @@
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「박사님이 사라지신 지 벌써 삼 년이네.」"
  },
  {
   "sceneId": "S03",
@@ -1177,11 +3653,186 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 74,
+    "dur": 116,
     "speaker": "narration",
     "text": "해가 기울자, 거리의 시계들이 일제히 멈췄다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-09-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "e"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "closed"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "a"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "a"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "a"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "closed"
+     },
+     {
+      "f": 33,
+      "shape": "e"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "e"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "e"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "closed"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "e"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "u"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "closed"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "closed"
+     },
+     {
+      "f": 72,
+      "shape": "small"
+     },
+     {
+      "f": 73,
+      "shape": "e"
+     },
+     {
+      "f": 74,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "e"
+     },
+     {
+      "f": 79,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "closed"
+     },
+     {
+      "f": 87,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "e"
+     },
+     {
+      "f": 90,
+      "shape": "closed"
+     },
+     {
+      "f": 93,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "u"
+     },
+     {
+      "f": 97,
+      "shape": "small"
+     },
+     {
+      "f": 99,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1229,7 +3880,12 @@
     "dur": 183,
     "seed": 3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「해가 기울자, 거리의 시계들이 일제히 멈췄다.」"
  },
  {
   "sceneId": "S03",
@@ -1244,27 +3900,464 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 74,
+    "dur": 111,
     "speaker": "soma",
     "text": "…또야. 모든 시계가 6시 6분에서 멈춰 있어.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-10-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "o"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "o"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "o"
+     },
+     {
+      "f": 22,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "o"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "o"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "closed"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "e"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "closed"
+     },
+     {
+      "f": 40,
+      "shape": "a"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 45,
+      "shape": "a"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     },
+     {
+      "f": 50,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "i"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "i"
+     },
+     {
+      "f": 58,
+      "shape": "small"
+     },
+     {
+      "f": 59,
+      "shape": "closed"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "u"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "u"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "u"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "u"
+     },
+     {
+      "f": 76,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "closed"
+     },
+     {
+      "f": 79,
+      "shape": "small"
+     },
+     {
+      "f": 80,
+      "shape": "closed"
+     },
+     {
+      "f": 82,
+      "shape": "small"
+     },
+     {
+      "f": 83,
+      "shape": "u"
+     },
+     {
+      "f": 88,
+      "shape": "small"
+     },
+     {
+      "f": 91,
+      "shape": "u"
+     },
+     {
+      "f": 95,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 96,
-    "dur": 44,
+    "f": 133,
+    "dur": 71,
     "speaker": "soma",
     "text": "내 시계도, 저 시계탑도.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-10-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "e"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "e"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "closed"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "e"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "e"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "closed"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "e"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "e"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "closed"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "e"
+     },
+     {
+      "f": 40,
+      "shape": "closed"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "a"
+     },
+     {
+      "f": 46,
+      "shape": "closed"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "o"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 150,
-    "dur": 58,
+    "f": 214,
+    "dur": 76,
     "speaker": "soma",
     "text": "대체 무슨 일이 벌어지고 있는 거지?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-10-D03.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "e"
+     },
+     {
+      "f": 3,
+      "shape": "closed"
+     },
+     {
+      "f": 8,
+      "shape": "e"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "e"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "e"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "closed"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "i"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "i"
+     },
+     {
+      "f": 32,
+      "shape": "closed"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "e"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "closed"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "i"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "i"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 50,
+      "shape": "closed"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "u"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "e"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1280,7 +4373,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -1292,32 +4385,32 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "recoil",
+      "blend": 5
      },
      {
-      "f": 86,
+      "f": 125,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 96,
-      "clip": "talk",
-      "blend": 6
+      "f": 130,
+      "clip": "cower",
+      "blend": 5
      },
      {
-      "f": 140,
+      "f": 206,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 150,
+      "f": 211,
       "clip": "talk",
-      "blend": 6
+      "blend": 5
      },
      {
-      "f": 208,
+      "f": 292,
       "clip": "idle",
       "blend": 8
      }
@@ -1340,7 +4433,7 @@
       ]
      },
      {
-      "f": 92,
+      "f": 129,
       "expr": "fear",
       "look": [
        0.3,
@@ -1348,7 +4441,7 @@
       ]
      },
      {
-      "f": 146,
+      "f": 210,
       "expr": "resolve",
       "look": [
        0.3,
@@ -1381,7 +4474,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「…또야. 모든 시계가 6시 6분에서 멈춰 있어.」"
  },
  {
   "sceneId": "S03",
@@ -1517,7 +4615,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -1571,7 +4669,12 @@
     "seed": 8,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계."
  },
  {
   "sceneId": "S03",
@@ -1587,27 +4690,508 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 58,
+    "dur": 87,
     "speaker": "mio",
     "text": "저기 봐, 사람들이 다 멈춰 서 있어!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-12-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "e"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "closed"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "i"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "closed"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "i"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "a"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "a"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "a"
+     },
+     {
+      "f": 40,
+      "shape": "closed"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "a"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 45,
+      "shape": "a"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "closed"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "u"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 59,
+      "shape": "u"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "u"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 80,
-    "dur": 94,
+    "f": 109,
+    "dur": 135,
     "speaker": "soma",
     "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-12-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "a"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "a"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "closed"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "u"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "u"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "i"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 25,
+      "shape": "i"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "i"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "i"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "i"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "closed"
+     },
+     {
+      "f": 50,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "e"
+     },
+     {
+      "f": 53,
+      "shape": "closed"
+     },
+     {
+      "f": 57,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "closed"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "u"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "u"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "closed"
+     },
+     {
+      "f": 72,
+      "shape": "small"
+     },
+     {
+      "f": 73,
+      "shape": "a"
+     },
+     {
+      "f": 74,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "closed"
+     },
+     {
+      "f": 79,
+      "shape": "small"
+     },
+     {
+      "f": 80,
+      "shape": "a"
+     },
+     {
+      "f": 82,
+      "shape": "small"
+     },
+     {
+      "f": 85,
+      "shape": "a"
+     },
+     {
+      "f": 87,
+      "shape": "closed"
+     },
+     {
+      "f": 88,
+      "shape": "small"
+     },
+     {
+      "f": 90,
+      "shape": "a"
+     },
+     {
+      "f": 92,
+      "shape": "small"
+     },
+     {
+      "f": 93,
+      "shape": "closed"
+     },
+     {
+      "f": 94,
+      "shape": "small"
+     },
+     {
+      "f": 95,
+      "shape": "o"
+     },
+     {
+      "f": 96,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "o"
+     },
+     {
+      "f": 98,
+      "shape": "small"
+     },
+     {
+      "f": 101,
+      "shape": "o"
+     },
+     {
+      "f": 104,
+      "shape": "small"
+     },
+     {
+      "f": 106,
+      "shape": "closed"
+     },
+     {
+      "f": 107,
+      "shape": "small"
+     },
+     {
+      "f": 108,
+      "shape": "u"
+     },
+     {
+      "f": 110,
+      "shape": "small"
+     },
+     {
+      "f": 115,
+      "shape": "u"
+     },
+     {
+      "f": 119,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 184,
-    "dur": 48,
+    "f": 254,
+    "dur": 67,
     "speaker": "mio",
     "text": "무서워… 소마, 돌아가자.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-12-D03.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "u"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "u"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "u"
+     },
+     {
+      "f": 15,
+      "shape": "closed"
+     },
+     {
+      "f": 22,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "o"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "o"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "closed"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "o"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "closed"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 45,
+      "shape": "a"
+     },
+     {
+      "f": 47,
+      "shape": "closed"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "a"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1623,7 +5207,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -1634,22 +5218,32 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "cower",
+      "blend": 5
      },
      {
-      "f": 70,
+      "f": 101,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 184,
-      "clip": "talk",
-      "blend": 6
+      "f": 119,
+      "clip": "headShake",
+      "blend": 3
      },
      {
-      "f": 232,
+      "f": 143,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 251,
+      "clip": "clutch",
+      "blend": 5
+     },
+     {
+      "f": 323,
       "clip": "idle",
       "blend": 8
      }
@@ -1661,11 +5255,23 @@
      },
      {
       "f": 8,
-      "expr": "fear"
+      "expr": "fear",
+      "blend": 3
      },
      {
-      "f": 180,
-      "expr": "sad"
+      "f": 115,
+      "expr": "surprise",
+      "blend": 5
+     },
+     {
+      "f": 250,
+      "expr": "fear",
+      "blend": 8
+     },
+     {
+      "f": 250,
+      "expr": "sad",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -1685,12 +5291,32 @@
       "clip": "idle"
      },
      {
-      "f": 80,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "recoil",
+      "blend": 3
      },
      {
-      "f": 174,
+      "f": 46,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 106,
+      "clip": "recoil",
+      "blend": 5
+     },
+     {
+      "f": 246,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 267,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 288,
       "clip": "idle",
       "blend": 8
      }
@@ -1701,8 +5327,29 @@
       "expr": "surprise"
      },
      {
-      "f": 76,
-      "expr": "surprise"
+      "f": 18,
+      "expr": "surprise",
+      "blend": 5
+     },
+     {
+      "f": 105,
+      "expr": "surprise",
+      "blend": 8
+     },
+     {
+      "f": 105,
+      "expr": "surprise",
+      "blend": 3
+     },
+     {
+      "f": 260,
+      "expr": "sad",
+      "blend": 5
+     },
+     {
+      "f": 327,
+      "expr": "surprise",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -1721,10 +5368,49 @@
     "zoom": 1.75
    },
    {
+    "f": 4,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 101,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 115,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 246,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375
+   },
+   {
+    "f": 260,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.9075000000000002,
+    "ease": "inOut"
+   },
+   {
     "f": 596,
-    "x": 1620,
-    "y": 590,
-    "zoom": 1.8725,
+    "x": 1541.6,
+    "y": 595,
+    "zoom": 1.9647250000000003,
     "ease": "out"
    }
   ],
@@ -1736,7 +5422,12 @@
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「저기 봐, 사람들이 다 멈춰 서 있어!」"
  },
  {
   "sceneId": "S03",
@@ -1762,7 +5453,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -1816,7 +5507,12 @@
     "intensity": 0.3,
     "color": "#ff2f6a"
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계."
  },
  {
   "sceneId": "S03",
@@ -1832,11 +5528,138 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 54,
+    "dur": 94,
     "speaker": "narration",
     "text": "그 순간, 하늘이 검게 물들었다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S03-14-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "u"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "u"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "closed"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "a"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "u"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "u"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "closed"
+     },
+     {
+      "f": 42,
+      "shape": "e"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "closed"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 50,
+      "shape": "e"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "e"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "closed"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "u"
+     },
+     {
+      "f": 68,
+      "shape": "closed"
+     },
+     {
+      "f": 72,
+      "shape": "a"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1929,6 +5752,11 @@
     "color": "#7a2cff",
     "intensity": 0.3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "키리타니 소마의 평범한 하루와 멈춘 회중시계. 「그 순간, 하늘이 검게 물들었다.」"
  }
 ]

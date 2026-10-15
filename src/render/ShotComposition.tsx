@@ -16,9 +16,12 @@ export const ShotComposition: React.FC<{ shot: ShotSpec; badge?: boolean }> = ({
         <Audio
           src={staticFile(`sounds/${m.id}.wav`)}
           startFrom={m.trackOffset % mlen}
-          volume={(f) => (m.volume ?? 0.5) * interpolate(f, [0, m.fadeInFrames ?? 1, shot.durationFrames - (m.fadeOutFrames ?? 1), shot.durationFrames], [0, 1, 1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })}
+          volume={(f) => (m.volume ?? 0.5) * interpolate(f, [0, m.fadeInFrames ?? 1, shot.durationFrames - (m.fadeOutFrames ?? 1), shot.durationFrames], [0, 1, 1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) * (shot.dialogue.some((d) => f >= d.f - 4 && f < d.f + d.dur + 6) ? 0.45 : 1)}
         />
       )}
+      {shot.dialogue.filter((d) => d.voiceAsset).map((d, i) => (
+        <Sequence key={`v${i}`} from={d.f} layout="none"><Audio src={staticFile(d.voiceAsset!)} volume={1} /></Sequence>
+      ))}
       {shot.soundEffects.map((s, i) => (
         <Sequence key={`${s.sound}-${s.f}-${i}`} from={s.f} layout="none">
           <Audio src={staticFile(`sounds/${s.sound}.wav`)} volume={s.volume ?? 1} />

@@ -1,10 +1,10 @@
 import { readFileSync } from 'node:fs';
 import { validateShots, validateCharacters } from '../src/scenes/validate';
-import { soundExists, validateCharacterAssetPaths } from './lib/fsAssets';
+import { soundExists, publicFileExists, validateCharacterAssetPaths } from './lib/fsAssets';
 const ep = process.argv[2] ?? 'EP01';
 const meta = JSON.parse(readFileSync(`episode/${ep}/metadata/episode.json`, 'utf8'));
 const shots = JSON.parse(readFileSync(`episode/${ep}/shots/${ep === 'EP01' ? 'all' : 'shots'}.json`, 'utf8'));
-const issues = [...validateShots(shots, { expectedTotal: meta.totalFrames, scenes: meta.scenes, soundExists }), ...validateCharacters(), ...validateCharacterAssetPaths()];
+const issues = [...validateShots(shots, { expectedTotal: meta.totalFrames, scenes: meta.scenes, soundExists, fileExists: publicFileExists }), ...validateCharacters(), ...validateCharacterAssetPaths()];
 const byFid: Record<string, number> = {}; for (const s of shots) byFid[s.fidelity] = (byFid[s.fidelity] ?? 0) + s.durationFrames;
 for (const i of issues) console.log(`${i.level.toUpperCase()} ${i.shotId ?? ''} ${i.msg}`);
 console.log(`${ep}: ${shots.length} shots, ${meta.totalFrames} frames (${meta.totalFrames / 24}s). frames by fidelity:`, byFid);

@@ -8,6 +8,7 @@ import type { CadenceOverride } from '../engine/FrameScheduler';
 import { FPS, timecode } from '../engine/FrameScheduler';
 import { assetUrl } from '../utils/assets';
 import type { ShotSpec } from '../scenes/types';
+import { Dashboard } from './Dashboard';
 
 const KV = ({ children }: { children?: React.ReactNode }) => <div className="kv">{children}</div>;
 type Status = { running: string; log: string[]; status: Record<string, { status: string; error?: string }> };
@@ -15,6 +16,7 @@ const SOURCES = { EP01: { meta: loadEpisodeMeta(), shots: loadEpisodeShots() }, 
 type SrcId = keyof typeof SOURCES;
 
 export function App() {
+  const [tab, setTab] = useState<'edit' | 'prod'>('edit');
   const [src, setSrc] = useState<SrcId>('SAMPLE01');
   const { meta, shots } = SOURCES[src];
   const [shotIdx, setShotIdx] = useState(0);
@@ -68,10 +70,11 @@ export function App() {
   const pct = (f: number) => `${(f / shot.durationFrames) * 100}%`;
   const rs = (id: string) => status?.status?.[id]?.status;
 
+  if (tab === 'prod') return <div><div className="top"><b>ANIME FORGE</b><button onClick={() => setTab('edit')}>Editor</button><button className="on">Production</button></div><Dashboard /></div>;
   return (
     <div className="app">
       <div className="top">
-        <b>ANIME FORGE</b><span>{meta.titleKo}</span>
+        <b>ANIME FORGE</b><button className="on">Editor</button><button onClick={() => setTab('prod')}>Production</button><span>{meta.titleKo}</span>
         <select value={src} onChange={(e) => { setSrc(e.target.value as SrcId); go(0); setPlaying(false); }}><option>SAMPLE01</option><option>EP01</option></select>
         <span className="pill">{timecode(global)} / {timecode(meta.totalFrames)}</span>
         <span className="pill">{shot.shotId} · {shot.fidelity}</span>

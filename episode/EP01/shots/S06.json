@@ -118,7 +118,12 @@
     "sound": "rumble",
     "volume": 0.4
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -130,7 +135,9 @@
     "dur": 26,
     "speaker": "soma",
     "text": "…온다.",
-    "placeholderVoice": true
+    "placeholderVoice": true,
+    "voiceAsset": "voices/S06-02-D01.wav",
+    "synthetic": true
    }
   ],
   "voiceAsset": null,
@@ -216,7 +223,12 @@
     "sound": "heartbeat",
     "volume": 0.5
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -319,7 +331,12 @@
     "sound": "whoosh",
     "volume": 0.25
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -507,7 +524,12 @@
     "sound": "step",
     "volume": 0.6
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -652,7 +674,12 @@
     "sound": "draw",
     "volume": 0.8
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -885,7 +912,12 @@
     "sound": "rumble",
     "volume": 0.7
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -1116,7 +1148,12 @@
     "sound": "step",
     "volume": 0.5
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -1257,7 +1294,12 @@
     "sound": "whoosh",
     "volume": 0.9
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -1485,7 +1527,12 @@
     "sound": "hit_heavy",
     "volume": 0.7
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -1736,7 +1783,12 @@
     "sound": "hit_heavy",
     "volume": 1
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -1942,7 +1994,12 @@
     "sound": "crack",
     "volume": 0.5
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
@@ -1954,14 +2011,18 @@
     "dur": 30,
     "speaker": "veyra",
     "text": "…흥미롭군.",
-    "placeholderVoice": true
+    "placeholderVoice": true,
+    "voiceAsset": "voices/S06-12-D01.wav",
+    "synthetic": true
    },
    {
     "f": 68,
     "dur": 28,
     "speaker": "soma",
     "text": "아직 끝나지 않았어.",
-    "placeholderVoice": true
+    "placeholderVoice": true,
+    "voiceAsset": "voices/S06-12-D02.wav",
+    "synthetic": true
    }
   ],
   "voiceAsset": null,
@@ -2088,13 +2149,18 @@
     "sound": "heartbeat",
     "volume": 0.5
    }
-  ]
+  ],
+  "kind": "duel",
+  "priority": "P0",
+  "purpose": "액션 — 30초 완성 샘플(충돌·회피·반격)",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전 샘플"
  },
  {
   "sceneId": "S06",
   "shotId": "S06-13",
   "startFrame": 22320,
-  "durationFrames": 331,
+  "durationFrames": 321,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma"
@@ -2103,11 +2169,30 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 26,
+    "dur": 27,
     "speaker": "soma",
     "text": "…온다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S06-13-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "o"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "o"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -2123,7 +2208,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -2135,12 +2220,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
+      "f": 9,
       "clip": "talk",
-      "blend": 6
+      "blend": 5
      },
      {
-      "f": 38,
+      "f": 41,
       "clip": "idle",
       "blend": 8
      }
@@ -2173,7 +2258,7 @@
     "zoom": 2.6
    },
    {
-    "f": 331,
+    "f": 321,
     "x": 1516,
     "y": 564,
     "zoom": 2.8600000000000003,
@@ -2184,17 +2269,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 331,
+    "dur": 321,
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「…온다.」"
  },
  {
   "sceneId": "S06",
   "shotId": "S06-14",
-  "startFrame": 22651,
-  "durationFrames": 221,
+  "startFrame": 22641,
+  "durationFrames": 241,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma",
@@ -2206,42 +2296,102 @@
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 89,
+    "f": 26,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.5
    },
    {
-    "f": 99,
+    "f": 35,
     "sound": "hit_clash",
-    "volume": 1
+    "volume": 0.94
+   },
+   {
+    "f": 68,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 77,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 104,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 113,
+    "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 147,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 156,
+    "sound": "hit_clash",
+    "volume": 0.94
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 1051,
+   "trackOffset": 1041,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1310,
+    "x": 1400,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 90,
+      "f": 26,
       "clip": "slashH",
       "blend": 3
      },
      {
-      "f": 113,
+      "f": 55,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 63,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 93,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 104,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 129,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 143,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 168,
       "clip": "stance",
       "blend": 8
      }
@@ -2250,6 +2400,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 29,
+      "expr": "angry"
+     },
+     {
+      "f": 67,
+      "expr": "angry"
+     },
+     {
+      "f": 103,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 129,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 142,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 168,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1400
+     },
+     {
+      "f": 53,
+      "x": 1454,
+      "ease": "out"
+     },
+     {
+      "f": 91,
+      "x": 1374,
+      "ease": "out"
+     },
+     {
+      "f": 127,
+      "x": 1388,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -2258,25 +2457,56 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 23,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 55,
+      "mode": "twos"
+     },
+     {
+      "f": 61,
+      "mode": "ones"
+     },
+     {
+      "f": 93,
+      "mode": "twos"
+     },
+     {
+      "f": 97,
+      "mode": "ones"
+     },
+     {
+      "f": 129,
+      "mode": "twos"
+     },
+     {
+      "f": 136,
+      "mode": "ones"
+     },
+     {
+      "f": 168,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 91,
-      "to": 107,
-      "frames": 4
+      "from": 28,
+      "to": 41,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 66,
+      "to": 79,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 1980,
+    "x": 1900,
     "flip": true,
     "animationClips": [
      {
@@ -2284,12 +2514,42 @@
       "clip": "stance"
      },
      {
-      "f": 88,
+      "f": 30,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 55,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 63,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 93,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 101,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 129,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 137,
       "clip": "slashV",
       "blend": 3
      },
      {
-      "f": 115,
+      "f": 168,
       "clip": "stance",
       "blend": 8
      }
@@ -2298,6 +2558,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 29,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 55,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 67,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 93,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "expr": "angry"
+     },
+     {
+      "f": 142,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1900
+     },
+     {
+      "f": 53,
+      "x": 1846,
+      "ease": "out"
+     },
+     {
+      "f": 91,
+      "x": 1926,
+      "ease": "out"
+     },
+     {
+      "f": 127,
+      "x": 1912,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -2306,22 +2615,146 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 23,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 55,
+      "mode": "twos"
+     },
+     {
+      "f": 61,
+      "mode": "ones"
+     },
+     {
+      "f": 93,
+      "mode": "twos"
+     },
+     {
+      "f": 97,
+      "mode": "ones"
+     },
+     {
+      "f": 129,
+      "mode": "twos"
+     },
+     {
+      "f": 136,
+      "mode": "ones"
+     },
+     {
+      "f": 168,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 89,
-      "to": 107,
+      "from": 102,
+      "to": 115,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
+      "from": 141,
+      "to": 154,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 27,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 41,
+    "x": 1650,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 61,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 69,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 83,
+    "x": 1650,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 103,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 105,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 119,
+    "x": 1650,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 139,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 148,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 162,
+    "x": 1650,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 182,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 241,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -2330,100 +2763,290 @@
     "t": 0
    },
    {
-    "f": 99,
-    "t": 99
+    "f": 35,
+    "t": 35
    },
    {
-    "f": 103,
-    "t": 99
+    "f": 39,
+    "t": 35
    },
    {
-    "f": 221,
-    "t": 217
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1610,
-    "y": 650,
-    "zoom": 1.3
+    "f": 113,
+    "t": 109
    },
    {
-    "f": 221,
-    "x": 1650,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
+    "f": 117,
+    "t": 109
+   },
    {
-    "f": 99,
-    "dur": 9,
-    "amount": 0.2
+    "f": 156,
+    "t": 148
+   },
+   {
+    "f": 160,
+    "t": 148
+   },
+   {
+    "f": 241,
+    "t": 229
    }
   ],
   "cameraShake": [
    {
-    "f": 99,
-    "dur": 16,
-    "amp": 26,
+    "f": 35,
+    "dur": 15,
+    "amp": 21.200000000000003,
     "seed": 41
+   },
+   {
+    "f": 113,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 55
+   },
+   {
+    "f": 156,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 62
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 35,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 113,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 156,
+    "dur": 8,
+    "amount": 0.16000000000000003
    }
   ],
   "vfx": [
    {
+    "type": "wind",
+    "f": 0,
+    "dur": 241,
+    "seed": 4,
+    "intensity": 0.5
+   },
+   {
     "type": "flash",
-    "f": 99,
+    "f": 35,
     "dur": 3,
-    "intensity": 0.4
+    "intensity": 0.24
    },
    {
     "type": "impactBurst",
-    "f": 99,
-    "dur": 10,
-    "x": 1650,
-    "y": 610,
+    "f": 35,
+    "dur": 9,
+    "x": 1792.861084060052,
+    "y": 623.9215127704156,
     "space": "world",
-    "count": 14,
-    "seed": 41
+    "count": 15,
+    "seed": 41,
+    "color": "#fff7c8"
    },
    {
     "type": "sparks",
-    "f": 99,
-    "dur": 18,
-    "x": 1650,
-    "y": 610,
-    "count": 28,
-    "seed": 42,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 100,
+    "f": 35,
     "dur": 16,
-    "x": 1650,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "x": 1792.861084060052,
+    "y": 623.9215127704156,
+    "count": 27,
+    "seed": 42,
+    "angle": -90,
+    "color": "#ffe9a8"
    },
    {
     "type": "dust",
-    "f": 99,
-    "dur": 40,
+    "f": 35,
+    "dur": 30,
     "x": 1650,
     "y": 840,
     "seed": 43,
-    "count": 12
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 36,
+    "dur": 14,
+    "x": 1792.861084060052,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "crack",
+    "f": 77,
+    "dur": 26,
+    "x": 1864.5167353482234,
+    "y": 846,
+    "seed": 42,
+    "size": 0.8,
+    "color": "#ff4466"
+   },
+   {
+    "type": "dust",
+    "f": 77,
+    "dur": 24,
+    "x": 1864.5167353482234,
+    "y": 840,
+    "seed": 45,
+    "count": 8
+   },
+   {
+    "type": "flash",
+    "f": 113,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 113,
+    "dur": 9,
+    "x": 1480.8523989728897,
+    "y": 621.776643896856,
+    "space": "world",
+    "count": 15,
+    "seed": 55,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 113,
+    "dur": 16,
+    "x": 1480.8523989728897,
+    "y": 621.776643896856,
+    "count": 27,
+    "seed": 56,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 113,
+    "dur": 30,
+    "x": 1650,
+    "y": 840,
+    "seed": 57,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 114,
+    "dur": 14,
+    "x": 1480.8523989728897,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "flash",
+    "f": 156,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 156,
+    "dur": 9,
+    "x": 1483.1878651394882,
+    "y": 641.7770326257455,
+    "space": "world",
+    "count": 15,
+    "seed": 62,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 156,
+    "dur": 16,
+    "x": 1483.1878651394882,
+    "y": 641.7770326257455,
+    "count": 27,
+    "seed": 63,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 156,
+    "dur": 30,
+    "x": 1650,
+    "y": 840,
+    "seed": 64,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 157,
+    "dur": 14,
+    "x": 1483.1878651394882,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 35,
+    "kind": "guard",
+    "x": 1792.861084060052,
+    "y": 623.9215127704156,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 77,
+    "kind": "dodge",
+    "x": 1864.5167353482234,
+    "y": 677.2513507102144,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 113,
+    "kind": "guard",
+    "x": 1480.8523989728897,
+    "y": 621.776643896856,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 156,
+    "kind": "guard",
+    "x": 1483.1878651394882,
+    "y": 641.7770326257455,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성."
  },
  {
   "sceneId": "S06",
   "shotId": "S06-15",
-  "startFrame": 22872,
-  "durationFrames": 221,
+  "startFrame": 22882,
+  "durationFrames": 241,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma",
@@ -2435,42 +3058,97 @@
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 89,
+    "f": 27,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.7
    },
    {
-    "f": 99,
+    "f": 36,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 64,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 103,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 112,
     "sound": "hit_clash",
-    "volume": 1
+    "volume": 0.94
+   },
+   {
+    "f": 143,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 152,
+    "sound": "hit_clash",
+    "volume": 0.94
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 1272,
+   "trackOffset": 1282,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1360,
+    "x": 1482,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 90,
+      "f": 26,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 56,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 64,
       "clip": "slashH",
       "blend": 3
      },
      {
-      "f": 113,
+      "f": 93,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 107,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 132,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 140,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 168,
       "clip": "stance",
       "blend": 8
      }
@@ -2479,6 +3157,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 30,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 56,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 67,
+      "expr": "angry"
+     },
+     {
+      "f": 106,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 132,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 142,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1482
+     },
+     {
+      "f": 54,
+      "x": 1512,
+      "ease": "out"
+     },
+     {
+      "f": 91,
+      "x": 1438,
+      "ease": "out"
+     },
+     {
+      "f": 130,
+      "x": 1444,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -2487,25 +3214,56 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 24,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 56,
+      "mode": "twos"
+     },
+     {
+      "f": 61,
+      "mode": "ones"
+     },
+     {
+      "f": 93,
+      "mode": "twos"
+     },
+     {
+      "f": 100,
+      "mode": "ones"
+     },
+     {
+      "f": 132,
+      "mode": "twos"
+     },
+     {
+      "f": 136,
+      "mode": "ones"
+     },
+     {
+      "f": 168,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 91,
-      "to": 107,
-      "frames": 4
+      "from": 66,
+      "to": 79,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 141,
+      "to": 154,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 2030,
+    "x": 1918,
     "flip": true,
     "animationClips": [
      {
@@ -2513,12 +3271,42 @@
       "clip": "stance"
      },
      {
-      "f": 88,
+      "f": 26,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 56,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 63,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 93,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 101,
       "clip": "slashV",
       "blend": 3
      },
      {
-      "f": 115,
+      "f": 132,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 143,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 168,
       "clip": "stance",
       "blend": 8
      }
@@ -2527,6 +3315,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 30,
+      "expr": "angry"
+     },
+     {
+      "f": 67,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 93,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 106,
+      "expr": "angry"
+     },
+     {
+      "f": 142,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 168,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1918
+     },
+     {
+      "f": 54,
+      "x": 1888,
+      "ease": "out"
+     },
+     {
+      "f": 91,
+      "x": 1962,
+      "ease": "out"
+     },
+     {
+      "f": 130,
+      "x": 1956,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -2535,22 +3372,146 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 24,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 56,
+      "mode": "twos"
+     },
+     {
+      "f": 61,
+      "mode": "ones"
+     },
+     {
+      "f": 93,
+      "mode": "twos"
+     },
+     {
+      "f": 100,
+      "mode": "ones"
+     },
+     {
+      "f": 132,
+      "mode": "twos"
+     },
+     {
+      "f": 136,
+      "mode": "ones"
+     },
+     {
+      "f": 168,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 89,
-      "to": 107,
+      "from": 29,
+      "to": 42,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
+      "from": 105,
+      "to": 118,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 28,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 42,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 62,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 65,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 79,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 99,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 104,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 118,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 138,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 144,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 158,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 178,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 241,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -2559,100 +3520,225 @@
     "t": 0
    },
    {
-    "f": 99,
-    "t": 99
+    "f": 112,
+    "t": 112
    },
    {
-    "f": 103,
-    "t": 99
+    "f": 116,
+    "t": 112
    },
    {
-    "f": 221,
-    "t": 217
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1660,
-    "y": 650,
-    "zoom": 1.3
+    "f": 152,
+    "t": 148
    },
    {
-    "f": 221,
-    "x": 1700,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
+    "f": 156,
+    "t": 148
+   },
    {
-    "f": 99,
-    "dur": 9,
-    "amount": 0.2
+    "f": 241,
+    "t": 233
    }
   ],
   "cameraShake": [
    {
-    "f": 99,
-    "dur": 16,
-    "amp": 26,
-    "seed": 43
+    "f": 112,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 57
+   },
+   {
+    "f": 152,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 64
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 112,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 152,
+    "dur": 8,
+    "amount": 0.16000000000000003
    }
   ],
   "vfx": [
    {
-    "type": "flash",
-    "f": 99,
-    "dur": 3,
-    "intensity": 0.4
+    "type": "wind",
+    "f": 0,
+    "dur": 241,
+    "seed": 4,
+    "intensity": 0.5
    },
    {
-    "type": "impactBurst",
-    "f": 99,
-    "dur": 10,
-    "x": 1700,
-    "y": 610,
-    "space": "world",
-    "count": 14,
-    "seed": 43
-   },
-   {
-    "type": "sparks",
-    "f": 99,
-    "dur": 18,
-    "x": 1700,
-    "y": 610,
-    "count": 28,
-    "seed": 44,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 100,
-    "dur": 16,
-    "x": 1700,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "type": "crack",
+    "f": 36,
+    "dur": 26,
+    "x": 1466.4315911169542,
+    "y": 846,
+    "seed": 43,
+    "size": 0.8,
+    "color": "#ff4466"
    },
    {
     "type": "dust",
-    "f": 99,
-    "dur": 40,
+    "f": 36,
+    "dur": 24,
+    "x": 1466.4315911169542,
+    "y": 840,
+    "seed": 46,
+    "count": 8
+   },
+   {
+    "type": "flash",
+    "f": 112,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 112,
+    "dur": 9,
+    "x": 1533.1878651394882,
+    "y": 641.7770326257455,
+    "space": "world",
+    "count": 15,
+    "seed": 57,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 112,
+    "dur": 16,
+    "x": 1533.1878651394882,
+    "y": 641.7770326257455,
+    "count": 27,
+    "seed": 58,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 112,
+    "dur": 30,
     "x": 1700,
     "y": 840,
-    "seed": 45,
-    "count": 12
+    "seed": 59,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 113,
+    "dur": 14,
+    "x": 1533.1878651394882,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "flash",
+    "f": 152,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 152,
+    "dur": 9,
+    "x": 1848.6796372973731,
+    "y": 641.6151308153236,
+    "space": "world",
+    "count": 15,
+    "seed": 64,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 152,
+    "dur": 16,
+    "x": 1848.6796372973731,
+    "y": 641.6151308153236,
+    "count": 27,
+    "seed": 65,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 152,
+    "dur": 30,
+    "x": 1700,
+    "y": 840,
+    "seed": 66,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 153,
+    "dur": 14,
+    "x": 1848.6796372973731,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 36,
+    "kind": "dodge",
+    "x": 1466.4315911169542,
+    "y": 660.9764857812359,
+    "contact": false,
+    "strength": 0.5,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 73,
+    "kind": "dodge",
+    "x": 1904.861084060052,
+    "y": 623.9215127704156,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 112,
+    "kind": "guard",
+    "x": 1533.1878651394882,
+    "y": 641.7770326257455,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 152,
+    "kind": "guard",
+    "x": 1848.6796372973731,
+    "y": 641.6151308153236,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성."
  },
  {
   "sceneId": "S06",
   "shotId": "S06-16",
-  "startFrame": 23093,
-  "durationFrames": 331,
+  "startFrame": 23123,
+  "durationFrames": 321,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma"
@@ -2661,11 +3747,130 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 58,
+    "dur": 97,
     "speaker": "soma",
     "text": "이 정도로는… 안 돼. 더, 더 빨리!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S06-16-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "closed"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "i"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "i"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "i"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "u"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "u"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "closed"
+     },
+     {
+      "f": 55,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "e"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "closed"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "e"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "closed"
+     },
+     {
+      "f": 71,
+      "shape": "small"
+     },
+     {
+      "f": 72,
+      "shape": "a"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 80,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -2677,11 +3882,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 53,
+   "trackOffset": 83,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -2693,12 +3898,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "clutch",
+      "blend": 5
      },
      {
-      "f": 70,
+      "f": 111,
       "clip": "idle",
       "blend": 8
      }
@@ -2731,7 +3936,7 @@
     "zoom": 2.8
    },
    {
-    "f": 331,
+    "f": 321,
     "x": 1516,
     "y": 564,
     "zoom": 3.08,
@@ -2742,17 +3947,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 331,
+    "dur": 321,
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「이 정도로는… 안 돼. 더, 더 빨리!」"
  },
  {
   "sceneId": "S06",
   "shotId": "S06-17",
-  "startFrame": 23424,
-  "durationFrames": 563,
+  "startFrame": 23444,
+  "durationFrames": 547,
   "backgroundId": "ruins_night",
   "characterIds": [
    "veyra",
@@ -2762,19 +3972,381 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 48,
+    "dur": 85,
     "speaker": "veyra",
     "text": "이제 끝이다. 시계를 내놔.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S06-17-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "i"
+     },
+     {
+      "f": 7,
+      "shape": "closed"
+     },
+     {
+      "f": 9,
+      "shape": "e"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "closed"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "u"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "i"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "closed"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "a"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "closed"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 45,
+      "shape": "i"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "i"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "i"
+     },
+     {
+      "f": 58,
+      "shape": "small"
+     },
+     {
+      "f": 59,
+      "shape": "i"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "i"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 70,
-    "dur": 84,
+    "f": 107,
+    "dur": 120,
     "speaker": "soma",
     "text": "미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S06-17-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "i"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "i"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "i"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "closed"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "i"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "closed"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "i"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "e"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "e"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "closed"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "u"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "u"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 50,
+      "shape": "closed"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "u"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "u"
+     },
+     {
+      "f": 56,
+      "shape": "closed"
+     },
+     {
+      "f": 58,
+      "shape": "e"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "closed"
+     },
+     {
+      "f": 61,
+      "shape": "e"
+     },
+     {
+      "f": 64,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "e"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "closed"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "i"
+     },
+     {
+      "f": 72,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "i"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 79,
+      "shape": "closed"
+     },
+     {
+      "f": 80,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "e"
+     },
+     {
+      "f": 83,
+      "shape": "closed"
+     },
+     {
+      "f": 87,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "e"
+     },
+     {
+      "f": 89,
+      "shape": "small"
+     },
+     {
+      "f": 91,
+      "shape": "e"
+     },
+     {
+      "f": 97,
+      "shape": "small"
+     },
+     {
+      "f": 99,
+      "shape": "e"
+     },
+     {
+      "f": 102,
+      "shape": "small"
+     },
+     {
+      "f": 103,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -2786,11 +4358,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 384,
+   "trackOffset": 404,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -2801,12 +4373,22 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "gestureA",
+      "blend": 5
      },
      {
-      "f": 60,
+      "f": 99,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 117,
+      "clip": "recoil",
+      "blend": 3
+     },
+     {
+      "f": 141,
       "clip": "idle",
       "blend": 8
      }
@@ -2818,7 +4400,18 @@
      },
      {
       "f": 8,
-      "expr": "angry"
+      "expr": "angry",
+      "blend": 3
+     },
+     {
+      "f": 113,
+      "expr": "fear",
+      "blend": 5
+     },
+     {
+      "f": 233,
+      "expr": "angry",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -2838,12 +4431,22 @@
       "clip": "idle"
      },
      {
-      "f": 70,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "recoil",
+      "blend": 3
      },
      {
-      "f": 154,
+      "f": 46,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 104,
+      "clip": "gestureA",
+      "blend": 5
+     },
+     {
+      "f": 229,
       "clip": "idle",
       "blend": 8
      }
@@ -2854,8 +4457,19 @@
       "expr": "resolve"
      },
      {
-      "f": 66,
-      "expr": "angry"
+      "f": 18,
+      "expr": "fear",
+      "blend": 5
+     },
+     {
+      "f": 103,
+      "expr": "resolve",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "expr": "angry",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -2874,10 +4488,36 @@
     "zoom": 1.75
    },
    {
-    "f": 563,
-    "x": 1595,
-    "y": 590,
-    "zoom": 1.8725,
+    "f": 4,
+    "x": 1575,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1487,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 99,
+    "x": 1487,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 113,
+    "x": 1663,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 547,
+    "x": 1675,
+    "y": 587,
+    "zoom": 1.9196625,
     "ease": "out"
    }
   ],
@@ -2885,17 +4525,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 563,
+    "dur": 547,
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「이제 끝이다. 시계를 내놔.」"
  },
  {
   "sceneId": "S06",
   "shotId": "S06-18",
-  "startFrame": 23987,
-  "durationFrames": 497,
+  "startFrame": 23991,
+  "durationFrames": 483,
   "backgroundId": "timestop_void",
   "characterIds": [
    "veyra",
@@ -2905,11 +4550,166 @@
   "dialogue": [
    {
     "f": 14,
-    "dur": 67,
+    "dur": 104,
     "speaker": "soma",
     "text": "들려… 시계 소리가. 이게 진짜 내 힘이야!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S06-18-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "u"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "u"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "closed"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "i"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "o"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "o"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "closed"
+     },
+     {
+      "f": 39,
+      "shape": "a"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "closed"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "i"
+     },
+     {
+      "f": 54,
+      "shape": "closed"
+     },
+     {
+      "f": 56,
+      "shape": "e"
+     },
+     {
+      "f": 58,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "e"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "closed"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "a"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "a"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "closed"
+     },
+     {
+      "f": 75,
+      "shape": "i"
+     },
+     {
+      "f": 78,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "i"
+     },
+     {
+      "f": 86,
+      "shape": "small"
+     },
+     {
+      "f": 87,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -2926,11 +4726,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 947,
+   "trackOffset": 951,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -2967,7 +4767,7 @@
       "x": 900
      },
      {
-      "f": 497,
+      "f": 483,
       "x": 1900,
       "ease": "linear"
      }
@@ -2999,7 +4799,7 @@
     "zoom": 1.4
    },
    {
-    "f": 497,
+    "f": 483,
     "x": 1800,
     "y": 600,
     "zoom": 1.5,
@@ -3010,7 +4810,7 @@
    {
     "type": "energy",
     "f": 0,
-    "dur": 497,
+    "dur": 483,
     "x": 1400,
     "y": 700,
     "seed": 14,
@@ -3020,20 +4820,25 @@
    {
     "type": "bloom",
     "f": 0,
-    "dur": 497,
+    "dur": 483,
     "x": 960,
     "y": 540,
     "size": 700,
     "color": "#ffffff",
     "intensity": 0.3
    }
-  ]
+  ],
+  "kind": "ability",
+  "purpose": "이야기의 전환 — 시간 정지 각성",
+  "priority": "P0",
+  "shotSize": "MS",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「들려… 시계 소리가. 이게 진짜 내 힘이야!」"
  },
  {
   "sceneId": "S06",
   "shotId": "S06-19",
-  "startFrame": 24484,
-  "durationFrames": 221,
+  "startFrame": 24474,
+  "durationFrames": 214,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma",
@@ -3045,42 +4850,97 @@
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 89,
+    "f": 25,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.5
    },
    {
-    "f": 99,
+    "f": 34,
     "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 66,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 105,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 114,
+    "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 146,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 155,
+    "sound": "hit_heavy",
     "volume": 1
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 4,
+   "trackOffset": 1434,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1410,
+    "x": 1474,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 90,
+      "f": 29,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 54,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 62,
       "clip": "slashH",
       "blend": 3
      },
      {
-      "f": 113,
+      "f": 91,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 105,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 130,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 138,
+      "clip": "slashH",
+      "blend": 3
+     },
+     {
+      "f": 167,
       "clip": "stance",
       "blend": 8
      }
@@ -3089,6 +4949,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 28,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 54,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "expr": "angry"
+     },
+     {
+      "f": 104,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 130,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 141,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1474
+     },
+     {
+      "f": 52,
+      "x": 1562,
+      "ease": "out"
+     },
+     {
+      "f": 89,
+      "x": 1488,
+      "ease": "out"
+     },
+     {
+      "f": 128,
+      "x": 1550,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -3097,25 +5006,56 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 22,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 54,
+      "mode": "twos"
+     },
+     {
+      "f": 59,
+      "mode": "ones"
+     },
+     {
+      "f": 91,
+      "mode": "twos"
+     },
+     {
+      "f": 98,
+      "mode": "ones"
+     },
+     {
+      "f": 130,
+      "mode": "twos"
+     },
+     {
+      "f": 135,
+      "mode": "ones"
+     },
+     {
+      "f": 167,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 91,
-      "to": 107,
-      "frames": 4
+      "from": 64,
+      "to": 77,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 140,
+      "to": 153,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 2080,
+    "x": 2026,
     "flip": true,
     "animationClips": [
      {
@@ -3123,12 +5063,42 @@
       "clip": "stance"
      },
      {
-      "f": 88,
+      "f": 26,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 54,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 61,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 91,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 99,
       "clip": "slashV",
       "blend": 3
      },
      {
-      "f": 115,
+      "f": 130,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 147,
+      "clip": "stagger",
+      "blend": 0
+     },
+     {
+      "f": 167,
       "clip": "stance",
       "blend": 8
      }
@@ -3137,6 +5107,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 28,
+      "expr": "angry"
+     },
+     {
+      "f": 65,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 91,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 104,
+      "expr": "angry"
+     },
+     {
+      "f": 141,
+      "expr": "pain",
+      "blend": 2
+     },
+     {
+      "f": 167,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 2026
+     },
+     {
+      "f": 52,
+      "x": 1938,
+      "ease": "out"
+     },
+     {
+      "f": 89,
+      "x": 2012,
+      "ease": "out"
+     },
+     {
+      "f": 128,
+      "x": 1950,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -3145,22 +5164,146 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 22,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 54,
+      "mode": "twos"
+     },
+     {
+      "f": 59,
+      "mode": "ones"
+     },
+     {
+      "f": 91,
+      "mode": "twos"
+     },
+     {
+      "f": 98,
+      "mode": "ones"
+     },
+     {
+      "f": 130,
+      "mode": "twos"
+     },
+     {
+      "f": 135,
+      "mode": "ones"
+     },
+     {
+      "f": 167,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 89,
-      "to": 107,
+      "from": 27,
+      "to": 40,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
+      "from": 103,
+      "to": 116,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 26,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 40,
+    "x": 1750,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 60,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 67,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 81,
+    "x": 1750,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 101,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 106,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 120,
+    "x": 1750,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 140,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 147,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 161,
+    "x": 1750,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 181,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 214,
+    "x": 1750,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -3169,100 +5312,271 @@
     "t": 0
    },
    {
-    "f": 99,
-    "t": 99
+    "f": 34,
+    "t": 34
    },
    {
-    "f": 103,
-    "t": 99
+    "f": 38,
+    "t": 34
    },
    {
-    "f": 221,
-    "t": 217
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1710,
-    "y": 650,
-    "zoom": 1.3
+    "f": 114,
+    "t": 110
    },
    {
-    "f": 221,
-    "x": 1750,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
+    "f": 118,
+    "t": 110
+   },
    {
-    "f": 99,
-    "dur": 9,
-    "amount": 0.2
+    "f": 155,
+    "t": 147
+   },
+   {
+    "f": 159,
+    "t": 147
+   },
+   {
+    "f": 214,
+    "t": 202
    }
   ],
   "cameraShake": [
    {
-    "f": 99,
-    "dur": 16,
-    "amp": 26,
+    "f": 34,
+    "dur": 15,
+    "amp": 21.200000000000003,
     "seed": 51
+   },
+   {
+    "f": 114,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 65
+   },
+   {
+    "f": 155,
+    "dur": 16,
+    "amp": 24,
+    "seed": 72
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 34,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 114,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 155,
+    "dur": 8,
+    "amount": 0.18
    }
   ],
   "vfx": [
    {
+    "type": "wind",
+    "f": 0,
+    "dur": 214,
+    "seed": 4,
+    "intensity": 0.5
+   },
+   {
     "type": "flash",
-    "f": 99,
+    "f": 34,
     "dur": 3,
-    "intensity": 0.4
+    "intensity": 0.24
    },
    {
     "type": "impactBurst",
-    "f": 99,
-    "dur": 10,
-    "x": 1750,
-    "y": 610,
+    "f": 34,
+    "dur": 9,
+    "x": 1580.8523989728897,
+    "y": 621.776643896856,
     "space": "world",
-    "count": 14,
-    "seed": 51
+    "count": 15,
+    "seed": 51,
+    "color": "#fff7c8"
    },
    {
     "type": "sparks",
-    "f": 99,
-    "dur": 18,
-    "x": 1750,
-    "y": 610,
-    "count": 28,
-    "seed": 52,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 100,
+    "f": 34,
     "dur": 16,
-    "x": 1750,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "x": 1580.8523989728897,
+    "y": 621.776643896856,
+    "count": 27,
+    "seed": 52,
+    "angle": -90,
+    "color": "#ffe9a8"
    },
    {
     "type": "dust",
-    "f": 99,
-    "dur": 40,
+    "f": 34,
+    "dur": 30,
     "x": 1750,
     "y": 840,
     "seed": 53,
-    "count": 12
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 35,
+    "dur": 14,
+    "x": 1580.8523989728897,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "flash",
+    "f": 114,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 114,
+    "dur": 9,
+    "x": 1583.1878651394882,
+    "y": 641.7770326257455,
+    "space": "world",
+    "count": 15,
+    "seed": 65,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 114,
+    "dur": 16,
+    "x": 1583.1878651394882,
+    "y": 641.7770326257455,
+    "count": 27,
+    "seed": 66,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 114,
+    "dur": 30,
+    "x": 1750,
+    "y": 840,
+    "seed": 67,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 115,
+    "dur": 14,
+    "x": 1583.1878651394882,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "flash",
+    "f": 155,
+    "dur": 3,
+    "intensity": 0.3
+   },
+   {
+    "type": "impactBurst",
+    "f": 155,
+    "dur": 9,
+    "x": 1942.861084060052,
+    "y": 623.9215127704156,
+    "space": "world",
+    "count": 16,
+    "seed": 72,
+    "color": "#ffc0c8"
+   },
+   {
+    "type": "sparks",
+    "f": 155,
+    "dur": 16,
+    "x": 1942.861084060052,
+    "y": 623.9215127704156,
+    "count": 30,
+    "seed": 73,
+    "angle": -90,
+    "color": "#ff9fb0"
+   },
+   {
+    "type": "dust",
+    "f": 155,
+    "dur": 30,
+    "x": 1750,
+    "y": 840,
+    "seed": 74,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 156,
+    "dur": 14,
+    "x": 1942.861084060052,
+    "y": 840,
+    "size": 380,
+    "color": "#d9f6ff"
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 34,
+    "kind": "guard",
+    "x": 1580.8523989728897,
+    "y": 621.776643896856,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 75,
+    "kind": "dodge",
+    "x": 1954.861084060052,
+    "y": 623.9215127704156,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 114,
+    "kind": "guard",
+    "x": 1583.1878651394882,
+    "y": 641.7770326257455,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 155,
+    "kind": "hit",
+    "x": 1942.861084060052,
+    "y": 623.9215127704156,
+    "contact": true,
+    "strength": 1,
+    "attacker": "soma",
+    "defender": "veyra"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성."
  },
  {
   "sceneId": "S06",
   "shotId": "S06-20",
-  "startFrame": 24705,
-  "durationFrames": 221,
+  "startFrame": 24688,
+  "durationFrames": 214,
   "backgroundId": "ruins_night",
   "characterIds": [
    "veyra"
@@ -3271,11 +5585,182 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 67,
+    "dur": 120,
     "speaker": "veyra",
     "text": "이 속도… 설마, 정지 속에서 움직인 건가?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S06-20-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "i"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "closed"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "o"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "o"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "o"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "closed"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "e"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "e"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "e"
+     },
+     {
+      "f": 63,
+      "shape": "closed"
+     },
+     {
+      "f": 65,
+      "shape": "e"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "e"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 79,
+      "shape": "e"
+     },
+     {
+      "f": 80,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "closed"
+     },
+     {
+      "f": 82,
+      "shape": "small"
+     },
+     {
+      "f": 83,
+      "shape": "i"
+     },
+     {
+      "f": 85,
+      "shape": "small"
+     },
+     {
+      "f": 86,
+      "shape": "i"
+     },
+     {
+      "f": 88,
+      "shape": "small"
+     },
+     {
+      "f": 90,
+      "shape": "i"
+     },
+     {
+      "f": 93,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "i"
+     },
+     {
+      "f": 95,
+      "shape": "small"
+     },
+     {
+      "f": 96,
+      "shape": "closed"
+     },
+     {
+      "f": 98,
+      "shape": "a"
+     },
+     {
+      "f": 102,
+      "shape": "small"
+     },
+     {
+      "f": 103,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -3287,11 +5772,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 225,
+   "trackOffset": 208,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -3303,12 +5788,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "recoil",
+      "blend": 5
      },
      {
-      "f": 79,
+      "f": 134,
       "clip": "idle",
       "blend": 8
      }
@@ -3341,7 +5826,7 @@
     "zoom": 5.2
    },
    {
-    "f": 221,
+    "f": 214,
     "x": 1484,
     "y": 482,
     "zoom": 5.720000000000001,
@@ -3352,17 +5837,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 221,
+    "dur": 214,
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「이 속도… 설마, 정지 속에서 움직인 건가?」"
  },
  {
   "sceneId": "S06",
   "shotId": "S06-21",
-  "startFrame": 24926,
-  "durationFrames": 221,
+  "startFrame": 24902,
+  "durationFrames": 241,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma",
@@ -3374,42 +5864,102 @@
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 89,
+    "f": 28,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.5
    },
    {
-    "f": 99,
+    "f": 37,
     "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 70,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 79,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 106,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 115,
+    "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 148,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 157,
+    "sound": "hit_heavy",
     "volume": 1
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 446,
+   "trackOffset": 422,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1310,
+    "x": 1388,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 90,
-      "clip": "slashH",
+      "f": 32,
+      "clip": "guard",
       "blend": 3
      },
      {
-      "f": 113,
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 106,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 131,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 139,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 169,
       "clip": "stance",
       "blend": 8
      }
@@ -3418,6 +5968,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 57,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 69,
+      "expr": "angry"
+     },
+     {
+      "f": 105,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 131,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 143,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1388
+     },
+     {
+      "f": 55,
+      "x": 1454,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1374,
+      "ease": "out"
+     },
+     {
+      "f": 129,
+      "x": 1440,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -3426,25 +6025,56 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 99,
+      "mode": "ones"
+     },
+     {
+      "f": 131,
+      "mode": "twos"
+     },
+     {
+      "f": 137,
+      "mode": "ones"
+     },
+     {
+      "f": 169,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 91,
-      "to": 107,
-      "frames": 4
+      "from": 68,
+      "to": 81,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 142,
+      "to": 155,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 1980,
+    "x": 1912,
     "flip": true,
     "animationClips": [
      {
@@ -3452,12 +6082,42 @@
       "clip": "stance"
      },
      {
-      "f": 88,
+      "f": 26,
       "clip": "slashV",
       "blend": 3
      },
      {
-      "f": 115,
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 131,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 149,
+      "clip": "stagger",
+      "blend": 0
+     },
+     {
+      "f": 169,
       "clip": "stance",
       "blend": 8
      }
@@ -3466,6 +6126,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "angry"
+     },
+     {
+      "f": 69,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 95,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 105,
+      "expr": "angry"
+     },
+     {
+      "f": 143,
+      "expr": "pain",
+      "blend": 2
+     },
+     {
+      "f": 169,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1912
+     },
+     {
+      "f": 55,
+      "x": 1846,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1926,
+      "ease": "out"
+     },
+     {
+      "f": 129,
+      "x": 1860,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -3474,22 +6183,146 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 99,
+      "mode": "ones"
+     },
+     {
+      "f": 131,
+      "mode": "twos"
+     },
+     {
+      "f": 137,
+      "mode": "ones"
+     },
+     {
+      "f": 169,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 89,
-      "to": 107,
+      "from": 30,
+      "to": 43,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
+      "from": 104,
+      "to": 117,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 29,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 43,
+    "x": 1650,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 63,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 71,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 85,
+    "x": 1650,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 105,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 107,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 121,
+    "x": 1650,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 141,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 149,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 163,
+    "x": 1650,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 183,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 241,
+    "x": 1650,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -3498,100 +6331,290 @@
     "t": 0
    },
    {
-    "f": 99,
-    "t": 99
+    "f": 37,
+    "t": 37
    },
    {
-    "f": 103,
-    "t": 99
+    "f": 41,
+    "t": 37
    },
    {
-    "f": 221,
-    "t": 217
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1610,
-    "y": 650,
-    "zoom": 1.3
+    "f": 115,
+    "t": 111
    },
    {
-    "f": 221,
-    "x": 1650,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
+    "f": 119,
+    "t": 111
+   },
    {
-    "f": 99,
-    "dur": 9,
-    "amount": 0.2
+    "f": 157,
+    "t": 149
+   },
+   {
+    "f": 161,
+    "t": 149
+   },
+   {
+    "f": 241,
+    "t": 229
    }
   ],
   "cameraShake": [
    {
-    "f": 99,
-    "dur": 16,
-    "amp": 26,
+    "f": 37,
+    "dur": 15,
+    "amp": 21.200000000000003,
     "seed": 53
+   },
+   {
+    "f": 115,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 67
+   },
+   {
+    "f": 157,
+    "dur": 16,
+    "amp": 24,
+    "seed": 74
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 37,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 115,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 157,
+    "dur": 8,
+    "amount": 0.18
    }
   ],
   "vfx": [
    {
+    "type": "wind",
+    "f": 0,
+    "dur": 241,
+    "seed": 4,
+    "intensity": 0.5
+   },
+   {
     "type": "flash",
-    "f": 99,
+    "f": 37,
     "dur": 3,
-    "intensity": 0.4
+    "intensity": 0.24
    },
    {
     "type": "impactBurst",
-    "f": 99,
-    "dur": 10,
-    "x": 1650,
-    "y": 610,
+    "f": 37,
+    "dur": 9,
+    "x": 1483.1878651394882,
+    "y": 641.7770326257455,
     "space": "world",
-    "count": 14,
-    "seed": 53
+    "count": 15,
+    "seed": 53,
+    "color": "#fff7c8"
    },
    {
     "type": "sparks",
-    "f": 99,
-    "dur": 18,
-    "x": 1650,
-    "y": 610,
-    "count": 28,
-    "seed": 54,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 100,
+    "f": 37,
     "dur": 16,
-    "x": 1650,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "x": 1483.1878651394882,
+    "y": 641.7770326257455,
+    "count": 27,
+    "seed": 54,
+    "angle": -90,
+    "color": "#ffe9a8"
    },
    {
     "type": "dust",
-    "f": 99,
-    "dur": 40,
+    "f": 37,
+    "dur": 30,
     "x": 1650,
     "y": 840,
     "seed": 55,
-    "count": 12
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 38,
+    "dur": 14,
+    "x": 1483.1878651394882,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "crack",
+    "f": 79,
+    "dur": 26,
+    "x": 1864.5167353482234,
+    "y": 846,
+    "seed": 54,
+    "size": 0.8,
+    "color": "#ff4466"
+   },
+   {
+    "type": "dust",
+    "f": 79,
+    "dur": 24,
+    "x": 1864.5167353482234,
+    "y": 840,
+    "seed": 57,
+    "count": 8
+   },
+   {
+    "type": "flash",
+    "f": 115,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 115,
+    "dur": 9,
+    "x": 1480.8523989728897,
+    "y": 621.776643896856,
+    "space": "world",
+    "count": 15,
+    "seed": 67,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 115,
+    "dur": 16,
+    "x": 1480.8523989728897,
+    "y": 621.776643896856,
+    "count": 27,
+    "seed": 68,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 115,
+    "dur": 30,
+    "x": 1650,
+    "y": 840,
+    "seed": 69,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 116,
+    "dur": 14,
+    "x": 1480.8523989728897,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "flash",
+    "f": 157,
+    "dur": 3,
+    "intensity": 0.3
+   },
+   {
+    "type": "impactBurst",
+    "f": 157,
+    "dur": 9,
+    "x": 1850.5167353482234,
+    "y": 677.2513507102144,
+    "space": "world",
+    "count": 16,
+    "seed": 74,
+    "color": "#ffc0c8"
+   },
+   {
+    "type": "sparks",
+    "f": 157,
+    "dur": 16,
+    "x": 1850.5167353482234,
+    "y": 677.2513507102144,
+    "count": 30,
+    "seed": 75,
+    "angle": -90,
+    "color": "#ff9fb0"
+   },
+   {
+    "type": "dust",
+    "f": 157,
+    "dur": 30,
+    "x": 1650,
+    "y": 840,
+    "seed": 76,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 158,
+    "dur": 14,
+    "x": 1850.5167353482234,
+    "y": 840,
+    "size": 380,
+    "color": "#d9f6ff"
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 37,
+    "kind": "guard",
+    "x": 1483.1878651394882,
+    "y": 641.7770326257455,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 79,
+    "kind": "dodge",
+    "x": 1864.5167353482234,
+    "y": 677.2513507102144,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 115,
+    "kind": "guard",
+    "x": 1480.8523989728897,
+    "y": 621.776643896856,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 157,
+    "kind": "hit",
+    "x": 1850.5167353482234,
+    "y": 677.2513507102144,
+    "contact": true,
+    "strength": 1,
+    "attacker": "soma",
+    "defender": "veyra"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성."
  },
  {
   "sceneId": "S06",
   "shotId": "S06-22",
-  "startFrame": 25147,
-  "durationFrames": 221,
+  "startFrame": 25143,
+  "durationFrames": 241,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma",
@@ -3603,42 +6626,102 @@
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 89,
+    "f": 28,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.5
    },
    {
-    "f": 99,
+    "f": 37,
     "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 70,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 79,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 106,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 115,
+    "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 146,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 155,
+    "sound": "hit_heavy",
     "volume": 1
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 667,
+   "trackOffset": 663,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1360,
+    "x": 1452,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 90,
-      "clip": "slashH",
+      "f": 26,
+      "clip": "slashV",
       "blend": 3
      },
      {
-      "f": 113,
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 106,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 131,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 139,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 167,
       "clip": "stance",
       "blend": 8
      }
@@ -3647,6 +6730,49 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "angry"
+     },
+     {
+      "f": 69,
+      "expr": "angry"
+     },
+     {
+      "f": 105,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 131,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 141,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1452
+     },
+     {
+      "f": 55,
+      "x": 1504,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1424,
+      "ease": "out"
+     },
+     {
+      "f": 129,
+      "x": 1494,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -3655,25 +6781,62 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 99,
+      "mode": "ones"
+     },
+     {
+      "f": 131,
+      "mode": "twos"
+     },
+     {
+      "f": 135,
+      "mode": "ones"
+     },
+     {
+      "f": 167,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 91,
-      "to": 107,
-      "frames": 4
+      "from": 30,
+      "to": 43,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 68,
+      "to": 81,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 140,
+      "to": 153,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 2030,
+    "x": 1948,
     "flip": true,
     "animationClips": [
      {
@@ -3681,12 +6844,42 @@
       "clip": "stance"
      },
      {
-      "f": 88,
-      "clip": "slashV",
+      "f": 32,
+      "clip": "guard",
       "blend": 3
      },
      {
-      "f": 115,
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 131,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 147,
+      "clip": "stagger",
+      "blend": 0
+     },
+     {
+      "f": 167,
       "clip": "stance",
       "blend": 8
      }
@@ -3695,6 +6888,61 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 57,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 69,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 95,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 105,
+      "expr": "angry"
+     },
+     {
+      "f": 141,
+      "expr": "pain",
+      "blend": 2
+     },
+     {
+      "f": 167,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1948
+     },
+     {
+      "f": 55,
+      "x": 1896,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1976,
+      "ease": "out"
+     },
+     {
+      "f": 129,
+      "x": 1906,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -3703,22 +6951,140 @@
       "mode": "twos"
      },
      {
-      "f": 87,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 115,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 99,
+      "mode": "ones"
+     },
+     {
+      "f": 131,
+      "mode": "twos"
+     },
+     {
+      "f": 135,
+      "mode": "ones"
+     },
+     {
+      "f": 167,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 89,
-      "to": 107,
+      "from": 104,
+      "to": 117,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 29,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 43,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 63,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 71,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 85,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 105,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 107,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 121,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 141,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 147,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 161,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 181,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 241,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -3727,100 +7093,290 @@
     "t": 0
    },
    {
-    "f": 99,
-    "t": 99
+    "f": 37,
+    "t": 37
    },
    {
-    "f": 103,
-    "t": 99
+    "f": 41,
+    "t": 37
    },
    {
-    "f": 221,
-    "t": 217
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1660,
-    "y": 650,
-    "zoom": 1.3
+    "f": 115,
+    "t": 111
    },
    {
-    "f": 221,
-    "x": 1700,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
+    "f": 119,
+    "t": 111
+   },
    {
-    "f": 99,
-    "dur": 9,
-    "amount": 0.2
+    "f": 155,
+    "t": 147
+   },
+   {
+    "f": 159,
+    "t": 147
+   },
+   {
+    "f": 241,
+    "t": 229
    }
   ],
   "cameraShake": [
    {
-    "f": 99,
-    "dur": 16,
-    "amp": 26,
+    "f": 37,
+    "dur": 15,
+    "amp": 21.200000000000003,
     "seed": 57
+   },
+   {
+    "f": 115,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 71
+   },
+   {
+    "f": 155,
+    "dur": 16,
+    "amp": 24,
+    "seed": 78
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 37,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 115,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 155,
+    "dur": 8,
+    "amount": 0.18
    }
   ],
   "vfx": [
    {
+    "type": "wind",
+    "f": 0,
+    "dur": 241,
+    "seed": 4,
+    "intensity": 0.5
+   },
+   {
     "type": "flash",
-    "f": 99,
+    "f": 37,
     "dur": 3,
-    "intensity": 0.4
+    "intensity": 0.24
    },
    {
     "type": "impactBurst",
-    "f": 99,
-    "dur": 10,
-    "x": 1700,
-    "y": 610,
+    "f": 37,
+    "dur": 9,
+    "x": 1841.8292135095562,
+    "y": 659.7973023870413,
     "space": "world",
-    "count": 14,
-    "seed": 57
+    "count": 15,
+    "seed": 57,
+    "color": "#fff7c8"
    },
    {
     "type": "sparks",
-    "f": 99,
-    "dur": 18,
-    "x": 1700,
-    "y": 610,
-    "count": 28,
-    "seed": 58,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 100,
+    "f": 37,
     "dur": 16,
-    "x": 1700,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "x": 1841.8292135095562,
+    "y": 659.7973023870413,
+    "count": 27,
+    "seed": 58,
+    "angle": -90,
+    "color": "#ffe9a8"
    },
    {
     "type": "dust",
-    "f": 99,
-    "dur": 40,
+    "f": 37,
+    "dur": 30,
     "x": 1700,
     "y": 840,
     "seed": 59,
-    "count": 12
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 38,
+    "dur": 14,
+    "x": 1841.8292135095562,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "crack",
+    "f": 79,
+    "dur": 26,
+    "x": 1914.5167353482234,
+    "y": 846,
+    "seed": 58,
+    "size": 0.8,
+    "color": "#ff4466"
+   },
+   {
+    "type": "dust",
+    "f": 79,
+    "dur": 24,
+    "x": 1914.5167353482234,
+    "y": 840,
+    "seed": 61,
+    "count": 8
+   },
+   {
+    "type": "flash",
+    "f": 115,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 115,
+    "dur": 9,
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "space": "world",
+    "count": 15,
+    "seed": 71,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 115,
+    "dur": 16,
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "count": 27,
+    "seed": 72,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 115,
+    "dur": 30,
+    "x": 1700,
+    "y": 840,
+    "seed": 73,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 116,
+    "dur": 14,
+    "x": 1530.8523989728897,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "flash",
+    "f": 155,
+    "dur": 3,
+    "intensity": 0.3
+   },
+   {
+    "type": "impactBurst",
+    "f": 155,
+    "dur": 9,
+    "x": 1898.6796372973731,
+    "y": 641.6151308153236,
+    "space": "world",
+    "count": 16,
+    "seed": 78,
+    "color": "#ffc0c8"
+   },
+   {
+    "type": "sparks",
+    "f": 155,
+    "dur": 16,
+    "x": 1898.6796372973731,
+    "y": 641.6151308153236,
+    "count": 30,
+    "seed": 79,
+    "angle": -90,
+    "color": "#ff9fb0"
+   },
+   {
+    "type": "dust",
+    "f": 155,
+    "dur": 30,
+    "x": 1700,
+    "y": 840,
+    "seed": 80,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 156,
+    "dur": 14,
+    "x": 1898.6796372973731,
+    "y": 840,
+    "size": 380,
+    "color": "#d9f6ff"
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 37,
+    "kind": "guard",
+    "x": 1841.8292135095562,
+    "y": 659.7973023870413,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 79,
+    "kind": "dodge",
+    "x": 1914.5167353482234,
+    "y": 677.2513507102144,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 115,
+    "kind": "guard",
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 155,
+    "kind": "hit",
+    "x": 1898.6796372973731,
+    "y": 641.6151308153236,
+    "contact": true,
+    "strength": 1,
+    "attacker": "soma",
+    "defender": "veyra"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성."
  },
  {
   "sceneId": "S06",
   "shotId": "S06-23",
-  "startFrame": 25368,
-  "durationFrames": 276,
+  "startFrame": 25384,
+  "durationFrames": 268,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma"
@@ -3829,11 +7385,74 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 31,
+    "dur": 44,
     "speaker": "soma",
     "text": "이걸로 끝이야!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S06-23-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "closed"
+     },
+     {
+      "f": 4,
+      "shape": "i"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "i"
+     },
+     {
+      "f": 10,
+      "shape": "closed"
+     },
+     {
+      "f": 12,
+      "shape": "o"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "u"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "u"
+     },
+     {
+      "f": 27,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -3845,11 +7464,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 888,
+   "trackOffset": 904,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -3861,12 +7480,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "gestureA",
+      "blend": 5
      },
      {
-      "f": 43,
+      "f": 58,
       "clip": "idle",
       "blend": 8
      }
@@ -3899,7 +7518,7 @@
     "zoom": 3
    },
    {
-    "f": 276,
+    "f": 268,
     "x": 1516,
     "y": 564,
     "zoom": 3.3000000000000003,
@@ -3910,17 +7529,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 276,
+    "dur": 268,
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성. 「이걸로 끝이야!」"
  },
  {
   "sceneId": "S06",
   "shotId": "S06-24",
-  "startFrame": 25644,
-  "durationFrames": 276,
+  "startFrame": 25652,
+  "durationFrames": 268,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma",
@@ -3932,42 +7556,117 @@
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 114,
+    "f": 28,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.7
    },
    {
-    "f": 124,
+    "f": 37,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 66,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 75,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 102,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 111,
     "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 143,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 179,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 188,
+    "sound": "hit_heavy",
     "volume": 1
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 1164,
+   "trackOffset": 1172,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1360,
+    "x": 1494,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 115,
+      "f": 27,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 106,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 131,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 139,
       "clip": "slashH",
       "blend": 3
      },
      {
-      "f": 138,
+      "f": 168,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 176,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 204,
       "clip": "stance",
       "blend": 8
      }
@@ -3976,6 +7675,64 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 57,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 69,
+      "expr": "angry"
+     },
+     {
+      "f": 105,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 131,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 142,
+      "expr": "angry"
+     },
+     {
+      "f": 178,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1494
+     },
+     {
+      "f": 55,
+      "x": 1504,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1424,
+      "ease": "out"
+     },
+     {
+      "f": 129,
+      "x": 1512,
+      "ease": "out"
+     },
+     {
+      "f": 166,
+      "x": 1494,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -3984,25 +7741,70 @@
       "mode": "twos"
      },
      {
-      "f": 112,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 140,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 99,
+      "mode": "ones"
+     },
+     {
+      "f": 131,
+      "mode": "twos"
+     },
+     {
+      "f": 136,
+      "mode": "ones"
+     },
+     {
+      "f": 168,
+      "mode": "twos"
+     },
+     {
+      "f": 172,
+      "mode": "ones"
+     },
+     {
+      "f": 204,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 116,
-      "to": 132,
-      "frames": 4
+      "from": 68,
+      "to": 81,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 141,
+      "to": 154,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 177,
+      "to": 190,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 2030,
+    "x": 1906,
     "flip": true,
     "animationClips": [
      {
@@ -4010,12 +7812,52 @@
       "clip": "stance"
      },
      {
-      "f": 113,
+      "f": 26,
       "clip": "slashV",
       "blend": 3
      },
      {
-      "f": 140,
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 131,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 138,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 168,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 184,
+      "clip": "stagger",
+      "blend": 0
+     },
+     {
+      "f": 204,
       "clip": "stance",
       "blend": 8
      }
@@ -4024,6 +7866,70 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "angry"
+     },
+     {
+      "f": 69,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 95,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 105,
+      "expr": "angry"
+     },
+     {
+      "f": 142,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 168,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 178,
+      "expr": "pain",
+      "blend": 2
+     },
+     {
+      "f": 204,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1906
+     },
+     {
+      "f": 55,
+      "x": 1896,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1976,
+      "ease": "out"
+     },
+     {
+      "f": 129,
+      "x": 1888,
+      "ease": "out"
+     },
+     {
+      "f": 166,
+      "x": 1906,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -4032,22 +7938,174 @@
       "mode": "twos"
      },
      {
-      "f": 112,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 140,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 99,
+      "mode": "ones"
+     },
+     {
+      "f": 131,
+      "mode": "twos"
+     },
+     {
+      "f": 136,
+      "mode": "ones"
+     },
+     {
+      "f": 168,
+      "mode": "twos"
+     },
+     {
+      "f": 172,
+      "mode": "ones"
+     },
+     {
+      "f": 204,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 114,
-      "to": 132,
+      "from": 30,
+      "to": 43,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
+      "from": 104,
+      "to": 117,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 29,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 43,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 63,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 67,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 81,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 101,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 103,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 117,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 137,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 144,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 158,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 178,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 180,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 194,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 214,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 268,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -4056,93 +8114,247 @@
     "t": 0
    },
    {
-    "f": 124,
-    "t": 124
+    "f": 111,
+    "t": 111
    },
    {
-    "f": 128,
-    "t": 124
+    "f": 115,
+    "t": 111
    },
    {
-    "f": 276,
-    "t": 272
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1660,
-    "y": 650,
-    "zoom": 1.3
+    "f": 188,
+    "t": 184
    },
    {
-    "f": 276,
-    "x": 1700,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
+    "f": 192,
+    "t": 184
+   },
    {
-    "f": 124,
-    "dur": 9,
-    "amount": 0.2
+    "f": 268,
+    "t": 260
    }
   ],
   "cameraShake": [
    {
-    "f": 124,
+    "f": 111,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 75
+   },
+   {
+    "f": 188,
     "dur": 16,
-    "amp": 26,
-    "seed": 61
+    "amp": 24,
+    "seed": 89
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 111,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 188,
+    "dur": 8,
+    "amount": 0.18
    }
   ],
   "vfx": [
    {
-    "type": "flash",
-    "f": 124,
-    "dur": 3,
-    "intensity": 0.4
+    "type": "wind",
+    "f": 0,
+    "dur": 268,
+    "seed": 4,
+    "intensity": 0.5
    },
    {
-    "type": "impactBurst",
-    "f": 124,
-    "dur": 10,
-    "x": 1700,
-    "y": 610,
-    "space": "world",
-    "count": 14,
-    "seed": 61
-   },
-   {
-    "type": "sparks",
-    "f": 124,
-    "dur": 18,
-    "x": 1700,
-    "y": 610,
-    "count": 28,
-    "seed": 62,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 125,
-    "dur": 16,
-    "x": 1700,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "type": "crack",
+    "f": 37,
+    "dur": 26,
+    "x": 1477.1878651394882,
+    "y": 846,
+    "seed": 61,
+    "size": 0.8,
+    "color": "#ff4466"
    },
    {
     "type": "dust",
-    "f": 124,
-    "dur": 40,
+    "f": 37,
+    "dur": 24,
+    "x": 1477.1878651394882,
+    "y": 840,
+    "seed": 64,
+    "count": 8
+   },
+   {
+    "type": "crack",
+    "f": 75,
+    "dur": 26,
+    "x": 1914.5167353482234,
+    "y": 846,
+    "seed": 62,
+    "size": 0.8,
+    "color": "#ff4466"
+   },
+   {
+    "type": "dust",
+    "f": 75,
+    "dur": 24,
+    "x": 1914.5167353482234,
+    "y": 840,
+    "seed": 65,
+    "count": 8
+   },
+   {
+    "type": "flash",
+    "f": 111,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 111,
+    "dur": 9,
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "space": "world",
+    "count": 15,
+    "seed": 75,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 111,
+    "dur": 16,
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "count": 27,
+    "seed": 76,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 111,
+    "dur": 30,
     "x": 1700,
     "y": 840,
-    "seed": 63,
-    "count": 12
+    "seed": 77,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 112,
+    "dur": 14,
+    "x": 1530.8523989728897,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "flash",
+    "f": 188,
+    "dur": 3,
+    "intensity": 0.3
+   },
+   {
+    "type": "impactBurst",
+    "f": 188,
+    "dur": 9,
+    "x": 1898.6796372973731,
+    "y": 641.6151308153236,
+    "space": "world",
+    "count": 16,
+    "seed": 89,
+    "color": "#ffc0c8"
+   },
+   {
+    "type": "sparks",
+    "f": 188,
+    "dur": 16,
+    "x": 1898.6796372973731,
+    "y": 641.6151308153236,
+    "count": 30,
+    "seed": 90,
+    "angle": -90,
+    "color": "#ff9fb0"
+   },
+   {
+    "type": "dust",
+    "f": 188,
+    "dur": 30,
+    "x": 1700,
+    "y": 840,
+    "seed": 91,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 189,
+    "dur": 14,
+    "x": 1898.6796372973731,
+    "y": 840,
+    "size": 380,
+    "color": "#d9f6ff"
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 37,
+    "kind": "dodge",
+    "x": 1477.1878651394882,
+    "y": 641.7770326257455,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 75,
+    "kind": "dodge",
+    "x": 1914.5167353482234,
+    "y": 677.2513507102144,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 111,
+    "kind": "guard",
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 152,
+    "kind": "dodge",
+    "x": 1904.861084060052,
+    "y": 623.9215127704156,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 188,
+    "kind": "hit",
+    "x": 1898.6796372973731,
+    "y": 641.6151308153236,
+    "contact": true,
+    "strength": 1,
+    "attacker": "soma",
+    "defender": "veyra"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "폐허에서의 검전(30초 완성 샘플)과 시간 정지의 각성."
  }
 ]

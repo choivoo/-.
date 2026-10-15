@@ -3,7 +3,7 @@
   "sceneId": "S05",
   "shotId": "S05-01",
   "startFrame": 15840,
-  "durationFrames": 305,
+  "durationFrames": 302,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma",
@@ -13,11 +13,238 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 81,
+    "dur": 133,
     "speaker": "kaede",
     "text": "…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-01-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "closed"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "i"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "i"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "closed"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "o"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "u"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "closed"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "o"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "o"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "closed"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "i"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "i"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "closed"
+     },
+     {
+      "f": 57,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "e"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "closed"
+     },
+     {
+      "f": 64,
+      "shape": "small"
+     },
+     {
+      "f": 65,
+      "shape": "e"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "e"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 75,
+      "shape": "e"
+     },
+     {
+      "f": 78,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "e"
+     },
+     {
+      "f": 84,
+      "shape": "small"
+     },
+     {
+      "f": 86,
+      "shape": "e"
+     },
+     {
+      "f": 88,
+      "shape": "small"
+     },
+     {
+      "f": 89,
+      "shape": "e"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 93,
+      "shape": "closed"
+     },
+     {
+      "f": 96,
+      "shape": "small"
+     },
+     {
+      "f": 98,
+      "shape": "i"
+     },
+     {
+      "f": 100,
+      "shape": "closed"
+     },
+     {
+      "f": 104,
+      "shape": "small"
+     },
+     {
+      "f": 106,
+      "shape": "e"
+     },
+     {
+      "f": 108,
+      "shape": "small"
+     },
+     {
+      "f": 111,
+      "shape": "e"
+     },
+     {
+      "f": 114,
+      "shape": "small"
+     },
+     {
+      "f": 115,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -78,7 +305,7 @@
     "zoom": 1.2
    },
    {
-    "f": 305,
+    "f": 302,
     "x": 1900,
     "y": 540,
     "zoom": 1.3,
@@ -89,7 +316,7 @@
    {
     "type": "fog",
     "f": 0,
-    "dur": 305,
+    "dur": 302,
     "y": 770,
     "seed": 5,
     "intensity": 0.7
@@ -97,16 +324,21 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 305,
+    "dur": 302,
     "seed": 3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「…이 기록을 보고 있다면, 시계는 네 손에 있겠구나.」"
  },
  {
   "sceneId": "S05",
   "shotId": "S05-02",
-  "startFrame": 16145,
-  "durationFrames": 677,
+  "startFrame": 16142,
+  "durationFrames": 673,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma",
@@ -116,27 +348,688 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 61,
+    "dur": 92,
     "speaker": "soma",
     "text": "박사님…? 이건 기록… 영상인가요?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-02-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "a"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "closed"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "a"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "a"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "closed"
+     },
+     {
+      "f": 24,
+      "shape": "i"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "closed"
+     },
+     {
+      "f": 28,
+      "shape": "i"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "i"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "i"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "closed"
+     },
+     {
+      "f": 50,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "o"
+     },
+     {
+      "f": 55,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "o"
+     },
+     {
+      "f": 61,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "o"
+     },
+     {
+      "f": 64,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "closed"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "a"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 72,
+      "shape": "a"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 83,
-    "dur": 127,
+    "f": 114,
+    "dur": 230,
     "speaker": "kaede",
     "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-02-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "o"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "o"
+     },
+     {
+      "f": 13,
+      "shape": "closed"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "e"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "e"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "e"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "closed"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "u"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "closed"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "e"
+     },
+     {
+      "f": 50,
+      "shape": "closed"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "u"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "closed"
+     },
+     {
+      "f": 55,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "a"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "a"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "a"
+     },
+     {
+      "f": 78,
+      "shape": "small"
+     },
+     {
+      "f": 79,
+      "shape": "closed"
+     },
+     {
+      "f": 90,
+      "shape": "small"
+     },
+     {
+      "f": 92,
+      "shape": "a"
+     },
+     {
+      "f": 94,
+      "shape": "small"
+     },
+     {
+      "f": 96,
+      "shape": "closed"
+     },
+     {
+      "f": 97,
+      "shape": "small"
+     },
+     {
+      "f": 98,
+      "shape": "i"
+     },
+     {
+      "f": 99,
+      "shape": "small"
+     },
+     {
+      "f": 106,
+      "shape": "i"
+     },
+     {
+      "f": 108,
+      "shape": "small"
+     },
+     {
+      "f": 110,
+      "shape": "closed"
+     },
+     {
+      "f": 112,
+      "shape": "small"
+     },
+     {
+      "f": 113,
+      "shape": "closed"
+     },
+     {
+      "f": 116,
+      "shape": "small"
+     },
+     {
+      "f": 117,
+      "shape": "e"
+     },
+     {
+      "f": 118,
+      "shape": "small"
+     },
+     {
+      "f": 121,
+      "shape": "e"
+     },
+     {
+      "f": 122,
+      "shape": "small"
+     },
+     {
+      "f": 126,
+      "shape": "closed"
+     },
+     {
+      "f": 127,
+      "shape": "small"
+     },
+     {
+      "f": 128,
+      "shape": "u"
+     },
+     {
+      "f": 129,
+      "shape": "small"
+     },
+     {
+      "f": 132,
+      "shape": "u"
+     },
+     {
+      "f": 134,
+      "shape": "small"
+     },
+     {
+      "f": 138,
+      "shape": "closed"
+     },
+     {
+      "f": 139,
+      "shape": "small"
+     },
+     {
+      "f": 141,
+      "shape": "u"
+     },
+     {
+      "f": 143,
+      "shape": "small"
+     },
+     {
+      "f": 149,
+      "shape": "closed"
+     },
+     {
+      "f": 150,
+      "shape": "small"
+     },
+     {
+      "f": 151,
+      "shape": "e"
+     },
+     {
+      "f": 154,
+      "shape": "small"
+     },
+     {
+      "f": 159,
+      "shape": "e"
+     },
+     {
+      "f": 162,
+      "shape": "small"
+     },
+     {
+      "f": 165,
+      "shape": "e"
+     },
+     {
+      "f": 166,
+      "shape": "small"
+     },
+     {
+      "f": 169,
+      "shape": "e"
+     },
+     {
+      "f": 170,
+      "shape": "small"
+     },
+     {
+      "f": 174,
+      "shape": "closed"
+     },
+     {
+      "f": 175,
+      "shape": "small"
+     },
+     {
+      "f": 176,
+      "shape": "u"
+     },
+     {
+      "f": 180,
+      "shape": "small"
+     },
+     {
+      "f": 182,
+      "shape": "u"
+     },
+     {
+      "f": 183,
+      "shape": "small"
+     },
+     {
+      "f": 185,
+      "shape": "u"
+     },
+     {
+      "f": 187,
+      "shape": "small"
+     },
+     {
+      "f": 193,
+      "shape": "u"
+     },
+     {
+      "f": 197,
+      "shape": "small"
+     },
+     {
+      "f": 203,
+      "shape": "u"
+     },
+     {
+      "f": 204,
+      "shape": "small"
+     },
+     {
+      "f": 206,
+      "shape": "u"
+     },
+     {
+      "f": 211,
+      "shape": "small"
+     },
+     {
+      "f": 212,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 220,
-    "dur": 77,
+    "f": 354,
+    "dur": 134,
     "speaker": "kaede",
     "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-02-D03.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "a"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "closed"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "a"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "a"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "closed"
+     },
+     {
+      "f": 18,
+      "shape": "a"
+     },
+     {
+      "f": 22,
+      "shape": "closed"
+     },
+     {
+      "f": 24,
+      "shape": "u"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "u"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "u"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "u"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "u"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "u"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "u"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "closed"
+     },
+     {
+      "f": 70,
+      "shape": "i"
+     },
+     {
+      "f": 74,
+      "shape": "small"
+     },
+     {
+      "f": 75,
+      "shape": "closed"
+     },
+     {
+      "f": 86,
+      "shape": "small"
+     },
+     {
+      "f": 89,
+      "shape": "a"
+     },
+     {
+      "f": 90,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "a"
+     },
+     {
+      "f": 96,
+      "shape": "small"
+     },
+     {
+      "f": 100,
+      "shape": "closed"
+     },
+     {
+      "f": 101,
+      "shape": "small"
+     },
+     {
+      "f": 102,
+      "shape": "a"
+     },
+     {
+      "f": 104,
+      "shape": "closed"
+     },
+     {
+      "f": 106,
+      "shape": "a"
+     },
+     {
+      "f": 109,
+      "shape": "small"
+     },
+     {
+      "f": 112,
+      "shape": "a"
+     },
+     {
+      "f": 116,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -148,11 +1041,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 305,
+   "trackOffset": 302,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -163,12 +1056,32 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "recoil",
+      "blend": 5
      },
      {
-      "f": 73,
+      "f": 106,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 124,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 148,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 367,
+      "clip": "recoil",
+      "blend": 3
+     },
+     {
+      "f": 388,
       "clip": "idle",
       "blend": 8
      }
@@ -180,7 +1093,28 @@
      },
      {
       "f": 8,
-      "expr": "surprise"
+      "expr": "surprise",
+      "blend": 3
+     },
+     {
+      "f": 120,
+      "expr": "sad",
+      "blend": 5
+     },
+     {
+      "f": 350,
+      "expr": "surprise",
+      "blend": 8
+     },
+     {
+      "f": 360,
+      "expr": "surprise",
+      "blend": 5
+     },
+     {
+      "f": 494,
+      "expr": "surprise",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -200,22 +1134,32 @@
       "clip": "idle"
      },
      {
-      "f": 83,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "headShake",
+      "blend": 3
      },
      {
-      "f": 210,
+      "f": 46,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 220,
-      "clip": "talk",
-      "blend": 6
+      "f": 111,
+      "clip": "clutch",
+      "blend": 5
      },
      {
-      "f": 297,
+      "f": 346,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 351,
+      "clip": "cower",
+      "blend": 5
+     },
+     {
+      "f": 490,
       "clip": "idle",
       "blend": 8
      }
@@ -226,12 +1170,24 @@
       "expr": "sad"
      },
      {
-      "f": 79,
-      "expr": "sad"
+      "f": 18,
+      "expr": "surprise",
+      "blend": 5
      },
      {
-      "f": 216,
-      "expr": "fear"
+      "f": 110,
+      "expr": "sad",
+      "blend": 8
+     },
+     {
+      "f": 110,
+      "expr": "sad",
+      "blend": 3
+     },
+     {
+      "f": 350,
+      "expr": "fear",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -250,10 +1206,49 @@
     "zoom": 1.75
    },
    {
-    "f": 677,
-    "x": 1620,
-    "y": 590,
-    "zoom": 1.8725,
+    "f": 4,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 106,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 120,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 346,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375
+   },
+   {
+    "f": 360,
+    "x": 1670.4,
+    "y": 595,
+    "zoom": 1.9075000000000002,
+    "ease": "inOut"
+   },
+   {
+    "f": 673,
+    "x": 1682.4,
+    "y": 595,
+    "zoom": 1.9647250000000003,
     "ease": "out"
    }
   ],
@@ -261,17 +1256,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 677,
+    "dur": 673,
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「박사님…? 이건 기록… 영상인가요?」"
  },
  {
   "sceneId": "S05",
   "shotId": "S05-03",
-  "startFrame": 16822,
-  "durationFrames": 254,
+  "startFrame": 16815,
+  "durationFrames": 252,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma"
@@ -280,11 +1280,62 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 28,
+    "dur": 48,
     "speaker": "soma",
     "text": "열쇠… 내가?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-03-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "e"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "e"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "closed"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "e"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "closed"
+     },
+     {
+      "f": 28,
+      "shape": "a"
+     },
+     {
+      "f": 32,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -296,11 +1347,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 982,
+   "trackOffset": 975,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -312,12 +1363,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "recoil",
+      "blend": 5
      },
      {
-      "f": 40,
+      "f": 62,
       "clip": "idle",
       "blend": 8
      }
@@ -350,7 +1401,7 @@
     "zoom": 3
    },
    {
-    "f": 254,
+    "f": 252,
     "x": 1516,
     "y": 564,
     "zoom": 3.3000000000000003,
@@ -361,17 +1412,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 254,
+    "dur": 252,
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「열쇠… 내가?」"
  },
  {
   "sceneId": "S05",
   "shotId": "S05-04",
-  "startFrame": 17076,
-  "durationFrames": 254,
+  "startFrame": 17067,
+  "durationFrames": 252,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma",
@@ -393,7 +1449,7 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 1236,
+   "trackOffset": 1227,
    "volume": 0.35
   },
   "renderStatus": "pending",
@@ -442,7 +1498,7 @@
     "zoom": 1.2
    },
    {
-    "f": 254,
+    "f": 252,
     "x": 2200,
     "y": 540,
     "zoom": 1.5,
@@ -453,7 +1509,7 @@
    {
     "type": "fog",
     "f": 0,
-    "dur": 254,
+    "dur": 252,
     "y": 770,
     "seed": 5,
     "intensity": 0.7
@@ -461,7 +1517,7 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 254,
+    "dur": 252,
     "seed": 3
    },
    {
@@ -471,13 +1527,18 @@
     "intensity": 0.5,
     "color": "#ff2f6a"
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-05",
-  "startFrame": 17330,
-  "durationFrames": 662,
+  "startFrame": 17319,
+  "durationFrames": 656,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma",
@@ -487,35 +1548,567 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 34,
+    "dur": 58,
     "speaker": "veyra",
     "text": "그 시계를 넘겨라.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-05-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "u"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "u"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "i"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "i"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "i"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "e"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "e"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 56,
-    "dur": 58,
+    "f": 80,
+    "dur": 82,
     "speaker": "soma",
     "text": "누구지? 이 연구소 사람은 아닌데.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-05-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "u"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "closed"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "u"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "closed"
+     },
+     {
+      "f": 23,
+      "shape": "i"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "i"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "closed"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "u"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "u"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "u"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "u"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 50,
+      "shape": "u"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "u"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "u"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 124,
-    "dur": 100,
+    "f": 172,
+    "dur": 189,
     "speaker": "veyra",
     "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-05-D03.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "i"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "i"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 12,
+      "shape": "a"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "a"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "a"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "closed"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "i"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "i"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "closed"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "e"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "e"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "e"
+     },
+     {
+      "f": 69,
+      "shape": "closed"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "i"
+     },
+     {
+      "f": 76,
+      "shape": "small"
+     },
+     {
+      "f": 79,
+      "shape": "i"
+     },
+     {
+      "f": 81,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "closed"
+     },
+     {
+      "f": 84,
+      "shape": "i"
+     },
+     {
+      "f": 86,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "i"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "i"
+     },
+     {
+      "f": 99,
+      "shape": "small"
+     },
+     {
+      "f": 106,
+      "shape": "closed"
+     },
+     {
+      "f": 107,
+      "shape": "small"
+     },
+     {
+      "f": 109,
+      "shape": "u"
+     },
+     {
+      "f": 112,
+      "shape": "small"
+     },
+     {
+      "f": 120,
+      "shape": "u"
+     },
+     {
+      "f": 123,
+      "shape": "small"
+     },
+     {
+      "f": 124,
+      "shape": "closed"
+     },
+     {
+      "f": 125,
+      "shape": "small"
+     },
+     {
+      "f": 126,
+      "shape": "a"
+     },
+     {
+      "f": 129,
+      "shape": "small"
+     },
+     {
+      "f": 130,
+      "shape": "a"
+     },
+     {
+      "f": 132,
+      "shape": "small"
+     },
+     {
+      "f": 135,
+      "shape": "a"
+     },
+     {
+      "f": 140,
+      "shape": "small"
+     },
+     {
+      "f": 141,
+      "shape": "closed"
+     },
+     {
+      "f": 143,
+      "shape": "small"
+     },
+     {
+      "f": 144,
+      "shape": "closed"
+     },
+     {
+      "f": 147,
+      "shape": "e"
+     },
+     {
+      "f": 150,
+      "shape": "small"
+     },
+     {
+      "f": 152,
+      "shape": "e"
+     },
+     {
+      "f": 153,
+      "shape": "small"
+     },
+     {
+      "f": 156,
+      "shape": "e"
+     },
+     {
+      "f": 157,
+      "shape": "small"
+     },
+     {
+      "f": 160,
+      "shape": "closed"
+     },
+     {
+      "f": 161,
+      "shape": "small"
+     },
+     {
+      "f": 162,
+      "shape": "a"
+     },
+     {
+      "f": 164,
+      "shape": "small"
+     },
+     {
+      "f": 165,
+      "shape": "closed"
+     },
+     {
+      "f": 166,
+      "shape": "small"
+     },
+     {
+      "f": 167,
+      "shape": "a"
+     },
+     {
+      "f": 170,
+      "shape": "small"
+     },
+     {
+      "f": 171,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 234,
-    "dur": 26,
+    "f": 371,
+    "dur": 38,
     "speaker": "soma",
     "text": "…싫다면?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-05-D04.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "i"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "closed"
+     },
+     {
+      "f": 11,
+      "shape": "a"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "a"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -527,11 +2120,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 50,
+   "trackOffset": 39,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -542,22 +2135,42 @@
       "clip": "idle"
      },
      {
-      "f": 56,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "recoil",
+      "blend": 3
      },
      {
-      "f": 114,
+      "f": 46,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 234,
-      "clip": "talk",
-      "blend": 6
+      "f": 77,
+      "clip": "cower",
+      "blend": 5
      },
      {
-      "f": 260,
+      "f": 164,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 185,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 206,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 368,
+      "clip": "talk",
+      "blend": 5
+     },
+     {
+      "f": 411,
       "clip": "idle",
       "blend": 8
      }
@@ -568,12 +2181,34 @@
       "expr": "resolve"
      },
      {
-      "f": 52,
-      "expr": "fear"
+      "f": 18,
+      "expr": "fear",
+      "blend": 5
      },
      {
-      "f": 230,
-      "expr": "resolve"
+      "f": 76,
+      "expr": "resolve",
+      "blend": 8
+     },
+     {
+      "f": 76,
+      "expr": "fear",
+      "blend": 3
+     },
+     {
+      "f": 178,
+      "expr": "smile",
+      "blend": 5
+     },
+     {
+      "f": 367,
+      "expr": "resolve",
+      "blend": 8
+     },
+     {
+      "f": 367,
+      "expr": "resolve",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -593,22 +2228,42 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "gestureA",
+      "blend": 5
      },
      {
-      "f": 46,
+      "f": 72,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 124,
-      "clip": "talk",
-      "blend": 6
+      "f": 90,
+      "clip": "recoil",
+      "blend": 3
      },
      {
-      "f": 224,
+      "f": 114,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 169,
+      "clip": "gestureB",
+      "blend": 5
+     },
+     {
+      "f": 363,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 384,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 405,
       "clip": "idle",
       "blend": 8
      }
@@ -620,11 +2275,28 @@
      },
      {
       "f": 8,
-      "expr": "angry"
+      "expr": "angry",
+      "blend": 3
      },
      {
-      "f": 120,
-      "expr": "smile"
+      "f": 86,
+      "expr": "surprise",
+      "blend": 5
+     },
+     {
+      "f": 168,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 168,
+      "expr": "smile",
+      "blend": 3
+     },
+     {
+      "f": 415,
+      "expr": "angry",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -643,10 +2315,62 @@
     "zoom": 1.75
    },
    {
-    "f": 662,
-    "x": 1645,
-    "y": 590,
-    "zoom": 1.8725,
+    "f": 4,
+    "x": 1625,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1713,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 72,
+    "x": 1713,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 86,
+    "x": 1537,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 164,
+    "x": 1537,
+    "y": 587,
+    "zoom": 1.86375
+   },
+   {
+    "f": 178,
+    "x": 1713,
+    "y": 595,
+    "zoom": 1.9075000000000002,
+    "ease": "inOut"
+   },
+   {
+    "f": 363,
+    "x": 1713,
+    "y": 595,
+    "zoom": 1.9075000000000002
+   },
+   {
+    "f": 377,
+    "x": 1537,
+    "y": 587,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 656,
+    "x": 1549,
+    "y": 587,
+    "zoom": 1.8746,
     "ease": "out"
    }
   ],
@@ -654,17 +2378,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 662,
+    "dur": 656,
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「그 시계를 넘겨라.」"
  },
  {
   "sceneId": "S05",
   "shotId": "S05-06",
-  "startFrame": 17992,
-  "durationFrames": 203,
+  "startFrame": 17975,
+  "durationFrames": 201,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "veyra"
@@ -673,11 +2402,70 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 28,
+    "dur": 43,
     "speaker": "veyra",
     "text": "베어 내겠다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-06-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "e"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "e"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "e"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 13,
+      "shape": "e"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "e"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -689,11 +2477,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 712,
+   "trackOffset": 695,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -705,12 +2493,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "gestureA",
+      "blend": 5
      },
      {
-      "f": 40,
+      "f": 57,
       "clip": "idle",
       "blend": 8
      }
@@ -743,7 +2531,7 @@
     "zoom": 5.2
    },
    {
-    "f": 203,
+    "f": 201,
     "x": 1484,
     "y": 482,
     "zoom": 5.720000000000001,
@@ -754,17 +2542,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 203,
+    "dur": 201,
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「베어 내겠다.」"
  },
  {
   "sceneId": "S05",
   "shotId": "S05-07",
-  "startFrame": 18195,
-  "durationFrames": 203,
+  "startFrame": 18176,
+  "durationFrames": 201,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma"
@@ -785,11 +2578,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 915,
+   "trackOffset": 896,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -821,7 +2614,7 @@
     "zoom": 5.2
    },
    {
-    "f": 203,
+    "f": 201,
     "x": 1516,
     "y": 482,
     "zoom": 5.720000000000001,
@@ -832,17 +2625,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 203,
+    "dur": 201,
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-08",
-  "startFrame": 18398,
-  "durationFrames": 254,
+  "startFrame": 18377,
+  "durationFrames": 277,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma",
@@ -854,42 +2652,117 @@
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 104,
+    "f": 28,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.7
    },
    {
-    "f": 114,
+    "f": 37,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 66,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 75,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 102,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 111,
     "sound": "hit_clash",
-    "volume": 1
+    "volume": 0.94
+   },
+   {
+    "f": 143,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 182,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 191,
+    "sound": "hit_clash",
+    "volume": 0.94
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 1118,
+   "trackOffset": 1097,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1360,
+    "x": 1494,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 105,
+      "f": 27,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 106,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 131,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 139,
       "clip": "slashH",
       "blend": 3
      },
      {
-      "f": 128,
+      "f": 168,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 182,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 207,
       "clip": "stance",
       "blend": 8
      }
@@ -898,6 +2771,70 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 57,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 69,
+      "expr": "angry"
+     },
+     {
+      "f": 105,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 131,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 142,
+      "expr": "angry"
+     },
+     {
+      "f": 181,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 207,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1494
+     },
+     {
+      "f": 55,
+      "x": 1504,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1424,
+      "ease": "out"
+     },
+     {
+      "f": 129,
+      "x": 1512,
+      "ease": "out"
+     },
+     {
+      "f": 166,
+      "x": 1438,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -906,25 +2843,64 @@
       "mode": "twos"
      },
      {
-      "f": 102,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 130,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 99,
+      "mode": "ones"
+     },
+     {
+      "f": 131,
+      "mode": "twos"
+     },
+     {
+      "f": 136,
+      "mode": "ones"
+     },
+     {
+      "f": 168,
+      "mode": "twos"
+     },
+     {
+      "f": 175,
+      "mode": "ones"
+     },
+     {
+      "f": 207,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 106,
-      "to": 122,
-      "frames": 4
+      "from": 68,
+      "to": 81,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 141,
+      "to": 154,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 2030,
+    "x": 1906,
     "flip": true,
     "animationClips": [
      {
@@ -932,12 +2908,52 @@
       "clip": "stance"
      },
      {
-      "f": 103,
+      "f": 26,
       "clip": "slashV",
       "blend": 3
      },
      {
-      "f": 130,
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 131,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 138,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 168,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 176,
+      "clip": "slashV",
+      "blend": 3
+     },
+     {
+      "f": 207,
       "clip": "stance",
       "blend": 8
      }
@@ -946,6 +2962,64 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "angry"
+     },
+     {
+      "f": 69,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 95,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 105,
+      "expr": "angry"
+     },
+     {
+      "f": 142,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 168,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 181,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1906
+     },
+     {
+      "f": 55,
+      "x": 1896,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1976,
+      "ease": "out"
+     },
+     {
+      "f": 129,
+      "x": 1888,
+      "ease": "out"
+     },
+     {
+      "f": 166,
+      "x": 1962,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -954,22 +3028,180 @@
       "mode": "twos"
      },
      {
-      "f": 102,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 130,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 99,
+      "mode": "ones"
+     },
+     {
+      "f": 131,
+      "mode": "twos"
+     },
+     {
+      "f": 136,
+      "mode": "ones"
+     },
+     {
+      "f": 168,
+      "mode": "twos"
+     },
+     {
+      "f": 175,
+      "mode": "ones"
+     },
+     {
+      "f": 207,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
+      "from": 30,
+      "to": 43,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
       "from": 104,
-      "to": 122,
+      "to": 117,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
+      "from": 180,
+      "to": 193,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 29,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 43,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 63,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 67,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 81,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 101,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 103,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 117,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 137,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 144,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 158,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 178,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 183,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 197,
+    "x": 1700,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 217,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 277,
+    "x": 1700,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -978,100 +3210,254 @@
     "t": 0
    },
    {
-    "f": 114,
-    "t": 114
+    "f": 111,
+    "t": 111
    },
    {
-    "f": 118,
-    "t": 114
+    "f": 115,
+    "t": 111
    },
    {
-    "f": 254,
-    "t": 250
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1660,
-    "y": 650,
-    "zoom": 1.3
+    "f": 191,
+    "t": 187
    },
    {
-    "f": 254,
-    "x": 1700,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
+    "f": 195,
+    "t": 187
+   },
    {
-    "f": 114,
-    "dur": 9,
-    "amount": 0.2
+    "f": 277,
+    "t": 269
    }
   ],
   "cameraShake": [
    {
-    "f": 114,
-    "dur": 16,
-    "amp": 26,
-    "seed": 5
+    "f": 111,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 19
+   },
+   {
+    "f": 191,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 33
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 111,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 191,
+    "dur": 8,
+    "amount": 0.16000000000000003
    }
   ],
   "vfx": [
    {
-    "type": "flash",
-    "f": 114,
-    "dur": 3,
-    "intensity": 0.4
+    "type": "wind",
+    "f": 0,
+    "dur": 277,
+    "seed": 4,
+    "intensity": 0.5
    },
    {
-    "type": "impactBurst",
-    "f": 114,
-    "dur": 10,
-    "x": 1700,
-    "y": 610,
-    "space": "world",
-    "count": 14,
-    "seed": 5
-   },
-   {
-    "type": "sparks",
-    "f": 114,
-    "dur": 18,
-    "x": 1700,
-    "y": 610,
-    "count": 28,
-    "seed": 6,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 115,
-    "dur": 16,
-    "x": 1700,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "type": "crack",
+    "f": 37,
+    "dur": 26,
+    "x": 1477.1878651394882,
+    "y": 846,
+    "seed": 5,
+    "size": 0.8,
+    "color": "#ff4466"
    },
    {
     "type": "dust",
-    "f": 114,
-    "dur": 40,
+    "f": 37,
+    "dur": 24,
+    "x": 1477.1878651394882,
+    "y": 840,
+    "seed": 8,
+    "count": 8
+   },
+   {
+    "type": "crack",
+    "f": 75,
+    "dur": 26,
+    "x": 1914.5167353482234,
+    "y": 846,
+    "seed": 6,
+    "size": 0.8,
+    "color": "#ff4466"
+   },
+   {
+    "type": "dust",
+    "f": 75,
+    "dur": 24,
+    "x": 1914.5167353482234,
+    "y": 840,
+    "seed": 9,
+    "count": 8
+   },
+   {
+    "type": "flash",
+    "f": 111,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 111,
+    "dur": 9,
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "space": "world",
+    "count": 15,
+    "seed": 19,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 111,
+    "dur": 16,
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "count": 27,
+    "seed": 20,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 111,
+    "dur": 30,
     "x": 1700,
     "y": 840,
-    "seed": 7,
-    "count": 12
+    "seed": 21,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 112,
+    "dur": 14,
+    "x": 1530.8523989728897,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "flash",
+    "f": 191,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 191,
+    "dur": 9,
+    "x": 1533.1878651394882,
+    "y": 641.7770326257455,
+    "space": "world",
+    "count": 15,
+    "seed": 33,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 191,
+    "dur": 16,
+    "x": 1533.1878651394882,
+    "y": 641.7770326257455,
+    "count": 27,
+    "seed": 34,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 191,
+    "dur": 30,
+    "x": 1700,
+    "y": 840,
+    "seed": 35,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 192,
+    "dur": 14,
+    "x": 1533.1878651394882,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 37,
+    "kind": "dodge",
+    "x": 1477.1878651394882,
+    "y": 641.7770326257455,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 75,
+    "kind": "dodge",
+    "x": 1914.5167353482234,
+    "y": 677.2513507102144,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 111,
+    "kind": "guard",
+    "x": 1530.8523989728897,
+    "y": 621.776643896856,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 152,
+    "kind": "dodge",
+    "x": 1904.861084060052,
+    "y": 623.9215127704156,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 191,
+    "kind": "guard",
+    "x": 1533.1878651394882,
+    "y": 641.7770326257455,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-09",
-  "startFrame": 18652,
-  "durationFrames": 203,
+  "startFrame": 18654,
+  "durationFrames": 226,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma",
@@ -1083,42 +3469,102 @@
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 81,
+    "f": 26,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.5
    },
    {
-    "f": 91,
+    "f": 35,
     "sound": "hit_clash",
-    "volume": 1
+    "volume": 0.94
+   },
+   {
+    "f": 68,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 77,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 104,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 113,
+    "sound": "hit_clash",
+    "volume": 0.94
+   },
+   {
+    "f": 146,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 155,
+    "sound": "crack",
+    "volume": 0.5
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 1372,
+   "trackOffset": 1374,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1260,
+    "x": 1350,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 82,
+      "f": 26,
       "clip": "slashH",
       "blend": 3
      },
      {
-      "f": 105,
+      "f": 55,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 63,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 93,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 104,
+      "clip": "guard",
+      "blend": 3
+     },
+     {
+      "f": 129,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 137,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 167,
       "clip": "stance",
       "blend": 8
      }
@@ -1127,6 +3573,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 29,
+      "expr": "angry"
+     },
+     {
+      "f": 67,
+      "expr": "angry"
+     },
+     {
+      "f": 103,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 129,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 141,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 167,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1350
+     },
+     {
+      "f": 53,
+      "x": 1404,
+      "ease": "out"
+     },
+     {
+      "f": 91,
+      "x": 1324,
+      "ease": "out"
+     },
+     {
+      "f": 127,
+      "x": 1382,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -1135,25 +3630,56 @@
       "mode": "twos"
      },
      {
-      "f": 79,
+      "f": 23,
       "mode": "ones"
      },
      {
-      "f": 107,
+      "f": 55,
+      "mode": "twos"
+     },
+     {
+      "f": 61,
+      "mode": "ones"
+     },
+     {
+      "f": 93,
+      "mode": "twos"
+     },
+     {
+      "f": 97,
+      "mode": "ones"
+     },
+     {
+      "f": 129,
+      "mode": "twos"
+     },
+     {
+      "f": 135,
+      "mode": "ones"
+     },
+     {
+      "f": 167,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 83,
-      "to": 99,
-      "frames": 4
+      "from": 28,
+      "to": 41,
+      "frames": 4,
+      "color": "#bff9ff"
+     },
+     {
+      "from": 66,
+      "to": 79,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 1930,
+    "x": 1850,
     "flip": true,
     "animationClips": [
      {
@@ -1161,12 +3687,42 @@
       "clip": "stance"
      },
      {
-      "f": 80,
-      "clip": "slashV",
+      "f": 30,
+      "clip": "guard",
       "blend": 3
      },
      {
-      "f": 107,
+      "f": 55,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 63,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 93,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 101,
+      "clip": "counter",
+      "blend": 3
+     },
+     {
+      "f": 129,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 137,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 167,
       "clip": "stance",
       "blend": 8
      }
@@ -1175,6 +3731,55 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 29,
+      "expr": "resolve",
+      "blend": 2
+     },
+     {
+      "f": 55,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 67,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 93,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "expr": "angry"
+     },
+     {
+      "f": 141,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1850
+     },
+     {
+      "f": 53,
+      "x": 1796,
+      "ease": "out"
+     },
+     {
+      "f": 91,
+      "x": 1876,
+      "ease": "out"
+     },
+     {
+      "f": 127,
+      "x": 1818,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -1183,22 +3788,146 @@
       "mode": "twos"
      },
      {
-      "f": 79,
+      "f": 23,
       "mode": "ones"
      },
      {
-      "f": 107,
+      "f": 55,
+      "mode": "twos"
+     },
+     {
+      "f": 61,
+      "mode": "ones"
+     },
+     {
+      "f": 93,
+      "mode": "twos"
+     },
+     {
+      "f": 97,
+      "mode": "ones"
+     },
+     {
+      "f": 129,
+      "mode": "twos"
+     },
+     {
+      "f": 135,
+      "mode": "ones"
+     },
+     {
+      "f": 167,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 81,
-      "to": 99,
+      "from": 102,
+      "to": 115,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
+      "from": 140,
+      "to": 153,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 27,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 41,
+    "x": 1600,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 61,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 69,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 83,
+    "x": 1600,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 103,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 105,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 119,
+    "x": 1600,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 139,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 147,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 161,
+    "x": 1600,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 181,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 226,
+    "x": 1600,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -1207,100 +3936,244 @@
     "t": 0
    },
    {
-    "f": 91,
-    "t": 91
+    "f": 35,
+    "t": 35
    },
    {
-    "f": 95,
-    "t": 91
+    "f": 39,
+    "t": 35
    },
    {
-    "f": 203,
-    "t": 199
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1560,
-    "y": 650,
-    "zoom": 1.3
+    "f": 113,
+    "t": 109
    },
    {
-    "f": 203,
-    "x": 1600,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
+    "f": 117,
+    "t": 109
+   },
    {
-    "f": 91,
-    "dur": 9,
-    "amount": 0.2
+    "f": 226,
+    "t": 218
    }
   ],
   "cameraShake": [
    {
-    "f": 91,
-    "dur": 16,
-    "amp": 26,
+    "f": 35,
+    "dur": 15,
+    "amp": 21.200000000000003,
     "seed": 9
+   },
+   {
+    "f": 113,
+    "dur": 15,
+    "amp": 21.200000000000003,
+    "seed": 23
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 35,
+    "dur": 8,
+    "amount": 0.16000000000000003
+   },
+   {
+    "f": 113,
+    "dur": 8,
+    "amount": 0.16000000000000003
    }
   ],
   "vfx": [
    {
+    "type": "wind",
+    "f": 0,
+    "dur": 226,
+    "seed": 4,
+    "intensity": 0.5
+   },
+   {
     "type": "flash",
-    "f": 91,
+    "f": 35,
     "dur": 3,
-    "intensity": 0.4
+    "intensity": 0.24
    },
    {
     "type": "impactBurst",
-    "f": 91,
-    "dur": 10,
-    "x": 1600,
-    "y": 610,
+    "f": 35,
+    "dur": 9,
+    "x": 1742.861084060052,
+    "y": 623.9215127704156,
     "space": "world",
-    "count": 14,
-    "seed": 9
+    "count": 15,
+    "seed": 9,
+    "color": "#fff7c8"
    },
    {
     "type": "sparks",
-    "f": 91,
-    "dur": 18,
-    "x": 1600,
-    "y": 610,
-    "count": 28,
-    "seed": 10,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 92,
+    "f": 35,
     "dur": 16,
-    "x": 1600,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "x": 1742.861084060052,
+    "y": 623.9215127704156,
+    "count": 27,
+    "seed": 10,
+    "angle": -90,
+    "color": "#ffe9a8"
    },
    {
     "type": "dust",
-    "f": 91,
-    "dur": 40,
+    "f": 35,
+    "dur": 30,
     "x": 1600,
     "y": 840,
     "seed": 11,
-    "count": 12
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 36,
+    "dur": 14,
+    "x": 1742.861084060052,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "crack",
+    "f": 77,
+    "dur": 26,
+    "x": 1814.5167353482234,
+    "y": 846,
+    "seed": 10,
+    "size": 0.8,
+    "color": "#ff4466"
+   },
+   {
+    "type": "dust",
+    "f": 77,
+    "dur": 24,
+    "x": 1814.5167353482234,
+    "y": 840,
+    "seed": 13,
+    "count": 8
+   },
+   {
+    "type": "flash",
+    "f": 113,
+    "dur": 3,
+    "intensity": 0.24
+   },
+   {
+    "type": "impactBurst",
+    "f": 113,
+    "dur": 9,
+    "x": 1430.8523989728897,
+    "y": 621.776643896856,
+    "space": "world",
+    "count": 15,
+    "seed": 23,
+    "color": "#fff7c8"
+   },
+   {
+    "type": "sparks",
+    "f": 113,
+    "dur": 16,
+    "x": 1430.8523989728897,
+    "y": 621.776643896856,
+    "count": 27,
+    "seed": 24,
+    "angle": -90,
+    "color": "#ffe9a8"
+   },
+   {
+    "type": "dust",
+    "f": 113,
+    "dur": 30,
+    "x": 1600,
+    "y": 840,
+    "seed": 25,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 114,
+    "dur": 14,
+    "x": 1430.8523989728897,
+    "y": 840,
+    "size": 304,
+    "color": "#d9f6ff"
+   },
+   {
+    "type": "crack",
+    "f": 155,
+    "dur": 26,
+    "x": 1366.4315911169542,
+    "y": 846,
+    "seed": 12,
+    "size": 0.8,
+    "color": "#ff4466"
+   },
+   {
+    "type": "dust",
+    "f": 155,
+    "dur": 24,
+    "x": 1366.4315911169542,
+    "y": 840,
+    "seed": 15,
+    "count": 8
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 35,
+    "kind": "guard",
+    "x": 1742.861084060052,
+    "y": 623.9215127704156,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 77,
+    "kind": "dodge",
+    "x": 1814.5167353482234,
+    "y": 677.2513507102144,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 113,
+    "kind": "guard",
+    "x": 1430.8523989728897,
+    "y": 621.776643896856,
+    "contact": true,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 155,
+    "kind": "dodge",
+    "x": 1366.4315911169542,
+    "y": 660.9764857812359,
+    "contact": false,
+    "strength": 0.5,
+    "attacker": "veyra",
+    "defender": "soma"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-10",
-  "startFrame": 18855,
-  "durationFrames": 203,
+  "startFrame": 18880,
+  "durationFrames": 201,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "veyra"
@@ -1441,11 +4314,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 135,
+   "trackOffset": 160,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -1457,7 +4330,7 @@
       "x": 2400
      },
      {
-      "f": 203,
+      "f": 201,
       "x": 1500,
       "ease": "linear"
      }
@@ -1485,7 +4358,7 @@
     "zoom": 1.4
    },
    {
-    "f": 203,
+    "f": 201,
     "x": 1300,
     "y": 610,
     "zoom": 1.4
@@ -1495,82 +4368,118 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 203,
+    "dur": 201,
     "seed": 8,
     "intensity": 0.5
    },
    {
     "type": "dust",
     "f": 0,
-    "dur": 203,
+    "dur": 201,
     "x": 2400,
     "y": 840,
     "seed": 77,
     "count": 10
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-11",
-  "startFrame": 19058,
-  "durationFrames": 203,
+  "startFrame": 19081,
+  "durationFrames": 201,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma",
    "veyra"
   ],
   "voiceAsset": null,
-  "dialogue": [
-   {
-    "f": 6,
-    "dur": 26,
-    "speaker": "soma",
-    "text": "윽…!",
-    "voiceAsset": null,
-    "placeholderVoice": true
-   }
-  ],
+  "dialogue": [],
   "soundEffects": [
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.25
+    "volume": 0.22
    },
    {
-    "f": 81,
+    "f": 28,
     "sound": "whoosh",
-    "volume": 0.6
+    "volume": 0.7
    },
    {
-    "f": 91,
-    "sound": "hit_clash",
+    "f": 37,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 66,
+    "sound": "whoosh",
+    "volume": 0.7
+   },
+   {
+    "f": 75,
+    "sound": "crack",
+    "volume": 0.5
+   },
+   {
+    "f": 103,
+    "sound": "whoosh",
+    "volume": 0.5
+   },
+   {
+    "f": 112,
+    "sound": "hit_heavy",
     "volume": 1
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 338,
+   "trackOffset": 361,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
-    "x": 1460,
+    "x": 1594,
     "animationClips": [
      {
       "f": 0,
       "clip": "stance"
      },
      {
-      "f": 82,
-      "clip": "slashH",
+      "f": 27,
+      "clip": "dodge",
       "blend": 3
      },
      {
-      "f": 105,
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "thrust",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 112,
+      "clip": "stagger",
+      "blend": 0
+     },
+     {
+      "f": 132,
       "clip": "stance",
       "blend": 8
      }
@@ -1579,6 +4488,46 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 57,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 69,
+      "expr": "angry"
+     },
+     {
+      "f": 106,
+      "expr": "pain",
+      "blend": 2
+     },
+     {
+      "f": 132,
+      "expr": "angry",
+      "blend": 8
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 1594
+     },
+     {
+      "f": 55,
+      "x": 1604,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 1580,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -1587,25 +4536,42 @@
       "mode": "twos"
      },
      {
-      "f": 79,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 107,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 100,
+      "mode": "ones"
+     },
+     {
+      "f": 132,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 83,
-      "to": 99,
-      "frames": 4
+      "from": 68,
+      "to": 81,
+      "frames": 4,
+      "color": "#bff9ff"
      }
     ]
    },
    {
     "id": "veyra",
-    "x": 2130,
+    "x": 2006,
     "flip": true,
     "animationClips": [
      {
@@ -1613,12 +4579,32 @@
       "clip": "stance"
      },
      {
-      "f": 80,
+      "f": 26,
       "clip": "slashV",
       "blend": 3
      },
      {
-      "f": 107,
+      "f": 57,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 65,
+      "clip": "dodge",
+      "blend": 3
+     },
+     {
+      "f": 95,
+      "clip": "stance",
+      "blend": 8
+     },
+     {
+      "f": 103,
+      "clip": "slashH",
+      "blend": 3
+     },
+     {
+      "f": 132,
       "clip": "stance",
       "blend": 8
      }
@@ -1627,6 +4613,40 @@
      {
       "f": 0,
       "expr": "angry"
+     },
+     {
+      "f": 31,
+      "expr": "angry"
+     },
+     {
+      "f": 69,
+      "expr": "surprise",
+      "blend": 2
+     },
+     {
+      "f": 95,
+      "expr": "angry",
+      "blend": 8
+     },
+     {
+      "f": 106,
+      "expr": "angry"
+     }
+    ],
+    "path": [
+     {
+      "f": 0,
+      "x": 2006
+     },
+     {
+      "f": 55,
+      "x": 1996,
+      "ease": "out"
+     },
+     {
+      "f": 93,
+      "x": 2020,
+      "ease": "out"
      }
     ],
     "cadence": [
@@ -1635,22 +4655,118 @@
       "mode": "twos"
      },
      {
-      "f": 79,
+      "f": 25,
       "mode": "ones"
      },
      {
-      "f": 107,
+      "f": 57,
+      "mode": "twos"
+     },
+     {
+      "f": 63,
+      "mode": "ones"
+     },
+     {
+      "f": 95,
+      "mode": "twos"
+     },
+     {
+      "f": 100,
+      "mode": "ones"
+     },
+     {
+      "f": 132,
       "mode": "twos"
      }
     ],
     "swordTrail": [
      {
-      "from": 81,
-      "to": 99,
+      "from": 30,
+      "to": 43,
+      "frames": 4,
+      "color": "#ffc0c8"
+     },
+     {
+      "from": 105,
+      "to": 118,
       "frames": 4,
       "color": "#ffc0c8"
      }
     ]
+   }
+  ],
+  "cameraKeyframes": [
+   {
+    "f": 0,
+    "x": 1800,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 29,
+    "x": 1800,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 43,
+    "x": 1800,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 63,
+    "x": 1800,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 67,
+    "x": 1800,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 81,
+    "x": 1800,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 101,
+    "x": 1800,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 104,
+    "x": 1800,
+    "y": 650,
+    "zoom": 1.3
+   },
+   {
+    "f": 118,
+    "x": 1800,
+    "y": 640,
+    "zoom": 1.586,
+    "ease": "out"
+   },
+   {
+    "f": 138,
+    "x": 1800,
+    "y": 650,
+    "zoom": 1.3,
+    "ease": "inOut"
+   },
+   {
+    "f": 201,
+    "x": 1800,
+    "y": 650,
+    "zoom": 1.3
    }
   ],
   "timeRemap": [
@@ -1659,100 +4775,169 @@
     "t": 0
    },
    {
-    "f": 91,
-    "t": 91
+    "f": 112,
+    "t": 112
    },
    {
-    "f": 95,
-    "t": 91
+    "f": 116,
+    "t": 112
    },
    {
-    "f": 203,
-    "t": 199
-   }
-  ],
-  "cameraKeyframes": [
-   {
-    "f": 0,
-    "x": 1760,
-    "y": 650,
-    "zoom": 1.3
-   },
-   {
-    "f": 203,
-    "x": 1800,
-    "y": 640,
-    "zoom": 1.55,
-    "ease": "out"
-   }
-  ],
-  "impactZooms": [
-   {
-    "f": 91,
-    "dur": 9,
-    "amount": 0.2
+    "f": 201,
+    "t": 197
    }
   ],
   "cameraShake": [
    {
-    "f": 91,
+    "f": 112,
     "dur": 16,
-    "amp": 26,
-    "seed": 13
+    "amp": 24,
+    "seed": 27
+   }
+  ],
+  "impactZooms": [
+   {
+    "f": 112,
+    "dur": 8,
+    "amount": 0.18
    }
   ],
   "vfx": [
    {
-    "type": "flash",
-    "f": 91,
-    "dur": 3,
-    "intensity": 0.4
+    "type": "wind",
+    "f": 0,
+    "dur": 201,
+    "seed": 4,
+    "intensity": 0.5
    },
    {
-    "type": "impactBurst",
-    "f": 91,
-    "dur": 10,
-    "x": 1800,
-    "y": 610,
-    "space": "world",
-    "count": 14,
-    "seed": 13
-   },
-   {
-    "type": "sparks",
-    "f": 91,
-    "dur": 18,
-    "x": 1800,
-    "y": 610,
-    "count": 28,
-    "seed": 14,
-    "angle": -90
-   },
-   {
-    "type": "shockwave",
-    "f": 92,
-    "dur": 16,
-    "x": 1800,
-    "y": 840,
-    "size": 520,
-    "color": "#d9f6ff"
+    "type": "crack",
+    "f": 37,
+    "dur": 26,
+    "x": 1577.1878651394882,
+    "y": 846,
+    "seed": 13,
+    "size": 0.8,
+    "color": "#ff4466"
    },
    {
     "type": "dust",
-    "f": 91,
-    "dur": 40,
+    "f": 37,
+    "dur": 24,
+    "x": 1577.1878651394882,
+    "y": 840,
+    "seed": 16,
+    "count": 8
+   },
+   {
+    "type": "crack",
+    "f": 75,
+    "dur": 26,
+    "x": 2014.5167353482234,
+    "y": 846,
+    "seed": 14,
+    "size": 0.8,
+    "color": "#ff4466"
+   },
+   {
+    "type": "dust",
+    "f": 75,
+    "dur": 24,
+    "x": 2014.5167353482234,
+    "y": 840,
+    "seed": 17,
+    "count": 8
+   },
+   {
+    "type": "flash",
+    "f": 112,
+    "dur": 3,
+    "intensity": 0.3
+   },
+   {
+    "type": "impactBurst",
+    "f": 112,
+    "dur": 9,
+    "x": 1587.8528075339427,
+    "y": 602.313664047457,
+    "space": "world",
+    "count": 16,
+    "seed": 27,
+    "color": "#ffc0c8"
+   },
+   {
+    "type": "sparks",
+    "f": 112,
+    "dur": 16,
+    "x": 1587.8528075339427,
+    "y": 602.313664047457,
+    "count": 30,
+    "seed": 28,
+    "angle": -90,
+    "color": "#ff9fb0"
+   },
+   {
+    "type": "dust",
+    "f": 112,
+    "dur": 30,
     "x": 1800,
     "y": 840,
-    "seed": 15,
-    "count": 12
+    "seed": 29,
+    "count": 10
+   },
+   {
+    "type": "shockwave",
+    "f": 113,
+    "dur": 14,
+    "x": 1587.8528075339427,
+    "y": 840,
+    "size": 380,
+    "color": "#d9f6ff"
    }
-  ]
+  ],
+  "kind": "duel",
+  "hitEvents": [
+   {
+    "f": 37,
+    "kind": "dodge",
+    "x": 1577.1878651394882,
+    "y": 641.7770326257455,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "veyra",
+    "defender": "soma"
+   },
+   {
+    "f": 75,
+    "kind": "dodge",
+    "x": 2014.5167353482234,
+    "y": 677.2513507102144,
+    "contact": false,
+    "strength": 0.8,
+    "attacker": "soma",
+    "defender": "veyra"
+   },
+   {
+    "f": 112,
+    "kind": "hit",
+    "x": 1587.8528075339427,
+    "y": 602.313664047457,
+    "contact": true,
+    "strength": 1,
+    "attacker": "veyra",
+    "defender": "soma"
+   }
+  ],
+  "purpose": "액션 — 충돌 이벤트 기반 전투",
+  "priority": "P0",
+  "shotSize": "WS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-12",
-  "startFrame": 19261,
-  "durationFrames": 254,
+  "startFrame": 19282,
+  "durationFrames": 252,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma"
@@ -1761,11 +4946,242 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 84,
+    "dur": 133,
     "speaker": "soma",
     "text": "힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-12-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "i"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "i"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "closed"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "o"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "closed"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "closed"
+     },
+     {
+      "f": 30,
+      "shape": "e"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "e"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "closed"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "i"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "closed"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "a"
+     },
+     {
+      "f": 55,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "a"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "closed"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "closed"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "u"
+     },
+     {
+      "f": 71,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "u"
+     },
+     {
+      "f": 77,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "u"
+     },
+     {
+      "f": 83,
+      "shape": "small"
+     },
+     {
+      "f": 84,
+      "shape": "u"
+     },
+     {
+      "f": 85,
+      "shape": "small"
+     },
+     {
+      "f": 86,
+      "shape": "closed"
+     },
+     {
+      "f": 87,
+      "shape": "e"
+     },
+     {
+      "f": 90,
+      "shape": "closed"
+     },
+     {
+      "f": 93,
+      "shape": "small"
+     },
+     {
+      "f": 95,
+      "shape": "e"
+     },
+     {
+      "f": 96,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "closed"
+     },
+     {
+      "f": 98,
+      "shape": "small"
+     },
+     {
+      "f": 99,
+      "shape": "a"
+     },
+     {
+      "f": 101,
+      "shape": "small"
+     },
+     {
+      "f": 107,
+      "shape": "closed"
+     },
+     {
+      "f": 108,
+      "shape": "small"
+     },
+     {
+      "f": 109,
+      "shape": "e"
+     },
+     {
+      "f": 112,
+      "shape": "closed"
+     },
+     {
+      "f": 113,
+      "shape": "small"
+     },
+     {
+      "f": 115,
+      "shape": "i"
+     },
+     {
+      "f": 116,
+      "shape": "small"
+     },
+     {
+      "f": 117,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1777,11 +5193,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 541,
+   "trackOffset": 562,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -1793,12 +5209,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "clutch",
+      "blend": 5
      },
      {
-      "f": 96,
+      "f": 147,
       "clip": "idle",
       "blend": 8
      }
@@ -1831,7 +5247,7 @@
     "zoom": 2.8
    },
    {
-    "f": 254,
+    "f": 252,
     "x": 1516,
     "y": 564,
     "zoom": 3.08,
@@ -1842,17 +5258,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 254,
+    "dur": 252,
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「힘이… 못 쓰겠어. 시간을 멈추려면 어떻게 하는 거지?」"
  },
  {
   "sceneId": "S05",
   "shotId": "S05-13",
-  "startFrame": 19515,
-  "durationFrames": 407,
+  "startFrame": 19534,
+  "durationFrames": 403,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "veyra",
@@ -1862,19 +5283,269 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 61,
+    "dur": 106,
     "speaker": "veyra",
     "text": "아직 각성이 불완전하군. 실망이다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-13-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "a"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "a"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "i"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "closed"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "a"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "a"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "i"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "i"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "i"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "closed"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 45,
+      "shape": "e"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "closed"
+     },
+     {
+      "f": 49,
+      "shape": "a"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "a"
+     },
+     {
+      "f": 55,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "closed"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "u"
+     },
+     {
+      "f": 71,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "u"
+     },
+     {
+      "f": 77,
+      "shape": "small"
+     },
+     {
+      "f": 79,
+      "shape": "u"
+     },
+     {
+      "f": 81,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "closed"
+     },
+     {
+      "f": 83,
+      "shape": "small"
+     },
+     {
+      "f": 84,
+      "shape": "i"
+     },
+     {
+      "f": 87,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 83,
-    "dur": 41,
+    "f": 128,
+    "dur": 58,
     "speaker": "soma",
     "text": "아직… 끝나지 않았어.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-13-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "a"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "a"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 18,
+      "shape": "u"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "u"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "u"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "u"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "u"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "u"
+     },
+     {
+      "f": 42,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1886,11 +5557,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 795,
+   "trackOffset": 814,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -1901,12 +5572,22 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "gestureB",
+      "blend": 5
      },
      {
-      "f": 73,
+      "f": 120,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 138,
+      "clip": "nod",
+      "blend": 3
+     },
+     {
+      "f": 162,
       "clip": "idle",
       "blend": 8
      }
@@ -1918,7 +5599,13 @@
      },
      {
       "f": 8,
-      "expr": "smile"
+      "expr": "smile",
+      "blend": 3
+     },
+     {
+      "f": 192,
+      "expr": "angry",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -1938,12 +5625,22 @@
       "clip": "idle"
      },
      {
-      "f": 83,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "nod",
+      "blend": 3
      },
      {
-      "f": 124,
+      "f": 46,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 125,
+      "clip": "talk",
+      "blend": 5
+     },
+     {
+      "f": 188,
       "clip": "idle",
       "blend": 8
      }
@@ -1954,8 +5651,19 @@
       "expr": "pain"
      },
      {
-      "f": 79,
-      "expr": "resolve"
+      "f": 18,
+      "expr": "smile",
+      "blend": 5
+     },
+     {
+      "f": 124,
+      "expr": "pain",
+      "blend": 8
+     },
+     {
+      "f": 124,
+      "expr": "resolve",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -1974,10 +5682,36 @@
     "zoom": 1.75
    },
    {
-    "f": 407,
-    "x": 1570,
-    "y": 590,
-    "zoom": 1.8725,
+    "f": 4,
+    "x": 1550,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1470,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 120,
+    "x": 1470,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 134,
+    "x": 1630,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 403,
+    "x": 1642,
+    "y": 587,
+    "zoom": 1.9196625,
     "ease": "out"
    }
   ],
@@ -1985,17 +5719,22 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 407,
+    "dur": 403,
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「아직 각성이 불완전하군. 실망이다.」"
  },
  {
   "sceneId": "S05",
   "shotId": "S05-14",
-  "startFrame": 19922,
-  "durationFrames": 356,
+  "startFrame": 19937,
+  "durationFrames": 353,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "soma"
@@ -2004,11 +5743,90 @@
   "dialogue": [
    {
     "f": 14,
-    "dur": 34,
+    "dur": 56,
     "speaker": "soma",
     "text": "일단 도망쳐야 해!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-14-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "i"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "i"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "i"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "closed"
+     },
+     {
+      "f": 22,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "a"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "a"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "a"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -2240,11 +6058,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 1202,
+   "trackOffset": 1217,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -2256,7 +6074,7 @@
       "x": 700
      },
      {
-      "f": 356,
+      "f": 353,
       "x": 2500,
       "ease": "linear"
      }
@@ -2284,7 +6102,7 @@
     "zoom": 1.4
    },
    {
-    "f": 356,
+    "f": 353,
     "x": 2700,
     "y": 610,
     "zoom": 1.4
@@ -2294,26 +6112,31 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 356,
+    "dur": 353,
     "seed": 8,
     "intensity": 0.5
    },
    {
     "type": "dust",
     "f": 0,
-    "dur": 356,
+    "dur": 353,
     "x": 700,
     "y": 840,
     "seed": 77,
     "count": 10
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「일단 도망쳐야 해!」"
  },
  {
   "sceneId": "S05",
   "shotId": "S05-15",
-  "startFrame": 20278,
-  "durationFrames": 356,
+  "startFrame": 20290,
+  "durationFrames": 353,
   "backgroundId": "lab_corridor",
   "characterIds": [
    "veyra"
@@ -2549,11 +6372,11 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 118,
+   "trackOffset": 130,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -2565,7 +6388,7 @@
       "x": 600
      },
      {
-      "f": 356,
+      "f": 353,
       "x": 2400,
       "ease": "linear"
      }
@@ -2593,7 +6416,7 @@
     "zoom": 1.4
    },
    {
-    "f": 356,
+    "f": 353,
     "x": 2600,
     "y": 610,
     "zoom": 1.4
@@ -2603,26 +6426,31 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 356,
+    "dur": 353,
     "seed": 8,
     "intensity": 0.5
    },
    {
     "type": "dust",
     "f": 0,
-    "dur": 356,
+    "dur": 353,
     "x": 600,
     "y": 840,
     "seed": 77,
     "count": 10
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-16",
-  "startFrame": 20634,
-  "durationFrames": 305,
+  "startFrame": 20643,
+  "durationFrames": 302,
   "backgroundId": "harbor_night",
   "characterIds": [
    "soma"
@@ -2819,20 +6647,15 @@
     "f": 290,
     "sound": "step",
     "volume": 0.25
-   },
-   {
-    "f": 298,
-    "sound": "step",
-    "volume": 0.25
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 474,
+   "trackOffset": 483,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -2844,7 +6667,7 @@
       "x": 600
      },
      {
-      "f": 305,
+      "f": 302,
       "x": 2400,
       "ease": "linear"
      }
@@ -2872,7 +6695,7 @@
     "zoom": 1.4
    },
    {
-    "f": 305,
+    "f": 302,
     "x": 2600,
     "y": 610,
     "zoom": 1.4
@@ -2882,26 +6705,31 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 305,
+    "dur": 302,
     "seed": 8,
     "intensity": 0.5
    },
    {
     "type": "dust",
     "f": 0,
-    "dur": 305,
+    "dur": 302,
     "x": 600,
     "y": 840,
     "seed": 77,
     "count": 10
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-17",
-  "startFrame": 20939,
-  "durationFrames": 305,
+  "startFrame": 20945,
+  "durationFrames": 302,
   "backgroundId": "harbor_night",
   "characterIds": [
    "veyra"
@@ -3098,20 +6926,15 @@
     "f": 290,
     "sound": "step",
     "volume": 0.25
-   },
-   {
-    "f": 298,
-    "sound": "step",
-    "volume": 0.25
    }
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 779,
+   "trackOffset": 785,
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -3123,7 +6946,7 @@
       "x": 500
      },
      {
-      "f": 305,
+      "f": 302,
       "x": 2300,
       "ease": "linear"
      }
@@ -3151,7 +6974,7 @@
     "zoom": 1.4
    },
    {
-    "f": 305,
+    "f": 302,
     "x": 2500,
     "y": 610,
     "zoom": 1.4
@@ -3161,26 +6984,31 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 305,
+    "dur": 302,
     "seed": 8,
     "intensity": 0.5
    },
    {
     "type": "dust",
     "f": 0,
-    "dur": 305,
+    "dur": 302,
     "x": 500,
     "y": 840,
     "seed": 77,
     "count": 10
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주."
  },
  {
   "sceneId": "S05",
   "shotId": "S05-18",
-  "startFrame": 21244,
-  "durationFrames": 356,
+  "startFrame": 21247,
+  "durationFrames": 353,
   "backgroundId": "ruins_night",
   "characterIds": [
    "soma"
@@ -3189,11 +7017,238 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 77,
+    "dur": 139,
     "speaker": "narration",
     "text": "폐허가 된 구시가지. 그리고 검은 달 아래의 대치.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S05-18-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "e"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 9,
+      "shape": "e"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "closed"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "e"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "e"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "closed"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "u"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "closed"
+     },
+     {
+      "f": 40,
+      "shape": "a"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "closed"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 45,
+      "shape": "i"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "u"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 65,
+      "shape": "u"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "closed"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "i"
+     },
+     {
+      "f": 71,
+      "shape": "small"
+     },
+     {
+      "f": 72,
+      "shape": "closed"
+     },
+     {
+      "f": 73,
+      "shape": "o"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "o"
+     },
+     {
+      "f": 80,
+      "shape": "small"
+     },
+     {
+      "f": 85,
+      "shape": "closed"
+     },
+     {
+      "f": 86,
+      "shape": "small"
+     },
+     {
+      "f": 87,
+      "shape": "u"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "u"
+     },
+     {
+      "f": 97,
+      "shape": "small"
+     },
+     {
+      "f": 99,
+      "shape": "u"
+     },
+     {
+      "f": 100,
+      "shape": "small"
+     },
+     {
+      "f": 106,
+      "shape": "closed"
+     },
+     {
+      "f": 107,
+      "shape": "small"
+     },
+     {
+      "f": 108,
+      "shape": "i"
+     },
+     {
+      "f": 111,
+      "shape": "small"
+     },
+     {
+      "f": 113,
+      "shape": "closed"
+     },
+     {
+      "f": 117,
+      "shape": "small"
+     },
+     {
+      "f": 119,
+      "shape": "i"
+     },
+     {
+      "f": 120,
+      "shape": "small"
+     },
+     {
+      "f": 121,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -3205,7 +7260,7 @@
   ],
   "musicCue": {
    "id": "tension_drone",
-   "trackOffset": 1084,
+   "trackOffset": 1087,
    "volume": 0.35
   },
   "renderStatus": "pending",
@@ -3237,7 +7292,7 @@
     "zoom": 1
    },
    {
-    "f": 356,
+    "f": 353,
     "x": 1700,
     "y": 560,
     "zoom": 1.1,
@@ -3248,7 +7303,7 @@
    {
     "type": "fog",
     "f": 0,
-    "dur": 356,
+    "dur": 353,
     "y": 770,
     "seed": 5,
     "intensity": 0.7
@@ -3256,9 +7311,14 @@
    {
     "type": "wind",
     "f": 0,
-    "dur": 356,
+    "dur": 353,
     "seed": 3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "카에데의 기록 영상, 베이라의 등장, 복도 전투와 도주. 「폐허가 된 구시가지. 그리고 검은 달 아래의 대치.」"
  }
 ]

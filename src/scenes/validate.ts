@@ -7,7 +7,7 @@ import type { ShotSpec, SceneMeta } from './types';
 export interface Issue { level: 'error' | 'warn'; shotId?: string; msg: string }
 const isInt = (n: unknown) => Number.isInteger(n);
 
-export function validateShots(shots: ShotSpec[], opts: { expectedTotal?: number; scenes?: SceneMeta[]; soundExists?: (name: string) => boolean } = {}): Issue[] {
+export function validateShots(shots: ShotSpec[], opts: { expectedTotal?: number; scenes?: SceneMeta[]; soundExists?: (name: string) => boolean; fileExists?: (publicPath: string) => boolean } = {}): Issue[] {
   const out: Issue[] = [];
   const err = (shotId: string | undefined, msg: string) => out.push({ level: 'error', shotId, msg });
   const ids = new Set<string>();
@@ -41,7 +41,7 @@ export function validateShots(shots: ShotSpec[], opts: { expectedTotal?: number;
     s.dialogue.forEach((d) => { if (d.f < 0 || d.f + d.dur > s.durationFrames) err(id, `dialogue "${d.text.slice(0, 12)}…" exceeds shot (${d.f}+${d.dur} > ${s.durationFrames})`); });
     (s.vfx ?? []).forEach((v) => { if (v.f < 0 || v.f >= s.durationFrames) err(id, `vfx ${v.type} starts outside shot`); });
     if (s.musicCue && opts.soundExists && !opts.soundExists(s.musicCue.id)) err(id, `music missing: ${s.musicCue.id}`);
-    for (const d of s.dialogue) if (d.voiceAsset && opts.soundExists && !opts.soundExists(d.voiceAsset)) err(id, `voice asset missing: ${d.voiceAsset}`);
+    for (const d of s.dialogue) if (d.voiceAsset && opts.fileExists && !opts.fileExists(d.voiceAsset)) err(id, `voice asset missing: ${d.voiceAsset}`);
   }
   if (opts.expectedTotal !== undefined && cursor !== opts.expectedTotal) err(undefined, `total frames ${cursor} != expected ${opts.expectedTotal}`);
   if (opts.scenes) for (const sc of opts.scenes) {

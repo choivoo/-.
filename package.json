@@ -6,7 +6,7 @@
   "description": "ANIME FORGE - code-driven Japanese-style 2D anime production system",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "NODE_ENV=production tsx tests/run.ts",
+    "test": "NODE_ENV=production tsx tests/run.ts && NODE_ENV=production tsx tests/factory.ts",
     "validate": "tsx scripts/validate-episode.ts",
     "studio": "remotion studio src/index.ts",
     "editor": "vite --config vite.editor.config.ts",
@@ -20,7 +20,22 @@
     "render:episode": "tsx scripts/render-episode.ts",
     "render:episode:concat": "tsx scripts/render-episode.ts --concat-only",
     "check": "npm run typecheck && npm test && npm run validate",
-    "still": "tsx scripts/shotstill.tsx"
+    "still": "tsx scripts/shotstill.tsx",
+    "production:audit": "tsx scripts/production/cli.ts audit",
+    "production:status": "tsx scripts/production/cli.ts status",
+    "production:storyboard": "tsx scripts/production/cli.ts storyboard",
+    "production:preview": "tsx scripts/production/cli.ts preview",
+    "production:render-shot": "tsx scripts/production/cli.ts render-shot",
+    "production:render-scene": "tsx scripts/production/cli.ts render-scene",
+    "production:render-all": "tsx scripts/production/cli.ts render-all",
+    "production:resume": "tsx scripts/production/cli.ts resume",
+    "production:qa": "tsx scripts/production/cli.ts qa",
+    "production:assemble": "tsx scripts/production/cli.ts assemble",
+    "production:report": "tsx scripts/production/cli.ts report",
+    "production:finalize": "tsx scripts/production/cli.ts finalize",
+    "production:approve": "tsx scripts/production/cli.ts approve",
+    "production:voices": "tsx scripts/production/voices.ts",
+    "production:audio": "tsx scripts/production/cli.ts audio"
   },
   "dependencies": {
     "@remotion/bundler": "^4.0.535",

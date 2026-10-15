@@ -28,7 +28,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "흑월의 잔향",
   "characters": [
    {
@@ -107,7 +107,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "오프닝 몽타주(임시 크레딧)."
  },
  {
   "sceneId": "S02",
@@ -138,7 +143,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "MIO HOSHIKAWA",
   "characters": [
    {
@@ -217,7 +222,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "CU",
+  "description": "오프닝 몽타주(임시 크레딧)."
  },
  {
   "sceneId": "S02",
@@ -248,7 +258,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "SOMA KIRITANI",
   "characters": [
    {
@@ -327,7 +337,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "오프닝 몽타주(임시 크레딧)."
  },
  {
   "sceneId": "S02",
@@ -358,7 +373,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "VEYRA",
   "characters": [
    {
@@ -437,7 +452,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "오프닝 몽타주(임시 크레딧)."
  },
  {
   "sceneId": "S02",
@@ -468,7 +488,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "DR. KUON KAEDE",
   "characters": [
    {
@@ -547,7 +567,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "오프닝 몽타주(임시 크레딧)."
  },
  {
   "sceneId": "S02",
@@ -579,7 +604,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "ORIGINAL OPENING — PLACEHOLDER CREDITS",
   "characters": [
    {
@@ -675,7 +700,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "오프닝 몽타주(임시 크레딧)."
  },
  {
   "sceneId": "S02",
@@ -706,7 +736,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "THE STOPPING HOUR",
   "characters": [
    {
@@ -785,7 +815,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "오프닝 몽타주(임시 크레딧)."
  },
  {
   "sceneId": "S02",
@@ -817,7 +852,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "BLACK MOON",
   "characters": [
    {
@@ -913,7 +948,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "오프닝 몽타주(임시 크레딧)."
  },
  {
   "sceneId": "S02",
@@ -945,7 +985,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "흑월의 잔향",
   "characters": [
    {
@@ -1041,6 +1081,11 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "오프닝 몽타주(임시 크레딧)."
  }
 ]

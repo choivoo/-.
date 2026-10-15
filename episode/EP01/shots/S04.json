@@ -12,11 +12,206 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 77,
+    "dur": 140,
     "speaker": "narration",
     "text": "교차로. 정지한 신호등 아래, 시간이 어긋난다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-01-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "o"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "a"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "a"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "closed"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "e"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "e"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "closed"
+     },
+     {
+      "f": 45,
+      "shape": "a"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "a"
+     },
+     {
+      "f": 55,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "closed"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "o"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "o"
+     },
+     {
+      "f": 74,
+      "shape": "small"
+     },
+     {
+      "f": 77,
+      "shape": "o"
+     },
+     {
+      "f": 80,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "closed"
+     },
+     {
+      "f": 86,
+      "shape": "small"
+     },
+     {
+      "f": 89,
+      "shape": "i"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 92,
+      "shape": "closed"
+     },
+     {
+      "f": 93,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "a"
+     },
+     {
+      "f": 95,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "a"
+     },
+     {
+      "f": 98,
+      "shape": "small"
+     },
+     {
+      "f": 99,
+      "shape": "a"
+     },
+     {
+      "f": 101,
+      "shape": "small"
+     },
+     {
+      "f": 102,
+      "shape": "closed"
+     },
+     {
+      "f": 103,
+      "shape": "small"
+     },
+     {
+      "f": 113,
+      "shape": "e"
+     },
+     {
+      "f": 114,
+      "shape": "small"
+     },
+     {
+      "f": 118,
+      "shape": "e"
+     },
+     {
+      "f": 121,
+      "shape": "small"
+     },
+     {
+      "f": 122,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -82,7 +277,12 @@
     "dur": 255,
     "seed": 3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「교차로. 정지한 신호등 아래, 시간이 어긋난다.」"
  },
  {
   "sceneId": "S04",
@@ -97,11 +297,150 @@
   "dialogue": [
    {
     "f": 14,
-    "dur": 58,
+    "dur": 89,
     "speaker": "mio",
     "text": "소마, 빨리 와! 신호가 바뀌었어!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-02-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "o"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "o"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "a"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "a"
+     },
+     {
+      "f": 22,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "a"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "closed"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "i"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "closed"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "a"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 50,
+      "shape": "closed"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "a"
+     },
+     {
+      "f": 54,
+      "shape": "closed"
+     },
+     {
+      "f": 56,
+      "shape": "a"
+     },
+     {
+      "f": 60,
+      "shape": "closed"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "i"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "i"
+     },
+     {
+      "f": 72,
+      "shape": "small"
+     },
+     {
+      "f": 73,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -222,7 +561,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -276,7 +615,12 @@
     "seed": 8,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「소마, 빨리 와! 신호가 바뀌었어!」"
  },
  {
   "sceneId": "S04",
@@ -376,7 +720,12 @@
     "intensity": 0.6,
     "color": "#fff"
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적."
  },
  {
   "sceneId": "S04",
@@ -391,11 +740,22 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 26,
+    "dur": 21,
     "speaker": "mio",
     "text": "…어?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-04-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "e"
+     },
+     {
+      "f": 6,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -416,7 +776,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -428,12 +788,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "recoil",
+      "blend": 5
      },
      {
-      "f": 38,
+      "f": 35,
       "clip": "idle",
       "blend": 8
      }
@@ -481,7 +841,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「…어?」"
  },
  {
   "sceneId": "S04",
@@ -499,8 +864,35 @@
     "dur": 26,
     "speaker": "soma",
     "text": "미오!!",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-05-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "i"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "i"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -516,7 +908,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -528,12 +920,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "cower",
+      "blend": 5
      },
      {
-      "f": 38,
+      "f": 40,
       "clip": "idle",
       "blend": 8
      }
@@ -588,7 +980,12 @@
     "seed": 23,
     "intensity": 0.9
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「미오!!」"
  },
  {
   "sceneId": "S04",
@@ -619,7 +1016,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -673,7 +1070,12 @@
     "intensity": 1,
     "color": "#ffffff"
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적."
  },
  {
   "sceneId": "S04",
@@ -689,11 +1091,174 @@
   "dialogue": [
    {
     "f": 14,
-    "dur": 61,
+    "dur": 97,
     "speaker": "soma",
     "text": "…멈췄어? 아니, 모든 게 멈춘 거야.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-07-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 1,
+      "shape": "e"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "closed"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "u"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "u"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "a"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "a"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "closed"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "o"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "closed"
+     },
+     {
+      "f": 47,
+      "shape": "u"
+     },
+     {
+      "f": 50,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "closed"
+     },
+     {
+      "f": 54,
+      "shape": "e"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 57,
+      "shape": "e"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "closed"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "closed"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "e"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "closed"
+     },
+     {
+      "f": 72,
+      "shape": "e"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 77,
+      "shape": "e"
+     },
+     {
+      "f": 80,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -714,7 +1279,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -811,7 +1376,12 @@
     "color": "#ffffff",
     "intensity": 0.3
    }
-  ]
+  ],
+  "kind": "ability",
+  "purpose": "이야기의 전환 — 시간 정지 각성",
+  "priority": "P0",
+  "shotSize": "MS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「…멈췄어? 아니, 모든 게 멈춘 거야.」"
  },
  {
   "sceneId": "S04",
@@ -826,19 +1396,317 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 71,
+    "dur": 105,
     "speaker": "soma",
     "text": "소리도, 바람도 없어. 나만 움직일 수 있어.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-08-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "o"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "closed"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "o"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "closed"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "a"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "a"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "a"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "closed"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "e"
+     },
+     {
+      "f": 45,
+      "shape": "closed"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "a"
+     },
+     {
+      "f": 57,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "a"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "a"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "a"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "closed"
+     },
+     {
+      "f": 70,
+      "shape": "i"
+     },
+     {
+      "f": 72,
+      "shape": "small"
+     },
+     {
+      "f": 77,
+      "shape": "i"
+     },
+     {
+      "f": 80,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "i"
+     },
+     {
+      "f": 82,
+      "shape": "small"
+     },
+     {
+      "f": 86,
+      "shape": "i"
+     },
+     {
+      "f": 89,
+      "shape": "small"
+     },
+     {
+      "f": 90,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 93,
-    "dur": 51,
+    "f": 127,
+    "dur": 72,
     "speaker": "soma",
     "text": "이게… 시계가 멈춘 이유인가.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-08-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "closed"
+     },
+     {
+      "f": 5,
+      "shape": "e"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "closed"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "i"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 20,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "e"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 26,
+      "shape": "a"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "a"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "closed"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "closed"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "u"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "u"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "u"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "u"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "closed"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "i"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 57,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -854,7 +1722,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -866,22 +1734,22 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "cower",
+      "blend": 5
      },
      {
-      "f": 83,
+      "f": 119,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 93,
+      "f": 124,
       "clip": "talk",
-      "blend": 6
+      "blend": 5
      },
      {
-      "f": 144,
+      "f": 201,
       "clip": "idle",
       "blend": 8
      }
@@ -904,7 +1772,7 @@
       ]
      },
      {
-      "f": 89,
+      "f": 123,
       "expr": "resolve",
       "look": [
        0.3,
@@ -937,7 +1805,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「소리도, 바람도 없어. 나만 움직일 수 있어.」"
  },
  {
   "sceneId": "S04",
@@ -969,7 +1842,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -1066,7 +1939,12 @@
     "color": "#ffffff",
     "intensity": 0.3
    }
-  ]
+  ],
+  "kind": "ability",
+  "purpose": "이야기의 전환 — 시간 정지 각성",
+  "priority": "P0",
+  "shotSize": "MS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적."
  },
  {
   "sceneId": "S04",
@@ -1082,11 +1960,166 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 61,
+    "dur": 98,
     "speaker": "soma",
     "text": "미오, 미안해. 조금만 거칠게 할게.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-10-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "i"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "i"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "closed"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "i"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "closed"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "e"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "closed"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "o"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "closed"
+     },
+     {
+      "f": 43,
+      "shape": "u"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "u"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "closed"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "e"
+     },
+     {
+      "f": 57,
+      "shape": "closed"
+     },
+     {
+      "f": 61,
+      "shape": "small"
+     },
+     {
+      "f": 65,
+      "shape": "closed"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "e"
+     },
+     {
+      "f": 69,
+      "shape": "closed"
+     },
+     {
+      "f": 71,
+      "shape": "e"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "closed"
+     },
+     {
+      "f": 78,
+      "shape": "small"
+     },
+     {
+      "f": 79,
+      "shape": "e"
+     },
+     {
+      "f": 81,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1102,7 +2135,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -1113,12 +2146,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
+      "f": 9,
       "clip": "talk",
-      "blend": 6
+      "blend": 5
      },
      {
-      "f": 73,
+      "f": 112,
       "clip": "idle",
       "blend": 8
      }
@@ -1130,7 +2163,8 @@
      },
      {
       "f": 8,
-      "expr": "resolve"
+      "expr": "resolve",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -1154,6 +2188,11 @@
      {
       "f": 0,
       "expr": "neutral"
+     },
+     {
+      "f": 116,
+      "expr": "neutral",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -1172,10 +2211,23 @@
     "zoom": 1.75
    },
    {
+    "f": 4,
+    "x": 1690,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1648.4,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
     "f": 298,
-    "x": 1710,
-    "y": 590,
-    "zoom": 1.8725,
+    "x": 1660.4,
+    "y": 595,
+    "zoom": 1.8746,
     "ease": "out"
    }
   ],
@@ -1187,7 +2239,12 @@
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「미오, 미안해. 조금만 거칠게 할게.」"
  },
  {
   "sceneId": "S04",
@@ -1302,7 +2359,12 @@
     "seed": 5,
     "count": 16
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적."
  },
  {
   "sceneId": "S04",
@@ -1318,27 +2380,444 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 67,
+    "dur": 107,
     "speaker": "mio",
     "text": "방금… 트럭이 있었는데? 어떻게 된 거야?",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-12-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "a"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "closed"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "closed"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "u"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "u"
+     },
+     {
+      "f": 30,
+      "shape": "closed"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "e"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "e"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "e"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "closed"
+     },
+     {
+      "f": 60,
+      "shape": "e"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "closed"
+     },
+     {
+      "f": 64,
+      "shape": "e"
+     },
+     {
+      "f": 66,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "closed"
+     },
+     {
+      "f": 71,
+      "shape": "e"
+     },
+     {
+      "f": 73,
+      "shape": "closed"
+     },
+     {
+      "f": 74,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "e"
+     },
+     {
+      "f": 78,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "closed"
+     },
+     {
+      "f": 83,
+      "shape": "o"
+     },
+     {
+      "f": 86,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "o"
+     },
+     {
+      "f": 90,
+      "shape": "small"
+     },
+     {
+      "f": 92,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 89,
-    "dur": 58,
+    "f": 129,
+    "dur": 90,
     "speaker": "soma",
     "text": "나도 몰라. 하지만… 이제 괜찮아.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-12-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "a"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "a"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "a"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "a"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "a"
+     },
+     {
+      "f": 30,
+      "shape": "closed"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "a"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "a"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "closed"
+     },
+     {
+      "f": 47,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "a"
+     },
+     {
+      "f": 50,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "a"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "a"
+     },
+     {
+      "f": 58,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "closed"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "closed"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "a"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "a"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 157,
-    "dur": 58,
+    "f": 229,
+    "dur": 86,
     "speaker": "mio",
     "text": "소마, 네 눈… 파랗게 빛나고 있어.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-12-D03.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "o"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "o"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "e"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "e"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "closed"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "a"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "a"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "closed"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "i"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     },
+     {
+      "f": 50,
+      "shape": "i"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "i"
+     },
+     {
+      "f": 57,
+      "shape": "closed"
+     },
+     {
+      "f": 59,
+      "shape": "o"
+     },
+     {
+      "f": 64,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "o"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 71,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1354,7 +2833,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "mio",
@@ -1365,22 +2844,32 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "recoil",
+      "blend": 5
      },
      {
-      "f": 79,
+      "f": 121,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 157,
-      "clip": "talk",
-      "blend": 6
+      "f": 139,
+      "clip": "nod",
+      "blend": 3
      },
      {
-      "f": 215,
+      "f": 163,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 226,
+      "clip": "cower",
+      "blend": 5
+     },
+     {
+      "f": 317,
       "clip": "idle",
       "blend": 8
      }
@@ -1392,11 +2881,23 @@
      },
      {
       "f": 8,
-      "expr": "surprise"
+      "expr": "surprise",
+      "blend": 3
      },
      {
-      "f": 153,
-      "expr": "fear"
+      "f": 135,
+      "expr": "surprise",
+      "blend": 5
+     },
+     {
+      "f": 225,
+      "expr": "surprise",
+      "blend": 8
+     },
+     {
+      "f": 225,
+      "expr": "fear",
+      "blend": 3
      }
     ],
     "cadence": [
@@ -1416,12 +2917,32 @@
       "clip": "idle"
      },
      {
-      "f": 89,
-      "clip": "talk",
-      "blend": 6
+      "f": 22,
+      "clip": "headShake",
+      "blend": 3
      },
      {
-      "f": 147,
+      "f": 46,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 126,
+      "clip": "gestureB",
+      "blend": 5
+     },
+     {
+      "f": 221,
+      "clip": "idle",
+      "blend": 8
+     },
+     {
+      "f": 242,
+      "clip": "recoil",
+      "blend": 3
+     },
+     {
+      "f": 263,
       "clip": "idle",
       "blend": 8
      }
@@ -1432,8 +2953,29 @@
       "expr": "embarrassed"
      },
      {
-      "f": 85,
-      "expr": "embarrassed"
+      "f": 18,
+      "expr": "surprise",
+      "blend": 5
+     },
+     {
+      "f": 125,
+      "expr": "embarrassed",
+      "blend": 8
+     },
+     {
+      "f": 125,
+      "expr": "embarrassed",
+      "blend": 3
+     },
+     {
+      "f": 235,
+      "expr": "surprise",
+      "blend": 5
+     },
+     {
+      "f": 321,
+      "expr": "embarrassed",
+      "blend": 8
      }
     ],
     "cadence": [
@@ -1452,10 +2994,49 @@
     "zoom": 1.75
    },
    {
+    "f": 4,
+    "x": 1600,
+    "y": 600,
+    "zoom": 1.75
+   },
+   {
+    "f": 18,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82,
+    "ease": "inOut"
+   },
+   {
+    "f": 121,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.82
+   },
+   {
+    "f": 135,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375,
+    "ease": "inOut"
+   },
+   {
+    "f": 221,
+    "x": 1670.4,
+    "y": 587,
+    "zoom": 1.86375
+   },
+   {
+    "f": 235,
+    "x": 1529.6,
+    "y": 595,
+    "zoom": 1.9075000000000002,
+    "ease": "inOut"
+   },
+   {
     "f": 527,
-    "x": 1620,
-    "y": 590,
-    "zoom": 1.8725,
+    "x": 1541.6,
+    "y": 595,
+    "zoom": 1.9647250000000003,
     "ease": "out"
    }
   ],
@@ -1467,7 +3048,12 @@
     "seed": 6,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "dialogue",
+  "purpose": "정보 전달과 감정 변화(대사 연기)",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「방금… 트럭이 있었는데? 어떻게 된 거야?」"
  },
  {
   "sceneId": "S04",
@@ -1493,7 +3079,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -1540,7 +3126,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적."
  },
  {
   "sceneId": "S04",
@@ -1553,11 +3144,238 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 77,
+    "dur": 138,
     "speaker": "narration",
     "text": "그날 밤, 시계 소리를 따라 소마는 항구로 향했다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-14-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "u"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "u"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "a"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "e"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "closed"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "o"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "o"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "o"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "o"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "closed"
+     },
+     {
+      "f": 57,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "a"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "a"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "a"
+     },
+     {
+      "f": 71,
+      "shape": "small"
+     },
+     {
+      "f": 73,
+      "shape": "a"
+     },
+     {
+      "f": 74,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "closed"
+     },
+     {
+      "f": 82,
+      "shape": "small"
+     },
+     {
+      "f": 83,
+      "shape": "a"
+     },
+     {
+      "f": 86,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "closed"
+     },
+     {
+      "f": 90,
+      "shape": "small"
+     },
+     {
+      "f": 91,
+      "shape": "u"
+     },
+     {
+      "f": 92,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "u"
+     },
+     {
+      "f": 96,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "closed"
+     },
+     {
+      "f": 98,
+      "shape": "small"
+     },
+     {
+      "f": 100,
+      "shape": "o"
+     },
+     {
+      "f": 104,
+      "shape": "small"
+     },
+     {
+      "f": 108,
+      "shape": "closed"
+     },
+     {
+      "f": 109,
+      "shape": "small"
+     },
+     {
+      "f": 110,
+      "shape": "e"
+     },
+     {
+      "f": 111,
+      "shape": "small"
+     },
+     {
+      "f": 112,
+      "shape": "closed"
+     },
+     {
+      "f": 115,
+      "shape": "small"
+     },
+     {
+      "f": 116,
+      "shape": "e"
+     },
+     {
+      "f": 120,
+      "shape": "small"
+     },
+     {
+      "f": 121,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1605,7 +3423,12 @@
     "dur": 255,
     "seed": 3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「그날 밤, 시계 소리를 따라 소마는 항구로 향했다.」"
  },
  {
   "sceneId": "S04",
@@ -1620,11 +3443,146 @@
   "dialogue": [
    {
     "f": 14,
-    "dur": 54,
+    "dur": 80,
     "speaker": "soma",
     "text": "이 시계… 방향을 가리키고 있어.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-15-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "i"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "i"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "closed"
+     },
+     {
+      "f": 23,
+      "shape": "a"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "a"
+     },
+     {
+      "f": 32,
+      "shape": "small"
+     },
+     {
+      "f": 34,
+      "shape": "a"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "closed"
+     },
+     {
+      "f": 40,
+      "shape": "a"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "a"
+     },
+     {
+      "f": 45,
+      "shape": "closed"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "i"
+     },
+     {
+      "f": 50,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "closed"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "o"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "o"
+     },
+     {
+      "f": 57,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "o"
+     },
+     {
+      "f": 64,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1775,7 +3733,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -1829,7 +3787,12 @@
     "seed": 8,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「이 시계… 방향을 가리키고 있어.」"
  },
  {
   "sceneId": "S04",
@@ -1844,11 +3807,254 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 91,
+    "dur": 139,
     "speaker": "soma",
     "text": "폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-16-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 4,
+      "shape": "e"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "e"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "e"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "closed"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "i"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "closed"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "i"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "closed"
+     },
+     {
+      "f": 39,
+      "shape": "e"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "e"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "closed"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "o"
+     },
+     {
+      "f": 57,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "closed"
+     },
+     {
+      "f": 66,
+      "shape": "a"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "closed"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 72,
+      "shape": "i"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 75,
+      "shape": "i"
+     },
+     {
+      "f": 76,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "i"
+     },
+     {
+      "f": 79,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "i"
+     },
+     {
+      "f": 82,
+      "shape": "closed"
+     },
+     {
+      "f": 83,
+      "shape": "small"
+     },
+     {
+      "f": 84,
+      "shape": "i"
+     },
+     {
+      "f": 85,
+      "shape": "small"
+     },
+     {
+      "f": 87,
+      "shape": "i"
+     },
+     {
+      "f": 88,
+      "shape": "small"
+     },
+     {
+      "f": 89,
+      "shape": "closed"
+     },
+     {
+      "f": 90,
+      "shape": "small"
+     },
+     {
+      "f": 95,
+      "shape": "a"
+     },
+     {
+      "f": 96,
+      "shape": "small"
+     },
+     {
+      "f": 100,
+      "shape": "a"
+     },
+     {
+      "f": 101,
+      "shape": "small"
+     },
+     {
+      "f": 105,
+      "shape": "a"
+     },
+     {
+      "f": 107,
+      "shape": "closed"
+     },
+     {
+      "f": 110,
+      "shape": "e"
+     },
+     {
+      "f": 113,
+      "shape": "small"
+     },
+     {
+      "f": 116,
+      "shape": "closed"
+     },
+     {
+      "f": 117,
+      "shape": "small"
+     },
+     {
+      "f": 118,
+      "shape": "o"
+     },
+     {
+      "f": 120,
+      "shape": "small"
+     },
+     {
+      "f": 121,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1864,7 +4070,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -1876,12 +4082,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
+      "f": 9,
       "clip": "talk",
-      "blend": 6
+      "blend": 5
      },
      {
-      "f": 103,
+      "f": 153,
       "clip": "idle",
       "blend": 8
      }
@@ -1929,7 +4135,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「폐쇄된 제칠시간연구소… 박사님이 마지막으로 계셨던 곳.」"
  },
  {
   "sceneId": "S04",
@@ -1944,11 +4155,178 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 84,
+    "dur": 134,
     "speaker": "narration",
     "text": "열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-17-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "e"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "e"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "e"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "e"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "e"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "e"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "e"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "closed"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "a"
+     },
+     {
+      "f": 72,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "a"
+     },
+     {
+      "f": 76,
+      "shape": "small"
+     },
+     {
+      "f": 83,
+      "shape": "closed"
+     },
+     {
+      "f": 84,
+      "shape": "small"
+     },
+     {
+      "f": 85,
+      "shape": "a"
+     },
+     {
+      "f": 87,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "closed"
+     },
+     {
+      "f": 89,
+      "shape": "i"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 93,
+      "shape": "i"
+     },
+     {
+      "f": 94,
+      "shape": "small"
+     },
+     {
+      "f": 95,
+      "shape": "closed"
+     },
+     {
+      "f": 96,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "o"
+     },
+     {
+      "f": 99,
+      "shape": "small"
+     },
+     {
+      "f": 104,
+      "shape": "o"
+     },
+     {
+      "f": 108,
+      "shape": "small"
+     },
+     {
+      "f": 109,
+      "shape": "closed"
+     },
+     {
+      "f": 112,
+      "shape": "small"
+     },
+     {
+      "f": 113,
+      "shape": "a"
+     },
+     {
+      "f": 116,
+      "shape": "small"
+     },
+     {
+      "f": 117,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -2014,7 +4392,12 @@
     "dur": 298,
     "seed": 3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「열려 있어서는 안 되는 문이, 소마를 기다리고 있었다.」"
  },
  {
   "sceneId": "S04",
@@ -2160,7 +4543,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -2214,7 +4597,12 @@
     "seed": 8,
     "intensity": 0.5
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적."
  },
  {
   "sceneId": "S04",
@@ -2229,19 +4617,313 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 48,
+    "dur": 74,
     "speaker": "soma",
     "text": "전부 십이 년 전에 멈춰 있어.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-19-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "e"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "e"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "e"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "closed"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "i"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "i"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 31,
+      "shape": "e"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "e"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "e"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "closed"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "closed"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "u"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "u"
+     },
+     {
+      "f": 58,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 70,
-    "dur": 61,
+    "f": 96,
+    "dur": 94,
     "speaker": "soma",
     "text": "날짜가… 이 도시가 처음 멈춘 날이야.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S04-19-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "a"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "closed"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "a"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "closed"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "a"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "i"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "i"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "i"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "closed"
+     },
+     {
+      "f": 36,
+      "shape": "a"
+     },
+     {
+      "f": 39,
+      "shape": "closed"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "closed"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "e"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 47,
+      "shape": "e"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 52,
+      "shape": "e"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     },
+     {
+      "f": 56,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "closed"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "u"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "u"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "u"
+     },
+     {
+      "f": 77,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -2257,7 +4939,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -2269,22 +4951,22 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "recoil",
+      "blend": 5
      },
      {
-      "f": 60,
+      "f": 88,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 70,
-      "clip": "talk",
-      "blend": 6
+      "f": 93,
+      "clip": "cower",
+      "blend": 5
      },
      {
-      "f": 131,
+      "f": 192,
       "clip": "idle",
       "blend": 8
      }
@@ -2307,7 +4989,7 @@
       ]
      },
      {
-      "f": 66,
+      "f": 92,
       "expr": "fear",
       "look": [
        0.3,
@@ -2340,7 +5022,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적. 「전부 십이 년 전에 멈춰 있어.」"
  },
  {
   "sceneId": "S04",
@@ -2431,6 +5118,11 @@
     "count": 30,
     "size": 1.2
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "교차로의 사고, 시간 정지의 첫 각성, 사라진 연구시설의 흔적."
  }
 ]

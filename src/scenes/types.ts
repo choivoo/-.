@@ -26,7 +26,7 @@ export interface MusicCue { id: string; /** frame offset inside the music track 
 export interface Transition { inType?: 'cut' | 'fadeBlack' | 'fadeWhite'; inFrames?: number; outType?: 'cut' | 'fadeBlack' | 'fadeWhite'; outFrames?: number }
 export type RenderStatus = 'pending' | 'rendered' | 'failed';
 /** animatic = engine-staged placeholder cut; final-draft = fully choreographed cut (still placeholder vector art) */
-export type Fidelity = 'animatic' | 'final-draft' | 'title';
+export type Fidelity = 'animatic' | 'directed' | 'final-draft' | 'title';
 export interface ShotSpec {
   sceneId: string; shotId: string;
   startFrame: number; durationFrames: number;
@@ -49,6 +49,8 @@ export interface ShotSpec {
   fidelity: Fidelity;
   title?: string;
   notes?: string;
+  /** production metadata */
+  kind?: string; purpose?: string; priority?: 'P0' | 'P1' | 'P2' | 'P3'; description?: string; shotSize?: string; hitEvents?: { f: number; kind: string; x: number; y: number; contact: boolean; strength: number; attacker: string; defender: string }[];
 }
 export interface SceneMeta { sceneId: string; title: string; startFrame: number; durationFrames: number; summary: string; beat: string }
 export interface EpisodeMeta { id: string; title: string; titleKo: string; fps: number; width: number; height: number; totalFrames: number; scenes: SceneMeta[]; shotFiles: string[] }

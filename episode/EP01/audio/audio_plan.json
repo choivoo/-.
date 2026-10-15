@@ -1,14 +1,14 @@
 {
  "sfx": {
   "wind_loop": 102,
-  "step": 360,
-  "hit_heavy": 7,
+  "step": 358,
+  "hit_heavy": 12,
   "rumble": 6,
-  "whoosh": 29,
+  "whoosh": 57,
   "heartbeat": 8,
   "draw": 2,
-  "hit_clash": 10,
-  "crack": 4
+  "crack": 16,
+  "hit_clash": 17
  },
  "voiceLines": [
   {
@@ -45,7 +45,7 @@
   },
   {
    "shotId": "S01-04",
-   "f": 139,
+   "f": 220,
    "speaker": "kaede",
    "text": "…열두 번째 정지가 오기 전에.",
    "voiceAsset": null,
@@ -61,7 +61,7 @@
   },
   {
    "shotId": "S01-08",
-   "f": 16,
+   "f": 12,
    "speaker": "veyra",
    "text": "…시작됐군.",
    "voiceAsset": null,
@@ -93,7 +93,7 @@
   },
   {
    "shotId": "S03-02",
-   "f": 80,
+   "f": 120,
    "speaker": "soma",
    "text": "…오 분만.",
    "voiceAsset": null,
@@ -101,7 +101,7 @@
   },
   {
    "shotId": "S03-02",
-   "f": 116,
+   "f": 163,
    "speaker": "mio",
    "text": "그 말, 이번 주에만 열 번째거든?",
    "voiceAsset": null,
@@ -109,7 +109,7 @@
   },
   {
    "shotId": "S03-02",
-   "f": 180,
+   "f": 254,
    "speaker": "soma",
    "text": "알았어, 알았어. 일어난다니까.",
    "voiceAsset": null,
@@ -125,7 +125,7 @@
   },
   {
    "shotId": "S03-04",
-   "f": 60,
+   "f": 85,
    "speaker": "soma",
    "text": "박사님이 남겨주신 건데.",
    "voiceAsset": null,
@@ -141,7 +141,7 @@
   },
   {
    "shotId": "S03-05",
-   "f": 105,
+   "f": 140,
    "speaker": "soma",
    "text": "또 누가 지어낸 얘기겠지.",
    "voiceAsset": null,
@@ -157,7 +157,7 @@
   },
   {
    "shotId": "S03-06",
-   "f": 83,
+   "f": 105,
    "speaker": "soma",
    "text": "검은 달이라니, 소설 같네.",
    "voiceAsset": null,
@@ -165,7 +165,7 @@
   },
   {
    "shotId": "S03-06",
-   "f": 141,
+   "f": 184,
    "speaker": "mio",
    "text": "…웃지 마. 나 좀 무서웠단 말이야.",
    "voiceAsset": null,
@@ -173,7 +173,7 @@
   },
   {
    "shotId": "S03-06",
-   "f": 209,
+   "f": 278,
    "speaker": "soma",
    "text": "미안. 무슨 일 있으면 내가 있잖아.",
    "voiceAsset": null,
@@ -189,7 +189,7 @@
   },
   {
    "shotId": "S03-08",
-   "f": 83,
+   "f": 106,
    "speaker": "soma",
    "text": "…응. 그 연구소 얘기만 나오면 다들 입을 닫아.",
    "voiceAsset": null,
@@ -197,7 +197,7 @@
   },
   {
    "shotId": "S03-08",
-   "f": 167,
+   "f": 223,
    "speaker": "mio",
    "text": "언젠가 알게 될 거야, 분명히.",
    "voiceAsset": null,
@@ -221,7 +221,7 @@
   },
   {
    "shotId": "S03-10",
-   "f": 96,
+   "f": 133,
    "speaker": "soma",
    "text": "내 시계도, 저 시계탑도.",
    "voiceAsset": null,
@@ -229,7 +229,7 @@
   },
   {
    "shotId": "S03-10",
-   "f": 150,
+   "f": 214,
    "speaker": "soma",
    "text": "대체 무슨 일이 벌어지고 있는 거지?",
    "voiceAsset": null,
@@ -245,7 +245,7 @@
   },
   {
    "shotId": "S03-12",
-   "f": 80,
+   "f": 109,
    "speaker": "soma",
    "text": "아니, 움직이고는 있어. 같은 동작을 반복하고 있을 뿐이야.",
    "voiceAsset": null,
@@ -253,7 +253,7 @@
   },
   {
    "shotId": "S03-12",
-   "f": 184,
+   "f": 254,
    "speaker": "mio",
    "text": "무서워… 소마, 돌아가자.",
    "voiceAsset": null,
@@ -317,7 +317,7 @@
   },
   {
    "shotId": "S04-08",
-   "f": 93,
+   "f": 127,
    "speaker": "soma",
    "text": "이게… 시계가 멈춘 이유인가.",
    "voiceAsset": null,
@@ -341,7 +341,7 @@
   },
   {
    "shotId": "S04-12",
-   "f": 89,
+   "f": 129,
    "speaker": "soma",
    "text": "나도 몰라. 하지만… 이제 괜찮아.",
    "voiceAsset": null,
@@ -349,7 +349,7 @@
   },
   {
    "shotId": "S04-12",
-   "f": 157,
+   "f": 229,
    "speaker": "mio",
    "text": "소마, 네 눈… 파랗게 빛나고 있어.",
    "voiceAsset": null,
@@ -397,7 +397,7 @@
   },
   {
    "shotId": "S04-19",
-   "f": 70,
+   "f": 96,
    "speaker": "soma",
    "text": "날짜가… 이 도시가 처음 멈춘 날이야.",
    "voiceAsset": null,
@@ -421,7 +421,7 @@
   },
   {
    "shotId": "S05-02",
-   "f": 83,
+   "f": 114,
    "speaker": "kaede",
    "text": "소마, 네 능력은 저주가 아니란다. 시간을 멈추는 힘은 정지한 도시를 되돌릴 열쇠야.",
    "voiceAsset": null,
@@ -429,7 +429,7 @@
   },
   {
    "shotId": "S05-02",
-   "f": 220,
+   "f": 354,
    "speaker": "kaede",
    "text": "하지만 그 힘을 노리는 자들이 있다. 조심하거라.",
    "voiceAsset": null,
@@ -453,7 +453,7 @@
   },
   {
    "shotId": "S05-05",
-   "f": 56,
+   "f": 80,
    "speaker": "soma",
    "text": "누구지? 이 연구소 사람은 아닌데.",
    "voiceAsset": null,
@@ -461,7 +461,7 @@
   },
   {
    "shotId": "S05-05",
-   "f": 124,
+   "f": 172,
    "speaker": "veyra",
    "text": "이름 따윈 필요 없어. 정지한 시간을 걷는 자는 나 하나면 충분하다.",
    "voiceAsset": null,
@@ -469,7 +469,7 @@
   },
   {
    "shotId": "S05-05",
-   "f": 234,
+   "f": 371,
    "speaker": "soma",
    "text": "…싫다면?",
    "voiceAsset": null,
@@ -480,14 +480,6 @@
    "f": 12,
    "speaker": "veyra",
    "text": "베어 내겠다.",
-   "voiceAsset": null,
-   "status": "NOT RECORDED"
-  },
-  {
-   "shotId": "S05-11",
-   "f": 6,
-   "speaker": "soma",
-   "text": "윽…!",
    "voiceAsset": null,
    "status": "NOT RECORDED"
   },
@@ -509,7 +501,7 @@
   },
   {
    "shotId": "S05-13",
-   "f": 83,
+   "f": 128,
    "speaker": "soma",
    "text": "아직… 끝나지 않았어.",
    "voiceAsset": null,
@@ -581,7 +573,7 @@
   },
   {
    "shotId": "S06-17",
-   "f": 70,
+   "f": 107,
    "speaker": "soma",
    "text": "미오를 지킬 거야. 그 누구에게도 시간을 뺏기지 않아!",
    "voiceAsset": null,

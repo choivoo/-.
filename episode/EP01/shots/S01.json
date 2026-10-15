@@ -10,11 +10,194 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 67,
+    "dur": 113,
     "speaker": "narration",
     "text": "그날 밤, 도시 위로 달이 하나 더 떠올랐다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S01-01-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "u"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "u"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "a"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "i"
+     },
+     {
+      "f": 33,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "i"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "i"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "i"
+     },
+     {
+      "f": 48,
+      "shape": "closed"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 50,
+      "shape": "i"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "i"
+     },
+     {
+      "f": 57,
+      "shape": "small"
+     },
+     {
+      "f": 58,
+      "shape": "closed"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "a"
+     },
+     {
+      "f": 63,
+      "shape": "small"
+     },
+     {
+      "f": 65,
+      "shape": "a"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "closed"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "e"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "closed"
+     },
+     {
+      "f": 76,
+      "shape": "e"
+     },
+     {
+      "f": 81,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "e"
+     },
+     {
+      "f": 83,
+      "shape": "small"
+     },
+     {
+      "f": 85,
+      "shape": "e"
+     },
+     {
+      "f": 87,
+      "shape": "closed"
+     },
+     {
+      "f": 90,
+      "shape": "small"
+     },
+     {
+      "f": 91,
+      "shape": "a"
+     },
+     {
+      "f": 94,
+      "shape": "small"
+     },
+     {
+      "f": 95,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -76,7 +259,12 @@
   "transition": {
    "inType": "fadeBlack",
    "inFrames": 18
-  }
+  },
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「그날 밤, 도시 위로 달이 하나 더 떠올랐다.」"
  },
  {
   "sceneId": "S01",
@@ -89,11 +277,142 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 54,
+    "dur": 103,
     "speaker": "narration",
     "text": "빛이 아닌 것을 삼키는, 검은 달.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S01-02-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "i"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "closed"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "i"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "i"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "i"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "closed"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "i"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "i"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "i"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "closed"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "closed"
+     },
+     {
+      "f": 62,
+      "shape": "u"
+     },
+     {
+      "f": 64,
+      "shape": "small"
+     },
+     {
+      "f": 67,
+      "shape": "u"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "closed"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "u"
+     },
+     {
+      "f": 81,
+      "shape": "small"
+     },
+     {
+      "f": 85,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -141,7 +460,12 @@
     "dur": 192,
     "seed": 3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「빛이 아닌 것을 삼키는, 검은 달.」"
  },
  {
   "sceneId": "S01",
@@ -156,11 +480,182 @@
   "dialogue": [
    {
     "f": 14,
-    "dur": 61,
+    "dur": 100,
     "speaker": "kaede",
     "text": "서둘러야 해… 기록이 지워지기 전에.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S01-03-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "e"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 8,
+      "shape": "e"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "e"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "e"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "closed"
+     },
+     {
+      "f": 20,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "e"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "closed"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "i"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "i"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "closed"
+     },
+     {
+      "f": 46,
+      "shape": "i"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "closed"
+     },
+     {
+      "f": 50,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "i"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 57,
+      "shape": "i"
+     },
+     {
+      "f": 59,
+      "shape": "closed"
+     },
+     {
+      "f": 60,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "u"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 63,
+      "shape": "closed"
+     },
+     {
+      "f": 65,
+      "shape": "small"
+     },
+     {
+      "f": 66,
+      "shape": "i"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "closed"
+     },
+     {
+      "f": 69,
+      "shape": "small"
+     },
+     {
+      "f": 72,
+      "shape": "i"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "i"
+     },
+     {
+      "f": 80,
+      "shape": "small"
+     },
+     {
+      "f": 82,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -356,7 +851,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "kaede",
@@ -419,7 +914,12 @@
     "seed": 77,
     "count": 10
    }
-  ]
+  ],
+  "kind": "movement",
+  "purpose": "캐릭터 행동과 장면 연결",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「서둘러야 해… 기록이 지워지기 전에.」"
  },
  {
   "sceneId": "S01",
@@ -434,19 +934,433 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 117,
+    "dur": 198,
     "speaker": "kaede",
     "text": "이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S01-04-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "i"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "i"
+     },
+     {
+      "f": 9,
+      "shape": "small"
+     },
+     {
+      "f": 10,
+      "shape": "closed"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "e"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 16,
+      "shape": "e"
+     },
+     {
+      "f": 17,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "e"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 27,
+      "shape": "e"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "closed"
+     },
+     {
+      "f": 32,
+      "shape": "e"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "e"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "closed"
+     },
+     {
+      "f": 44,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "a"
+     },
+     {
+      "f": 53,
+      "shape": "small"
+     },
+     {
+      "f": 55,
+      "shape": "closed"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 68,
+      "shape": "a"
+     },
+     {
+      "f": 71,
+      "shape": "small"
+     },
+     {
+      "f": 73,
+      "shape": "a"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 76,
+      "shape": "closed"
+     },
+     {
+      "f": 77,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "i"
+     },
+     {
+      "f": 85,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "closed"
+     },
+     {
+      "f": 89,
+      "shape": "a"
+     },
+     {
+      "f": 92,
+      "shape": "small"
+     },
+     {
+      "f": 93,
+      "shape": "a"
+     },
+     {
+      "f": 95,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "closed"
+     },
+     {
+      "f": 99,
+      "shape": "small"
+     },
+     {
+      "f": 101,
+      "shape": "closed"
+     },
+     {
+      "f": 103,
+      "shape": "small"
+     },
+     {
+      "f": 104,
+      "shape": "a"
+     },
+     {
+      "f": 106,
+      "shape": "small"
+     },
+     {
+      "f": 114,
+      "shape": "closed"
+     },
+     {
+      "f": 115,
+      "shape": "small"
+     },
+     {
+      "f": 116,
+      "shape": "i"
+     },
+     {
+      "f": 119,
+      "shape": "small"
+     },
+     {
+      "f": 125,
+      "shape": "i"
+     },
+     {
+      "f": 127,
+      "shape": "small"
+     },
+     {
+      "f": 128,
+      "shape": "closed"
+     },
+     {
+      "f": 130,
+      "shape": "o"
+     },
+     {
+      "f": 132,
+      "shape": "small"
+     },
+     {
+      "f": 135,
+      "shape": "o"
+     },
+     {
+      "f": 137,
+      "shape": "small"
+     },
+     {
+      "f": 138,
+      "shape": "closed"
+     },
+     {
+      "f": 139,
+      "shape": "small"
+     },
+     {
+      "f": 140,
+      "shape": "e"
+     },
+     {
+      "f": 142,
+      "shape": "small"
+     },
+     {
+      "f": 143,
+      "shape": "closed"
+     },
+     {
+      "f": 144,
+      "shape": "o"
+     },
+     {
+      "f": 146,
+      "shape": "small"
+     },
+     {
+      "f": 149,
+      "shape": "o"
+     },
+     {
+      "f": 151,
+      "shape": "small"
+     },
+     {
+      "f": 157,
+      "shape": "o"
+     },
+     {
+      "f": 160,
+      "shape": "small"
+     },
+     {
+      "f": 162,
+      "shape": "o"
+     },
+     {
+      "f": 163,
+      "shape": "small"
+     },
+     {
+      "f": 165,
+      "shape": "closed"
+     },
+     {
+      "f": 169,
+      "shape": "small"
+     },
+     {
+      "f": 171,
+      "shape": "i"
+     },
+     {
+      "f": 172,
+      "shape": "small"
+     },
+     {
+      "f": 180,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    },
    {
-    "f": 139,
-    "dur": 51,
+    "f": 220,
+    "dur": 82,
     "speaker": "kaede",
     "text": "…열두 번째 정지가 오기 전에.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S01-04-D02.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "e"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "closed"
+     },
+     {
+      "f": 14,
+      "shape": "e"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "closed"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "e"
+     },
+     {
+      "f": 24,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "closed"
+     },
+     {
+      "f": 26,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "e"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 36,
+      "shape": "closed"
+     },
+     {
+      "f": 38,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "a"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "a"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "closed"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 51,
+      "shape": "closed"
+     },
+     {
+      "f": 52,
+      "shape": "small"
+     },
+     {
+      "f": 54,
+      "shape": "i"
+     },
+     {
+      "f": 57,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "i"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -462,7 +1376,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "kaede",
@@ -474,22 +1388,22 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "clutch",
+      "blend": 5
      },
      {
-      "f": 129,
+      "f": 212,
       "clip": "idle",
       "blend": 8
      },
      {
-      "f": 139,
+      "f": 217,
       "clip": "talk",
-      "blend": 6
+      "blend": 5
      },
      {
-      "f": 190,
+      "f": 304,
       "clip": "idle",
       "blend": 8
      }
@@ -512,7 +1426,7 @@
       ]
      },
      {
-      "f": 135,
+      "f": 216,
       "expr": "resolve",
       "look": [
        0.3,
@@ -545,7 +1459,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「이 시계를 아이에게 남긴다. 부디 그 아이가 멈춘 시간 속에서도 걸을 수 있기를.」"
  },
  {
   "sceneId": "S01",
@@ -576,7 +1495,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "kaede",
@@ -630,7 +1549,12 @@
     "intensity": 0.5,
     "color": "#9fe8ff"
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다."
  },
  {
   "sceneId": "S01",
@@ -707,7 +1631,12 @@
     "size": 1200,
     "color": "#c9a6ff"
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다."
  },
  {
   "sceneId": "S01",
@@ -720,11 +1649,258 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 77,
+    "dur": 132,
     "speaker": "narration",
     "text": "시계는 하나둘, 같은 시각에서 멈추기 시작했다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S01-07-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "i"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "closed"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "e"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 12,
+      "shape": "e"
+     },
+     {
+      "f": 13,
+      "shape": "small"
+     },
+     {
+      "f": 17,
+      "shape": "closed"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "a"
+     },
+     {
+      "f": 23,
+      "shape": "small"
+     },
+     {
+      "f": 25,
+      "shape": "a"
+     },
+     {
+      "f": 27,
+      "shape": "closed"
+     },
+     {
+      "f": 28,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "u"
+     },
+     {
+      "f": 31,
+      "shape": "small"
+     },
+     {
+      "f": 35,
+      "shape": "closed"
+     },
+     {
+      "f": 40,
+      "shape": "small"
+     },
+     {
+      "f": 41,
+      "shape": "u"
+     },
+     {
+      "f": 44,
+      "shape": "closed"
+     },
+     {
+      "f": 48,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "closed"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "a"
+     },
+     {
+      "f": 58,
+      "shape": "small"
+     },
+     {
+      "f": 59,
+      "shape": "closed"
+     },
+     {
+      "f": 61,
+      "shape": "e"
+     },
+     {
+      "f": 63,
+      "shape": "closed"
+     },
+     {
+      "f": 65,
+      "shape": "e"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "e"
+     },
+     {
+      "f": 72,
+      "shape": "small"
+     },
+     {
+      "f": 73,
+      "shape": "e"
+     },
+     {
+      "f": 75,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "closed"
+     },
+     {
+      "f": 83,
+      "shape": "small"
+     },
+     {
+      "f": 84,
+      "shape": "u"
+     },
+     {
+      "f": 85,
+      "shape": "small"
+     },
+     {
+      "f": 86,
+      "shape": "closed"
+     },
+     {
+      "f": 87,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "i"
+     },
+     {
+      "f": 89,
+      "shape": "small"
+     },
+     {
+      "f": 90,
+      "shape": "closed"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 93,
+      "shape": "i"
+     },
+     {
+      "f": 96,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "closed"
+     },
+     {
+      "f": 98,
+      "shape": "small"
+     },
+     {
+      "f": 99,
+      "shape": "a"
+     },
+     {
+      "f": 100,
+      "shape": "closed"
+     },
+     {
+      "f": 101,
+      "shape": "small"
+     },
+     {
+      "f": 104,
+      "shape": "a"
+     },
+     {
+      "f": 105,
+      "shape": "small"
+     },
+     {
+      "f": 106,
+      "shape": "closed"
+     },
+     {
+      "f": 109,
+      "shape": "small"
+     },
+     {
+      "f": 110,
+      "shape": "e"
+     },
+     {
+      "f": 113,
+      "shape": "small"
+     },
+     {
+      "f": 114,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -772,7 +1948,12 @@
     "dur": 288,
     "seed": 3
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「시계는 하나둘, 같은 시각에서 멈추기 시작했다.」"
  },
  {
   "sceneId": "S01",
@@ -786,19 +1967,74 @@
   "voiceAsset": null,
   "dialogue": [
    {
-    "f": 16,
-    "dur": 28,
+    "f": 12,
+    "dur": 47,
     "speaker": "veyra",
     "text": "…시작됐군.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S01-08-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "i"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "i"
+     },
+     {
+      "f": 10,
+      "shape": "small"
+     },
+     {
+      "f": 11,
+      "shape": "closed"
+     },
+     {
+      "f": 14,
+      "shape": "small"
+     },
+     {
+      "f": 15,
+      "shape": "a"
+     },
+     {
+      "f": 17,
+      "shape": "closed"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 23,
+      "shape": "e"
+     },
+     {
+      "f": 29,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
    {
     "f": 0,
     "sound": "wind_loop",
-    "volume": 0.3
+    "volume": 0.2
    }
   ],
   "musicCue": {
@@ -807,22 +2043,44 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
-    "x": 1650,
+    "x": 1500,
     "flip": true,
     "animationClips": [
      {
       "f": 0,
       "clip": "idle"
+     },
+     {
+      "f": 9,
+      "clip": "gestureB",
+      "blend": 5
+     },
+     {
+      "f": 61,
+      "clip": "idle",
+      "blend": 8
      }
     ],
     "face": [
      {
       "f": 0,
-      "expr": "neutral"
+      "expr": "neutral",
+      "look": [
+       -1,
+       0.2
+      ]
+     },
+     {
+      "f": 8,
+      "expr": "smile",
+      "look": [
+       -1,
+       0.2
+      ]
      }
     ]
    }
@@ -830,34 +2088,40 @@
   "cameraKeyframes": [
    {
     "f": 0,
-    "x": 1600,
-    "y": 520,
-    "zoom": 1.3
+    "x": 1488,
+    "y": 560,
+    "zoom": 1.7
    },
    {
     "f": 384,
-    "x": 1600,
-    "y": 520,
-    "zoom": 1.1,
-    "ease": "inOut"
+    "x": 1484,
+    "y": 564,
+    "zoom": 1.87,
+    "ease": "out"
    }
   ],
   "vfx": [
    {
-    "type": "fog",
-    "f": 0,
-    "dur": 384,
-    "y": 770,
-    "seed": 5,
-    "intensity": 0.7
-   },
-   {
     "type": "wind",
     "f": 0,
     "dur": 384,
-    "seed": 3
+    "seed": 7,
+    "intensity": 0.4
+   },
+   {
+    "type": "fog",
+    "f": 0,
+    "dur": 400,
+    "y": 800,
+    "seed": 3,
+    "intensity": 0.6
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "MS",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「…시작됐군.」"
  },
  {
   "sceneId": "S01",
@@ -883,7 +2147,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "veyra",
@@ -930,7 +2194,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "ECU",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다."
  },
  {
   "sceneId": "S01",
@@ -943,11 +2212,178 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 61,
+    "dur": 134,
     "speaker": "narration",
     "text": "흑월의 잔향 — 제1화, 정지하는 시간",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S01-10-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 2,
+      "shape": "small"
+     },
+     {
+      "f": 3,
+      "shape": "u"
+     },
+     {
+      "f": 5,
+      "shape": "small"
+     },
+     {
+      "f": 7,
+      "shape": "closed"
+     },
+     {
+      "f": 8,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "u"
+     },
+     {
+      "f": 11,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "closed"
+     },
+     {
+      "f": 19,
+      "shape": "small"
+     },
+     {
+      "f": 21,
+      "shape": "i"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 29,
+      "shape": "closed"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "a"
+     },
+     {
+      "f": 34,
+      "shape": "small"
+     },
+     {
+      "f": 37,
+      "shape": "closed"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "e"
+     },
+     {
+      "f": 55,
+      "shape": "small"
+     },
+     {
+      "f": 57,
+      "shape": "closed"
+     },
+     {
+      "f": 61,
+      "shape": "small"
+     },
+     {
+      "f": 62,
+      "shape": "e"
+     },
+     {
+      "f": 71,
+      "shape": "closed"
+     },
+     {
+      "f": 79,
+      "shape": "small"
+     },
+     {
+      "f": 81,
+      "shape": "e"
+     },
+     {
+      "f": 83,
+      "shape": "small"
+     },
+     {
+      "f": 88,
+      "shape": "e"
+     },
+     {
+      "f": 89,
+      "shape": "closed"
+     },
+     {
+      "f": 90,
+      "shape": "small"
+     },
+     {
+      "f": 91,
+      "shape": "a"
+     },
+     {
+      "f": 93,
+      "shape": "small"
+     },
+     {
+      "f": 99,
+      "shape": "closed"
+     },
+     {
+      "f": 100,
+      "shape": "small"
+     },
+     {
+      "f": 102,
+      "shape": "u"
+     },
+     {
+      "f": 103,
+      "shape": "small"
+     },
+     {
+      "f": 104,
+      "shape": "closed"
+     },
+     {
+      "f": 105,
+      "shape": "small"
+     },
+     {
+      "f": 106,
+      "shape": "i"
+     },
+     {
+      "f": 111,
+      "shape": "small"
+     },
+     {
+      "f": 116,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -1009,6 +2445,11 @@
   "transition": {
    "outType": "fadeBlack",
    "outFrames": 24
-  }
+  },
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "해안도시 위로 검은 달이 뜨고, 연구시설의 마지막 기록이 남겨진다. 「흑월의 잔향 — 제1화, 정지하는 시간」"
  }
 ]

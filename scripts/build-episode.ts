@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
 import { SCENES, EP_TITLE } from './lib/episodeScript';
 import { buildSampleShots } from './lib/sampleShots';
 import type { ShotSpec, SceneMeta, EpisodeMeta } from '../src/scenes/types';
@@ -36,12 +36,23 @@ for (const sc of SCENES) {
     return {
       sceneId: sc.meta.sceneId, shotId: '', startFrame: 0, durationFrames: dur, backgroundId: body.backgroundId ?? 'ruins_night',
       characterIds: body.characters.map((c) => c.id), voiceAsset: null, dialogue: [], soundEffects: [], musicCue: null,
-      renderStatus: 'pending', fidelity: 'animatic', ...body,
+      renderStatus: 'pending', fidelity: 'animatic', ...body, kind: b.kind,
     } as ShotSpec;
   });
   // sample shots come first in S06 (fixed 720f), then generated beats
+  const PURPOSE: Record<string, string> = { establish: '장소·시간대 제시와 분위기 형성(환경 샷)', dialogue: '정보 전달과 감정 변화(대사 연기)', closeup: '감정 변화와 시선 연출', movement: '캐릭터 행동과 장면 연결', duel: '액션 — 충돌 이벤트 기반 전투', ability: '이야기의 전환 — 시간 정지 각성', montage: '오프닝/엔딩 몽타주 연출' };
+  for (const s of beatShots) {
+    const k = s.kind ?? 'establish';
+    s.purpose = PURPOSE[k]; s.fidelity = k === 'establish' ? 'animatic' : 'directed';
+    s.priority = k === 'duel' || k === 'ability' || sc.meta.sceneId === 'S07' ? 'P0' : k === 'closeup' || k === 'dialogue' ? 'P1' : k === 'movement' || k === 'montage' ? 'P2' : 'P3';
+    const z = Math.min(...s.cameraKeyframes.map((c) => c.zoom));
+    s.shotSize = z >= 4 ? 'ECU' : z >= 2.3 ? 'CU' : z >= 1.4 ? 'MS' : 'WS';
+    s.description = `${sc.meta.summary} ${s.dialogue[0] ? '「' + s.dialogue[0].text + '」' : ''}`.trim();
+  }
+  for (const s of fixed) { s.kind = 'duel'; s.priority = 'P0'; s.purpose = '액션 — 30초 완성 샘플(충돌·회피·반격)'; s.shotSize = 'MS'; s.description = '폐허에서의 검전 샘플'; }
   shots.push(...fixed, ...beatShots);
   shots.forEach((s, i) => { s.shotId = `${sc.meta.sceneId}-${String(i + 1).padStart(2, '0')}`; s.startFrame = cursor; cursor += s.durationFrames; s.musicCue = { id: 'tension_drone', trackOffset: s.startFrame % 1440, volume: 0.35 }; });
+  for (const s of shots) s.dialogue.forEach((d, i) => { const id = `${s.shotId}-D${String(i + 1).padStart(2, '0')}`; if (existsSync(`public/voices/${id}.wav`)) { d.voiceAsset = `voices/${id}.wav`; d.placeholderVoice = true; (d as any).synthetic = true; } });
   const sum = shots.reduce((a, s) => a + s.durationFrames, 0);
   if (sum !== target) throw new Error(`scene ${sc.meta.sceneId}: ${sum} != ${target}`);
   sceneMetas.push({ ...sc.meta, startFrame: sceneStart });

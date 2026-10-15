@@ -118,14 +118,14 @@ const thrust = keyed('thrust', 22, [
 
 const guard = keyed('guard', 18, [
   { t: 0, pose: { ...STANCE, drawn: 1 }, phase: 'anticipation' },
-  { t: 3, pose: { ...sp(4, 88, 90, 150), drawn: 1, shL: 80, elL: 92, hipR: 38, knR: -44, hipL: -30, knL: -32, squashY: 0.97 }, ease: 'out', phase: 'action' },
+  { t: 3, pose: { ...sp(10, 40, 10, 110), drawn: 1, shL: 36, elL: 20, hipR: 38, knR: -44, hipL: -30, knL: -32, squashY: 0.97 }, ease: 'out', phase: 'action' },
   { t: 5, pose: { lean: -6, x: -22, head: -5 }, ease: 'outExpo', phase: 'impact' },
   { t: 10, pose: { lean: 2, x: -26 }, ease: 'out', phase: 'follow' },
   { t: 18, pose: { ...STANCE, drawn: 1, x: -26 }, ease: 'inOut' },
 ], { impactT: 5 });
 
 const counter = keyed('counter', 24, [
-  { t: 0, pose: { ...sp(4, 88, 90, 150), drawn: 1, shL: 80, elL: 92, hipR: 38, knR: -44, hipL: -30, knL: -32 }, phase: 'anticipation' },
+  { t: 0, pose: { ...sp(10, 40, 10, 110), drawn: 1, shL: 36, elL: 20, hipR: 38, knR: -44, hipL: -30, knL: -32 }, phase: 'anticipation' },
   { t: 5, pose: { ...sp(-10, 40, 90, 215), drawn: 1, shL: 30, elL: 100, hipR: 40, knR: -46, hipL: -30, knL: -30, x: -10, head: -6 }, ease: 'out' },
   { t: 8, pose: { ...sp(26, 94, 8, 90), drawn: 1, shL: 88, elL: 22, x: 54, hipR: 56, knR: -62, hipL: -42, knL: -12, coat: 1, hair: 1, smear: 1, stretchX: 1.09 }, ease: 'outExpo', phase: 'impact' },
   { t: 13, pose: { ...sp(22, 100, 8, 74), drawn: 1, x: 62, smear: 0.2, stretchX: 1.02 }, ease: 'out', phase: 'follow' },
@@ -141,7 +141,35 @@ const stagger = keyed('stagger', 22, [
 ]);
 const talk = procedural('talk', 60, (t) => ({ lean: 2 + wave(t, 60) * 1, head: wave(t, 40) * 2.5, shR: 10 + wave(t, 30, 30) * 5, elR: 30 + wave(t, 30) * 10, hair: 0.1, coat: 0.1 }));
 
+const EXTRA: Record<string, Clip> = {};
+
+// --- acting clips (dialogue / reaction) ------------------------------------------------------------
+const gestureA = procedural('gestureA', 36, (t) => ({ lean: 3 + wave(t, 36) * 1.5, shR: 55 + wave(t, 36) * 18, elR: 85 + wave(t, 18) * 15, wrR: wave(t, 18) * 15, head: wave(t, 36, 60) * 3, hair: 0.1 }));
+const gestureB = keyed('gestureB', 30, [
+  { t: 0, pose: {} },
+  { t: 10, pose: { shR: 35, elR: 80, shL: 28, elL: 80, head: 5, lean: 1 }, ease: 'out' },
+  { t: 22, pose: { shR: 30, elR: 75, shL: 24, elL: 75, head: 3 }, ease: 'inOut' },
+  { t: 30, pose: {}, ease: 'inOut' },
+]);
+const nod = keyed('nod', 16, [{ t: 0, pose: {} }, { t: 5, pose: { head: 9, lean: 5 }, ease: 'out' }, { t: 10, pose: { head: -2 }, ease: 'inOut' }, { t: 16, pose: {}, ease: 'inOut' }]);
+const headShake = keyed('headShake', 20, [{ t: 0, pose: {} }, { t: 4, pose: { head: 6, headTurn: 0.1 }, ease: 'out' }, { t: 9, pose: { head: -6, headTurn: 0.6 }, ease: 'inOut' }, { t: 14, pose: { head: 4, headTurn: 0.2 }, ease: 'inOut' }, { t: 20, pose: {}, ease: 'inOut' }]);
+const recoil = keyed('recoil', 16, [
+  { t: 0, pose: {} },
+  { t: 3, pose: { lean: -9, x: -16, head: -6, shR: 40, elR: 70, shL: 30, elL: 70, hipR: 12, knR: -14, squashY: 1.02, coat: 0.6 }, ease: 'outExpo' },
+  { t: 16, pose: { lean: -4, x: -20, shR: 22, elR: 50, shL: 14, elL: 50 }, ease: 'out' },
+]);
+const cower = keyed('cower', 20, [
+  { t: 0, pose: {} },
+  { t: 5, pose: { lean: 20, x: -10, shR: 60, elR: 125, shL: 55, elL: 125, head: 12, hipR: 26, knR: -40, hipL: -10, knL: -34, squashY: 0.96 }, ease: 'out' },
+  { t: 20, pose: { lean: 18, shR: 58, elR: 120, head: 10 }, ease: 'inOut' },
+]);
+const clutch = procedural('clutch', 48, (t) => ({ lean: 8 + wave(t, 48) * 1.2, head: 8 + wave(t, 48, 90) * 1.5, shR: 55, elR: 125, wrR: 25, shL: -4, hair: 0.05 }));
+const lookAround = procedural('lookAround', 72, (t) => ({ lean: 3, head: wave(t, 72) * 6, headTurn: 0.35 + wave(t, 72) * 0.5 }));
+const flinch = keyed('flinch', 12, [{ t: 0, pose: {} }, { t: 2, pose: { lean: -14, x: -22, head: -10, shR: 70, elR: 90, shL: 60, elL: 90, squashY: 0.98 }, ease: 'outExpo' }, { t: 12, pose: { lean: -5, x: -24 }, ease: 'out' }]);
+Object.assign(EXTRA, { gestureA, gestureB, nod, headShake, recoil, cower, clutch, lookAround, flinch });
+
 export const CLIPS: Record<string, Clip> = Object.fromEntries(
   [idle, walk, run, turn, jump, land, dodge, fall, getUp, drawSword, slashH, slashV, thrust, guard, counter, stance, stagger, talk].map((c) => [c.id, c]),
 );
+Object.assign(CLIPS, EXTRA);
 export const REQUIRED_CLIPS = ['idle', 'walk', 'run', 'turn', 'jump', 'land', 'dodge', 'fall', 'getUp', 'drawSword', 'slashH', 'slashV', 'thrust', 'guard', 'counter'];

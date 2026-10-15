@@ -13,11 +13,142 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 54,
+    "dur": 95,
     "speaker": "narration",
     "text": "검은 달은, 아직 저물지 않았다.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S08-01-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 1,
+      "shape": "e"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "e"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 14,
+      "shape": "e"
+     },
+     {
+      "f": 16,
+      "shape": "small"
+     },
+     {
+      "f": 30,
+      "shape": "closed"
+     },
+     {
+      "f": 35,
+      "shape": "i"
+     },
+     {
+      "f": 37,
+      "shape": "small"
+     },
+     {
+      "f": 38,
+      "shape": "closed"
+     },
+     {
+      "f": 39,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "e"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "closed"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 48,
+      "shape": "e"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "e"
+     },
+     {
+      "f": 54,
+      "shape": "small"
+     },
+     {
+      "f": 56,
+      "shape": "closed"
+     },
+     {
+      "f": 57,
+      "shape": "i"
+     },
+     {
+      "f": 59,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "i"
+     },
+     {
+      "f": 61,
+      "shape": "small"
+     },
+     {
+      "f": 65,
+      "shape": "i"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 70,
+      "shape": "closed"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 74,
+      "shape": "a"
+     },
+     {
+      "f": 76,
+      "shape": "small"
+     },
+     {
+      "f": 78,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -110,7 +241,12 @@
     "color": "#ff4f86",
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "WS",
+  "description": "엔딩 몽타주와 다음 화 예고 티저. 「검은 달은, 아직 저물지 않았다.」"
  },
  {
   "sceneId": "S08",
@@ -141,7 +277,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "— ENDING (PLACEHOLDER) —",
   "characters": [
    {
@@ -220,7 +356,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "엔딩 몽타주와 다음 화 예고 티저."
  },
  {
   "sceneId": "S08",
@@ -251,7 +392,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "SOMA KIRITANI",
   "characters": [
    {
@@ -330,7 +471,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "엔딩 몽타주와 다음 화 예고 티저."
  },
  {
   "sceneId": "S08",
@@ -361,7 +507,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "VEYRA",
   "characters": [
    {
@@ -440,7 +586,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "엔딩 몽타주와 다음 화 예고 티저."
  },
  {
   "sceneId": "S08",
@@ -471,7 +622,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "title": "DR. KUON KAEDE",
   "characters": [
    {
@@ -550,7 +701,12 @@
     "dur": 4,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "montage",
+  "purpose": "오프닝/엔딩 몽타주 연출",
+  "priority": "P2",
+  "shotSize": "MS",
+  "description": "엔딩 몽타주와 다음 화 예고 티저."
  },
  {
   "sceneId": "S08",
@@ -565,11 +721,182 @@
   "dialogue": [
    {
     "f": 12,
-    "dur": 87,
+    "dur": 121,
     "speaker": "soma",
     "text": "미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S08-06-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "small"
+     },
+     {
+      "f": 2,
+      "shape": "i"
+     },
+     {
+      "f": 3,
+      "shape": "small"
+     },
+     {
+      "f": 6,
+      "shape": "i"
+     },
+     {
+      "f": 7,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "closed"
+     },
+     {
+      "f": 15,
+      "shape": "small"
+     },
+     {
+      "f": 18,
+      "shape": "a"
+     },
+     {
+      "f": 22,
+      "shape": "small"
+     },
+     {
+      "f": 24,
+      "shape": "closed"
+     },
+     {
+      "f": 27,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "e"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 33,
+      "shape": "e"
+     },
+     {
+      "f": 36,
+      "shape": "small"
+     },
+     {
+      "f": 39,
+      "shape": "e"
+     },
+     {
+      "f": 42,
+      "shape": "small"
+     },
+     {
+      "f": 43,
+      "shape": "e"
+     },
+     {
+      "f": 45,
+      "shape": "small"
+     },
+     {
+      "f": 46,
+      "shape": "closed"
+     },
+     {
+      "f": 47,
+      "shape": "i"
+     },
+     {
+      "f": 49,
+      "shape": "small"
+     },
+     {
+      "f": 61,
+      "shape": "i"
+     },
+     {
+      "f": 64,
+      "shape": "closed"
+     },
+     {
+      "f": 68,
+      "shape": "small"
+     },
+     {
+      "f": 69,
+      "shape": "i"
+     },
+     {
+      "f": 70,
+      "shape": "small"
+     },
+     {
+      "f": 72,
+      "shape": "i"
+     },
+     {
+      "f": 73,
+      "shape": "small"
+     },
+     {
+      "f": 75,
+      "shape": "i"
+     },
+     {
+      "f": 77,
+      "shape": "small"
+     },
+     {
+      "f": 80,
+      "shape": "i"
+     },
+     {
+      "f": 82,
+      "shape": "small"
+     },
+     {
+      "f": 90,
+      "shape": "i"
+     },
+     {
+      "f": 91,
+      "shape": "small"
+     },
+     {
+      "f": 93,
+      "shape": "i"
+     },
+     {
+      "f": 94,
+      "shape": "small"
+     },
+     {
+      "f": 97,
+      "shape": "i"
+     },
+     {
+      "f": 98,
+      "shape": "small"
+     },
+     {
+      "f": 102,
+      "shape": "i"
+     },
+     {
+      "f": 103,
+      "shape": "small"
+     },
+     {
+      "f": 105,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -585,7 +912,7 @@
    "volume": 0.35
   },
   "renderStatus": "pending",
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "characters": [
    {
     "id": "soma",
@@ -597,12 +924,12 @@
       "clip": "idle"
      },
      {
-      "f": 12,
-      "clip": "talk",
-      "blend": 6
+      "f": 9,
+      "clip": "clutch",
+      "blend": 5
      },
      {
-      "f": 99,
+      "f": 135,
       "clip": "idle",
       "blend": 8
      }
@@ -650,7 +977,12 @@
     "seed": 7,
     "intensity": 0.4
    }
-  ]
+  ],
+  "kind": "closeup",
+  "purpose": "감정 변화와 시선 연출",
+  "priority": "P1",
+  "shotSize": "CU",
+  "description": "엔딩 몽타주와 다음 화 예고 티저. 「미오… 나, 어쩌면 이 도시를 몇 번이나 잃었는지도 몰라.」"
  },
  {
   "sceneId": "S08",
@@ -663,11 +995,190 @@
   "dialogue": [
    {
     "f": 16,
-    "dur": 71,
+    "dur": 123,
     "speaker": "kaede",
     "text": "[기록] 다음 정지까지, 남은 시간 열하루.",
-    "voiceAsset": null,
-    "placeholderVoice": true
+    "voiceAsset": "voices/S08-07-D01.wav",
+    "placeholderVoice": true,
+    "mouthCues": [
+     {
+      "f": 0,
+      "shape": "closed"
+     },
+     {
+      "f": 4,
+      "shape": "small"
+     },
+     {
+      "f": 5,
+      "shape": "e"
+     },
+     {
+      "f": 6,
+      "shape": "small"
+     },
+     {
+      "f": 9,
+      "shape": "e"
+     },
+     {
+      "f": 12,
+      "shape": "small"
+     },
+     {
+      "f": 13,
+      "shape": "closed"
+     },
+     {
+      "f": 18,
+      "shape": "small"
+     },
+     {
+      "f": 19,
+      "shape": "i"
+     },
+     {
+      "f": 21,
+      "shape": "small"
+     },
+     {
+      "f": 22,
+      "shape": "i"
+     },
+     {
+      "f": 25,
+      "shape": "small"
+     },
+     {
+      "f": 28,
+      "shape": "closed"
+     },
+     {
+      "f": 30,
+      "shape": "small"
+     },
+     {
+      "f": 32,
+      "shape": "e"
+     },
+     {
+      "f": 35,
+      "shape": "small"
+     },
+     {
+      "f": 40,
+      "shape": "e"
+     },
+     {
+      "f": 41,
+      "shape": "small"
+     },
+     {
+      "f": 42,
+      "shape": "closed"
+     },
+     {
+      "f": 43,
+      "shape": "small"
+     },
+     {
+      "f": 44,
+      "shape": "e"
+     },
+     {
+      "f": 46,
+      "shape": "small"
+     },
+     {
+      "f": 49,
+      "shape": "e"
+     },
+     {
+      "f": 51,
+      "shape": "small"
+     },
+     {
+      "f": 53,
+      "shape": "closed"
+     },
+     {
+      "f": 58,
+      "shape": "small"
+     },
+     {
+      "f": 60,
+      "shape": "a"
+     },
+     {
+      "f": 62,
+      "shape": "small"
+     },
+     {
+      "f": 64,
+      "shape": "a"
+     },
+     {
+      "f": 67,
+      "shape": "small"
+     },
+     {
+      "f": 73,
+      "shape": "a"
+     },
+     {
+      "f": 74,
+      "shape": "small"
+     },
+     {
+      "f": 75,
+      "shape": "closed"
+     },
+     {
+      "f": 77,
+      "shape": "u"
+     },
+     {
+      "f": 81,
+      "shape": "small"
+     },
+     {
+      "f": 85,
+      "shape": "u"
+     },
+     {
+      "f": 90,
+      "shape": "small"
+     },
+     {
+      "f": 92,
+      "shape": "closed"
+     },
+     {
+      "f": 93,
+      "shape": "small"
+     },
+     {
+      "f": 94,
+      "shape": "e"
+     },
+     {
+      "f": 95,
+      "shape": "small"
+     },
+     {
+      "f": 99,
+      "shape": "e"
+     },
+     {
+      "f": 102,
+      "shape": "small"
+     },
+     {
+      "f": 103,
+      "shape": "closed"
+     }
+    ],
+    "synthetic": true
    }
   ],
   "soundEffects": [
@@ -729,6 +1240,11 @@
   "transition": {
    "outType": "fadeBlack",
    "outFrames": 24
-  }
+  },
+  "kind": "establish",
+  "purpose": "장소·시간대 제시와 분위기 형성(환경 샷)",
+  "priority": "P3",
+  "shotSize": "MS",
+  "description": "엔딩 몽타주와 다음 화 예고 티저. 「[기록] 다음 정지까지, 남은 시간 열하루.」"
  }
 ]

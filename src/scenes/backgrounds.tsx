@@ -115,7 +115,7 @@ function interior(id: string, name: string, wall: string, floor: string, light: 
       },
     },
     { id: 'floor', depth: 1, render: () => (<g><rect x={X0} y={GROUND_Y} width={X1 - X0} height={900} fill={floor} /><line x1={X0} x2={X1} y1={GROUND_Y} y2={GROUND_Y} stroke={line} strokeWidth="5" />{Array.from({ length: 50 }, (_, i) => <line key={i} x1={X0 + i * 200} x2={X0 + i * 200 - 80} y1={GROUND_Y} y2={GROUND_Y + 400} stroke={line} strokeWidth="2" opacity="0.5" />)}</g>) },
-    { id: 'fore', depth: 1.3, render: () => <g>{[200, 2100].map((px) => <rect key={px} x={px} y={-400} width={90} height={1700} fill="#06080f" />)}</g> },
+    { id: 'fore', depth: 1.3, render: () => <g>{[-700, 4200].map((px) => <rect key={px} x={px} y={-400} width={90} height={1700} fill="#06080f" />)}</g> },
   ];
   return { id, name, bounds: BOUNDS, groundY: GROUND_Y, layers, grade: { tint: '#2a6a9a', opacity: 0.16 }, assetStatus: 'placeholder-vector' };
 }

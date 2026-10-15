@@ -33,7 +33,7 @@
   "chars": [
    "kaede"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(800,610) z1.50",
    "f288:(2800,610) z1.50"
@@ -48,7 +48,7 @@
   "chars": [
    "kaede"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.60",
    "f336:(1516,564) z2.86"
@@ -63,7 +63,7 @@
   "chars": [
    "kaede"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,478) z5.20",
    "f240:(1516,482) z5.72"
@@ -104,10 +104,10 @@
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1600,520) z1.30",
-   "f384:(1600,520) z1.10"
+   "f0:(1488,560) z1.70",
+   "f384:(1484,564) z1.87"
   ],
   "notes": ""
  },
@@ -119,7 +119,7 @@
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1488,478) z5.20",
    "f192:(1484,482) z5.72"
@@ -147,7 +147,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z1.72",
    "f216:(1600,620) z1.50"
@@ -162,7 +162,7 @@
   "chars": [
    "mio"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z2.76",
    "f240:(1600,620) z2.40"
@@ -177,7 +177,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z2.30",
    "f240:(1600,620) z2.00"
@@ -192,7 +192,7 @@
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z2.07",
    "f240:(1600,620) z1.80"
@@ -207,7 +207,7 @@
   "chars": [
    "kaede"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z2.53",
    "f240:(1600,620) z2.20"
@@ -223,7 +223,7 @@
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z1.61",
    "f240:(1600,620) z1.40"
@@ -238,7 +238,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z1.61",
    "f240:(1600,620) z1.40"
@@ -254,7 +254,7 @@
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z1.72",
    "f240:(1600,620) z1.50"
@@ -270,7 +270,7 @@
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z1.84",
    "f264:(1600,620) z1.60"
@@ -299,10 +299,18 @@
    "mio",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1600,600) z1.75",
-   "f550:(1620,590) z1.87"
+   "f4:(1600,600) z1.75",
+   "f18:(1530,595) z1.82",
+   "f112:(1530,595) z1.82",
+   "f126:(1670,587) z1.86",
+   "f155:(1670,587) z1.86",
+   "f169:(1530,595) z1.91",
+   "f246:(1530,595) z1.91",
+   "f260:(1670,587) z1.82",
+   "f550:(1682,587) z1.87"
   ],
   "notes": ""
  },
@@ -314,7 +322,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z3.40",
    "f183:(1516,564) z3.74"
@@ -329,7 +337,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.80",
    "f321:(1516,564) z3.08"
@@ -345,7 +353,7 @@
    "soma",
    "mio"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(800,610) z1.35",
    "f458:(2600,610) z1.35"
@@ -361,10 +369,18 @@
    "soma",
    "mio"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1600,600) z1.75",
-   "f596:(1620,590) z1.87"
+   "f4:(1600,600) z1.75",
+   "f18:(1670,595) z1.82",
+   "f97:(1670,595) z1.82",
+   "f111:(1530,587) z1.86",
+   "f176:(1530,587) z1.86",
+   "f190:(1670,595) z1.91",
+   "f270:(1670,595) z1.91",
+   "f284:(1530,587) z1.82",
+   "f596:(1542,587) z1.87"
   ],
   "notes": ""
  },
@@ -376,7 +392,7 @@
   "chars": [
    "mio"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1488,560) z3.20",
    "f183:(1484,564) z3.52"
@@ -392,10 +408,16 @@
    "mio",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1600,600) z1.75",
-   "f550:(1620,590) z1.87"
+   "f4:(1600,600) z1.75",
+   "f18:(1530,595) z1.82",
+   "f98:(1530,595) z1.82",
+   "f112:(1670,587) z1.86",
+   "f215:(1670,587) z1.86",
+   "f229:(1530,595) z1.91",
+   "f550:(1542,595) z1.96"
   ],
   "notes": ""
  },
@@ -420,7 +442,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1488,560) z2.40",
    "f458:(1484,564) z2.64"
@@ -435,7 +457,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(900,610) z1.50",
    "f321:(2200,610) z1.50"
@@ -451,10 +473,16 @@
    "mio",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1600,600) z1.75",
-   "f596:(1620,590) z1.87"
+   "f4:(1600,600) z1.75",
+   "f18:(1530,595) z1.82",
+   "f101:(1530,595) z1.82",
+   "f115:(1670,587) z1.86",
+   "f246:(1670,587) z1.86",
+   "f260:(1530,595) z1.91",
+   "f596:(1542,595) z1.96"
   ],
   "notes": ""
  },
@@ -466,7 +494,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,478) z5.20",
    "f183:(1516,482) z5.72"
@@ -512,7 +540,7 @@
   "chars": [
    "mio"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1100,610) z1.50",
    "f298:(2100,610) z1.50"
@@ -542,7 +570,7 @@
   "chars": [
    "mio"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1488,478) z5.20",
    "f170:(1484,482) z5.72"
@@ -557,7 +585,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z3.40",
    "f170:(1516,564) z3.74"
@@ -572,7 +600,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,478) z5.20",
    "f170:(1516,482) z5.72"
@@ -588,7 +616,7 @@
    "mio",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1100,620) z1.40",
    "f426:(1800,600) z1.50"
@@ -603,7 +631,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.60",
    "f426:(1516,564) z2.86"
@@ -619,7 +647,7 @@
    "mio",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1100,620) z1.40",
    "f298:(1800,600) z1.50"
@@ -635,10 +663,12 @@
    "soma",
    "mio"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1690,600) z1.75",
-   "f298:(1710,590) z1.87"
+   "f4:(1690,600) z1.75",
+   "f18:(1648,595) z1.82",
+   "f298:(1660,595) z1.87"
   ],
   "notes": ""
  },
@@ -667,10 +697,16 @@
    "mio",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1600,600) z1.75",
-   "f527:(1620,590) z1.87"
+   "f4:(1600,600) z1.75",
+   "f18:(1530,595) z1.82",
+   "f121:(1530,595) z1.82",
+   "f135:(1670,587) z1.86",
+   "f221:(1670,587) z1.86",
+   "f235:(1530,595) z1.91",
+   "f527:(1542,595) z1.96"
   ],
   "notes": ""
  },
@@ -682,7 +718,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,478) z5.20",
    "f170:(1516,482) z5.72"
@@ -710,7 +746,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(900,610) z1.50",
    "f383:(2500,610) z1.50"
@@ -725,7 +761,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.40",
    "f298:(1516,564) z2.64"
@@ -755,7 +791,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(900,610) z1.50",
    "f340:(2400,610) z1.50"
@@ -770,7 +806,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.40",
    "f426:(1516,564) z2.64"
@@ -795,7 +831,7 @@
  {
   "shotId": "S05-01",
   "startFrame": 15840,
-  "durationFrames": 305,
+  "durationFrames": 302,
   "bg": "lab_corridor",
   "chars": [
    "soma",
@@ -804,45 +840,51 @@
   "fidelity": "animatic",
   "camera": [
    "f0:(1400,540) z1.20",
-   "f305:(1900,540) z1.30"
+   "f302:(1900,540) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-02",
-  "startFrame": 16145,
-  "durationFrames": 677,
+  "startFrame": 16142,
+  "durationFrames": 673,
   "bg": "lab_corridor",
   "chars": [
    "soma",
    "kaede"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1600,600) z1.75",
-   "f677:(1620,590) z1.87"
+   "f4:(1600,600) z1.75",
+   "f18:(1530,595) z1.82",
+   "f106:(1530,595) z1.82",
+   "f120:(1670,587) z1.86",
+   "f346:(1670,587) z1.86",
+   "f360:(1670,595) z1.91",
+   "f673:(1682,595) z1.96"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-03",
-  "startFrame": 16822,
-  "durationFrames": 254,
+  "startFrame": 16815,
+  "durationFrames": 252,
   "bg": "lab_corridor",
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z3.00",
-   "f254:(1516,564) z3.30"
+   "f252:(1516,564) z3.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-04",
-  "startFrame": 17076,
-  "durationFrames": 254,
+  "startFrame": 17067,
+  "durationFrames": 252,
   "bg": "lab_corridor",
   "chars": [
    "soma",
@@ -851,214 +893,262 @@
   "fidelity": "animatic",
   "camera": [
    "f0:(2400,540) z1.20",
-   "f254:(2200,540) z1.50"
+   "f252:(2200,540) z1.50"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-05",
-  "startFrame": 17330,
-  "durationFrames": 662,
+  "startFrame": 17319,
+  "durationFrames": 656,
   "bg": "lab_corridor",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1625,600) z1.75",
-   "f662:(1645,590) z1.87"
+   "f4:(1625,600) z1.75",
+   "f18:(1713,595) z1.82",
+   "f72:(1713,595) z1.82",
+   "f86:(1537,587) z1.86",
+   "f164:(1537,587) z1.86",
+   "f178:(1713,595) z1.91",
+   "f363:(1713,595) z1.91",
+   "f377:(1537,587) z1.82",
+   "f656:(1549,587) z1.87"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-06",
-  "startFrame": 17992,
-  "durationFrames": 203,
+  "startFrame": 17975,
+  "durationFrames": 201,
   "bg": "lab_corridor",
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1488,478) z5.20",
-   "f203:(1484,482) z5.72"
+   "f201:(1484,482) z5.72"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-07",
-  "startFrame": 18195,
-  "durationFrames": 203,
+  "startFrame": 18176,
+  "durationFrames": 201,
   "bg": "lab_corridor",
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,478) z5.20",
-   "f203:(1516,482) z5.72"
+   "f201:(1516,482) z5.72"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-08",
-  "startFrame": 18398,
-  "durationFrames": 254,
+  "startFrame": 18377,
+  "durationFrames": 277,
   "bg": "lab_corridor",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1660,650) z1.30",
-   "f254:(1700,640) z1.55"
+   "f0:(1700,650) z1.30",
+   "f29:(1700,650) z1.30",
+   "f43:(1700,640) z1.59",
+   "f63:(1700,650) z1.30",
+   "f67:(1700,650) z1.30",
+   "f81:(1700,640) z1.59",
+   "f101:(1700,650) z1.30",
+   "f103:(1700,650) z1.30",
+   "f117:(1700,640) z1.59",
+   "f137:(1700,650) z1.30",
+   "f144:(1700,650) z1.30",
+   "f158:(1700,640) z1.59",
+   "f178:(1700,650) z1.30",
+   "f183:(1700,650) z1.30",
+   "f197:(1700,640) z1.59",
+   "f217:(1700,650) z1.30",
+   "f277:(1700,650) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-09",
-  "startFrame": 18652,
-  "durationFrames": 203,
+  "startFrame": 18654,
+  "durationFrames": 226,
   "bg": "lab_corridor",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1560,650) z1.30",
-   "f203:(1600,640) z1.55"
+   "f0:(1600,650) z1.30",
+   "f27:(1600,650) z1.30",
+   "f41:(1600,640) z1.59",
+   "f61:(1600,650) z1.30",
+   "f69:(1600,650) z1.30",
+   "f83:(1600,640) z1.59",
+   "f103:(1600,650) z1.30",
+   "f105:(1600,650) z1.30",
+   "f119:(1600,640) z1.59",
+   "f139:(1600,650) z1.30",
+   "f147:(1600,650) z1.30",
+   "f161:(1600,640) z1.59",
+   "f181:(1600,650) z1.30",
+   "f226:(1600,650) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-10",
-  "startFrame": 18855,
-  "durationFrames": 203,
+  "startFrame": 18880,
+  "durationFrames": 201,
   "bg": "lab_corridor",
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(2200,610) z1.40",
-   "f203:(1300,610) z1.40"
+   "f201:(1300,610) z1.40"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-11",
-  "startFrame": 19058,
-  "durationFrames": 203,
+  "startFrame": 19081,
+  "durationFrames": 201,
   "bg": "lab_corridor",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1760,650) z1.30",
-   "f203:(1800,640) z1.55"
+   "f0:(1800,650) z1.30",
+   "f29:(1800,650) z1.30",
+   "f43:(1800,640) z1.59",
+   "f63:(1800,650) z1.30",
+   "f67:(1800,650) z1.30",
+   "f81:(1800,640) z1.59",
+   "f101:(1800,650) z1.30",
+   "f104:(1800,650) z1.30",
+   "f118:(1800,640) z1.59",
+   "f138:(1800,650) z1.30",
+   "f201:(1800,650) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-12",
-  "startFrame": 19261,
-  "durationFrames": 254,
+  "startFrame": 19282,
+  "durationFrames": 252,
   "bg": "lab_corridor",
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.80",
-   "f254:(1516,564) z3.08"
+   "f252:(1516,564) z3.08"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-13",
-  "startFrame": 19515,
-  "durationFrames": 407,
+  "startFrame": 19534,
+  "durationFrames": 403,
   "bg": "lab_corridor",
   "chars": [
    "veyra",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1550,600) z1.75",
-   "f407:(1570,590) z1.87"
+   "f4:(1550,600) z1.75",
+   "f18:(1470,595) z1.82",
+   "f120:(1470,595) z1.82",
+   "f134:(1630,587) z1.86",
+   "f403:(1642,587) z1.92"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-14",
-  "startFrame": 19922,
-  "durationFrames": 356,
+  "startFrame": 19937,
+  "durationFrames": 353,
   "bg": "lab_corridor",
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(900,610) z1.40",
-   "f356:(2700,610) z1.40"
+   "f353:(2700,610) z1.40"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-15",
-  "startFrame": 20278,
-  "durationFrames": 356,
+  "startFrame": 20290,
+  "durationFrames": 353,
   "bg": "lab_corridor",
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(800,610) z1.40",
-   "f356:(2600,610) z1.40"
+   "f353:(2600,610) z1.40"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-16",
-  "startFrame": 20634,
-  "durationFrames": 305,
+  "startFrame": 20643,
+  "durationFrames": 302,
   "bg": "harbor_night",
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(800,610) z1.40",
-   "f305:(2600,610) z1.40"
+   "f302:(2600,610) z1.40"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-17",
-  "startFrame": 20939,
-  "durationFrames": 305,
+  "startFrame": 20945,
+  "durationFrames": 302,
   "bg": "harbor_night",
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(700,610) z1.40",
-   "f305:(2500,610) z1.40"
+   "f302:(2500,610) z1.40"
   ],
   "notes": ""
  },
  {
   "shotId": "S05-18",
-  "startFrame": 21244,
-  "durationFrames": 356,
+  "startFrame": 21247,
+  "durationFrames": 353,
   "bg": "ruins_night",
   "chars": [
    "soma"
@@ -1066,7 +1156,7 @@
   "fidelity": "animatic",
   "camera": [
    "f0:(800,560) z1.00",
-   "f356:(1700,560) z1.10"
+   "f353:(1700,560) z1.10"
   ],
   "notes": ""
  },
@@ -1267,188 +1357,267 @@
  {
   "shotId": "S06-13",
   "startFrame": 22320,
-  "durationFrames": 331,
+  "durationFrames": 321,
   "bg": "ruins_night",
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.60",
-   "f331:(1516,564) z2.86"
+   "f321:(1516,564) z2.86"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-14",
-  "startFrame": 22651,
-  "durationFrames": 221,
+  "startFrame": 22641,
+  "durationFrames": 241,
   "bg": "ruins_night",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1610,650) z1.30",
-   "f221:(1650,640) z1.55"
+   "f0:(1650,650) z1.30",
+   "f27:(1650,650) z1.30",
+   "f41:(1650,640) z1.59",
+   "f61:(1650,650) z1.30",
+   "f69:(1650,650) z1.30",
+   "f83:(1650,640) z1.59",
+   "f103:(1650,650) z1.30",
+   "f105:(1650,650) z1.30",
+   "f119:(1650,640) z1.59",
+   "f139:(1650,650) z1.30",
+   "f148:(1650,650) z1.30",
+   "f162:(1650,640) z1.59",
+   "f182:(1650,650) z1.30",
+   "f241:(1650,650) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-15",
-  "startFrame": 22872,
-  "durationFrames": 221,
+  "startFrame": 22882,
+  "durationFrames": 241,
   "bg": "ruins_night",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1660,650) z1.30",
-   "f221:(1700,640) z1.55"
+   "f0:(1700,650) z1.30",
+   "f28:(1700,650) z1.30",
+   "f42:(1700,640) z1.59",
+   "f62:(1700,650) z1.30",
+   "f65:(1700,650) z1.30",
+   "f79:(1700,640) z1.59",
+   "f99:(1700,650) z1.30",
+   "f104:(1700,650) z1.30",
+   "f118:(1700,640) z1.59",
+   "f138:(1700,650) z1.30",
+   "f144:(1700,650) z1.30",
+   "f158:(1700,640) z1.59",
+   "f178:(1700,650) z1.30",
+   "f241:(1700,650) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-16",
-  "startFrame": 23093,
-  "durationFrames": 331,
+  "startFrame": 23123,
+  "durationFrames": 321,
   "bg": "ruins_night",
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.80",
-   "f331:(1516,564) z3.08"
+   "f321:(1516,564) z3.08"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-17",
-  "startFrame": 23424,
-  "durationFrames": 563,
+  "startFrame": 23444,
+  "durationFrames": 547,
   "bg": "ruins_night",
   "chars": [
    "veyra",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1575,600) z1.75",
-   "f563:(1595,590) z1.87"
+   "f4:(1575,600) z1.75",
+   "f18:(1487,595) z1.82",
+   "f99:(1487,595) z1.82",
+   "f113:(1663,587) z1.86",
+   "f547:(1675,587) z1.92"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-18",
-  "startFrame": 23987,
-  "durationFrames": 497,
+  "startFrame": 23991,
+  "durationFrames": 483,
   "bg": "timestop_void",
   "chars": [
    "veyra",
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1100,620) z1.40",
-   "f497:(1800,600) z1.50"
+   "f483:(1800,600) z1.50"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-19",
-  "startFrame": 24484,
-  "durationFrames": 221,
+  "startFrame": 24474,
+  "durationFrames": 214,
   "bg": "ruins_night",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1710,650) z1.30",
-   "f221:(1750,640) z1.55"
+   "f0:(1750,650) z1.30",
+   "f26:(1750,650) z1.30",
+   "f40:(1750,640) z1.59",
+   "f60:(1750,650) z1.30",
+   "f67:(1750,650) z1.30",
+   "f81:(1750,640) z1.59",
+   "f101:(1750,650) z1.30",
+   "f106:(1750,650) z1.30",
+   "f120:(1750,640) z1.59",
+   "f140:(1750,650) z1.30",
+   "f147:(1750,650) z1.30",
+   "f161:(1750,640) z1.59",
+   "f181:(1750,650) z1.30",
+   "f214:(1750,650) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-20",
-  "startFrame": 24705,
-  "durationFrames": 221,
+  "startFrame": 24688,
+  "durationFrames": 214,
   "bg": "ruins_night",
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1488,478) z5.20",
-   "f221:(1484,482) z5.72"
+   "f214:(1484,482) z5.72"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-21",
-  "startFrame": 24926,
-  "durationFrames": 221,
+  "startFrame": 24902,
+  "durationFrames": 241,
   "bg": "ruins_night",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1610,650) z1.30",
-   "f221:(1650,640) z1.55"
+   "f0:(1650,650) z1.30",
+   "f29:(1650,650) z1.30",
+   "f43:(1650,640) z1.59",
+   "f63:(1650,650) z1.30",
+   "f71:(1650,650) z1.30",
+   "f85:(1650,640) z1.59",
+   "f105:(1650,650) z1.30",
+   "f107:(1650,650) z1.30",
+   "f121:(1650,640) z1.59",
+   "f141:(1650,650) z1.30",
+   "f149:(1650,650) z1.30",
+   "f163:(1650,640) z1.59",
+   "f183:(1650,650) z1.30",
+   "f241:(1650,650) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-22",
-  "startFrame": 25147,
-  "durationFrames": 221,
+  "startFrame": 25143,
+  "durationFrames": 241,
   "bg": "ruins_night",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1660,650) z1.30",
-   "f221:(1700,640) z1.55"
+   "f0:(1700,650) z1.30",
+   "f29:(1700,650) z1.30",
+   "f43:(1700,640) z1.59",
+   "f63:(1700,650) z1.30",
+   "f71:(1700,650) z1.30",
+   "f85:(1700,640) z1.59",
+   "f105:(1700,650) z1.30",
+   "f107:(1700,650) z1.30",
+   "f121:(1700,640) z1.59",
+   "f141:(1700,650) z1.30",
+   "f147:(1700,650) z1.30",
+   "f161:(1700,640) z1.59",
+   "f181:(1700,650) z1.30",
+   "f241:(1700,650) z1.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-23",
-  "startFrame": 25368,
-  "durationFrames": 276,
+  "startFrame": 25384,
+  "durationFrames": 268,
   "bg": "ruins_night",
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z3.00",
-   "f276:(1516,564) z3.30"
+   "f268:(1516,564) z3.30"
   ],
   "notes": ""
  },
  {
   "shotId": "S06-24",
-  "startFrame": 25644,
-  "durationFrames": 276,
+  "startFrame": 25652,
+  "durationFrames": 268,
   "bg": "ruins_night",
   "chars": [
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
-   "f0:(1660,650) z1.30",
-   "f276:(1700,640) z1.55"
+   "f0:(1700,650) z1.30",
+   "f29:(1700,650) z1.30",
+   "f43:(1700,640) z1.59",
+   "f63:(1700,650) z1.30",
+   "f67:(1700,650) z1.30",
+   "f81:(1700,640) z1.59",
+   "f101:(1700,650) z1.30",
+   "f103:(1700,650) z1.30",
+   "f117:(1700,640) z1.59",
+   "f137:(1700,650) z1.30",
+   "f144:(1700,650) z1.30",
+   "f158:(1700,640) z1.59",
+   "f178:(1700,650) z1.30",
+   "f180:(1700,650) z1.30",
+   "f194:(1700,640) z1.59",
+   "f214:(1700,650) z1.30",
+   "f268:(1700,650) z1.30"
   ],
   "notes": ""
  },
@@ -1460,7 +1629,7 @@
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1488,478) z5.20",
    "f192:(1484,482) z5.72"
@@ -1475,7 +1644,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z3.20",
    "f288:(1516,564) z3.52"
@@ -1491,10 +1660,12 @@
    "soma",
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1600,600) z2.00",
-   "f240:(1620,590) z2.14"
+   "f4:(1600,600) z2.00",
+   "f18:(1670,595) z2.08",
+   "f240:(1682,595) z2.14"
   ],
   "notes": ""
  },
@@ -1522,7 +1693,7 @@
   "chars": [
    "mio"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z2.53",
    "f240:(1600,620) z2.20"
@@ -1537,7 +1708,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z1.84",
    "f288:(1600,620) z1.60"
@@ -1552,7 +1723,7 @@
   "chars": [
    "veyra"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z1.95",
    "f288:(1600,620) z1.70"
@@ -1567,7 +1738,7 @@
   "chars": [
    "kaede"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1500,640) z2.53",
    "f288:(1600,620) z2.20"
@@ -1582,7 +1753,7 @@
   "chars": [
    "soma"
   ],
-  "fidelity": "animatic",
+  "fidelity": "directed",
   "camera": [
    "f0:(1512,560) z2.60",
    "f288:(1516,564) z2.86"
