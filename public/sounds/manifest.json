@@ -1,0 +1,65 @@
+{
+ "placeholder": true,
+ "sounds": {
+  "hit_clash": {
+   "file": "sounds/hit_clash.wav",
+   "durationSec": 0.9,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "hit_heavy": {
+   "file": "sounds/hit_heavy.wav",
+   "durationSec": 0.6999773242630386,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "whoosh": {
+   "file": "sounds/whoosh.wav",
+   "durationSec": 0.6999773242630386,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "step": {
+   "file": "sounds/step.wav",
+   "durationSec": 0.18,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "draw": {
+   "file": "sounds/draw.wav",
+   "durationSec": 0.9,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "rumble": {
+   "file": "sounds/rumble.wav",
+   "durationSec": 3,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "crack": {
+   "file": "sounds/crack.wav",
+   "durationSec": 0.6,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "heartbeat": {
+   "file": "sounds/heartbeat.wav",
+   "durationSec": 1.2,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "wind_loop": {
+   "file": "sounds/wind_loop.wav",
+   "durationSec": 40,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  },
+  "tension_drone": {
+   "file": "sounds/tension_drone.wav",
+   "durationSec": 60,
+   "placeholder": true,
+   "note": "synthesised placeholder — replace with production audio"
+  }
+ }
+}

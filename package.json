@@ -1,0 +1,36 @@
+{
+  "name": "anime-forge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ANIME FORGE - code-driven Japanese-style 2D anime production system",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "tsx tests/run.ts",
+    "validate": "tsx scripts/validate-episode.ts",
+    "studio": "remotion studio src/index.ts",
+    "editor": "vite --config vite.editor.config.ts",
+    "build": "tsc --noEmit && vite build --config vite.editor.config.ts",
+    "render:test": "tsx scripts/render.ts test5",
+    "render:sample": "tsx scripts/render.ts sample30",
+    "render:ep": "tsx scripts/render.ts episode",
+    "verify:video": "tsx scripts/verify-video.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.535",
+    "@remotion/cli": "^4.0.535",
+    "@remotion/renderer": "^4.0.535",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.535"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^5.4.21"
+  }
+}

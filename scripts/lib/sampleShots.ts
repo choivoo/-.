@@ -1,0 +1,176 @@
+import type { ShotSpec, CharacterTrack } from '../../src/scenes/types';
+
+/** Hand-choreographed 30s duel "Ruins at Night" (720 frames @24fps). Frame numbers are shot-local. */
+export const SAMPLE_DURATIONS = [90, 66, 42, 66, 48, 60, 48, 30, 48, 60, 54, 108];
+const BG = 'ruins_night';
+const S = (n: number) => `SMP-${String(n).padStart(2, '0')}`;
+const ones = (f: number) => [{ f: 0, mode: 'twos' as const }, { f, mode: 'ones' as const }];
+
+const soma = (o: Partial<CharacterTrack>): CharacterTrack => ({ id: 'soma', x: 1250, animationClips: [{ f: 0, clip: 'idle' }], ...o });
+const veyra = (o: Partial<CharacterTrack>): CharacterTrack => ({ id: 'veyra', x: 2500, flip: true, animationClips: [{ f: 0, clip: 'idle' }], ...o });
+const music = (off: number) => ({ id: 'tension_drone', trackOffset: off, volume: 0.45 });
+const amb = { f: 0, sound: 'wind_loop', volume: 0.35 };
+
+export function buildSampleShots(): ShotSpec[] {
+  const base = (i: number): Omit<ShotSpec, 'durationFrames' | 'startFrame' | 'characterIds' | 'characters' | 'cameraKeyframes' | 'soundEffects'> => ({
+    sceneId: 'SMP', shotId: S(i), backgroundId: BG, dialogue: [], voiceAsset: null, renderStatus: 'pending', fidelity: 'final-draft',
+  });
+  const shots: ShotSpec[] = [];
+  const add = (i: number, s: Partial<ShotSpec> & Pick<ShotSpec, 'characters' | 'cameraKeyframes' | 'soundEffects'>) => {
+    shots.push({ ...base(i), durationFrames: SAMPLE_DURATIONS[i - 1], startFrame: 0, characterIds: s.characters.map((c) => c.id), musicCue: music(0), ...s } as ShotSpec);
+  };
+
+  // 1. slow reveal of the ruins
+  add(1, {
+    notes: 'Slow pan across the ruined district under the black moon; both fighters already in frame, idling.',
+    characters: [
+      soma({ x: 1250, face: [{ f: 0, expr: 'resolve', look: [0.8, 0] }] }),
+      veyra({ x: 2300, face: [{ f: 0, expr: 'neutral', look: [-1, 0] }] }),
+    ],
+    cameraKeyframes: [{ f: 0, x: 780, y: 560, zoom: 1.0 }, { f: 90, x: 1650, y: 600, zoom: 1.08, ease: 'inOut' }],
+    vfx: [{ type: 'fog', f: 0, dur: 90, y: 760, seed: 4, intensity: 0.8 }, { type: 'wind', f: 0, dur: 90, seed: 2, dir: -1 }, { type: 'dust', f: 0, dur: 90, x: 1700, y: 840, seed: 9, count: 8 }],
+    transition: { inType: 'fadeBlack', inFrames: 14 },
+    soundEffects: [amb, { f: 0, sound: 'rumble', volume: 0.4 }],
+  });
+  // 2. close-up on Soma's face
+  add(2, {
+    characters: [soma({ x: 1250, animationClips: [{ f: 0, clip: 'idle' }], face: [{ f: 0, expr: 'resolve', look: [0.2, 0] }] }), veyra({ x: 2300 })],
+    cameraKeyframes: [{ f: 0, x: 1262, y: 478, zoom: 4.2 }, { f: 66, x: 1268, y: 482, zoom: 4.7, ease: 'out' }],
+    dialogue: [{ f: 16, dur: 26, speaker: 'soma', text: '…온다.', placeholderVoice: true }],
+    vfx: [{ type: 'wind', f: 0, dur: 66, seed: 3, dir: -1, intensity: 0.6 }],
+    soundEffects: [amb, { f: 0, sound: 'heartbeat', volume: 0.5 }],
+  });
+  // 3. extreme close-up of the eyes: look shifts to the enemy
+  add(3, {
+    characters: [soma({ x: 1250, face: [{ f: 0, expr: 'resolve', look: [0, 0.05] }, { f: 12, expr: 'resolve', look: [1, 0], blend: 5 }, { f: 30, expr: 'angry', look: [1, 0.05], blend: 8 }] }), veyra({ x: 2300 })],
+    cameraKeyframes: [{ f: 0, x: 1274, y: 462, zoom: 7.5 }, { f: 42, x: 1278, y: 462, zoom: 8.2, ease: 'out' }],
+    soundEffects: [amb, { f: 0, sound: 'heartbeat', volume: 0.6 }, { f: 12, sound: 'whoosh', volume: 0.25 }],
+  });
+  // 4. Veyra charges in (tracking shot)
+  add(4, {
+    characters: [
+      soma({ x: 1250, animationClips: [{ f: 0, clip: 'idle' }, { f: 36, clip: 'stance', blend: 8 }], face: [{ f: 0, expr: 'angry', look: [1, 0] }] }),
+      veyra({
+        x: 2900, path: [{ f: 0, x: 2900 }, { f: 66, x: 2080, ease: 'in' }],
+        animationClips: [{ f: 0, clip: 'run', blend: 0 }], face: [{ f: 0, expr: 'angry' }], cadence: ones(30),
+        afterimage: [{ from: 6, to: 66, count: 3, gap: 3, opacity: 0.45, color: 'red' }],
+      }),
+    ],
+    cameraKeyframes: [{ f: 0, x: 2300, y: 620, zoom: 1.1 }, { f: 66, x: 1750, y: 640, zoom: 1.25, ease: 'inOut' }],
+    cameraFollow: { char: 'veyra', weight: 0.55, dx: -150 },
+    vfx: [{ type: 'dust', f: 4, dur: 50, x: 2750, y: 840, seed: 21, count: 14, dir: 1 }, { type: 'dust', f: 24, dur: 42, x: 2400, y: 840, seed: 22, count: 14, dir: 1 }, { type: 'speedLines', f: 6, dur: 60, seed: 5, intensity: 0.6, color: '#d8d8ff' }],
+    soundEffects: [amb, { f: 2, sound: 'whoosh', volume: 0.5 }, { f: 12, sound: 'step', volume: 0.5 }, { f: 20, sound: 'step', volume: 0.5 }, { f: 28, sound: 'step', volume: 0.55 }, { f: 36, sound: 'step', volume: 0.55 }, { f: 44, sound: 'step', volume: 0.6 }, { f: 52, sound: 'step', volume: 0.6 }],
+  });
+  // 5. Soma draws the sword
+  add(5, {
+    characters: [
+      soma({ x: 1350, animationClips: [{ f: 0, clip: 'stance', blend: 0 }, { f: 4, clip: 'drawSword', blend: 4 }, { f: 40, clip: 'stance', blend: 4 }], face: [{ f: 0, expr: 'resolve' }, { f: 16, expr: 'angry', blend: 4 }], cadence: ones(8) }),
+      veyra({ x: 2000, animationClips: [{ f: 0, clip: 'run', blend: 0 }], path: [{ f: 0, x: 2080 }, { f: 48, x: 1995, ease: 'out' }] }),
+    ],
+    cameraKeyframes: [{ f: 0, x: 1400, y: 610, zoom: 2.0 }, { f: 48, x: 1420, y: 604, zoom: 2.25, ease: 'out' }],
+    vfx: [{ type: 'flash', f: 17, dur: 5, intensity: 0.7, color: '#dffcff' }, { type: 'slash', f: 17, dur: 12, x: 1480, y: 560, size: 150, angle: -140, dir: 1, seed: 1, color: '#9ff7ff' }, { type: 'energy', f: 14, dur: 30, x: 1360, y: 700, seed: 8, count: 22, size: 0.8 }],
+    soundEffects: [amb, { f: 14, sound: 'draw', volume: 0.8 }],
+  });
+  // 6. first clash (hit-stop, impact zoom, shake)
+  add(6, {
+    characters: [
+      soma({ x: 1350, animationClips: [{ f: 0, clip: 'stance', blend: 0 }, { f: 11, clip: 'slashH', blend: 3 }], face: [{ f: 0, expr: 'angry' }, { f: 19, expr: 'angry' }], cadence: ones(8), swordTrail: [{ from: 12, to: 28, frames: 4 }] }),
+      veyra({ x: 1990, animationClips: [{ f: 0, clip: 'stance', blend: 0 }, { f: 9, clip: 'slashV', blend: 3 }], face: [{ f: 0, expr: 'angry' }], cadence: ones(8), swordTrail: [{ from: 10, to: 28, frames: 4, color: '#ffc0c8' }] }),
+    ],
+    timeRemap: [{ f: 0, t: 0 }, { f: 20, t: 20 }, { f: 24, t: 20 }, { f: 60, t: 56 }],
+    cameraKeyframes: [{ f: 0, x: 1660, y: 650, zoom: 1.5 }, { f: 60, x: 1670, y: 640, zoom: 1.6, ease: 'out' }],
+    impactZooms: [{ f: 20, dur: 9, amount: 0.22 }], cameraShake: [{ f: 20, dur: 16, amp: 30, seed: 3 }],
+    vfx: [
+      { type: 'speedLines', f: 16, dur: 6, seed: 11, intensity: 0.8 },
+      { type: 'flash', f: 20, dur: 3, intensity: 0.45, color: '#fff' },
+      { type: 'impactBurst', f: 20, dur: 10, x: 1690, y: 610, space: 'world', count: 16, seed: 6, color: '#fff7c8' },
+      { type: 'sparks', f: 20, dur: 20, x: 1690, y: 610, count: 34, seed: 13, angle: -90, color: '#ffe9a8' },
+      { type: 'shockwave', f: 21, dur: 16, x: 1690, y: 840, size: 560, color: '#d9f6ff' },
+      { type: 'bloom', f: 20, dur: 14, x: 960, y: 480, size: 460, color: '#bffcff', intensity: 0.8 },
+    ],
+    soundEffects: [amb, { f: 8, sound: 'whoosh', volume: 0.6 }, { f: 20, sound: 'hit_clash', volume: 1 }, { f: 21, sound: 'rumble', volume: 0.7 }],
+  });
+  // 7. shockwave + debris, fighters pushed apart
+  add(7, {
+    characters: [
+      soma({ x: 1350, path: [{ f: 0, x: 1350 }, { f: 22, x: 1250, ease: 'out' }], animationClips: [{ f: 0, clip: 'slashH', from: 9, blend: 0 }, { f: 2, clip: 'stagger', blend: 4 }, { f: 24, clip: 'stance', blend: 6 }], face: [{ f: 0, expr: 'pain' }, { f: 20, expr: 'resolve', blend: 5 }], cadence: ones(10) }),
+      veyra({ x: 1990, path: [{ f: 0, x: 1990 }, { f: 22, x: 2090, ease: 'out' }], animationClips: [{ f: 0, clip: 'slashV', from: 11, blend: 0 }, { f: 2, clip: 'stagger', blend: 4 }, { f: 24, clip: 'stance', blend: 6 }], face: [{ f: 0, expr: 'angry' }, { f: 14, expr: 'surprise', blend: 3 }], cadence: ones(10) }),
+    ],
+    cameraKeyframes: [{ f: 0, x: 1670, y: 640, zoom: 1.7 }, { f: 48, x: 1670, y: 620, zoom: 1.15, ease: 'out' }],
+    cameraShake: [{ f: 0, dur: 14, amp: 22, seed: 5 }],
+    vfx: [
+      { type: 'shockwave', f: 0, dur: 22, x: 1690, y: 840, size: 900, color: '#d9f6ff' },
+      { type: 'debris', f: 0, dur: 36, x: 1690, y: 830, count: 30, seed: 31 }, { type: 'debris', f: 2, dur: 36, x: 1500, y: 830, count: 14, seed: 33, dir: -1 },
+      { type: 'dust', f: 0, dur: 42, x: 1400, y: 840, seed: 41, count: 14, dir: -1 }, { type: 'dust', f: 0, dur: 42, x: 1980, y: 840, seed: 42, count: 14, dir: 1 },
+      { type: 'crack', f: 2, dur: 40, x: 1690, y: 846, seed: 7, size: 1.2, color: '#ff4466' },
+    ],
+    soundEffects: [amb, { f: 2, sound: 'crack', volume: 0.7 }, { f: 4, sound: 'step', volume: 0.5 }],
+  });
+  // 8. whip pan to Veyra leaping
+  add(8, {
+    characters: [
+      soma({ x: 1250, animationClips: [{ f: 0, clip: 'stance' }], face: [{ f: 0, expr: 'resolve', look: [1, -0.4] }] }),
+      veyra({ x: 2090, path: [{ f: 0, x: 2090 }, { f: 30, x: 1800, ease: 'inOut' }], animationClips: [{ f: 0, clip: 'stance', blend: 0 }, { f: 4, clip: 'jump', blend: 3 }], face: [{ f: 0, expr: 'angry' }], cadence: ones(4) }),
+    ],
+    cameraKeyframes: [{ f: 0, x: 1250, y: 640, zoom: 1.5 }, { f: 11, x: 1900, y: 600, zoom: 1.25, ease: 'inExpo', blur: 38 }, { f: 30, x: 1860, y: 560, zoom: 1.3, ease: 'out', blur: 0 }],
+    vfx: [{ type: 'speedLines', f: 4, dur: 10, seed: 15, intensity: 0.7 }, { type: 'dust', f: 4, dur: 30, x: 2090, y: 840, seed: 51, count: 12, dir: 1 }],
+    soundEffects: [amb, { f: 3, sound: 'whoosh', volume: 0.9 }],
+  });
+  // 9. Soma dodges the plunging strike
+  add(9, {
+    characters: [
+      soma({ x: 1250, animationClips: [{ f: 0, clip: 'stance', blend: 0 }, { f: 7, clip: 'dodge', blend: 2 }], face: [{ f: 0, expr: 'resolve' }, { f: 9, expr: 'surprise', blend: 2 }], cadence: ones(7) }),
+      veyra({ x: 1580, path: [{ f: 0, x: 1900, y: 560 }, { f: 17, x: 1580, y: 840, ease: 'in' }], animationClips: [{ f: 0, clip: 'jump', from: 12, blend: 0 }, { f: 6, clip: 'slashV', blend: 4 }], face: [{ f: 0, expr: 'angry' }], cadence: ones(6), afterimage: [{ from: 6, to: 20, count: 2, gap: 3, opacity: 0.4, color: 'red' }], swordTrail: [{ from: 10, to: 22, frames: 4, color: '#ffc0c8' }] }),
+    ],
+    timeRemap: [{ f: 0, t: 0 }, { f: 18, t: 18 }, { f: 21, t: 18 }, { f: 48, t: 45 }],
+    cameraKeyframes: [{ f: 0, x: 1550, y: 600, zoom: 1.4 }, { f: 48, x: 1450, y: 650, zoom: 1.5, ease: 'out' }],
+    cameraShake: [{ f: 18, dur: 12, amp: 18, seed: 9 }],
+    vfx: [{ type: 'impactBurst', f: 18, dur: 8, x: 1330, y: 800, space: 'world', count: 12, seed: 3, color: '#ffb8c4' }, { type: 'debris', f: 18, dur: 30, x: 1330, y: 836, count: 20, seed: 61 }, { type: 'crack', f: 18, dur: 34, x: 1330, y: 846, seed: 9, size: 1.0, color: '#ff4466' }, { type: 'dust', f: 18, dur: 30, x: 1330, y: 840, seed: 62, count: 14 }],
+    soundEffects: [amb, { f: 8, sound: 'whoosh', volume: 0.7 }, { f: 18, sound: 'crack', volume: 0.9 }, { f: 18, sound: 'hit_heavy', volume: 0.7 }],
+  });
+  // 10. counter-attack
+  add(10, {
+    characters: [
+      soma({ x: 1170, animationClips: [{ f: 0, clip: 'dodge', from: 14, blend: 0 }, { f: 4, clip: 'guard', blend: 3 }, { f: 8, clip: 'counter', blend: 3 }], face: [{ f: 0, expr: 'resolve' }, { f: 12, expr: 'angry', blend: 3 }], cadence: ones(6), swordTrail: [{ from: 12, to: 30, frames: 4 }], afterimage: [{ from: 12, to: 20, count: 2, gap: 2, opacity: 0.45, color: 'cyan' }] }),
+      veyra({ x: 1580, animationClips: [{ f: 0, clip: 'slashV', from: 16, blend: 0 }, { f: 4, clip: 'stance', blend: 5 }, { f: 16, clip: 'stagger', blend: 0 }], face: [{ f: 0, expr: 'angry' }, { f: 16, expr: 'pain', blend: 2 }], cadence: ones(6) }),
+    ],
+    timeRemap: [{ f: 0, t: 0 }, { f: 16, t: 16 }, { f: 19, t: 16 }, { f: 60, t: 57 }],
+    cameraKeyframes: [{ f: 0, x: 1420, y: 640, zoom: 1.4 }, { f: 16, x: 1450, y: 620, zoom: 1.7, ease: 'in' }, { f: 60, x: 1480, y: 630, zoom: 1.55, ease: 'out' }],
+    impactZooms: [{ f: 16, dur: 8, amount: 0.18 }], cameraShake: [{ f: 16, dur: 14, amp: 28, seed: 12 }],
+    vfx: [
+      { type: 'slash', f: 12, dur: 14, x: 1440, y: 620, size: 330, angle: -150, dir: 1, seed: 1, color: '#bff9ff' },
+      { type: 'flash', f: 16, dur: 3, intensity: 0.45, color: '#fff' },
+      { type: 'impactBurst', f: 16, dur: 9, x: 1590, y: 580, space: 'world', count: 14, seed: 17, color: '#ffffff' },
+      { type: 'sparks', f: 16, dur: 18, x: 1590, y: 580, count: 22, seed: 19, angle: -20, color: '#ff9fb0' },
+      { type: 'dust', f: 16, dur: 40, x: 1590, y: 840, seed: 71, count: 12, dir: 1 },
+    ],
+    soundEffects: [amb, { f: 7, sound: 'whoosh', volume: 0.8 }, { f: 16, sound: 'hit_heavy', volume: 1 }],
+  });
+  // 11. Veyra is blown back
+  add(11, {
+    characters: [
+      soma({ x: 1170, path: [{ f: 0, x: 1170 }, { f: 12, x: 1232, ease: 'out' }], animationClips: [{ f: 0, clip: 'counter', from: 22, blend: 0 }, { f: 4, clip: 'stance', blend: 8 }], face: [{ f: 0, expr: 'angry' }, { f: 20, expr: 'resolve', blend: 8 }], cadence: ones(12) }),
+      veyra({ x: 1580, path: [{ f: 0, x: 1590 }, { f: 40, x: 2080, ease: 'out' }], animationClips: [{ f: 0, clip: 'stagger', from: 6, blend: 0 }, { f: 18, clip: 'stance', blend: 8 }], face: [{ f: 0, expr: 'pain' }, { f: 26, expr: 'angry', blend: 8 }], cadence: ones(14) }),
+    ],
+    cameraKeyframes: [{ f: 0, x: 1540, y: 640, zoom: 1.5 }, { f: 54, x: 1750, y: 620, zoom: 1.2, ease: 'inOut' }],
+    cameraFollow: { char: 'veyra', weight: 0.35, from: 0, to: 40 },
+    vfx: [{ type: 'dust', f: 0, dur: 44, x: 1700, y: 840, seed: 81, count: 16, dir: 1 }, { type: 'dust', f: 10, dur: 40, x: 1900, y: 840, seed: 82, count: 14, dir: 1 }, { type: 'debris', f: 0, dur: 30, x: 1650, y: 832, count: 14, seed: 83, dir: 1 }, { type: 'crack', f: 4, dur: 40, x: 1900, y: 846, seed: 29, size: 0.9, color: '#ff4466' }],
+    soundEffects: [amb, { f: 2, sound: 'step', volume: 0.6 }, { f: 12, sound: 'step', volume: 0.7 }, { f: 22, sound: 'crack', volume: 0.5 }],
+  });
+  // 12. final stand-off, slow dolly out
+  add(12, {
+    characters: [
+      soma({ x: 1232, animationClips: [{ f: 0, clip: 'stance' }], face: [{ f: 0, expr: 'resolve', look: [1, 0] }, { f: 70, expr: 'angry', blend: 10, look: [1, 0] }] }),
+      veyra({ x: 2080, animationClips: [{ f: 0, clip: 'stance' }], face: [{ f: 0, expr: 'angry' }, { f: 34, expr: 'smile', blend: 10 }] }),
+    ],
+    cameraKeyframes: [{ f: 0, x: 1650, y: 590, zoom: 1.3 }, { f: 108, x: 1660, y: 520, zoom: 0.95, ease: 'inOut' }],
+    dialogue: [{ f: 30, dur: 30, speaker: 'veyra', text: '…흥미롭군.', placeholderVoice: true }, { f: 68, dur: 28, speaker: 'soma', text: '아직 끝나지 않았어.', placeholderVoice: true }],
+    vfx: [{ type: 'fog', f: 0, dur: 108, y: 780, seed: 4, intensity: 0.8 }, { type: 'wind', f: 0, dur: 108, seed: 2, dir: -1 }, { type: 'dust', f: 0, dur: 108, x: 1650, y: 840, seed: 91, count: 6, dir: -1 }],
+    transition: { outType: 'fadeBlack', outFrames: 20 },
+    soundEffects: [amb, { f: 0, sound: 'heartbeat', volume: 0.5 }],
+  });
+
+  let start = 0;
+  for (const s of shots) { s.startFrame = start; start += s.durationFrames; s.musicCue = music(s.startFrame); }
+  return shots;
+}

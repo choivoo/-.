@@ -1,0 +1,22 @@
+{
+ "id": "SAMPLE01",
+ "title": "Ruins Duel (30s action test)",
+ "titleKo": "폐허의 대치 — 30초 액션 샘플",
+ "fps": 24,
+ "width": 1920,
+ "height": 1080,
+ "totalFrames": 720,
+ "scenes": [
+  {
+   "sceneId": "SMP",
+   "title": "Ruins duel",
+   "startFrame": 0,
+   "durationFrames": 720,
+   "summary": "Soma vs Veyra",
+   "beat": "sample"
+  }
+ ],
+ "shotFiles": [
+  "shots/shots.json"
+ ]
+}
